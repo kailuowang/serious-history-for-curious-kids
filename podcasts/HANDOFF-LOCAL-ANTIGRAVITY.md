@@ -23,8 +23,7 @@ Everything decided during strategy & pipeline design is already committed into t
    - **Pass 5:** Gemini native 2-speaker TTS synthesis + `ffmpeg` mastering (`-16 LUFS`, optional Lyria intro/outro fade, procedural wooden marimba chimes between sub-mysteries, MP3 chapter markers).
    - **Pass 6:** Automated Audio QA (`silencedetect`, `volumedetect`, per-act WPM anomaly check).
 5. **TTS & Music Stack:**
-   - **Voices:** Configured for `gemini-3.1-flash-tts-preview` in `podcasts/show-config.json`.
-   - **Important heads-up:** Google schedules `gemini-3.1-flash-tts-preview` shutdown on **December 18, 2026**, replaced by **`gemini-3.8-flash-tts`** (GA, lower cost, same 30 prebuilt voices, plus overlapping backchanneling and WAV output). Both `audition_voices.py` and `render_podcast.py` already support **both** schemas natively—just pass `--model gemini-3.8-flash-tts` or update `tts.model` in `podcasts/show-config.json` whenever you want to compare or switch.
+   - **Voices:** Configured for **`gemini-3.8-flash-tts`** (GA) via the Gemini Interactions API (`google-genai >= 2.25.0`), supporting all 30 prebuilt voices, per-turn `speech_metadata` annotations, `<laugh>`/`<sigh>`/`<short pause>` vocal events, overlapping pipe backchannels (`|mhm|`, `|wait|`), and native RIFF WAV output. *(Also supports `gemini-3.8-flash-lite-tts` or custom Voice Design personas via `client.voices.create()` if you later want to tailor Amy or Sam beyond the 4 prebuilt audition pairs.)*
    - **Music:** `lyria-3-clip-preview` via the exact same `google-genai` SDK and `GEMINI_API_KEY`.
 
 ---
@@ -33,11 +32,11 @@ Everything decided during strategy & pipeline design is already committed into t
 
 - `.agents/rules/podcast-style.md` — Tone, cast dynamic, anti-cringe ban list, blindfold audio rules, vocal tags.
 - `.agents/skills/produce-podcast/SKILL.md` — Full 6-pass `/produce-podcast` author skill.
-- `.agents/skills/produce-podcast/scripts/_tts_core.py` — Shared Gemini TTS (3.1 & 3.8), Lyria clip generator, and pure-Python wooden marimba chime synthesizer.
+- `.agents/skills/produce-podcast/scripts/_tts_core.py` — Shared Gemini 3.8 Interactions API TTS (plus legacy 3.1 fallback), Lyria clip generator, and pure-Python wooden marimba chime synthesizer.
 - `.agents/skills/produce-podcast/scripts/audition_voices.py` — Renders all 4 Amy & Sam voice pairs + 3 Lyria theme music candidates + offline `podcasts/auditions/audition-player.html`.
 - `.agents/skills/produce-podcast/scripts/check_script.py` — Script telemetry linter (word count, runtime, speaker balance, turn-length variance, banned phrases, concept coverage).
 - `.agents/skills/produce-podcast/scripts/render_podcast.py` — Full multi-act Gemini TTS renderer, `ffmpeg` `-16 LUFS` masterer with MP3 chapter markers, and Audio QA.
-- `podcasts/show-config.json` — Show config (currently `"status": "pending_audition"`).
+- `podcasts/show-config.json` — Show config (currently `"status": "pending_audition"`, `"model": "gemini-3.8-flash-tts"`).
 
 ---
 
@@ -46,10 +45,10 @@ Everything decided during strategy & pipeline design is already committed into t
 1. Pull latest `main` and install local dependencies (one-time):
    ```bash
    git pull
-   pip install --upgrade google-genai
+   pip install --upgrade "google-genai>=2.25.0"
    # Make sure ffmpeg is installed (e.g., brew install ffmpeg / sudo apt-get install ffmpeg)
    ```
 2. Ensure `GEMINI_API_KEY` is exported in your local shell (or saved in a gitignored `.env` or `~/.gemini.env`).
 3. Paste this starter prompt directly into your local Antigravity session:
 
-> Read `podcasts/HANDOFF-LOCAL-ANTIGRAVITY.md` and `podcasts/show-config.json`. First, run `.agents/skills/produce-podcast/scripts/audition_voices.py` using my local `GEMINI_API_KEY` to generate the 4 Amy & Sam voice-pair auditions and 3 Lyria theme music options, and open `podcasts/auditions/audition-player.html` so I can listen and pick my favorites. Once I choose the voice pair and music theme, lock them into `podcasts/show-config.json` and start `/produce-podcast ch01` at Pass 1 (Blueprint).
+> Read `podcasts/HANDOFF-LOCAL-ANTIGRAVITY.md` and `podcasts/show-config.json`. First, run `.agents/skills/produce-podcast/scripts/audition_voices.py` using my local `GEMINI_API_KEY` to generate the 4 Amy & Sam voice-pair auditions (`gemini-3.8-flash-tts`) and 3 Lyria theme music options, and open `podcasts/auditions/audition-player.html` so I can listen and pick my favorites. Once I choose the voice pair and music theme, lock them into `podcasts/show-config.json` and start `/produce-podcast ch01` at Pass 1 (Blueprint).

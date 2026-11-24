@@ -74,7 +74,7 @@ def make_genai_client():
         from google import genai
     except ImportError as exc:
         raise RuntimeError(
-            "google-genai SDK is not installed. Run: pip install --upgrade google-genai"
+            'google-genai SDK is not installed. Run: pip install --upgrade "google-genai>=2.25.0"'
         ) from exc
     return genai.Client(api_key=api_key)
 
@@ -98,7 +98,7 @@ def build_31_prompt(
     sam_style: str,
     pronunciations: dict[str, str] | None = None,
 ) -> str:
-    """Build a LiveKit-verified prompt for gemini-3.1-flash-tts-preview."""
+    """Build a LiveKit-verified prompt for legacy gemini-3.1-flash-tts-preview."""
     transcript_lines: list[str] = []
     for turn in turns:
         speaker = turn["speaker"]
@@ -126,15 +126,15 @@ def build_31_prompt(
     )
 
 
-def build_38_parts(
+def build_38_interaction_input(
     turns: list[dict[str, Any]],
     amy_style: str,
     sam_style: str,
     pronunciations: dict[str, str] | None = None,
 ) -> list[dict[str, Any]]:
-    """Build per-turn structured Parts for gemini-3.8-flash-tts / 3.8-flash-lite-tts."""
-    parts: list[dict[str, Any]] = []
-    base_styles = {"Amy": amy_style, "Sam": sam_style}
+    """Build Interactions API user_input content blocks for gemini-3.8-flash-tts."""
+    content_blocks: list[dict[str, Any]] = []
+    base_styles = {"Amy": amy_style.strip(), "Sam": sam_style.strip()}
 
     for turn in turns:
         speaker = turn["speaker"]
@@ -151,19 +151,24 @@ def build_38_parts(
             return ""
 
         cleaned = re.sub(r"\s{2,}", " ", TAG_RE.sub(_replace_tag, raw_text)).strip()
-        style = turn.get("delivery_note") or base_styles.get(speaker, "")
-        if extra_styles:
-            style = f"{style} Spoken {', '.join(dict.fromkeys(extra_styles))}.".strip()
-        parts.append(
+        # Keep Gemini 3.8 speech_metadata.style short to preserve long-form voice stability.
+        style_parts = [s for s in [turn.get("delivery_note") or base_styles.get(speaker, ""), *dict.fromkeys(extra_styles)] if s]
+        annotation: dict[str, Any] = {
+            "type": "speech_metadata",
+            "speaker": speaker,
+        }
+        if style_parts:
+            annotation["style"] = ", ".join(style_parts)
+
+        content_blocks.append(
             {
+                "type": "text",
                 "text": cleaned,
-                "speech_metadata": {
-                    "speaker": speaker,
-                    "style": style,
-                },
+                "annotations": [annotation],
             }
         )
-    return parts
+
+    return [{"type": "user_input", "content": content_blocks}]
 
 
 def write_audio_as_wav(audio_bytes: bytes, out_wav: Path, sample_rate_hz: int = 24000) -> None:
@@ -179,8 +184,40 @@ def write_audio_as_wav(audio_bytes: bytes, out_wav: Path, sample_rate_hz: int = 
         wf.writeframes(audio_bytes)
 
 
-def extract_audio_bytes(response: Any) -> bytes:
-    """Extract inline audio bytes from a Gemini generate_content response."""
+def extract_interaction_audio(interaction: Any) -> tuple[bytes, str]:
+    """Extract audio bytes + mime_type from a Gemini Interactions API response (TTS 3.8 or Lyria)."""
+    audio_data: str | bytes | None = None
+    mime_type = "audio/wav"
+
+    out_audio = getattr(interaction, "output_audio", None)
+    if out_audio is not None and getattr(out_audio, "data", None):
+        audio_data = out_audio.data
+        mime_type = getattr(out_audio, "mime_type", None) or mime_type
+
+    if audio_data is None:
+        for container_attr in ("outputs", "steps"):
+            items = getattr(interaction, container_attr, None) or []
+            for item in items:
+                blocks = getattr(item, "content", None) or getattr(item, "outputs", None) or [item]
+                if not isinstance(blocks, list):
+                    blocks = [blocks]
+                for blk in blocks:
+                    btype = str(getattr(blk, "type", "") or "").lower()
+                    bmime = str(getattr(blk, "mime_type", "") or "").lower()
+                    bdata = getattr(blk, "data", None)
+                    if bdata and ("audio" in btype or "audio" in bmime):
+                        audio_data = bdata
+                        mime_type = getattr(blk, "mime_type", None) or mime_type
+
+    if audio_data is None:
+        raise ValueError("Gemini Interactions API response contained no audio block.")
+
+    raw = base64.b64decode(audio_data) if isinstance(audio_data, str) else bytes(audio_data)
+    return raw, mime_type
+
+
+def extract_generate_content_audio(response: Any) -> bytes:
+    """Extract inline audio bytes from a legacy Gemini generate_content TTS response."""
     candidates = getattr(response, "candidates", None) or []
     for cand in candidates:
         content = getattr(cand, "content", None)
@@ -213,13 +250,13 @@ def synthesize_dialogue_chunk(
     """Synthesize a multi-speaker Amy & Sam dialogue chunk to WAV."""
     is_38 = "3.8" in model
     if is_38:
-        payload: Any = [{"role": "user", "parts": build_38_parts(turns, amy_style, sam_style, pronunciations)}]
+        payload: Any = build_38_interaction_input(turns, amy_style, sam_style, pronunciations)
     else:
         payload = build_31_prompt(turns, scene_context, amy_style, sam_style, pronunciations)
 
     meta = {
         "model": model,
-        "schema": "gemini-3.8-parts" if is_38 else "gemini-3.1-transcript",
+        "schema": "gemini-3.8-interactions" if is_38 else "gemini-3.1-transcript",
         "amy_voice": amy_voice,
         "sam_voice": sam_voice,
         "turn_count": len(turns),
@@ -227,45 +264,59 @@ def synthesize_dialogue_chunk(
     }
     if dry_run:
         meta["payload_preview"] = (
-            payload[:500] if isinstance(payload, str) else payload[0]["parts"][:2]
+            payload[:500] if isinstance(payload, str) else payload[0]["content"][:2]
         )
         return meta
 
-    from google.genai import types
-
     client = make_genai_client()
-    speech_cfg = types.SpeechConfig(
-        multi_speaker_voice_config=types.MultiSpeakerVoiceConfig(
-            speaker_voice_configs=[
-                types.SpeakerVoiceConfig(
-                    speaker="Amy",
-                    voice_config=types.VoiceConfig(
-                        prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=amy_voice)
-                    ),
-                ),
-                types.SpeakerVoiceConfig(
-                    speaker="Sam",
-                    voice_config=types.VoiceConfig(
-                        prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=sam_voice)
-                    ),
-                ),
-            ]
-        )
-    )
-    gen_cfg = types.GenerateContentConfig(
-        response_modalities=["AUDIO"],
-        speech_config=speech_cfg,
-    )
-
     last_err: Exception | None = None
     for attempt in range(1, max_retries + 1):
         try:
-            response = client.models.generate_content(
-                model=model,
-                contents=payload,
-                config=gen_cfg,
-            )
-            audio_bytes = extract_audio_bytes(response)
+            if is_38:
+                interaction = client.interactions.create(
+                    model=model,
+                    input=payload,
+                    response_format={"type": "audio"},
+                    generation_config={
+                        "speech_config": [
+                            {"speaker": "Amy", "voice": amy_voice},
+                            {"speaker": "Sam", "voice": sam_voice},
+                        ]
+                    },
+                )
+                audio_bytes, _ = extract_interaction_audio(interaction)
+            else:
+                from google.genai import types
+
+                speech_cfg = types.SpeechConfig(
+                    multi_speaker_voice_config=types.MultiSpeakerVoiceConfig(
+                        speaker_voice_configs=[
+                            types.SpeakerVoiceConfig(
+                                speaker="Amy",
+                                voice_config=types.VoiceConfig(
+                                    prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=amy_voice)
+                                ),
+                            ),
+                            types.SpeakerVoiceConfig(
+                                speaker="Sam",
+                                voice_config=types.VoiceConfig(
+                                    prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=sam_voice)
+                                ),
+                            ),
+                        ]
+                    )
+                )
+                gen_cfg = types.GenerateContentConfig(
+                    response_modalities=["AUDIO"],
+                    speech_config=speech_cfg,
+                )
+                response = client.models.generate_content(
+                    model=model,
+                    contents=payload,
+                    config=gen_cfg,
+                )
+                audio_bytes = extract_generate_content_audio(response)
+
             write_audio_as_wav(audio_bytes, out_wav, sample_rate_hz=sample_rate_hz)
             meta["bytes"] = len(audio_bytes)
             return meta
@@ -295,34 +346,7 @@ def generate_lyria_clip(
         model=model,
         input=prompt,
     )
-
-    audio_b64: str | bytes | None = None
-    mime_type: str = "audio/mpeg"
-
-    out_audio = getattr(interaction, "output_audio", None)
-    if out_audio is not None and getattr(out_audio, "data", None):
-        audio_b64 = out_audio.data
-        mime_type = getattr(out_audio, "mime_type", None) or mime_type
-
-    if audio_b64 is None:
-        # Walk steps/outputs fallback for multimodal responses
-        for container_attr in ("outputs", "steps"):
-            items = getattr(interaction, container_attr, None) or []
-            for item in items:
-                blocks = getattr(item, "content", None) or getattr(item, "outputs", None) or [item]
-                if not isinstance(blocks, list):
-                    blocks = [blocks]
-                for blk in blocks:
-                    btype = getattr(blk, "type", "") or ""
-                    bdata = getattr(blk, "data", None)
-                    if bdata and ("audio" in str(btype).lower() or "audio" in str(getattr(blk, "mime_type", "")).lower()):
-                        audio_b64 = bdata
-                        mime_type = getattr(blk, "mime_type", None) or mime_type
-
-    if audio_b64 is None:
-        raise RuntimeError("Lyria interaction response contained no audio block.")
-
-    raw = base64.b64decode(audio_b64) if isinstance(audio_b64, str) else bytes(audio_b64)
+    raw, mime_type = extract_interaction_audio(interaction)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_bytes(raw)
     meta["bytes"] = len(raw)

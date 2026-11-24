@@ -34,11 +34,12 @@ Before drafting or revising any file in `podcasts/`, read `syllabus/style-anchor
 - **One Number at a Time:** Never stack four statistics in one breath. Anchor every key figure physically and anchor every historical era in human scale (*"five thousand years ago"*, *"a thousand years later"*)—never drop unanchored historian shorthand (`Ur III`, `Old Babylonian`, `Late Uruk`).
 - **Strict Fact Grounding:** Spoken ad-libs are a prime vector for accidental hallucinations. Every date, dimension, ration, place name, and historical claim must trace directly to `research/chXX-fact-sheet.md`, preserving scholarly uncertainty transparently (*"archaeologists estimate"*, *"historians weigh three ideas"*).
 
-## 5. Vocal-Tag Discipline (Gemini TTS)
+## 5. Vocal-Tag Discipline (`gemini-3.8-flash-tts`)
 - Use vocal tags **sparingly** (roughly 1 every 6–10 turns) so they sound lifelike rather than theatrical.
-- Stick strictly to proven tags in `podcasts/chXX-script.md` (our renderer automatically maps them between `gemini-3.1-flash-tts-preview` and `gemini-3.8-flash-tts`):
-  - `[soft laugh]` (maps to `<laugh>` on 3.8)
-  - `[sighs]` (maps to `<sigh>` on 3.8)
-  - `[short pause]` (maps to `<short pause>` on 3.8)
-  - `[warmly]`, `[thoughtfully]`, `[gently]`, `[cheerfully]` (inline on 3.1; lifted into `speech_metadata.style` on 3.8)
+- Stick strictly to canonical tags in `podcasts/chXX-script.md` (which `_tts_core.py` compiles cleanly into `gemini-3.8-flash-tts` Interactions API `speech_metadata` annotations + inline vocal events):
+  - `[soft laugh]` → `<laugh>`
+  - `[sighs]` → `<sigh>`
+  - `[short pause]` → `<short pause>`
+  - `[warmly]`, `[thoughtfully]`, `[gently]`, `[cheerfully]` → lifted into `speech_metadata.style` (never spoken aloud!)
+- **Optional overlapping backchannels (3.8 feature):** During Pass 4, you may sparingly wrap 1–2 word listener reactions in pipes inside the active speaker's line (e.g., `|mhm|`, `|right|`, `|wait|`) so the other host voices a natural soft reaction underneath without chopping the dialogue into tiny turns (max 2–3 per episode).
 - Use commas between clauses and ellipses (`...`) or em-dashes (`—`) sparingly for natural breathing pauses—never chop sentences into artificial period-separated fragments.

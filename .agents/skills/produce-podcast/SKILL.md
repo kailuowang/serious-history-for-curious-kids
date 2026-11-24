@@ -97,8 +97,8 @@ Run the renderer (auto-loads `GEMINI_API_KEY` from env, `~/.gemini.env`, or `/ho
 python3 .agents/skills/produce-podcast/scripts/render_podcast.py <chapter_id>
 ```
 What the renderer does automatically:
-- Calls Gemini TTS (`gemini-3.1-flash-tts-preview` or `gemini-3.8-flash-tts` per `podcasts/show-config.json`) in **native 2-speaker mode**, one act per request (~300–480 words each), caching act WAVs in `podcasts/tmp/<chapter_id>/` so partial re-renders only re-bill changed acts.
-- Uses strict prompt framing (`#### TRANSCRIPT` + `### PERFORMANCE` on 3.1; per-turn `speech_metadata` parts on 3.8) with automatic retries on transient preview errors.
+- Calls **`gemini-3.8-flash-tts`** (per `podcasts/show-config.json`) via the Gemini **Interactions API** in **native 2-speaker mode**, one act per request (~300–480 words each), with per-turn `speech_metadata` annotations, automatic inline vocal-tag conversion (`<laugh>`, `<sigh>`, `<short pause>`), and disk caching in `podcasts/tmp/<chapter_id>/` so partial re-renders only re-bill changed acts.
+- Retries transient errors with exponential backoff and supports optional `gemini-3.8-flash-lite-tts` or legacy `gemini-3.1-flash-tts-preview` via `--model`.
 - Inserts subtle procedural 2-note wooden marimba chimes between sub-mystery acts, mixes optional Lyria intro/outro themes (`podcasts/assets/theme-intro.mp3`, `theme-outro.mp3`) with gentle crossfades, normalizes final audio to podcast loudness standard (**-16 LUFS**, true peak ≤ -1.5 dBTP) via `ffmpeg`, and embeds ID3 metadata + chapter markers for each sub-mystery.
 - Outputs `podcasts/<chapter_id>-episode.mp3`.
 

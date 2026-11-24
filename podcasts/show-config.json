@@ -3,8 +3,8 @@
   "show_subtitle": "Amy & Sam take apart how human civilization actually got built—one survival puzzle at a time.",
   "status": "pending_audition",
   "tts": {
-    "model": "gemini-3.1-flash-tts-preview",
-    "note": "Google schedules gemini-3.1-flash-tts-preview deprecation on 2026-12-18; switch to 'gemini-3.8-flash-tts' (same 30 prebuilt voices + pipe backchanneling + WAV output) anytime—both are supported natively by render_podcast.py and audition_voices.py.",
+    "model": "gemini-3.8-flash-tts",
+    "note": "Primary GA model (gemini-3.8-flash-tts) via Gemini Interactions API; supports 30 prebuilt voices, 2,000+ Extended Library voices, Voice Design, and pipe backchannels (|mhm|, |wait|). Also supports gemini-3.8-flash-lite-tts (cheaper bulk) or legacy gemini-3.1-flash-tts-preview.",
     "sample_rate_hz": 24000,
     "max_retries": 5
   },
@@ -20,12 +20,12 @@
     "Amy": {
       "role": "Historian & Field Detective (Female AI)",
       "voice_name": "Aoede",
-      "style_direction": "Warm, breezy, relaxed storytelling voice. Conversational and clear, never stiff or lecturing, with an easy dry smile when something in history is funny."
+      "style_direction": "warm, relaxed, conversational"
     },
     "Sam": {
       "role": "Inquirer & Systems Skeptic (Young Male AI)",
       "voice_name": "Puck",
-      "style_direction": "Youthful, chill, quick-witted conversational voice. Naturally curious and grounded, never cartoonish or overly hyped, with crisp timing on practical objections and dry humor."
+      "style_direction": "chill, curious, quick-witted"
     }
   },
   "audition_voice_pairs": [
