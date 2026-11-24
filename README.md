@@ -18,7 +18,7 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 ## Repository Layout
 
 - [`AGENTS.md`](AGENTS.md) & [`.agents/`](.agents/) — Authoring rules and 6-stage chapter pipeline skills (`/ingest-sources`, `/draft-chapter`, `/illustrate-chapter`, `/audit-chapter`, `/curate-photos`, `/typeset-preview`).
-- [`syllabus/`](syllabus/) — 42-chapter master outline (`master-outline.md`) and prose voice anchor (`style-anchor.md`).
+- [`syllabus/`](syllabus/) — 42-chapter master outline ([`master-outline.md`](syllabus/master-outline.md)) and prose voice anchor ([`style-anchor.md`](syllabus/style-anchor.md)).
 - [`ledger/concepts.json`](ledger/concepts.json) — Cumulative registry of earned systemic concepts across chapters.
 - [`sources/`](sources/) & [`research/`](research/) — Scholarly reference packets and verified causal fact sheets.
 - [`manuscript/`](manuscript/) — Final audited chapter manuscripts.
