@@ -17,7 +17,7 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 
 ## Repository Layout
 
-- [`AGENTS.md`](AGENTS.md) & [`.agents/`](.agents/) — Authoring rules and 6-stage chapter pipeline skills (`/ingest-sources`, `/draft-chapter`, `/illustrate-chapter`, `/audit-chapter`, `/curate-photos`, `/typeset-preview`).
+- [`AGENTS.md`](AGENTS.md) & [`.agents/`](.agents/) — Authoring rules and 7-stage chapter pipeline skills (`/ingest-sources`, `/draft-chapter`, `/illustrate-chapter`, `/audit-chapter`, `/curate-photos`, `/typeset-preview`, `/produce-podcast`).
 - [`syllabus/`](syllabus/) — 42-chapter master outline ([`master-outline.md`](syllabus/master-outline.md)) and prose voice anchor ([`style-anchor.md`](syllabus/style-anchor.md)).
 - [`ledger/concepts.json`](ledger/concepts.json) — Cumulative registry of earned systemic concepts across chapters.
 - [`sources/`](sources/) & [`research/`](research/) — Scholarly reference packets and verified causal fact sheets.
@@ -25,6 +25,7 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 - [`diagrams/`](diagrams/) — Publication-grade SVG maps, architectural cutaways, artifact field plates, system loops, and charts.
 - [`photos/`](photos/) — Open-licensed (CC0 / Public Domain / CC-BY) real-world and museum photographs with full attribution logs in `photos/chXX-credits.json`.
 - [`build/`](build/) — Standalone offline HTML chapter readers and print-ready US Letter PDFs.
+- [`podcasts/`](podcasts/) — Companion two-AI-host (**Amy & Sam**) podcast configuration, scripts, and mastered episodes (see [`HANDOFF-LOCAL-ANTIGRAVITY.md`](podcasts/HANDOFF-LOCAL-ANTIGRAVITY.md)).
 
 ## Photo & Media Attribution
 

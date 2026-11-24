@@ -1,0 +1,97 @@
+{
+  "show_title": "The Mechanics of Civilization",
+  "show_subtitle": "Amy & Sam take apart how human civilization actually got built—one survival puzzle at a time.",
+  "status": "pending_audition",
+  "tts": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "note": "Google schedules gemini-3.1-flash-tts-preview deprecation on 2026-12-18; switch to 'gemini-3.8-flash-tts' (same 30 prebuilt voices + pipe backchanneling + WAV output) anytime—both are supported natively by render_podcast.py and audition_voices.py.",
+    "sample_rate_hz": 24000,
+    "max_retries": 5
+  },
+  "music": {
+    "model": "lyria-3-clip-preview",
+    "intro_track": "podcasts/assets/theme-intro.mp3",
+    "outro_track": "podcasts/assets/theme-outro.mp3",
+    "intro_duration_sec": 7.0,
+    "outro_duration_sec": 8.0,
+    "use_submystery_chimes": true
+  },
+  "hosts": {
+    "Amy": {
+      "role": "Historian & Field Detective (Female AI)",
+      "voice_name": "Aoede",
+      "style_direction": "Warm, breezy, relaxed storytelling voice. Conversational and clear, never stiff or lecturing, with an easy dry smile when something in history is funny."
+    },
+    "Sam": {
+      "role": "Inquirer & Systems Skeptic (Young Male AI)",
+      "voice_name": "Puck",
+      "style_direction": "Youthful, chill, quick-witted conversational voice. Naturally curious and grounded, never cartoonish or overly hyped, with crisp timing on practical objections and dry humor."
+    }
+  },
+  "audition_voice_pairs": [
+    {
+      "id": "pair_a",
+      "label": "Pair A — Warm & Quick (Recommended)",
+      "amy_voice": "Aoede",
+      "sam_voice": "Puck",
+      "notes": "Aoede (Breezy, warm female) + Puck (Upbeat, youthful male). Crisp contrast and sharp dry-humor timing."
+    },
+    {
+      "id": "pair_b",
+      "label": "Pair B — Ultra-Chill Hangout",
+      "amy_voice": "Callirrhoe",
+      "sam_voice": "Umbriel",
+      "notes": "Callirrhoe (Easy-going female) + Umbriel (Easy-going male). Calm, laid-back Sunday-afternoon curiosity."
+    },
+    {
+      "id": "pair_c",
+      "label": "Pair C — Warm Guide + Deadpan Skeptic",
+      "amy_voice": "Sulafat",
+      "sam_voice": "Zubenelgenubi",
+      "notes": "Sulafat (Warm, friendly female) + Zubenelgenubi (Casual, unbothered male). Steady narrative + deadpan engineering pushback."
+    },
+    {
+      "id": "pair_d",
+      "label": "Pair D — Crisp Deadpan Contrast",
+      "amy_voice": "Kore",
+      "sam_voice": "Puck",
+      "notes": "Kore (Firm, crisp female) + Puck (Upbeat, youthful male). Classic straight-man contrast that lets dry humor pop."
+    }
+  ],
+  "audition_music_themes": [
+    {
+      "id": "theme_1",
+      "label": "Theme 1 — Warm Acoustic Pluck & Marimba",
+      "prompt": "A warm, curious, chill 30-second instrumental podcast theme song. Gentle plucked acoustic guitar, soft wooden marimba melody, subtle brushed snare groove, understated warm bass. Curious documentary vibe like a smart science and history podcast. Medium-relaxed tempo around 96 BPM. Strictly instrumental, no vocals, no lyrics, clean warm ending."
+    },
+    {
+      "id": "theme_2",
+      "label": "Theme 2 — Chill Lo-Fi Rhodes & Soft Percussion",
+      "prompt": "A relaxed, smart, cozy 30-second instrumental podcast theme song. Warm electric Rhodes piano chords, gentle muted kalimba motif, soft warm upright bass, light shaker groove. Thoughtful, inviting, unhurried vibe for a curiosity podcast. Tempo around 90 BPM. Strictly instrumental, no vocals, no lyrics, clean warm fade."
+    },
+    {
+      "id": "theme_3",
+      "label": "Theme 3 — Subtle Ancient Pluck Meets Modern Indie",
+      "prompt": "A refined, chill 30-second instrumental podcast intro theme blending gentle modern indie acoustic fingerpicking with a subtle hint of warm oud and soft hand percussion, plus a light cello drone. Evokes ancient engineering and timeless curiosity without sounding overly dramatic or cinematic. Tempo around 94 BPM. Strictly instrumental, no vocals, no lyrics."
+    }
+  ],
+  "audio_mastering": {
+    "target_lufs": -16.0,
+    "true_peak_db": -1.5,
+    "mp3_bitrate": "128k",
+    "act_gap_ms": 650,
+    "chime_gap_before_ms": 350,
+    "chime_gap_after_ms": 450
+  },
+  "default_pronunciations": {
+    "Uruk": "OO-rook",
+    "lugal": "LOO-gal",
+    "še-ba": "SHAY-bah",
+    "Kushim": "KOO-sheem",
+    "sila": "SEE-lah",
+    "bullae": "BOO-lay",
+    "Ur-Nammu": "OOR-NAH-moo",
+    "Euphrates": "yoo-FRAY-teez",
+    "Tigris": "TY-gris"
+  }
+}

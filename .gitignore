@@ -27,9 +27,15 @@
 !photos/**
 !build/
 !build/**
+!podcasts/
+!podcasts/**
+podcasts/tmp/
+podcasts/auditions/
 
-# OS & editor clutter anywhere
+# OS, Python & editor clutter anywhere
 **/.DS_Store
 **/Thumbs.db
+**/__pycache__/
+**/*.pyc
 *.tmp
 *.swp
