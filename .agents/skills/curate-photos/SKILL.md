@@ -15,9 +15,9 @@ When invoked with a chapter ID (e.g., `/curate-photos ch01`):
    - Space photos cleanly away from full-width SVG plates (or pair 2 related small photos in a compact side-by-side strip) so every page feels vibrant without overcrowding.
 
 2. **Open-License Sourcing & Local Archiving (`photos/`):**
-   - Source strictly **Public Domain / CC0 / CC-BY / CC-BY-SA** photographs via open APIs (Metropolitan Museum of Art Open Access CC0 API, Wikimedia Commons API using a compliant descriptive `User-Agent` header, Louvre / Smithsonian Open Access).
+   - Source strictly **Public Domain / CC0 / CC-BY / CC-BY-SA** photographs via open APIs (Metropolitan Museum of Art Open Access CC0 API, Wikimedia Commons API using a compliant descriptive `User-Agent` header, Louvre / Smithsonian Open Access). Prefer Public Domain, CC0, or CC-BY over ShareAlike (`CC BY-SA`) whenever an equivalent photo is available.
    - Never rely on fragile external hotlinks in compiled outputs: download local copies to `photos/<chapter_id>-<slug>.jpg` (resized cleanly to ~1000–1200px wide for crisp print/iPad quality with reasonable file size).
-   - Record every photo's exact `filename`, `section`, `after_paragraph`, `title`, `caption` (plain, jargon-free, grounded in `research/<chapter_id>-fact-sheet.md`), `source_url`, `creator_or_museum`, and `license` inside `photos/<chapter_id>-credits.json`.
+   - Record every photo's exact `filename`, `section`, `after_paragraph`, `title`, `caption` (plain, jargon-free, grounded in `research/<chapter_id>-fact-sheet.md`), `creator` (actual photographer or agency name—never just "Wikimedia Commons" for CC-BY/CC-BY-SA files), `institution` and `accession_or_id` (for museum artifacts), `credit` (publication-ready attribution line), `license`, `license_url`, and `source_url` inside `photos/<chapter_id>-credits.json`.
 
 3. **Mandatory Visual Verification (`view_file`):**
    - Inspect **every single downloaded photograph** using `view_file`.

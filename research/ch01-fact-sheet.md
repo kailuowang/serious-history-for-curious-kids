@@ -37,7 +37,7 @@
 ## 3. Markets & Money
 
 - **Ration-Based Worker Payment (Uruk & Ur III):**
-  - *Uruk Period (c. 3200–3000 BCE):* Thousands of coarse, mold-made clay **beveled-rim bowls** discarded near Uruk temples and canal works cluster around standardized volumes of **~0.8 to 1 liter**. Scholars Hans Nissen and Daniel Potts interpret them as mass-produced ration bowls used to measure out daily barley grain or porridge to state and temple work crews (`01-scholarly-reference-notes.md`, §2; citing Nissen and Potts).
+  - *Uruk Period (c. 3200–3000 BCE):* Thousands of coarse, mold-made clay **beveled-rim bowls** discarded near Uruk temples and canal works cluster around standardized volumes of **~0.8 to 1 liter**. Hans Nissen (1970) interprets them as mass-produced ration bowls used to measure out daily barley grain or porridge to state and temple work crews, while Daniel Potts (2009) argues they worked as clay molds for baking standardized loaves of bread (`01-scholarly-reference-notes.md`, §2; citing Nissen 1970; Potts 2009).
   - *Ur III Period (c. 2100–2000 BCE):* Administrative tablets record standardized monthly barley rations (*še-ba*):
     - Adult male workers: typically **60 *sila* (~60 liters) per month** (~2 liters/day).
     - Adult women (e.g., state textile workshop weavers): **30–40 *sila* per month**.
@@ -73,10 +73,10 @@
 
 ## 5. Scholarly Uncertainty & Chronological Notes
 
-- **Function of Beveled-Rim Bowls:** The seed packet explicitly flags that interpreting beveled-rim bowls as standardized daily barley/porridge ration bowls is a scholarly interpretation (attributed to Nissen and Potts) rather than directly inscribed proof (`01-scholarly-reference-notes.md`, §2). When drafting, phrase this transparently (e.g., "archaeologists think these bowls were used to measure out daily barley rations") rather than stating it with false certainty.
+- **Function of Beveled-Rim Bowls:** The exact function of beveled-rim bowls remains debated among archaeologists: Hans Nissen (1970) proposed standardized grain/porridge ration bowls, whereas Daniel Potts (2009) argues they served as clay bread-baking molds (though large bakeries could still bake standardized ration loaves) (`01-scholarly-reference-notes.md`, §2). Drafted prose must present this transparently as scholarly interpretation rather than settled fact.
 - **Population Estimates:** Uruk's size (~250–400 hectares) and population (~40,000 residents) are archaeological estimates, not census counts (`01-scholarly-reference-notes.md`, §2).
 - **Multi-Century Span in Seed Notes:** The source packet spans roughly 1,500–1,800 years, grouping early Uruk innovations (c. 3500–3000 BCE: beveled-rim bowls, proto-cuneiform, Kushim tablet, White Temple) with later Ur III / Old Babylonian state practices (c. 2100–1700 BCE: standardized *še-ba* monthly rations, Ziggurat of Ur, clay contract envelopes, long-term salinization decline). Drafted prose must keep these chronological eras clearly distinguished rather than collapsing Uruk (3100 BCE) and Ur III (2100 BCE) into a single moment.
-- **How Early Political Order Formed:** No written eyewitness account from early Uruk (c. 3500–3000 BCE) explains how 40,000 residents first accepted shared political authority. Surviving evidence of city assemblies (*puhrum*) and war-leaders (*lugal*) comes from later inscriptions and poetic epics, so the three explanations (shared temple belief, assemblies picking crisis leaders who stayed in power, and storehouse/guard leverage) must be presented transparently as scholarly hypotheses historians weigh (`02-political-order-notes.md`, §§1–2).
+- **How Early Political Order Formed:** No written eyewitness account from early Uruk (c. 3500–3000 BCE) explains how 40,000 residents first accepted shared political authority. Surviving evidence of city assemblies (such as neighborhood *babtum* councils and assemblies in *Gilgamesh and Akka*) and war-leaders (*lugal*) comes from later inscriptions and poetic epics, so the three explanations (shared temple belief, assemblies picking crisis leaders who stayed in power, and storehouse/guard leverage) must be presented transparently as scholarly hypotheses historians weigh (`02-political-order-notes.md`, §§1–2).
 
 ---
 

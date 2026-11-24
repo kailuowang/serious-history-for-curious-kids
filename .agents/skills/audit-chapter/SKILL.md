@@ -33,5 +33,9 @@ When invoked with a chapter ID (e.g., `/audit-chapter ch01`):
    - Validate every `diagrams/<chapter_id>-*.svg` with `xml.etree.ElementTree.parse` (zero invalid HTML entities).
    - Confirm zero duplicate `id="..."` attributes across all SVGs in the chapter and verify every `<style>` rule is scoped to its root `#figXX-N` so inline HTML embedding causes zero visual leaks.
 
-5. **Pass 5 — Concept Ledger Update:**
+5. **Pass 5 — Phrase-Keyed Citations & Bibliography Check:**
+   - Generate or update `research/<chapter_id>-citations.json` mapping verbatim anchor phrases from `manuscript/<chapter_id>-*.md` (grouped by section) plus every `Figure XX.N` diagram to `source_id` keys in `bibliography/sources.json`, with honest `locator` and `verified_page` (`true`/`false`) flags.
+   - Run a Python validation script confirming: (a) every `phrase` appears verbatim in `manuscript/<chapter_id>-*.md`, (b) every `source_id` exists in `bibliography/sources.json` with complete bibliographic fields, and (c) every CC-licensed photo in `photos/<chapter_id>-credits.json` (if present) includes a real `creator` name and `license_url`.
+
+6. **Pass 6 — Concept Ledger Update:**
    - Append the chapter's newly introduced bolded systemic concepts (with `chapter`, `term`, and a crisp 1-sentence plain `definition`) to `ledger/concepts.json`, and validate `ledger/concepts.json` parses cleanly as JSON.

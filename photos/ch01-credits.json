@@ -9,8 +9,11 @@
       "filename": "ch01-euphrates-space.jpg",
       "title": "The Euphrates River From Space",
       "caption": "Dark green irrigated farms hug the riverbanks while dry tan desert begins just past the canals.",
-      "credit": "NASA ISS Expedition 67 (Public Domain)",
+      "creator": "NASA ISS Expedition 67",
+      "accession_or_id": "ISS067-E-169827",
+      "credit": "NASA ISS Expedition 67, ISS067-E-169827 (Public Domain)",
       "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:ISS067-E-169827_-_View_of_Earth_-_Euphrates_River_-_desert_structures_(cropped).jpg"
     },
     {
@@ -21,8 +24,10 @@
       "filename": "ch01-ripe-barley.jpg",
       "title": "Close-Up of a Barley Stalk",
       "caption": "Each bristled head packs rows of barley seeds—irrigated Sumerian plots harvested 15 to 30 grains per seed planted.",
-      "credit": "Wikimedia Commons (CC BY-SA 2.0)",
+      "creator": "Matt Lavin",
+      "credit": "Photo by Matt Lavin, via Wikimedia Commons (CC BY-SA 2.0)",
       "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Horedum_vulgare_(3819801744).jpg"
     },
     {
@@ -31,10 +36,14 @@
       "section": 2,
       "after_paragraph": 8,
       "filename": "ch01-beveled-rim-bowl.jpg",
-      "title": "Real Beveled-Rim Bowl (c. 3200–3000 BCE)",
-      "caption": "Coarse, mold-pressed clay (~0.8–1 liter); thousands were discarded near early Mesopotamian temples and canals over 5,000 years ago.",
-      "credit": "British Museum / Wikimedia Commons (CC0)",
-      "license": "CC0",
+      "title": "Real Beveled-Rim Bowl (c. 3300–3100 BCE)",
+      "caption": "Coarse, mold-pressed clay (~0.8–1 liter) from Nineveh; thousands of matching bowls were discarded near early Mesopotamian temples and canals over 5,000 years ago.",
+      "creator": "Vassil",
+      "institution": "British Museum, London",
+      "accession_or_id": "ME 138746 (Room 56)",
+      "credit": "British Museum, ME 138746; photo by Vassil via Wikimedia Commons (CC0 1.0)",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:British_Museum_Middle_east_14022019_Beveled_rim_bowl_Nineveh_Late_Uruk_Period_3672.jpg"
     },
     {
@@ -43,10 +52,14 @@
       "section": 2,
       "after_paragraph": 8,
       "filename": "ch01-barley-tablet.jpg",
-      "title": "Proto-Cuneiform Barley & Malt Tablet (c. 3100 BCE)",
+      "title": "Proto-Cuneiform Barley & Malt Tablet (c. 3100–2900 BCE)",
       "caption": "Pressed reed circles and wedges track malted barley and groats on sun-dried river clay—more than 5,000 years ago.",
-      "credit": "Metropolitan Museum of Art Open Access (CC0)",
-      "license": "CC0",
+      "creator": "Metropolitan Museum of Art",
+      "institution": "Metropolitan Museum of Art, New York",
+      "accession_or_id": "1988.433.3 (Object ID 327385)",
+      "credit": "Metropolitan Museum of Art, Acc. 1988.433.3, Purchase, Raymond and Beverly Sackler Gift, 1988 (Open Access, CC0 1.0)",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet-_administrative_account_with_entries_concerning_malt_and_barley_groats_MET_DP293245.jpg"
     },
     {
@@ -57,8 +70,10 @@
       "filename": "ch01-ziggurat-ur.jpg",
       "title": "The Real Ziggurat of Ur Today",
       "caption": "Notice the sloped buttressed baked-brick walls, small dark square weep-holes on the left, and tiny visitors on top for scale.",
-      "credit": "Wikimedia Commons (CC BY 3.0)",
+      "creator": "Hardnfast (Wikimedia Commons)",
+      "credit": "Photo by Hardnfast, 2005, via Wikimedia Commons (CC BY 3.0)",
       "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg"
     },
     {
@@ -69,8 +84,10 @@
       "filename": "ch01-euphrates-ground.jpg",
       "title": "Date Palms Along the Euphrates",
       "caption": "Southern banks offered mud, marsh reeds, and spongy date palms—almost no building stone or strong roof timber.",
+      "creator": "Wikimedia Commons contributor (Public Domain)",
       "credit": "Wikimedia Commons (Public Domain)",
       "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Euphrates_River.jpg"
     },
     {
@@ -81,8 +98,10 @@
       "filename": "ch01-lapis-lazuli.jpg",
       "title": "Raw Afghan Lapis Lazuli Stone",
       "caption": "Deep-blue stone from Afghanistan imported by Sumerian traders and paid for with exported woven wool cloth.",
-      "credit": "James St. John / Wikimedia Commons (CC BY 2.0)",
+      "creator": "James St. John",
+      "credit": "Photo by James St. John, via Wikimedia Commons (CC BY 2.0)",
       "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Lapis_lazuli_(lazuritic_metamorphite)_(Sar-e-Sang_Deposit,_Sakhi_Formation,_Precambrian,_2.4-2.7_Ga_(%3F);_Sar-e-Sang_Mining_District,_Hindu-Kush_Mountains,_Afghanistan)_15.jpg"
     },
     {
@@ -93,8 +112,11 @@
       "filename": "ch01-clay-envelope.jpg",
       "title": "Sealed Clay Contract Envelope (c. 2100–2000 BCE)",
       "caption": "Witnesses rolled a stone cylinder seal across this wet outer clay shell—about 4,000 years ago—to lock the contract tablet sealed inside.",
-      "credit": "Harvard Semitic Museum / Wikimedia Commons (Public Domain)",
-      "license": "Public domain",
+      "creator": "Daderot",
+      "institution": "Harvard Museum of the Ancient Near East (formerly Harvard Semitic Museum), Cambridge, MA",
+      "credit": "Harvard Museum of the Ancient Near East; photo by Daderot via Wikimedia Commons (CC0 1.0 / Public Domain)",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_in_envelope_with_cylinder_seal_impressions,_Ur_III_Period,_c._2100-2000_BC_-_Harvard_Semitic_Museum_-_Cambridge,_MA_-_DSC06154.jpg"
     },
     {
@@ -105,8 +127,10 @@
       "filename": "ch01-salt-crust-soil.jpg",
       "title": "White Mineral Salt Wicking Out of Soil",
       "caption": "When fierce heat evaporates trapped salty groundwater, white mineral salt crusts the topsoil—and even climbs halfway up a dry wooden fence post like water wicking into a sponge.",
-      "credit": "USDA / Wikimedia Commons (Public Domain)",
+      "creator": "U.S. Department of Agriculture (USDA)",
+      "credit": "U.S. Department of Agriculture (USDA), via Wikimedia Commons (Public Domain)",
       "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_url": "https://commons.wikimedia.org/wiki/File:Salinity.jpg"
     }
   ]

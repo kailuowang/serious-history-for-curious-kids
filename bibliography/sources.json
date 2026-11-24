@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "citation_style": "Chicago Notes and Bibliography (phrase-keyed end-of-chapter notes)",
+  "sources": [
+    {
+      "id": "adams-1981",
+      "type": "book",
+      "authors": ["Robert McC. Adams"],
+      "year": 1981,
+      "title": "Heartland of Cities: Surveys of Ancient Settlement and Land Use on the Central Floodplain of the Euphrates",
+      "publisher": "University of Chicago Press",
+      "place": "Chicago",
+      "isbn": "978-0-226-00544-7",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "graeber-wengrow-2021",
+      "type": "book",
+      "authors": ["David Graeber", "David Wengrow"],
+      "year": 2021,
+      "title": "The Dawn of Everything: A New History of Humanity",
+      "publisher": "Farrar, Straus and Giroux",
+      "place": "New York",
+      "isbn": "978-0-374-15735-7",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "jacobsen-1943",
+      "type": "article",
+      "authors": ["Thorkild Jacobsen"],
+      "year": 1943,
+      "title": "Primitive Democracy in Ancient Mesopotamia",
+      "container_title": "Journal of Near Eastern Studies",
+      "volume": "2",
+      "issue": "3",
+      "pages": "159-172",
+      "doi": "10.1086/370672",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "jacobsen-1976",
+      "type": "book",
+      "authors": ["Thorkild Jacobsen"],
+      "year": 1976,
+      "title": "The Treasures of Darkness: A History of Mesopotamian Religion",
+      "publisher": "Yale University Press",
+      "place": "New Haven",
+      "isbn": "978-0-300-01844-8",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "jacobsen-adams-1958",
+      "type": "article",
+      "authors": ["Thorkild Jacobsen", "Robert McC. Adams"],
+      "year": 1958,
+      "title": "Salt and Silt in Ancient Mesopotamian Agriculture",
+      "container_title": "Science",
+      "volume": "128",
+      "issue": "3334",
+      "pages": "1251-1258",
+      "doi": "10.1126/science.128.3334.1251",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "katz-1993",
+      "type": "primary_text",
+      "authors": ["Dina Katz"],
+      "year": 1993,
+      "title": "Gilgamesh and Akka",
+      "publisher": "Styx Publications",
+      "place": "Groningen",
+      "notes": "Standard critical edition and translation of the Sumerian narrative composition (ETCSL 1.8.1.1).",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "liverani-2006",
+      "type": "book",
+      "authors": ["Mario Liverani"],
+      "translators": ["Zainab Bahrani", "Marc Van De Mieroop"],
+      "year": 2006,
+      "title": "Uruk: The First City",
+      "publisher": "Equinox Publishing",
+      "place": "London",
+      "isbn": "978-1-84553-191-1",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "nissen-1970",
+      "type": "article",
+      "authors": ["Hans J. Nissen"],
+      "year": 1970,
+      "title": "Grabung in den Quadraten K/L XII in Uruk-Warka",
+      "container_title": "Baghdader Mitteilungen",
+      "volume": "5",
+      "pages": "101-191",
+      "notes": "Original publication proposing the standardized ration-bowl hypothesis for Uruk beveled-rim bowls (p. 137).",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "nissen-damerow-englund-1993",
+      "type": "book",
+      "authors": ["Hans J. Nissen", "Peter Damerow", "Robert K. Englund"],
+      "translators": ["Paul Larsen"],
+      "year": 1993,
+      "title": "Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient Near East",
+      "publisher": "University of Chicago Press",
+      "place": "Chicago",
+      "isbn": "978-0-226-58659-5",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "podany-2014",
+      "type": "book",
+      "authors": ["Amanda H. Podany"],
+      "year": 2014,
+      "title": "The Ancient Near East: A Very Short Introduction",
+      "publisher": "Oxford University Press",
+      "place": "Oxford",
+      "isbn": "978-0-19-537799-6",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "podany-2022",
+      "type": "book",
+      "authors": ["Amanda H. Podany"],
+      "year": 2022,
+      "title": "Weavers, Scribes, and Kings: A New History of the Ancient Near East",
+      "publisher": "Oxford University Press",
+      "place": "New York",
+      "isbn": "978-0-19-005904-0",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "potts-2009",
+      "type": "article",
+      "authors": ["Daniel T. Potts"],
+      "year": 2009,
+      "title": "Bevel-Rim Bowls and Bakeries: Evidence and Explanations from Iran and the Indo-Iranian Borderlands",
+      "container_title": "Journal of Cuneiform Studies",
+      "volume": "61",
+      "pages": "1-23",
+      "doi": "10.1086/JCS25608631",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "steinkeller-1999",
+      "type": "chapter",
+      "authors": ["Piotr Steinkeller"],
+      "editors": ["Kazuko Watanabe"],
+      "year": 1999,
+      "title": "On Rulers, Priests and Sacred Marriage: Tracing the Evolution of Early Sumerian Kingship",
+      "container_title": "Priests and Officials in the Ancient Near East",
+      "publisher": "Universitätsverlag C. Winter",
+      "place": "Heidelberg",
+      "pages": "103-138",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "van-de-mieroop-2016",
+      "type": "book",
+      "authors": ["Marc Van De Mieroop"],
+      "year": 2016,
+      "title": "A History of the Ancient Near East, ca. 3000–323 BC",
+      "edition": "3rd ed.",
+      "publisher": "Wiley-Blackwell",
+      "place": "Chichester",
+      "isbn": "978-1-118-71816-2",
+      "chapters_used": ["ch01"]
+    },
+    {
+      "id": "woolley-1939",
+      "type": "book",
+      "authors": ["C. Leonard Woolley"],
+      "year": 1939,
+      "title": "Ur Excavations, Vol. V: The Ziggurat and Its Surroundings",
+      "publisher": "Published for the Trustees of the Two Museums (British Museum and University Museum, University of Pennsylvania)",
+      "place": "London and Philadelphia",
+      "chapters_used": ["ch01"]
+    }
+  ]
+}

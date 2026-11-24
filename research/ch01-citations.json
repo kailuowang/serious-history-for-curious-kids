@@ -1,0 +1,213 @@
+{
+  "chapter": "ch01",
+  "title": "Chapter 1: Mud, Canals, and the First Ledgers",
+  "style": "phrase-keyed end-of-chapter notes",
+  "sections": [
+    {
+      "section": 1,
+      "heading": "1. The Wrong-Season Rivers",
+      "notes": [
+        {
+          "phrase": "less than 100 to 150 millimeters of rain",
+          "note": "Southern Mesopotamia's arid baseline (<100–150 mm annual rainfall) lies well below the ~200–250 mm threshold needed for reliable rain-fed grain farming.",
+          "citations": [
+            { "source_id": "van-de-mieroop-2016", "locator": "Ch. 1", "verified_page": false },
+            { "source_id": "podany-2014", "locator": "Ch. 1", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "April and May, brown floodwater surged",
+          "note": "Unlike the late-summer Nile inundation, Anatolian snowmelt drives violent April–May surges on the Tigris and Euphrates during winter barley harvest, requiring both protective spring dikes and autumn storage/regulator works.",
+          "citations": [
+            { "source_id": "adams-1981", "locator": "floodplain hydrology overview", "verified_page": false },
+            { "source_id": "van-de-mieroop-2016", "locator": "Ch. 1", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "natural raised levees, the riverbeds actually sat slightly higher",
+          "note": "Alluvial silt deposition built raised riverbanks above the surrounding plain, enabling gravity-fed feeder canals while leaving low-lying backslope basins vulnerable to poor drainage.",
+          "citations": [
+            { "source_id": "adams-1981", "locator": "alluvial levee morphology", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "one grain of barley returned fifteen to thirty grains",
+          "note": "On the Sumerian ox-drawn seeder plow (cutting seed waste by roughly half) and irrigated barley return ratios of 1:15 to 1:30 compared with 1:5 to 1:8 on rain-fed land.",
+          "citations": [
+            { "source_id": "van-de-mieroop-2016", "locator": "Mesopotamian agriculture overview", "verified_page": false },
+            { "source_id": "nissen-damerow-englund-1993", "locator": "Ch. 1 & Ch. 10", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "roughly 250 to 400 hectares",
+          "note": "Archaeological estimates place Late Uruk (c. 3200–3000 BCE) at roughly 250–400 hectares with an estimated population around 40,000 residents—an archaeological reconstruction rather than an ancient census.",
+          "citations": [
+            { "source_id": "podany-2022", "locator": "Ch. 1", "verified_page": false },
+            { "source_id": "nissen-damerow-englund-1993", "locator": "Ch. 3", "verified_page": false },
+            { "source_id": "liverani-2006", "locator": "Uruk urban scale", "verified_page": false }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "heading": "2. Politics, Work Shifts, and the First Ledgers",
+      "notes": [
+        {
+          "phrase": "Nobody in early Uruk left a diary",
+          "note": "Because early Uruk left administrative records rather than narrative political histories, historians reconstruct early city governance by combining archaeology with later third-millennium inscriptions and epics (such as Gilgamesh and Akka, ETCSL 1.8.1.1). On temple legitimacy and evolving kingship (lugal), see Jacobsen (1976), Steinkeller (1999), Liverani (2006), and Van De Mieroop (2016); on city assemblies and emergency leadership, see Jacobsen's classic thesis (1943) and the broader comparative survey in Graeber and Wengrow (2021).",
+          "citations": [
+            { "source_id": "jacobsen-1943", "locator": "pp. 159–172", "verified_page": true },
+            { "source_id": "jacobsen-1976", "locator": "early temple & kingship chapters", "verified_page": false },
+            { "source_id": "steinkeller-1999", "locator": "pp. 103–138", "verified_page": true },
+            { "source_id": "katz-1993", "locator": "ETCSL 1.8.1.1", "verified_page": true },
+            { "source_id": "liverani-2006", "locator": "Uruk governance", "verified_page": false },
+            { "source_id": "van-de-mieroop-2016", "locator": "early Sumerian city-states", "verified_page": false },
+            { "source_id": "graeber-wengrow-2021", "locator": "early Mesopotamian assemblies", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "often fifteen to thirty days each year",
+          "note": "Mandatory seasonal corvée labor shifts (Sumerian dusu) mobilized free households for canal dredging, dike repair, harvesting, and brickmaking; wealthier citizens could later commute shifts with silver or hired substitutes.",
+          "citations": [
+            { "source_id": "podany-2022", "locator": "corvée labor & civic service", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "mold-made clay vessels called beveled-rim bowls",
+          "note": "Hans Nissen (1970, p. 137) proposed that mass-produced Uruk beveled-rim bowls (~0.8–1 liter) served as standardized grain or porridge ration vessels. Daniel T. Potts (2009, pp. 1–23) reviews the debate and argues instead that they functioned primarily as clay baking molds for standardized bread loaves (which institutional bakeries could also issue to workers).",
+          "citations": [
+            { "source_id": "nissen-1970", "locator": "p. 137", "verified_page": true },
+            { "source_id": "potts-2009", "locator": "pp. 1–23", "verified_page": true }
+          ]
+        },
+        {
+          "phrase": "hollow clay balls called *bullae*",
+          "note": "On the transition from clay tokens sealed inside cylinder-sealed hollow clay envelopes (bullae) to impressed proto-cuneiform tablets (c. 3500–3100 BCE).",
+          "citations": [
+            { "source_id": "nissen-damerow-englund-1993", "locator": "Ch. 4 & Ch. 5", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "roughly 5,000 of these earliest tablets",
+          "note": "Approximately 85–90% of the ~5,000 archaic Uruk tablets are economic and administrative records, while 10–15% are standardized lexical word-lists copied by apprentice scribes.",
+          "citations": [
+            { "source_id": "nissen-damerow-englund-1993", "locator": "Ch. 5 & Ch. 7", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "29,086 measures of barley received over 37 months, signed Kushim.",
+          "note": "Primary artifact: Uruk III proto-cuneiform barley-accounting tablet cataloged as MSVO 3, 29 (formerly Schøyen Collection MS 1717; c. 3100 BCE). The quoted line is a standard modern summary of the tablet's accounting signs (29,086 measures of barley, 37 months, KU.ŠIM), not a continuous prose sentence in the original clay. Scholars note that 'Kushim' may denote either an individual administrator's name or an institutional office title.",
+          "citations": [
+            { "source_id": "nissen-damerow-englund-1993", "locator": "pp. 36–37 (Ch. 8, 'The Administrative Activities of Kushim')", "verified_page": true }
+          ]
+        },
+        {
+          "phrase": "fixed barley rations called *še-ba*",
+          "note": "Ur III administrative archives (c. 2100–2000 BCE) document standardized monthly barley rations (še-ba) of 60 sila (~60 liters) for adult male workers, 30–40 sila for adult women, and 10–20 sila for children, supplemented with annual wool allowances (4 minas / ~2 kg), oil, and beer.",
+          "citations": [
+            { "source_id": "van-de-mieroop-2016", "locator": "Ur III state economy", "verified_page": false },
+            { "source_id": "podany-2022", "locator": "Ur III rations & weavers", "verified_page": false }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "heading": "3. Mudbrick Mountains, Wool Workshops, and Sealed Promises",
+      "notes": [
+        {
+          "phrase": "Southern Mesopotamia had almost no building stone",
+          "note": "Alluvial southern Mesopotamia lacked local stone quarries, metal ores, and long-span structural timber (date-palm wood is fibrous), relying on mud, marsh reeds, bitumen seepage, barley, and sheep's wool.",
+          "citations": [
+            { "source_id": "podany-2022", "locator": "Mesopotamian geography & trade", "verified_page": false },
+            { "source_id": "van-de-mieroop-2016", "locator": "Ch. 1", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "roughly 64 meters long by 45 meters wide",
+          "note": "Monumental mudbrick construction of the White Temple on the Anu Ziggurat (Uruk) and King Ur-Nammu's Ziggurat of Ur (c. 2100 BCE): ~64 × 45 m footprint, sun-dried mudbrick core reinforced with woven reed mats and cables, ~2.4 m kiln-baked brick outer casing set in bitumen mortar, and rainwater weep-holes.",
+          "citations": [
+            { "source_id": "woolley-1939", "locator": "Ur Excavations, Vol. V (Ziggurat architecture)", "verified_page": false },
+            { "source_id": "van-de-mieroop-2016", "locator": "Ur III monumental architecture", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "cedar timber from the mountains of Lebanon",
+          "note": "Long-distance trade imported cedar from Lebanon and the Amanus range, copper from Oman (Magan), and lapis lazuli from Afghanistan, financed heavily by woven wool textiles produced in large workshops employing hundreds of women.",
+          "citations": [
+            { "source_id": "podany-2022", "locator": "textile workshops & long-distance trade", "verified_page": false },
+            { "source_id": "van-de-mieroop-2016", "locator": "Sumerian trade networks", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "wrapped the whole tablet inside a thin outer coat of wet clay",
+          "note": "Ur III and Old Babylonian legal practice (c. 2100–1700 BCE) enclosed dried contract tablets inside summary-inscribed, cylinder-sealed clay envelopes that courts could crack open to settle disputes.",
+          "citations": [
+            { "source_id": "podany-2022", "locator": "sealed clay contract envelopes", "verified_page": false }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "heading": "4. The Salt Trap and the Next River",
+      "notes": [
+        {
+          "phrase": "often climb past 45 degrees Celsius",
+          "note": "In poorly drained basins behind raised river levees, evaporation under >45°C (113°F) summer heat drew saline groundwater upward and concentrated mineral salts in the root zone.",
+          "citations": [
+            { "source_id": "jacobsen-adams-1958", "locator": "pp. 1251–1258", "verified_page": true },
+            { "source_id": "adams-1981", "locator": "drainage & salinization analysis", "verified_page": false }
+          ]
+        },
+        {
+          "phrase": "wheat still made up about 16 percent",
+          "note": "In their landmark 1958 Science study of southern temple harvest records between c. 2400 BCE and 1700 BCE, Thorkild Jacobsen and Robert McC. Adams tracked salt-sensitive wheat falling from roughly 16% of recorded southern grain harvests to under 2% (and vanishing altogether in some southern cities), eroding southern surplus capacity as political weight shifted north toward Babylon.",
+          "citations": [
+            { "source_id": "jacobsen-adams-1958", "locator": "pp. 1251–1258", "verified_page": true },
+            { "source_id": "adams-1981", "locator": "long-term floodplain shift", "verified_page": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagrams": [
+    {
+      "figure": "Figure 1.1",
+      "title": "Regional & Trade Geography Map of Southern Mesopotamia",
+      "sources": ["van-de-mieroop-2016", "podany-2014", "podany-2022", "adams-1981", "jacobsen-adams-1958"],
+      "note": "Rainfall threshold (<100–150 mm vs. 200–250 mm dry-farming limit), Anatolian snowmelt rivers, long-distance trade routes (Lebanon cedar, Omani copper, Afghan lapis lazuli, exported wool), and northward political shift toward Babylon."
+    },
+    {
+      "figure": "Figure 1.2",
+      "title": "Natural Raised Levee Irrigation & Sumerian Seeder Plow",
+      "sources": ["adams-1981", "van-de-mieroop-2016", "nissen-damerow-englund-1993"],
+      "note": "Cross-section of raised river levees, gravity-fed feeder canals, low-lying drainage basins, and the ox-drawn funnel seeder plow (1:15–1:30 irrigated yields vs. 1:5–1:8 rain-fed yields)."
+    },
+    {
+      "figure": "Figure 1.3",
+      "title": "Sumerian Clay Artifacts Field Guide",
+      "sources": ["nissen-1970", "potts-2009", "nissen-damerow-englund-1993", "podany-2022"],
+      "note": "Schematic representations of beveled-rim bowls (~0.8–1 L), clay tokens and bullae, carved cylinder seals, the Kushim tablet (MSVO 3, 29; Nissen, Damerow, and Englund 1993, pp. 36–37), and Ur III / Old Babylonian sealed clay contract envelopes."
+    },
+    {
+      "figure": "Figure 1.4",
+      "title": "Ziggurat of Ur — Layered Mudbrick Cutaway (c. 2100 BCE)",
+      "sources": ["woolley-1939", "van-de-mieroop-2016"],
+      "note": "Base dimensions (~64 × 45 m), sun-dried mudbrick core with alternating woven reed mats and cables, ~2.4 m kiln-baked brick casing set in bitumen mortar, and rainwater weep-holes."
+    },
+    {
+      "figure": "Figure 1.5",
+      "title": "The Sumerian Canal, Tax, Ration, and Trade Loop",
+      "sources": ["adams-1981", "podany-2022", "van-de-mieroop-2016", "nissen-damerow-englund-1993"],
+      "note": "System diagram linking seasonal canal/dike corvée labor (15–30 days/year), irrigated barley surplus, central storehouses, standardized rations (60 / 30–40 / 10–20 sila), wool workshops, and proto-cuneiform auditing."
+    },
+    {
+      "figure": "Figure 1.6",
+      "title": "The Salt Trap & 700-Year Wheat Decline (c. 2400–1700 BCE)",
+      "sources": ["jacobsen-adams-1958", "adams-1981"],
+      "note": "Evaporation-driven salinization mechanism under >45°C summer heat and southern temple grain-share decline of wheat from ~16% (c. 2400 BCE) to <2% (by c. 1700 BCE) and 0% in several southern cities."
+    }
+  ]
+}
