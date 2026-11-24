@@ -1,0 +1,906 @@
+<svg id="fig1-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" role="img" aria-label="Figure 1.3: Sumerian Clay Artifacts Field Guide showing five artifacts: Beveled-Rim Ration Bowl, Hollow Clay Bulla and Tokens, Carved Stone Cylinder Seal, The Kushim Barley Ledger Tablet, and Tamper-Proof Clay Contract Envelope">
+  <defs>
+    <!-- Archival paper & card surfaces -->
+    <linearGradient id="f13-bgGrad" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#FCF8F0"/>
+      <stop offset="55%" stop-color="#F7F1E5"/>
+      <stop offset="100%" stop-color="#F1E8D8"/>
+    </linearGradient>
+    <linearGradient id="f13-cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFEFC"/>
+      <stop offset="100%" stop-color="#FBF7EF"/>
+    </linearGradient>
+    <radialGradient id="f13-badgeGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#B86E2E"/>
+      <stop offset="65%" stop-color="#8F501B"/>
+      <stop offset="100%" stop-color="#6B3A12"/>
+    </radialGradient>
+    <radialGradient id="f13-groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3A2512" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#3A2512" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#3A2512" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Soft SVG drop shadows -->
+    <filter id="f13-cardShadow" x="-4%" y="-4%" width="108%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#3E2A16" flood-opacity="0.08"/>
+    </filter>
+    <filter id="f13-objShadow" x="-12%" y="-12%" width="128%" height="132%">
+      <feDropShadow dx="2" dy="4.5" stdDeviation="3.5" flood-color="#2E1D0E" flood-opacity="0.22"/>
+    </filter>
+    <filter id="f13-tokenShadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="1.2" dy="2.2" stdDeviation="1.6" flood-color="#2B1B0D" flood-opacity="0.28"/>
+    </filter>
+
+    <!-- Subtle clay mineral & chaff stipple texture -->
+    <pattern id="f13-clayGrain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="0.7" fill="#5A391E" fill-opacity="0.18"/>
+      <circle cx="11" cy="2.5" r="0.5" fill="#FFF2DC" fill-opacity="0.28"/>
+      <circle cx="15" cy="9" r="0.8" fill="#4D2F17" fill-opacity="0.14"/>
+      <circle cx="6.5" cy="12" r="0.6" fill="#FFF0D4" fill-opacity="0.22"/>
+      <circle cx="13" cy="15.5" r="0.55" fill="#5A391E" fill-opacity="0.16"/>
+      <path d="M 8,6 L 10.5,7.2" stroke="#6B4423" stroke-width="0.6" stroke-opacity="0.18"/>
+      <path d="M 1.5,14.5 L 3.8,13.6" stroke="#F8E7C8" stroke-width="0.55" stroke-opacity="0.22"/>
+    </pattern>
+
+    <!-- Fine pen-and-ink diagonal shading hatch -->
+    <pattern id="f13-inkHatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#3D2411" stroke-width="0.7" stroke-opacity="0.18"/>
+    </pattern>
+    <pattern id="f13-inkHatchFine" width="4.5" height="4.5" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <line x1="0" y1="0" x2="0" y2="4.5" stroke="#3D2411" stroke-width="0.55" stroke-opacity="0.14"/>
+    </pattern>
+
+    <!-- Artifact 1: Coarse Terracotta Bowl & Barley -->
+    <linearGradient id="f13-bowlTerra" x1="0.08" y1="0.1" x2="0.96" y2="0.75">
+      <stop offset="0%" stop-color="#DE9E6C"/>
+      <stop offset="28%" stop-color="#CA8351"/>
+      <stop offset="68%" stop-color="#A66033"/>
+      <stop offset="90%" stop-color="#7D431E"/>
+      <stop offset="100%" stop-color="#96562E"/>
+    </linearGradient>
+    <linearGradient id="f13-bowlRim" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#ECC097"/>
+      <stop offset="45%" stop-color="#D79A6A"/>
+      <stop offset="100%" stop-color="#9E5E33"/>
+    </linearGradient>
+    <linearGradient id="f13-bowlInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6F3E1D"/>
+      <stop offset="100%" stop-color="#9D6036"/>
+    </linearGradient>
+    <radialGradient id="f13-barleyMound" cx="38%" cy="35%" r="68%">
+      <stop offset="0%" stop-color="#F7DA7E"/>
+      <stop offset="50%" stop-color="#E2B249"/>
+      <stop offset="88%" stop-color="#B98324"/>
+      <stop offset="100%" stop-color="#8F5F14"/>
+    </radialGradient>
+
+    <!-- Artifact 2: Hollow Clay Bulla & Tokens -->
+    <radialGradient id="f13-bullaOuter" cx="32%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#E6C99E"/>
+      <stop offset="42%" stop-color="#C69D6C"/>
+      <stop offset="78%" stop-color="#9B7246"/>
+      <stop offset="100%" stop-color="#704F2C"/>
+    </radialGradient>
+    <radialGradient id="f13-bullaCavity" cx="62%" cy="55%" r="60%">
+      <stop offset="0%" stop-color="#2D1C0E"/>
+      <stop offset="55%" stop-color="#4C321C"/>
+      <stop offset="100%" stop-color="#735032"/>
+    </radialGradient>
+    <linearGradient id="f13-bullaBreak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE0C6"/>
+      <stop offset="55%" stop-color="#D5B488"/>
+      <stop offset="100%" stop-color="#A88255"/>
+    </linearGradient>
+    <linearGradient id="f13-tokenCone" x1="0.1" y1="0.2" x2="0.95" y2="0.8">
+      <stop offset="0%" stop-color="#F8ECD4"/>
+      <stop offset="50%" stop-color="#DFC195"/>
+      <stop offset="100%" stop-color="#A67E4E"/>
+    </linearGradient>
+    <radialGradient id="f13-tokenSphere" cx="32%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#FAF0DC"/>
+      <stop offset="52%" stop-color="#DEC094"/>
+      <stop offset="100%" stop-color="#9A7346"/>
+    </radialGradient>
+
+    <!-- Artifact 3: Lapis/Steatite Cylinder Seal & Damp Clay -->
+    <linearGradient id="f13-clayRibbonTop" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#EBD1A9"/>
+      <stop offset="55%" stop-color="#D7B280"/>
+      <stop offset="100%" stop-color="#C19663"/>
+    </linearGradient>
+    <linearGradient id="f13-clayRibbonFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B78B58"/>
+      <stop offset="100%" stop-color="#8C6238"/>
+    </linearGradient>
+    <linearGradient id="f13-lapisCyl" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#223A52"/>
+      <stop offset="24%" stop-color="#4A749C"/>
+      <stop offset="38%" stop-color="#75A1C7"/>
+      <stop offset="56%" stop-color="#335475"/>
+      <stop offset="82%" stop-color="#1C3045"/>
+      <stop offset="100%" stop-color="#2B4763"/>
+    </linearGradient>
+    <radialGradient id="f13-lapisCap" cx="38%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#5D87AD"/>
+      <stop offset="65%" stop-color="#2E4D6B"/>
+      <stop offset="100%" stop-color="#192C3E"/>
+    </radialGradient>
+
+    <!-- Artifact 4: Kushim Pillow Tablet -->
+    <radialGradient id="f13-tabletFace" cx="30%" cy="24%" r="78%">
+      <stop offset="0%" stop-color="#F1DCBA"/>
+      <stop offset="46%" stop-color="#DFBE8E"/>
+      <stop offset="82%" stop-color="#C29967"/>
+      <stop offset="100%" stop-color="#9A7244"/>
+    </radialGradient>
+    <linearGradient id="f13-tabletBevel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7E8CE" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#D2AA77" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#6E4B28" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <!-- Artifact 5: Contract Envelope & Baked Inner Tablet -->
+    <linearGradient id="f13-envOuter" x1="0.08" y1="0.05" x2="0.92" y2="0.95">
+      <stop offset="0%" stop-color="#DFBD91"/>
+      <stop offset="50%" stop-color="#C49A69"/>
+      <stop offset="88%" stop-color="#9B7044"/>
+      <stop offset="100%" stop-color="#835C35"/>
+    </linearGradient>
+    <radialGradient id="f13-innerTablet" cx="30%" cy="25%" r="78%">
+      <stop offset="0%" stop-color="#FAF0DE"/>
+      <stop offset="52%" stop-color="#ECD7B6"/>
+      <stop offset="88%" stop-color="#D4B487"/>
+      <stop offset="100%" stop-color="#B89262"/>
+    </radialGradient>
+    <linearGradient id="f13-envHollow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B2412"/>
+      <stop offset="65%" stop-color="#5C3C20"/>
+      <stop offset="100%" stop-color="#7B5432"/>
+    </linearGradient>
+    <linearGradient id="f13-barMain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C57D3B"/>
+      <stop offset="100%" stop-color="#9D5B22"/>
+    </linearGradient>
+    <linearGradient id="f13-barLex" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6F8496"/>
+      <stop offset="100%" stop-color="#4F6375"/>
+    </linearGradient>
+
+    <!-- Clip paths for crisp texture/hatching containment -->
+    <clipPath id="f13-clipBowlBody">
+      <path d="M 22,30 C 26,48 37,76 47,96 C 63,104 107,104 123,96 C 133,76 144,48 148,30 C 122,42 48,42 22,30 Z"/>
+    </clipPath>
+    <clipPath id="f13-clipBullaBody">
+      <circle cx="88" cy="60" r="46"/>
+    </clipPath>
+    <clipPath id="f13-clipTablet">
+      <path d="M 22,4 C 58,0 100,0 136,4 C 151,6 156,14 157,30 C 160,64 160,104 157,138 C 156,154 149,161 134,163 C 98,167 60,167 24,163 C 9,161 3,153 2,138 C -1,104 -1,64 2,30 C 3,14 9,6 22,4 Z"/>
+    </clipPath>
+    <clipPath id="f13-clipEnvOuter">
+      <path d="M 14,12 C 46,9 84,9 116,11 L 106,33 L 118,52 L 104,74 L 117,98 L 105,121 L 114,136 C 82,139 44,139 14,136 C 4,135 0,127 0,117 L 0,30 C 0,20 4,13 14,12 Z"/>
+    </clipPath>
+
+    <style>
+      #fig1-3 .bg { fill: url(#f13-bgGrad); }
+      #fig1-3 .plate-outer { fill: none; stroke: #CDBEA6; stroke-width: 1.5; }
+      #fig1-3 .plate-inner { fill: none; stroke: #E3D7C5; stroke-width: 0.9; }
+      #fig1-3 .card { fill: url(#f13-cardGrad); stroke: #D9CEBC; stroke-width: 1.25; }
+      #fig1-3 .title { font-family: Georgia, "Times New Roman", serif; font-size: 20px; font-weight: bold; fill: #231B15; }
+      #fig1-3 .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; fill: #584C41; }
+      #fig1-3 .plate-tag { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.2px; fill: #7D481A; }
+      #fig1-3 .badge { fill: url(#f13-badgeGrad); stroke: #5E320E; stroke-width: 0.8; }
+      #fig1-3 .badge-txt { font-family: Georgia, "Times New Roman", serif; font-size: 12px; font-weight: bold; fill: #FFFDF8; }
+      #fig1-3 .ctitle { font-family: Georgia, "Times New Roman", serif; font-size: 13.5px; font-weight: bold; fill: #231B15; }
+      #fig1-3 .cera { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; fill: #8C4E19; }
+      #fig1-3 .csub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.7px; fill: #493F36; }
+      #fig1-3 .csub-bold { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.7px; font-weight: 700; fill: #2B221B; }
+      #fig1-3 .annot { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 600; fill: #5E4B3A; }
+      #fig1-3 .quote { font-family: Georgia, "Times New Roman", serif; font-size: 11.2px; font-style: italic; font-weight: bold; fill: #2B2017; }
+      #fig1-3 .sec-head { font-family: Georgia, "Times New Roman", serif; font-size: 12.5px; font-weight: bold; fill: #2A2018; }
+      #fig1-3 .bar-pct { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; fill: #FFFDF8; }
+      #fig1-3 .leader { fill: none; stroke: #7C6650; stroke-width: 1; }
+      #fig1-3 .leader-dot { fill: #7C6650; }
+      #fig1-3 .step-num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; fill: #FFFDF8; }
+    </style>
+  </defs>
+
+  <!-- ==================== ARCHIVAL MUSEUM PLATE BASE ==================== -->
+  <rect class="bg" x="0" y="0" width="960" height="640" rx="8"/>
+  <rect class="plate-outer" x="8" y="8" width="944" height="624" rx="5"/>
+  <rect class="plate-inner" x="12" y="12" width="936" height="616" rx="3"/>
+
+  <!-- Header -->
+  <text class="title" x="26" y="39">Figure 1.3: How Sumer Turned Wet Mud Into Rations, Memory, and Law</text>
+  <rect x="720" y="21" width="214" height="22" rx="4" fill="#F2E6D2" stroke="#D5C1A3" stroke-width="1"/>
+  <text class="plate-tag" x="827" y="35.5" text-anchor="middle">FIELD PLATE · c. 3500–1700 BCE</text>
+  <text class="subtitle" x="26" y="59">Five clay artifacts excavated in southern Mesopotamia—showing how bookkeeping grew from grain bowls to court contracts.</text>
+  <line x1="26" y1="71" x2="934" y2="71" stroke="#D8CAB4" stroke-width="1.2"/>
+
+  <!-- ==================== CARD 1: BEVELED-RIM RATION BOWL ==================== -->
+  <g filter="url(#f13-cardShadow)">
+    <rect class="card" x="24" y="83" width="294" height="258" rx="7"/>
+  </g>
+  <circle class="badge" cx="46" cy="106" r="11.5"/>
+  <text class="badge-txt" x="46" y="110" text-anchor="middle">1</text>
+  <text class="ctitle" x="66" y="105">Beveled-Rim Ration Bowl</text>
+  <text class="cera" x="66" y="120">Early Uruk · c. 3200–3000 BCE</text>
+  <line x1="36" y1="130" x2="306" y2="130" stroke="#EDE4D5" stroke-width="1"/>
+
+  <!-- Artifact 1 Illustration: Tactile Beveled-Rim Terracotta Bowl with Barley Heap -->
+  <g transform="translate(88, 152) scale(0.92)">
+    <!-- Soft grounded specimen shadow -->
+    <ellipse cx="86" cy="102" rx="56" ry="12" fill="url(#f13-groundShadow)"/>
+
+    <!-- Back interior terracotta wall behind grain -->
+    <path d="M 24,29 C 46,16 124,16 146,29 C 138,40 32,40 24,29 Z" fill="url(#f13-bowlInner)" stroke="#4C2B14" stroke-width="1.2"/>
+
+    <!-- Dimensional mound of golden barley kernels -->
+    <path d="M 30,31 C 45,12 69,6 86,7 C 106,8 128,15 141,31 C 119,42 51,42 30,31 Z" fill="url(#f13-barleyMound)" stroke="#8B5C15" stroke-width="1"/>
+    <!-- Densely packed individual shaded barley kernels -->
+    <g stroke="#855814" stroke-width="0.6">
+      <!-- Upper crest layer -->
+      <ellipse cx="47" cy="24" rx="4.3" ry="2.1" transform="rotate(-18 47 24)" fill="#C9922B"/>
+      <ellipse cx="59" cy="18" rx="4.4" ry="2.1" transform="rotate(-12 59 18)" fill="#DDA83B"/>
+      <ellipse cx="72" cy="14" rx="4.5" ry="2.1" transform="rotate(-6 72 14)" fill="#E9BC52"/>
+      <ellipse cx="86" cy="13" rx="4.6" ry="2.2" transform="rotate(4 86 13)" fill="#F5D26F"/>
+      <ellipse cx="100" cy="15" rx="4.4" ry="2.1" transform="rotate(14 100 15)" fill="#E0AC40"/>
+      <ellipse cx="113" cy="19" rx="4.3" ry="2.1" transform="rotate(20 113 19)" fill="#C9922B"/>
+      <ellipse cx="125" cy="25" rx="4.2" ry="2" transform="rotate(24 125 25)" fill="#B37D20"/>
+      <!-- Mid dense layer -->
+      <ellipse cx="40" cy="30" rx="4.2" ry="2" transform="rotate(-10 40 30)" fill="#C18925"/>
+      <ellipse cx="52" cy="27" rx="4.5" ry="2.1" transform="rotate(-22 52 27)" fill="#E6B84E"/>
+      <ellipse cx="64" cy="23" rx="4.6" ry="2.2" transform="rotate(8 64 23)" fill="#F3CD68"/>
+      <ellipse cx="77" cy="20" rx="4.7" ry="2.2" transform="rotate(-14 77 20)" fill="#FAE089"/>
+      <ellipse cx="91" cy="20" rx="4.6" ry="2.2" transform="rotate(11 91 20)" fill="#F0C75F"/>
+      <ellipse cx="105" cy="23" rx="4.5" ry="2.1" transform="rotate(-9 105 23)" fill="#DAA439"/>
+      <ellipse cx="118" cy="27" rx="4.3" ry="2.1" transform="rotate(18 118 27)" fill="#C18A26"/>
+      <ellipse cx="131" cy="30" rx="4" ry="1.9" transform="rotate(12 131 30)" fill="#A6721A"/>
+      <!-- Lower front rim layer -->
+      <ellipse cx="48" cy="33" rx="4.4" ry="2.1" transform="rotate(6 48 33)" fill="#DBA63B"/>
+      <ellipse cx="60" cy="31" rx="4.6" ry="2.2" transform="rotate(-15 60 31)" fill="#F1CA65"/>
+      <ellipse cx="73" cy="28" rx="4.8" ry="2.3" transform="rotate(10 73 28)" fill="#FBE28E"/>
+      <ellipse cx="87" cy="28" rx="4.8" ry="2.2" transform="rotate(-11 87 28)" fill="#F3CE6A"/>
+      <ellipse cx="100" cy="30" rx="4.6" ry="2.1" transform="rotate(16 100 30)" fill="#DFA93F"/>
+      <ellipse cx="113" cy="33" rx="4.4" ry="2.1" transform="rotate(-8 113 33)" fill="#C58D28"/>
+      <ellipse cx="124" cy="34" rx="4" ry="1.9" transform="rotate(9 124 34)" fill="#AC761C"/>
+      <ellipse cx="56" cy="36" rx="4.3" ry="2" transform="rotate(4 56 36)" fill="#D29B32"/>
+      <ellipse cx="69" cy="35" rx="4.5" ry="2.1" transform="rotate(-5 69 35)" fill="#E7B94F"/>
+      <ellipse cx="83" cy="35" rx="4.6" ry="2.1" transform="rotate(7 83 35)" fill="#EBBE54"/>
+      <ellipse cx="96" cy="35" rx="4.4" ry="2" transform="rotate(-10 96 35)" fill="#D29B31"/>
+      <ellipse cx="109" cy="36" rx="4.1" ry="1.9" transform="rotate(12 109 36)" fill="#B98222"/>
+    </g>
+    <!-- Delicate barley grain center creases -->
+    <g stroke="#966517" stroke-width="0.65" stroke-linecap="round" opacity="0.72">
+      <line x1="74" y1="20" x2="80" y2="19"/>
+      <line x1="70" y1="28" x2="76" y2="29"/>
+      <line x1="84" y1="28" x2="90" y2="27"/>
+      <line x1="57" y1="31" x2="63" y2="30"/>
+      <line x1="88" y1="20" x2="94" y2="21"/>
+      <line x1="80" y1="35" x2="86" y2="35"/>
+    </g>
+
+    <!-- Main coarse hand-molded terracotta bowl body -->
+    <g filter="url(#f13-objShadow)">
+      <path d="M 22,30 C 26,48 37,76 47,96 C 63,104 107,104 123,96 C 133,76 144,48 148,30 C 122,42 48,42 22,30 Z" fill="url(#f13-bowlTerra)" stroke="#4A2B16" stroke-width="1.6"/>
+    </g>
+    <!-- Texture, chaff pitting, and pen-and-ink curve shading clipped to bowl body -->
+    <g clip-path="url(#f13-clipBowlBody)">
+      <rect x="20" y="28" width="132" height="78" fill="url(#f13-clayGrain)"/>
+      <!-- Shadowed right side pen-and-ink hatch -->
+      <path d="M 96,35 C 118,35 138,32 148,30 L 126,102 L 94,104 C 102,80 104,54 96,35 Z" fill="url(#f13-inkHatch)"/>
+      <!-- Rough mold firing patches & finger ridges -->
+      <path d="M 38,54 C 52,58 66,57 78,55" fill="none" stroke="#854B24" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
+      <path d="M 92,68 C 108,71 122,68 130,64" fill="none" stroke="#693818" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+      <path d="M 48,79 C 66,84 86,84 102,80" fill="none" stroke="#7A421E" stroke-width="1.1" stroke-linecap="round" opacity="0.5"/>
+      <!-- Sunlit warm highlight near left shoulder -->
+      <path d="M 34,46 C 39,62 45,78 52,92" fill="none" stroke="#F4C9A0" stroke-width="3.2" stroke-linecap="round" opacity="0.28"/>
+      <!-- Coarse terracotta chaff pits -->
+      <ellipse cx="52" cy="64" rx="2.4" ry="1.1" transform="rotate(14 52 64)" fill="#5C3216" opacity="0.5"/>
+      <ellipse cx="82" cy="59" rx="1.9" ry="0.9" transform="rotate(-20 82 59)" fill="#5C3216" opacity="0.45"/>
+      <ellipse cx="112" cy="52" rx="2.3" ry="1" transform="rotate(8 112 52)" fill="#4A2710" opacity="0.55"/>
+      <ellipse cx="68" cy="88" rx="2.5" ry="1" transform="rotate(-12 68 88)" fill="#5C3216" opacity="0.45"/>
+      <ellipse cx="106" cy="83" rx="2" ry="0.9" transform="rotate(22 106 83)" fill="#4A2710" opacity="0.5"/>
+      <circle cx="44" cy="48" r="1.2" fill="#F2CEAA" opacity="0.5"/>
+      <circle cx="95" cy="51" r="1.1" fill="#F2CEAA" opacity="0.4"/>
+    </g>
+
+    <!-- Thick, coarse, sharply slanted BEVELED RIM LIP -->
+    <path d="M 16,27 C 19,22 25,21 31,24 C 52,33 118,33 139,24 C 145,21 151,22 154,27 C 155,31 150,35 144,37 C 118,46 52,46 26,37 C 20,35 15,31 16,27 Z" fill="url(#f13-bowlRim)" stroke="#4A2B16" stroke-width="1.5"/>
+    <!-- Inner lip edge & highlight showing angled bevel slope -->
+    <path d="M 27,27 C 52,36 118,36 143,27" fill="none" stroke="#6B3B1B" stroke-width="1.2" opacity="0.75"/>
+    <path d="M 22,30 C 48,40 116,40 144,31" fill="none" stroke="#FAE0C3" stroke-width="1" opacity="0.65"/>
+    <!-- Rough hand-pressed thumb irregularities on rim -->
+    <path d="M 48,37 L 54,39 M 88,40 L 94,40 M 122,37 L 128,35" stroke="#7A4420" stroke-width="0.9" opacity="0.5"/>
+  </g>
+
+  <!-- Card 1 Micro-callouts (cleanly tucked inside card bounds x=36..307) -->
+  <polyline class="leader" points="227,178 237,156 241,156"/>
+  <circle class="leader-dot" cx="227" cy="178" r="2"/>
+  <text class="annot" x="308" y="154" text-anchor="end">Slanted</text>
+  <text class="annot" x="308" y="166" text-anchor="end">beveled rim</text>
+
+  <polyline class="leader" points="122,226 104,231 92,231"/>
+  <circle class="leader-dot" cx="122" cy="226" r="2"/>
+  <text class="annot" x="36" y="234">~0.8–1 L</text>
+  <text class="annot" x="36" y="246">mold-made</text>
+
+  <!-- Card 1 Caption -->
+  <text class="csub" x="171" y="287" text-anchor="middle">Coarse mold-pressed bowl (~0.8 to 1 liter).</text>
+  <text class="csub" x="171" y="303" text-anchor="middle">Found by the thousands near Uruk temples;</text>
+  <text class="csub" x="171" y="319" text-anchor="middle">scholars think crews got daily barley in them.</text>
+
+
+  <!-- ==================== CARD 2: HOLLOW CLAY BULLA & TOKENS ==================== -->
+  <g filter="url(#f13-cardShadow)">
+    <rect class="card" x="333" y="83" width="294" height="258" rx="7"/>
+  </g>
+  <circle class="badge" cx="355" cy="106" r="11.5"/>
+  <text class="badge-txt" x="355" y="110" text-anchor="middle">2</text>
+  <text class="ctitle" x="375" y="105">Hollow Clay Bulla &amp; Tokens</text>
+  <text class="cera" x="375" y="120">Before Writing · c. 3500–3100 BCE</text>
+  <line x1="345" y1="130" x2="615" y2="130" stroke="#EDE4D5" stroke-width="1"/>
+
+  <!-- Artifact 2 Illustration: Broken Spherical Clay Bulla + Spilling 3D Tokens -->
+  <g transform="translate(394, 144) scale(0.95)">
+    <!-- Soft grounded shadows for bulla, lid shard, and tokens -->
+    <ellipse cx="92" cy="107" rx="46" ry="10" fill="url(#f13-groundShadow)"/>
+    <ellipse cx="152" cy="96" rx="22" ry="7" fill="url(#f13-groundShadow)"/>
+    <ellipse cx="30" cy="106" rx="34" ry="8" fill="url(#f13-groundShadow)"/>
+
+    <!-- Main hollow spherical clay bulla body -->
+    <g filter="url(#f13-objShadow)">
+      <circle cx="88" cy="60" r="46" fill="url(#f13-bullaOuter)" stroke="#4C321A" stroke-width="1.6"/>
+    </g>
+    <g clip-path="url(#f13-clipBullaBody)">
+      <rect x="40" y="12" width="96" height="96" fill="url(#f13-clayGrain)"/>
+      <!-- Subtle curved pen-and-ink hatch on lower-left/bottom shadow -->
+      <path d="M 42,64 C 52,84 82,98 118,92 L 136,108 L 40,108 Z" fill="url(#f13-inkHatch)"/>
+      <!-- Subtle rolled cylinder-seal impression marks along outer curved shell -->
+      <g stroke="#6D4B2A" stroke-width="1.05" fill="none" opacity="0.52">
+        <path d="M 52,32 C 58,28 65,26 72,25"/>
+        <path d="M 48,43 C 54,39 60,37 66,36"/>
+        <path d="M 54,34 L 56,41 M 61,30 L 63,37 M 68,28 L 70,35"/>
+        <path d="M 49,78 C 56,84 65,88 76,90"/>
+        <path d="M 55,80 L 58,86 M 64,83 L 66,89"/>
+      </g>
+      <!-- Warm upper-left specular highlight -->
+      <ellipse cx="66" cy="34" rx="16" ry="9" transform="rotate(-28 66 34)" fill="#F9EBD2" opacity="0.32"/>
+    </g>
+
+    <!-- Thick jagged fractured clay wall rim around cavity opening -->
+    <path d="M 78,24 L 89,22 L 99,26 L 112,30 L 122,43 L 125,57 L 122,73 L 112,86 L 97,94 L 84,92 L 73,83 L 67,69 L 68,51 L 72,35 Z" fill="url(#f13-bullaBreak)" stroke="#4E331B" stroke-width="1.4"/>
+    <!-- Crumble/texture stipples on fractured wall rim -->
+    <g fill="#7A5634" opacity="0.45">
+      <circle cx="84" cy="27" r="1"/><circle cx="106" cy="31" r="1.1"/><circle cx="120" cy="54" r="1"/>
+      <circle cx="115" cy="79" r="1.1"/><circle cx="75" cy="78" r="1"/><circle cx="71" cy="46" r="1"/>
+    </g>
+
+    <!-- Deep shadowed hollow interior cavity -->
+    <path d="M 82,31 C 96,29 112,37 117,54 C 121,70 112,84 96,87 C 81,89 72,76 72,58 C 72,43 75,33 82,31 Z" fill="url(#f13-bullaCavity)" stroke="#3D2612" stroke-width="1.2"/>
+
+    <!-- Inner cavity tokens resting inside -->
+    <g filter="url(#f13-tokenShadow)">
+      <circle cx="101" cy="64" r="8.5" fill="url(#f13-tokenSphere)" stroke="#4D331B" stroke-width="1.1"/>
+      <ellipse cx="89" cy="76" rx="9.5" ry="5.5" transform="rotate(-12 89 76)" fill="url(#f13-tokenCone)" stroke="#4D331B" stroke-width="1.1"/>
+      <path d="M 85,75 L 93,77 M 89,73 L 89,79" stroke="#5C3D20" stroke-width="0.9"/>
+      <path d="M 78,68 L 86,47 L 95,67 C 90,71 82,71 78,68 Z" fill="url(#f13-tokenCone)" stroke="#4D331B" stroke-width="1.1"/>
+    </g>
+
+    <!-- Detached cracked front shell piece resting to the right -->
+    <g filter="url(#f13-objShadow)">
+      <path d="M 136,34 C 154,43 162,64 152,85 C 147,91 140,94 134,92 L 128,84 C 136,70 137,54 129,40 Z" fill="url(#f13-bullaOuter)" stroke="#4C321A" stroke-width="1.4"/>
+      <path d="M 129,40 L 136,34 L 140,42 L 138,54 L 141,66 L 137,78 L 134,92 L 128,84 C 135,70 136,54 129,40 Z" fill="url(#f13-bullaBreak)" stroke="#5A3C21" stroke-width="0.9"/>
+      <path d="M 145,51 L 151,53 M 146,60 L 153,61 M 144,69 L 151,71" stroke="#6B4A2A" stroke-width="1" opacity="0.55"/>
+    </g>
+
+    <!-- Four distinct 3D geometric clay tokens spilling out to lower-left -->
+    <g filter="url(#f13-tokenShadow)">
+      <!-- 1. Clay Cone -->
+      <path d="M 11,95 L 22,67 L 33,95 C 27,99 17,99 11,95 Z" fill="url(#f13-tokenCone)" stroke="#4D331B" stroke-width="1.2"/>
+      <path d="M 22,67 L 19,97" stroke="#FFF4DF" stroke-width="1.2" opacity="0.45"/>
+    </g>
+    <g filter="url(#f13-tokenShadow)">
+      <!-- 2. Incised Disc -->
+      <ellipse cx="47" cy="99" rx="11" ry="6.5" fill="#B68E5E" stroke="#4D331B" stroke-width="1.2"/>
+      <ellipse cx="47" cy="96.5" rx="11" ry="6.2" fill="url(#f13-tokenSphere)" stroke="#4D331B" stroke-width="1.1"/>
+      <path d="M 41,96.5 L 53,96.5 M 47,92.5 L 47,100.5" stroke="#5E3E20" stroke-width="1.15" stroke-linecap="round"/>
+    </g>
+    <g filter="url(#f13-tokenShadow)">
+      <!-- 3. Sphere -->
+      <circle cx="29" cy="108" r="7.5" fill="url(#f13-tokenSphere)" stroke="#4D331B" stroke-width="1.15"/>
+    </g>
+    <g filter="url(#f13-tokenShadow)">
+      <!-- 4. Mini Oil-Jar Token -->
+      <path d="M 5,74 L 13,74 L 11.5,79 C 15.5,82 15.5,91 9,94 C 2.5,91 2.5,82 6.5,79 Z" fill="url(#f13-tokenCone)" stroke="#4D331B" stroke-width="1.15"/>
+      <line x1="5.5" y1="81" x2="12.5" y2="81" stroke="#6B4725" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- Card 2 Micro-callouts (clean zero-crossing leader lines) -->
+  <polyline class="leader" points="489,167 510,149 521,149"/>
+  <circle class="leader-dot" cx="489" cy="167" r="2"/>
+  <text class="annot" x="525" y="152">Thick clay shell</text>
+
+  <polyline class="leader" points="402,213 386,196 386,192"/>
+  <circle class="leader-dot" cx="402" cy="213" r="2"/>
+  <text class="annot" x="345" y="157">Clay tokens</text>
+  <text class="annot" x="345" y="169">(jar, cone,</text>
+  <text class="annot" x="345" y="181">disc, ball)</text>
+
+  <!-- Card 2 Caption -->
+  <text class="csub" x="480" y="287" text-anchor="middle">Clay tokens tracked sheep, oil jars, and grain,</text>
+  <text class="csub" x="480" y="303" text-anchor="middle">sealed inside a hollow clay ball (bulla)</text>
+  <text class="csub" x="480" y="319" text-anchor="middle">so nobody could secretly alter the count.</text>
+
+
+  <!-- ==================== CARD 3: CARVED STONE CYLINDER SEAL ==================== -->
+  <g filter="url(#f13-cardShadow)">
+    <rect class="card" x="642" y="83" width="294" height="258" rx="7"/>
+  </g>
+  <circle class="badge" cx="664" cy="106" r="11.5"/>
+  <text class="badge-txt" x="664" y="110" text-anchor="middle">3</text>
+  <text class="ctitle" x="684" y="105">Carved Stone Cylinder Seal</text>
+  <text class="cera" x="684" y="120">Signature Tool · from c. 3500 BCE</text>
+  <line x1="654" y1="130" x2="924" y2="130" stroke="#EDE4D5" stroke-width="1"/>
+
+  <!-- Artifact 3 Illustration: Perspective Wet Clay Ribbon + Rolling Dark Lapis Stone Cylinder -->
+  <g transform="translate(664, 146) scale(0.88)">
+    <!-- Soft ground shadow under clay ribbon -->
+    <ellipse cx="132" cy="103" rx="116" ry="12" fill="url(#f13-groundShadow)"/>
+
+    <!-- Damp clay ribbon in crisp 3/4 perspective -->
+    <g filter="url(#f13-objShadow)">
+      <!-- Front thickness edge of damp clay slab -->
+      <path d="M 8,92 L 222,92 C 228,92 232,89 235,84 L 254,58 L 254,67 L 235,93 C 231,98 227,100 220,100 L 11,100 C 8,100 6,98 6,94 Z" fill="url(#f13-clayRibbonFront)" stroke="#53371E" stroke-width="1.35"/>
+      <!-- Broad angled top face of wet clay ribbon -->
+      <path d="M 28,58 L 248,58 C 254,58 256,62 252,66 L 234,89 C 231,93 227,94 221,94 L 11,94 C 6,94 5,90 8,86 Z" fill="url(#f13-clayRibbonTop)" stroke="#53371E" stroke-width="1.45"/>
+    </g>
+    <!-- Subtle clay grain on ribbon -->
+    <path d="M 28,58 L 248,58 L 232,93 L 8,93 Z" fill="url(#f13-clayGrain)"/>
+
+    <!-- Slightly recessed rolled track behind cylinder with pushed-clay border beads -->
+    <path d="M 26,64 L 194,64 L 179,88 L 12,88 Z" fill="#C9A06E" opacity="0.5"/>
+    <line x1="26" y1="64" x2="194" y2="64" stroke="#7A522D" stroke-width="1.2" opacity="0.65"/>
+    <line x1="26" y1="65.2" x2="194" y2="65.2" stroke="#F8E7CA" stroke-width="0.9" opacity="0.7"/>
+    <line x1="12" y1="88" x2="179" y2="88" stroke="#7A522D" stroke-width="1.2" opacity="0.65"/>
+    <line x1="12" y1="89.2" x2="179" y2="89.2" stroke="#F8E7CA" stroke-width="0.9" opacity="0.7"/>
+    <!-- Subtle pushed wet-clay bead right ahead of the rolling stone -->
+    <path d="M 205,87 L 228,60" stroke="#F6E5C6" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 207,88 L 230,61" stroke="#855C34" stroke-width="1.1" stroke-linecap="round" opacity="0.45"/>
+
+    <!-- Dimensional RAISED RELIEF FRIEZE (3 repeating Sumerian scenes: reed hut, horned sheep, standing worker) -->
+    <!-- Shadow pass (shifted +0.9, +1.0) -->
+    <g transform="translate(0.9, 1.0)" stroke="#633F1E" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 24,84 L 27,70 C 31,67 36,67 39,70 L 38,84 M 26,75 L 38,75 M 27,70 L 25,67 M 39,70 L 42,67"/>
+      <path d="M 46,84 L 48,77 L 57,77 L 56,84 M 57,77 L 60,72 M 59,72 C 58,69 55,69 54,71"/>
+      <path d="M 67,84 L 70,75 L 72,84 M 70,75 L 72,69 M 66,73 L 76,72"/>
+      <path d="M 82,84 L 85,70 C 89,67 94,67 97,70 L 96,84 M 84,75 L 96,75 M 85,70 L 83,67 M 97,70 L 100,67"/>
+      <path d="M 104,84 L 106,77 L 115,77 L 114,84 M 115,77 L 118,72 M 117,72 C 116,69 113,69 112,71"/>
+      <path d="M 125,84 L 128,75 L 130,84 M 128,75 L 130,69 M 124,73 L 134,72"/>
+      <path d="M 140,84 L 143,70 C 147,67 152,67 155,70 L 154,84 M 142,75 L 154,75 M 143,70 L 141,67 M 155,70 L 158,67"/>
+      <path d="M 162,84 L 164,77 L 173,77 L 172,84 M 173,77 L 176,72 M 175,72 C 174,69 171,69 170,71"/>
+    </g>
+    <!-- Sunlit highlight pass (raised positive clay edge) -->
+    <g stroke="#F8E8CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 24,84 L 27,70 C 31,67 36,67 39,70 L 38,84 M 26,75 L 38,75 M 27,70 L 25,67 M 39,70 L 42,67"/>
+      <path d="M 46,84 L 48,77 L 57,77 L 56,84 M 57,77 L 60,72 M 59,72 C 58,69 55,69 54,71"/>
+      <path d="M 67,84 L 70,75 L 72,84 M 70,75 L 72,69 M 66,73 L 76,72"/>
+      <path d="M 82,84 L 85,70 C 89,67 94,67 97,70 L 96,84 M 84,75 L 96,75 M 85,70 L 83,67 M 97,70 L 100,67"/>
+      <path d="M 104,84 L 106,77 L 115,77 L 114,84 M 115,77 L 118,72 M 117,72 C 116,69 113,69 112,71"/>
+      <path d="M 125,84 L 128,75 L 130,84 M 128,75 L 130,69 M 124,73 L 134,72"/>
+      <path d="M 140,84 L 143,70 C 147,67 152,67 155,70 L 154,84 M 142,75 L 154,75 M 143,70 L 141,67 M 155,70 L 158,67"/>
+      <path d="M 162,84 L 164,77 L 173,77 L 172,84 M 173,77 L 176,72 M 175,72 C 174,69 171,69 170,71"/>
+    </g>
+
+    <!-- Contact shadow directly beneath the rolling stone cylinder -->
+    <path d="M 178,86 L 201,56 L 222,60 L 198,90 Z" fill="#3B2410" opacity="0.28"/>
+
+    <!-- Carved Dark Lapis / Steatite Stone Cylinder lying across the clay strip -->
+    <g filter="url(#f13-objShadow)">
+      <path d="M 183,42 L 205,15 C 216,12 229,21 229,34 C 229,40 227,45 224,49 L 202,77 C 194,81 178,72 178,56 C 178,50 180,46 183,42 Z" fill="url(#f13-lapisCyl)" stroke="#152330" stroke-width="1.5"/>
+      <path d="M 192,40 L 213,17" stroke="#A6CCE8" stroke-width="2.4" stroke-linecap="round" opacity="0.45"/>
+      <circle cx="198" cy="36" r="0.9" fill="#E8CE84" opacity="0.75"/>
+      <circle cx="211" cy="27" r="0.8" fill="#E8CE84" opacity="0.7"/>
+      <circle cx="204" cy="48" r="0.7" fill="#C4DCF0" opacity="0.65"/>
+
+      <!-- Carved intaglio (recessed) reed-hut & horned-animal frieze wrapping barrel -->
+      <g stroke="#111E2B" stroke-width="1.6" fill="none" stroke-linecap="round">
+        <path d="M 200,26 C 206,24 212,28 216,35 M 206,21 L 203,31 M 214,27 L 211,36"/>
+        <path d="M 191,37 L 200,34 L 207,40 L 204,47 M 196,42 L 205,39"/>
+      </g>
+      <g stroke="#9BC2E0" stroke-width="0.9" fill="none" stroke-linecap="round" opacity="0.85">
+        <path d="M 201,25 C 207,23 213,27 217,34 M 207,20 L 204,30 M 215,26 L 212,35"/>
+        <path d="M 192,36 L 201,33 L 208,39 L 205,46 M 197,41 L 206,38"/>
+      </g>
+
+      <!-- Front circular end-cap of stone cylinder -->
+      <ellipse cx="191" cy="60" rx="14.5" ry="18.5" transform="rotate(-14 191 60)" fill="url(#f13-lapisCap)" stroke="#152330" stroke-width="1.5"/>
+      <!-- Beveled inner ring & drilled central string hole -->
+      <ellipse cx="191" cy="60" rx="6.2" ry="7.6" transform="rotate(-14 191 60)" fill="#182A3B" stroke="#7AA4C9" stroke-width="0.8"/>
+      <ellipse cx="190" cy="60.5" rx="4.2" ry="5.4" transform="rotate(-14 190 60.5)" fill="#0B141D"/>
+    </g>
+
+    <!-- Directional curved roll arrow showing clockwise left-to-right roll -->
+    <path d="M 155,34 C 166,14 190,8 206,12" fill="none" stroke="#8F501B" stroke-width="2.1" stroke-linecap="round"/>
+    <polygon points="212,14 202,7 201,16" fill="#8F501B"/>
+  </g>
+
+  <!-- Card 3 Micro-callouts (all cleanly in open whitespace, zero overlaps) -->
+  <text class="annot" x="795" y="162" text-anchor="end">Roll across</text>
+  <text class="annot" x="795" y="174" text-anchor="end">wet clay</text>
+
+  <polyline class="leader" points="718,221 710,246"/>
+  <circle class="leader-dot" cx="718" cy="221" r="2"/>
+  <text class="annot" x="658" y="258">Raised clay relief</text>
+
+  <polyline class="leader" points="834,202 854,254 861,254"/>
+  <circle class="leader-dot" cx="834" cy="202" r="2"/>
+  <text class="annot" x="926" y="258" text-anchor="end">String hole</text>
+
+  <!-- Card 3 Caption -->
+  <text class="csub" x="789" y="287" text-anchor="middle">Carved stone cylinder rolled on wet clay</text>
+  <text class="csub" x="789" y="303" text-anchor="middle">to leave a continuous raised picture-signature</text>
+  <text class="csub" x="789" y="319" text-anchor="middle">that cracked visibly if tampered with.</text>
+
+
+  <!-- ==================== CARD 4: THE KUSHIM BARLEY LEDGER TABLET ==================== -->
+  <g filter="url(#f13-cardShadow)">
+    <rect class="card" x="24" y="357" width="448" height="261" rx="7"/>
+  </g>
+  <circle class="badge" cx="46" cy="380" r="11.5"/>
+  <text class="badge-txt" x="46" y="384" text-anchor="middle">4</text>
+  <text class="ctitle" x="66" y="379">The Kushim Barley Ledger Tablet</text>
+  <text class="cera" x="66" y="394">Early Uruk · c. 3100 BCE · Proto-Cuneiform</text>
+  <line x1="36" y1="404" x2="460" y2="404" stroke="#EDE4D5" stroke-width="1"/>
+
+  <!-- Artifact 4 Illustration: Sculpted Pillow-Shaped Clay Tablet with Deep Stylus Punches -->
+  <g transform="translate(48, 415) scale(0.95)">
+    <!-- Soft ground shadow -->
+    <ellipse cx="80" cy="166" rx="74" ry="9" fill="url(#f13-groundShadow)"/>
+
+    <!-- Plump hand-shaped pillow clay tablet body -->
+    <g filter="url(#f13-objShadow)">
+      <path d="M 22,4 C 58,0 100,0 136,4 C 151,6 156,14 157,30 C 160,64 160,104 157,138 C 156,154 149,161 134,163 C 98,167 60,167 24,163 C 9,161 3,153 2,138 C -1,104 -1,64 2,30 C 3,14 9,6 22,4 Z" fill="url(#f13-tabletFace)" stroke="#53381E" stroke-width="1.7"/>
+    </g>
+
+    <!-- Surface grain, pillow bevel lighting, and delicate drying cracks -->
+    <g clip-path="url(#f13-clipTablet)">
+      <rect x="-2" y="-2" width="164" height="172" fill="url(#f13-clayGrain)"/>
+      <path d="M 22,4 C 58,0 100,0 136,4 C 151,6 156,14 157,30 C 160,64 160,104 157,138 C 156,154 149,161 134,163 C 98,167 60,167 24,163 C 9,161 3,153 2,138 C -1,104 -1,64 2,30 C 3,14 9,6 22,4 Z" fill="url(#f13-tabletBevel)"/>
+      <path d="M 142,8 L 160,8 L 160,166 L 16,166 L 16,151 C 62,155 112,155 138,148 C 146,136 146,38 142,8 Z" fill="url(#f13-inkHatchFine)"/>
+      <path d="M 14,22 C 18,12 28,9 58,8" fill="none" stroke="#FCF3E0" stroke-width="2.2" stroke-linecap="round" opacity="0.6"/>
+      <!-- Delicate natural clay hairline cracks -->
+      <path d="M 155,18 L 143,24 L 138,23" fill="none" stroke="#6B4A2B" stroke-width="0.75" opacity="0.55"/>
+      <path d="M 3,132 L 13,128 L 17,130" fill="none" stroke="#6B4A2B" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 124,164 L 121,153" fill="none" stroke="#6B4A2B" stroke-width="0.7" opacity="0.45"/>
+    </g>
+
+    <!-- Recessed hand-drawn reed accounting grid lines -->
+    <g stroke-linecap="round">
+      <line x1="12" y1="58.5" x2="147" y2="57.5" stroke="#F7E8CD" stroke-width="1" opacity="0.65"/>
+      <line x1="12" y1="112.5" x2="147" y2="112" stroke="#F7E8CD" stroke-width="1" opacity="0.65"/>
+      <line x1="84.5" y1="13" x2="84.5" y2="111" stroke="#F7E8CD" stroke-width="1" opacity="0.65"/>
+      <line x1="12" y1="57" x2="147" y2="56" stroke="#634324" stroke-width="1.5"/>
+      <line x1="12" y1="111" x2="147" y2="110.5" stroke="#634324" stroke-width="1.5"/>
+      <line x1="83" y1="13" x2="83" y2="110.5" stroke="#634324" stroke-width="1.5"/>
+    </g>
+
+    <!-- CASE 1 (Top-Left): Large Barley Quantity — Deep Shadowed Crescent & Circular Stylus Punches -->
+    <g>
+      <g transform="translate(22, 23) rotate(-18)">
+        <path d="M 0,0 C 5,-3 12,-3 15,2 C 11,6 4,6 0,0 Z" fill="#4B2F16" stroke="#F4E3C5" stroke-width="0.6"/>
+        <path d="M 2,1 C 6,-1 10,-1 13,2 C 9,4.5 5,4 2,1 Z" fill="#78522E"/>
+      </g>
+      <g transform="translate(42, 21) rotate(-16)">
+        <path d="M 0,0 C 5,-3 12,-3 15,2 C 11,6 4,6 0,0 Z" fill="#4B2F16" stroke="#F4E3C5" stroke-width="0.6"/>
+        <path d="M 2,1 C 6,-1 10,-1 13,2 C 9,4.5 5,4 2,1 Z" fill="#78522E"/>
+      </g>
+      <g transform="translate(61, 20) rotate(-14)">
+        <path d="M 0,0 C 4.5,-2.5 11,-2.5 14,2 C 10,5.5 4,5.5 0,0 Z" fill="#4B2F16" stroke="#F4E3C5" stroke-width="0.6"/>
+        <path d="M 2,1 C 5.5,-1 9.5,-1 12,2 C 8.5,4 5,3.5 2,1 Z" fill="#78522E"/>
+      </g>
+      <g>
+        <circle cx="27" cy="41" r="5.2" fill="#462C14" stroke="#F4E3C5" stroke-width="0.6"/>
+        <circle cx="28.3" cy="42.2" r="3.4" fill="#795430"/>
+        <circle cx="44" cy="41" r="5.2" fill="#462C14" stroke="#F4E3C5" stroke-width="0.6"/>
+        <circle cx="45.3" cy="42.2" r="3.4" fill="#795430"/>
+        <circle cx="61" cy="41" r="5.2" fill="#462C14" stroke="#F4E3C5" stroke-width="0.6"/>
+        <circle cx="62.3" cy="42.2" r="3.4" fill="#795430"/>
+        <circle cx="74" cy="42" r="3.3" fill="#462C14" stroke="#F4E3C5" stroke-width="0.5"/>
+        <circle cx="74.8" cy="42.8" r="2" fill="#795430"/>
+      </g>
+    </g>
+
+    <!-- CASE 2 (Top-Right): Barley Stalk Pictograph (ŠE) -->
+    <g>
+      <g transform="translate(0.9, 0.9)" stroke="#F6E6CA" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.65">
+        <path d="M 96,46 L 134,20"/>
+        <path d="M 102,42 L 99,28 M 110,36 L 107,23 M 118,30 L 116,19 M 126,25 L 125,16"/>
+        <path d="M 105,40 L 118,43 M 113,34 L 126,37 M 121,28 L 134,30"/>
+      </g>
+      <path d="M 96,46 L 134,20" stroke="#4D3117" stroke-width="2.1" stroke-linecap="round"/>
+      <g fill="#4A2E15">
+        <polygon points="99,27 104,31 102,41"/>
+        <polygon points="107,22 112,26 110,35"/>
+        <polygon points="116,18 120,22 118,29"/>
+        <polygon points="120,44 115,39 105,40"/>
+        <polygon points="128,38 123,33 113,34"/>
+        <polygon points="135,31 130,27 121,28"/>
+      </g>
+    </g>
+
+    <!-- CASE 3 (Middle-Left): 37 Months Count -->
+    <g>
+      <circle cx="25" cy="74" r="5" fill="#462C14" stroke="#F4E3C5" stroke-width="0.55"/>
+      <circle cx="26.2" cy="75.1" r="3.2" fill="#78532F"/>
+      <circle cx="43" cy="74" r="5" fill="#462C14" stroke="#F4E3C5" stroke-width="0.55"/>
+      <circle cx="44.2" cy="75.1" r="3.2" fill="#78532F"/>
+      <circle cx="61" cy="74" r="5" fill="#462C14" stroke="#F4E3C5" stroke-width="0.55"/>
+      <circle cx="62.2" cy="75.1" r="3.2" fill="#78532F"/>
+      <g fill="#4B2F16">
+        <polygon points="19,90 25,88 22,100"/>
+        <polygon points="28,90 34,88 31,100"/>
+        <polygon points="37,90 43,88 40,100"/>
+        <polygon points="46,90 52,88 49,100"/>
+        <polygon points="55,90 61,88 58,100"/>
+        <polygon points="64,90 70,88 67,100"/>
+        <polygon points="72,90 78,88 75,100"/>
+      </g>
+    </g>
+
+    <!-- CASE 4 (Middle-Right): Beer Brewing Vessel Sign (KAŠ) -->
+    <g>
+      <g transform="translate(0.9, 0.9)" stroke="#F6E6CA" stroke-width="1.3" fill="none" opacity="0.65">
+        <path d="M 100,72 L 130,72 L 124,99 L 106,99 Z M 95,78 L 135,78 M 104,86 L 126,86 M 115,72 L 115,99"/>
+      </g>
+      <path d="M 100,72 L 130,72 L 124,99 L 106,99 Z M 95,78 L 135,78 M 104,86 L 126,86 M 115,72 L 115,99" fill="none" stroke="#4D3117" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+
+    <!-- BOTTOM REGISTER: "Kushim" Proto-Cuneiform Signature Cluster -->
+    <g>
+      <g transform="translate(0.9, 0.9)" stroke="#F6E6CA" stroke-width="1.2" fill="none" opacity="0.6">
+        <path d="M 24,132 L 56,132 M 26,144 L 54,144 M 34,124 L 34,151 M 46,124 L 46,151"/>
+        <path d="M 74,127 L 108,127 M 74,146 L 108,146 M 88,122 L 88,151"/>
+      </g>
+      <g fill="#4A2E15">
+        <polygon points="22,132 32,128 32,136"/>
+        <polygon points="24,144 34,140 34,148"/>
+        <polygon points="118,130 132,125 130,135"/>
+        <polygon points="118,144 134,139 132,149"/>
+        <polygon points="135,137 146,132 146,142"/>
+      </g>
+      <path d="M 28,132 L 56,132 M 28,144 L 54,144 M 36,124 L 36,151 M 48,124 L 48,151" fill="none" stroke="#4D3117" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="M 74,127 L 108,127 M 74,146 L 108,146 M 88,122 L 88,151 M 78,136 L 102,136" fill="none" stroke="#4D3117" stroke-width="1.9" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Crisp 2-line specimen caption cleanly centered beneath tablet -->
+  <text class="annot" x="124" y="593" text-anchor="middle">Reed-stylus punches</text>
+  <text class="annot" x="124" y="606" text-anchor="middle">&amp; incised pictographs</text>
+
+  <!-- Card 4 Right Panel: Grounded Quote + Proportion Bar -->
+  <text class="sec-head" x="222" y="426">Multi-Year Brewery Audit</text>
+
+  <!-- Quote Callout Box -->
+  <rect x="222" y="435" width="236" height="62" rx="5" fill="#FAF2E2" stroke="#D8BA8B" stroke-width="1.15"/>
+  <rect x="222" y="435" width="4.5" height="62" rx="2" fill="#9A5820"/>
+  <text class="quote" x="235" y="454">"29,086 measures of barley</text>
+  <text class="quote" x="235" y="470">received over 37 months,</text>
+  <text class="quote" x="235" y="486">signed Kushim."</text>
+
+  <!-- Data Breakdown Mini-Chart (~5,000 Uruk Tablets) -->
+  <text class="csub-bold" x="222" y="516">What ~5,000 early Uruk tablets record:</text>
+  <rect x="222" y="524" width="206" height="16" rx="3" fill="url(#f13-barMain)"/>
+  <rect x="430" y="524" width="28" height="16" rx="3" fill="url(#f13-barLex)"/>
+  <text class="bar-pct" x="325" y="535.5" text-anchor="middle">85–90% Economic Ledgers</text>
+
+  <!-- Two crisp legend items -->
+  <rect x="222" y="551" width="9" height="9" rx="2" fill="#B06B2E"/>
+  <text class="csub" x="236" y="559">85–90%: barley, beer, herds, land,</text>
+  <text class="csub" x="236" y="573">and temple worker rosters.</text>
+
+  <rect x="222" y="586" width="9" height="9" rx="2" fill="#5D7285"/>
+  <text class="csub" x="236" y="594">10–15%: lexical lists (word-lists</text>
+  <text class="csub" x="236" y="608">copied by student scribes).</text>
+
+
+  <!-- ==================== CARD 5: TAMPER-PROOF CLAY CONTRACT ENVELOPE ==================== -->
+  <g filter="url(#f13-cardShadow)">
+    <rect class="card" x="488" y="357" width="448" height="261" rx="7"/>
+  </g>
+  <circle class="badge" cx="510" cy="380" r="11.5"/>
+  <text class="badge-txt" x="510" y="384" text-anchor="middle">5</text>
+  <text class="ctitle" x="530" y="379">Tamper-Proof Clay Contract Envelope</text>
+  <text class="cera" x="530" y="394">Ur &amp; Babylon · c. 2100–1700 BCE</text>
+  <line x1="500" y1="404" x2="924" y2="404" stroke="#EDE4D5" stroke-width="1"/>
+
+  <!-- Artifact 5 Illustration: Fractured Outer Clay Shell Revealing Pristine Inner Tablet -->
+  <g transform="translate(504, 434) scale(0.91)">
+    <!-- Soft grounded drop shadows under envelope, tablet, and fallen shards -->
+    <ellipse cx="70" cy="144" rx="64" ry="10" fill="url(#f13-groundShadow)"/>
+    <ellipse cx="152" cy="133" rx="48" ry="9" fill="url(#f13-groundShadow)"/>
+    <ellipse cx="114" cy="156" rx="16" ry="4" fill="url(#f13-groundShadow)"/>
+
+    <!-- Back interior wall of cracked outer envelope (shadowed hollow cavity) -->
+    <path d="M 88,12 L 122,13 L 128,133 L 88,136 Z" fill="url(#f13-envHollow)" stroke="#472D15" stroke-width="1.3"/>
+
+    <!-- PRISTINE BAKED INNER TABLET sliding smoothly out to the right -->
+    <g filter="url(#f13-objShadow)">
+      <path d="M 104,24 C 132,21 168,21 190,24 C 199,25 203,32 204,44 C 206,68 206,92 204,112 C 203,122 198,128 189,129 C 166,132 132,132 104,129 C 96,128 92,121 92,110 L 92,42 C 92,31 96,25 104,24 Z" fill="url(#f13-innerTablet)" stroke="#53381E" stroke-width="1.6"/>
+      <path d="M 110,27 C 138,25 170,25 190,28" fill="none" stroke="#FFFDF8" stroke-width="1.4" opacity="0.7"/>
+
+      <!-- Fine horizontal ruled register lines on inner tablet -->
+      <g stroke="#C2A076" stroke-width="0.65" opacity="0.7">
+        <line x1="118" y1="47" x2="193" y2="47"/>
+        <line x1="118" y1="63" x2="193" y2="63"/>
+        <line x1="118" y1="79" x2="193" y2="79"/>
+        <line x1="118" y1="95" x2="193" y2="95"/>
+      </g>
+
+      <!-- Delicate authentic Ur III cuneiform wedge clusters (small triangular heads + fine tails + vertical/corner wedges) -->
+      <g fill="#472D15">
+        <!-- Row 1 -->
+        <polygon points="122,36 126,38.5 122,41 132,38.5"/>
+        <polygon points="134,34 138,34 136,43"/>
+        <polygon points="141,37 145,35 144,41"/>
+        <polygon points="148,36 152,38.5 148,41 157,38.5"/>
+        <polygon points="160,34 164,34 162,43"/>
+        <polygon points="165,34 169,34 167,43"/>
+        <polygon points="172,36 176,38.5 172,41 183,38.5"/>
+        <polygon points="186,34 190,34 188,43"/>
+        <!-- Row 2 -->
+        <polygon points="122,52 126,54.5 122,57 131,54.5"/>
+        <polygon points="133,52 137,54.5 133,57 141,54.5"/>
+        <polygon points="144,50 148,50 146,59"/>
+        <polygon points="151,53 155,51 154,57"/>
+        <polygon points="157,53 161,51 160,57"/>
+        <polygon points="165,52 169,54.5 165,57 177,54.5"/>
+        <polygon points="180,50 184,50 182,59"/>
+        <polygon points="185,52 189,54.5 185,57 192,54.5"/>
+        <!-- Row 3 -->
+        <polygon points="122,67 126,67 124,76"/>
+        <polygon points="128,68 132,70.5 128,73 140,70.5"/>
+        <polygon points="143,69 147,67 146,73"/>
+        <polygon points="150,67 154,67 152,76"/>
+        <polygon points="155,67 159,67 157,76"/>
+        <polygon points="163,68 167,70.5 163,73 174,70.5"/>
+        <polygon points="177,67 181,67 179,76"/>
+        <polygon points="183,69 188,67 187,73"/>
+        <!-- Row 4 -->
+        <polygon points="122,84 126,86.5 122,89 135,86.5"/>
+        <polygon points="138,83 142,83 140,91"/>
+        <polygon points="145,84 149,86.5 145,89 156,86.5"/>
+        <polygon points="159,85 163,83 162,89"/>
+        <polygon points="166,84 170,86.5 166,89 178,86.5"/>
+        <!-- Row 5 (Witness / Total line) -->
+        <polygon points="122,102 126,104.5 122,107 132,104.5"/>
+        <polygon points="135,100 139,100 137,109"/>
+        <polygon points="142,102 146,104.5 142,107 155,104.5"/>
+        <polygon points="158,100 162,100 160,109"/>
+        <polygon points="165,103 169,101 168,107"/>
+      </g>
+    </g>
+
+    <!-- Cast shadow from broken outer clay shell onto the inner tablet -->
+    <path d="M 116,16 L 106,33 L 118,52 L 104,74 L 117,98 L 105,121 L 113,131 L 122,128 L 114,119 L 125,97 L 112,73 L 126,51 L 115,32 L 122,19 Z" fill="#3B2310" opacity="0.28"/>
+
+    <!-- DRAMATIC BROKEN OUTER CLAY ENVELOPE SHELL (Front & Left) -->
+    <g filter="url(#f13-objShadow)">
+      <!-- Thick pale broken cross-section wall along jagged fracture -->
+      <path d="M 116,11 L 122,15 L 112,34 L 124,53 L 110,75 L 123,99 L 111,122 L 119,136 L 114,136 L 105,121 L 117,98 L 104,74 L 118,52 L 106,33 Z" fill="url(#f13-bullaBreak)" stroke="#52361D" stroke-width="1.2"/>
+      <!-- Main curved outer envelope shell -->
+      <path d="M 14,12 C 46,9 84,9 116,11 L 106,33 L 118,52 L 104,74 L 117,98 L 105,121 L 114,136 C 82,139 44,139 14,136 C 4,135 0,127 0,117 L 0,30 C 0,20 4,13 14,12 Z" fill="url(#f13-envOuter)" stroke="#4C3118" stroke-width="1.6"/>
+    </g>
+
+    <!-- Texture, witness seal bands, and summary lines clipped to outer envelope -->
+    <g clip-path="url(#f13-clipEnvOuter)">
+      <rect x="-2" y="8" width="124" height="132" fill="url(#f13-clayGrain)"/>
+      <path d="M 0,114 C 34,124 76,125 114,122 L 118,140 L 0,140 Z" fill="url(#f13-inkHatchFine)"/>
+
+      <!-- Top Witness Cylinder-Seal Rolled Relief Band -->
+      <rect x="6" y="21" width="106" height="20" fill="#B68A59" opacity="0.55"/>
+      <line x1="6" y1="21" x2="112" y2="21" stroke="#6E4927" stroke-width="1"/>
+      <line x1="6" y1="41" x2="112" y2="41" stroke="#6E4927" stroke-width="1"/>
+      <g stroke="#F6E5C6" stroke-width="1.15" fill="none" stroke-linecap="round">
+        <path d="M 14,37 L 16,26 C 19,24 23,24 25,26 L 25,37 M 32,37 L 35,30 L 42,30 L 41,37"/>
+        <path d="M 52,37 L 54,26 C 57,24 61,24 63,26 L 63,37 M 70,37 L 73,30 L 80,30 L 79,37"/>
+        <path d="M 90,37 L 92,26 C 95,24 99,24 101,26 L 101,37"/>
+      </g>
+      <g transform="translate(0.7,0.8)" stroke="#623F1F" stroke-width="0.9" fill="none" stroke-linecap="round" opacity="0.8">
+        <path d="M 14,37 L 16,26 C 19,24 23,24 25,26 L 25,37 M 32,37 L 35,30 L 42,30 L 41,37"/>
+        <path d="M 52,37 L 54,26 C 57,24 61,24 63,26 L 63,37 M 70,37 L 73,30 L 80,30 L 79,37"/>
+        <path d="M 90,37 L 92,26 C 95,24 99,24 101,26 L 101,37"/>
+      </g>
+
+      <!-- Middle Contract Summary Wedge Lines -->
+      <g fill="#5B3B1E">
+        <polygon points="14,54 18,56.5 14,59 26,56.5"/>
+        <polygon points="29,52 33,52 31,61"/>
+        <polygon points="36,54 40,56.5 36,59 50,56.5"/>
+        <polygon points="53,52 57,52 55,61"/>
+        <polygon points="60,54 64,56.5 60,59 74,56.5"/>
+        <polygon points="77,54 81,56.5 77,59 89,56.5"/>
+
+        <polygon points="14,68 18,70.5 14,73 28,70.5"/>
+        <polygon points="31,68 35,70.5 31,73 43,70.5"/>
+        <polygon points="46,66 50,66 48,75"/>
+        <polygon points="53,68 57,70.5 53,73 67,70.5"/>
+        <polygon points="70,66 74,66 72,75"/>
+        <polygon points="77,68 81,70.5 77,73 86,70.5"/>
+
+        <polygon points="14,82 18,84.5 14,87 24,84.5"/>
+        <polygon points="27,80 31,80 29,89"/>
+        <polygon points="34,82 38,84.5 34,87 48,84.5"/>
+        <polygon points="51,82 55,84.5 51,87 64,84.5"/>
+        <polygon points="67,80 71,80 69,89"/>
+      </g>
+
+      <!-- Bottom Witness Cylinder-Seal Rolled Relief Band -->
+      <rect x="6" y="102" width="106" height="20" fill="#B68A59" opacity="0.55"/>
+      <line x1="6" y1="102" x2="112" y2="102" stroke="#6E4927" stroke-width="1"/>
+      <line x1="6" y1="122" x2="112" y2="122" stroke="#6E4927" stroke-width="1"/>
+      <g stroke="#F6E5C6" stroke-width="1.15" fill="none" stroke-linecap="round">
+        <path d="M 14,118 L 16,107 C 19,105 23,105 25,107 L 25,118 M 32,118 L 35,111 L 42,111 L 41,118"/>
+        <path d="M 52,118 L 54,107 C 57,105 61,105 63,107 L 63,118 M 70,118 L 73,111 L 80,111 L 79,118"/>
+        <path d="M 90,118 L 92,107 C 95,105 99,105 101,107 L 101,118"/>
+      </g>
+      <g transform="translate(0.7,0.8)" stroke="#623F1F" stroke-width="0.9" fill="none" stroke-linecap="round" opacity="0.8">
+        <path d="M 14,118 L 16,107 C 19,105 23,105 25,107 L 25,118 M 32,118 L 35,111 L 42,111 L 41,118"/>
+        <path d="M 52,118 L 54,107 C 57,105 61,105 63,107 L 63,118 M 70,118 L 73,111 L 80,111 L 79,118"/>
+        <path d="M 90,118 L 92,107 C 95,105 99,105 101,107 L 101,118"/>
+      </g>
+    </g>
+
+    <!-- Two fractured outer-shell clay shards fallen below the crack -->
+    <g filter="url(#f13-tokenShadow)">
+      <polygon points="99,149 122,144 115,157 102,155" fill="url(#f13-envOuter)" stroke="#4C3118" stroke-width="1.2"/>
+      <polyline points="99,149 122,144" stroke="#F2E0C4" stroke-width="1.6"/>
+      <polygon points="128,151 141,148 137,157" fill="url(#f13-bullaBreak)" stroke="#4C3118" stroke-width="1.1"/>
+    </g>
+
+    <!-- Subtle slide arrow showing inner tablet emerging -->
+    <path d="M 162,10 L 188,10" stroke="#8F501B" stroke-width="1.8" stroke-linecap="round"/>
+    <polygon points="193,10 185,6.5 185,13.5" fill="#8F501B"/>
+  </g>
+
+  <!-- Card 5 Micro-callouts (generously separated, zero overlaps!) -->
+  <polyline class="leader" points="548,448 548,434"/>
+  <circle class="leader-dot" cx="548" cy="448" r="2"/>
+  <text class="annot" x="504" y="427">Cracked outer shell</text>
+
+  <polyline class="leader" points="544,538 544,588"/>
+  <circle class="leader-dot" cx="544" cy="538" r="2"/>
+  <text class="annot" x="504" y="601">Witness seal band</text>
+
+  <polyline class="leader" points="660,548 660,581"/>
+  <circle class="leader-dot" cx="660" cy="548" r="2"/>
+  <text class="annot" x="696" y="593" text-anchor="end">Unaltered</text>
+  <text class="annot" x="696" y="606" text-anchor="end">inner tablet</text>
+
+  <!-- Card 5 Right Panel: Clear 3-Step Court Verification -->
+  <text class="sec-head" x="710" y="426">How Court Proof Worked</text>
+
+  <circle cx="718" cy="446" r="8" fill="#8F501B"/>
+  <text class="step-num" x="718" y="449.5" text-anchor="middle">1</text>
+  <text class="csub" x="732" y="445">Scribe writes contract on</text>
+  <text class="csub" x="732" y="458">inner tablet and dries it.</text>
+
+  <circle cx="718" cy="479" r="8" fill="#8F501B"/>
+  <text class="step-num" x="718" y="482.5" text-anchor="middle">2</text>
+  <text class="csub" x="732" y="478">Wraps it in a thin clay</text>
+  <text class="csub" x="732" y="491">envelope with a summary.</text>
+
+  <circle cx="718" cy="512" r="8" fill="#8F501B"/>
+  <text class="step-num" x="718" y="515.5" text-anchor="middle">3</text>
+  <text class="csub" x="732" y="511">Witnesses roll cylinder</text>
+  <text class="csub" x="732" y="524">seals on the outer clay.</text>
+
+  <!-- Court Dispute Callout Box (complete 4-line text, comfortable right margin) -->
+  <rect x="710" y="537" width="212" height="71" rx="5" fill="#FAF2E2" stroke="#D8BA8B" stroke-width="1.15"/>
+  <rect x="710" y="537" width="4.5" height="71" rx="2" fill="#9A5820"/>
+  <text class="csub-bold" x="722" y="554">If a dispute reached court:</text>
+  <text class="csub" x="722" y="570">Judges cracked the outer</text>
+  <text class="csub" x="722" y="584">shell to read the unaltered</text>
+  <text class="csub" x="722" y="598">inner tablet inside.</text>
+</svg>

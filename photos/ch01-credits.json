@@ -1,0 +1,113 @@
+{
+  "chapter": "ch01",
+  "photos": [
+    {
+      "id": "p1-1a",
+      "group": "strip-1",
+      "section": 1,
+      "after_paragraph": 8,
+      "filename": "ch01-euphrates-space.jpg",
+      "title": "The Euphrates River From Space",
+      "caption": "Dark green irrigated farms hug the riverbanks while dry tan desert begins just past the canals.",
+      "credit": "NASA ISS Expedition 67 (Public Domain)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ISS067-E-169827_-_View_of_Earth_-_Euphrates_River_-_desert_structures_(cropped).jpg"
+    },
+    {
+      "id": "p1-1b",
+      "group": "strip-1",
+      "section": 1,
+      "after_paragraph": 8,
+      "filename": "ch01-ripe-barley.jpg",
+      "title": "Close-Up of a Barley Stalk",
+      "caption": "Each bristled head packs rows of barley seeds—irrigated Sumerian plots harvested 15 to 30 grains per seed planted.",
+      "credit": "Wikimedia Commons (CC BY-SA 2.0)",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Horedum_vulgare_(3819801744).jpg"
+    },
+    {
+      "id": "p1-2a",
+      "group": "strip-2",
+      "section": 2,
+      "after_paragraph": 8,
+      "filename": "ch01-beveled-rim-bowl.jpg",
+      "title": "Real Beveled-Rim Bowl (c. 3200–3000 BCE)",
+      "caption": "Coarse, mold-pressed clay (~0.8–1 liter); thousands were discarded near early Mesopotamian temples and canals over 5,000 years ago.",
+      "credit": "British Museum / Wikimedia Commons (CC0)",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:British_Museum_Middle_east_14022019_Beveled_rim_bowl_Nineveh_Late_Uruk_Period_3672.jpg"
+    },
+    {
+      "id": "p1-2b",
+      "group": "strip-2",
+      "section": 2,
+      "after_paragraph": 8,
+      "filename": "ch01-barley-tablet.jpg",
+      "title": "Proto-Cuneiform Barley & Malt Tablet (c. 3100 BCE)",
+      "caption": "Pressed reed circles and wedges track malted barley and groats on sun-dried river clay—more than 5,000 years ago.",
+      "credit": "Metropolitan Museum of Art Open Access (CC0)",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet-_administrative_account_with_entries_concerning_malt_and_barley_groats_MET_DP293245.jpg"
+    },
+    {
+      "id": "p1-3a",
+      "group": "strip-3",
+      "section": 3,
+      "after_paragraph": 2,
+      "filename": "ch01-ziggurat-ur.jpg",
+      "title": "The Real Ziggurat of Ur Today",
+      "caption": "Notice the sloped buttressed baked-brick walls, small dark square weep-holes on the left, and tiny visitors on top for scale.",
+      "credit": "Wikimedia Commons (CC BY 3.0)",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg"
+    },
+    {
+      "id": "p1-3b",
+      "group": "strip-3",
+      "section": 3,
+      "after_paragraph": 2,
+      "filename": "ch01-euphrates-ground.jpg",
+      "title": "Date Palms Along the Euphrates",
+      "caption": "Southern banks offered mud, marsh reeds, and spongy date palms—almost no building stone or strong roof timber.",
+      "credit": "Wikimedia Commons (Public Domain)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Euphrates_River.jpg"
+    },
+    {
+      "id": "p1-4a",
+      "group": "strip-4",
+      "section": 3,
+      "after_paragraph": 8,
+      "filename": "ch01-lapis-lazuli.jpg",
+      "title": "Raw Afghan Lapis Lazuli Stone",
+      "caption": "Deep-blue stone from Afghanistan imported by Sumerian traders and paid for with exported woven wool cloth.",
+      "credit": "James St. John / Wikimedia Commons (CC BY 2.0)",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lapis_lazuli_(lazuritic_metamorphite)_(Sar-e-Sang_Deposit,_Sakhi_Formation,_Precambrian,_2.4-2.7_Ga_(%3F);_Sar-e-Sang_Mining_District,_Hindu-Kush_Mountains,_Afghanistan)_15.jpg"
+    },
+    {
+      "id": "p1-4b",
+      "group": "strip-4",
+      "section": 3,
+      "after_paragraph": 8,
+      "filename": "ch01-clay-envelope.jpg",
+      "title": "Sealed Clay Contract Envelope (c. 2100–2000 BCE)",
+      "caption": "Witnesses rolled a stone cylinder seal across this wet outer clay shell—about 4,000 years ago—to lock the contract tablet sealed inside.",
+      "credit": "Harvard Semitic Museum / Wikimedia Commons (Public Domain)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_in_envelope_with_cylinder_seal_impressions,_Ur_III_Period,_c._2100-2000_BC_-_Harvard_Semitic_Museum_-_Cambridge,_MA_-_DSC06154.jpg"
+    },
+    {
+      "id": "p1-5a",
+      "group": "card-5",
+      "section": 4,
+      "after_paragraph": 3,
+      "filename": "ch01-salt-crust-soil.jpg",
+      "title": "White Mineral Salt Wicking Out of Soil",
+      "caption": "When fierce heat evaporates trapped salty groundwater, white mineral salt crusts the topsoil—and even climbs halfway up a dry wooden fence post like water wicking into a sponge.",
+      "credit": "USDA / Wikimedia Commons (Public Domain)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Salinity.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "introduced_concepts": [
+    {
+      "chapter": "ch01",
+      "term": "surplus",
+      "definition": "Extra food grown beyond what farming families need to stay alive, allowing a society to feed full-time weavers, builders, metalworkers, and scribes."
+    },
+    {
+      "chapter": "ch01",
+      "term": "politics",
+      "definition": "How a large group of people who are not all one family decides who gets to make shared rules, divide up scarce things like water and grain, and make sure everyone follows those rules."
+    },
+    {
+      "chapter": "ch01",
+      "term": "tax",
+      "definition": "A required share of a household's harvest or yearly workdays handed over so shared projects like flood dikes, canals, and public storehouses keep running."
+    },
+    {
+      "chapter": "ch01",
+      "term": "ledger",
+      "definition": "A written running record that tracks what came in, what went out, and who owes what across months and years so managers do not rely on memory."
+    },
+    {
+      "chapter": "ch01",
+      "term": "contract",
+      "definition": "A written, witness-sealed agreement that a court can check and back up if a dispute breaks out later."
+    }
+  ]
+}

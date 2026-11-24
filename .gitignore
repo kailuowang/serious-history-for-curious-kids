@@ -1,0 +1,35 @@
+# Strict allowlist: ignore VM/home dotfiles and uploads by default
+/*
+
+# Core repo metadata & agent instructions
+!.gitignore
+!README.md
+!AGENTS.md
+
+# Authoring rules & skills
+!.agents/
+!.agents/**
+
+# Book project directories
+!syllabus/
+!syllabus/**
+!ledger/
+!ledger/**
+!sources/
+!sources/**
+!research/
+!research/**
+!manuscript/
+!manuscript/**
+!diagrams/
+!diagrams/**
+!photos/
+!photos/**
+!build/
+!build/**
+
+# OS & editor clutter anywhere
+**/.DS_Store
+**/Thumbs.db
+*.tmp
+*.swp

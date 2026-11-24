@@ -1,0 +1,22 @@
+flowchart TD
+    River["Raised Tigris & Euphrates<br/>(Natural Silt Levees)"]
+    Fields["Irrigated Barley Fields<br/>(Seeder Plow: 1:15 to 1:30 Yield)"]
+    Granary["Temple Granary & Clay Ledgers<br/>(e.g., Kushim: 29,086 Measures / 37 Mo)"]
+    Households["Free Farming Households<br/>(Uruk: ~40,000 Residents)"]
+    Works["Canals, Flood Dikes & Ziggurat<br/>(Dredging, Dike Repair, Brickmaking)"]
+    Weavers["Wool Textile Workshops<br/>(Hundreds of Women Weavers)"]
+    Traders["Foreign Traders"]
+    Imports["Missing Raw Materials<br/>(Cedar, Omani Copper, Afghan Lapis)"]
+    Salt["Salt Crust in Topsoil<br/>(Wheat Drops 16% to Under 2%)"]
+
+    River -->|"Autumn water by gravity (Sep-Oct)"| Fields
+    Fields -->|"Barley surplus & harvest share (tax)"| Granary
+    Fields -->|"Poor drainage + 45°C evaporation"| Salt
+    Salt -.->|"Slowly shrinks southern grain harvests"| Fields
+    Households -->|"15-30 days/year work shifts (labor tax)"| Works
+    Works -->|"Keeps April-May floods out & canals open"| River
+    Granary -->|"Daily bowls (0.8-1 L) & monthly rations (60 L/mo)"| Works
+    Granary -->|"Monthly rations (30-40 L barley/mo + oil & wool)"| Weavers
+    Weavers -->|"Exported woven wool cloth"| Traders
+    Traders -->|"Paid in wool cloth"| Imports
+    Imports -->|"Roof beams & metal tools"| Works

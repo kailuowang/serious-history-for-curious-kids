@@ -1,0 +1,775 @@
+<svg id="fig1-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="960" height="720" role="img" aria-label="Figure 1.2: Raised Mud Levees, Gravity Canal, and the Sumerian Seeder Plow">
+  <defs>
+    <!-- ==================== ARROW MARKERS ==================== -->
+    <marker id="f12-arrow-blue" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0.5 1.2 L 9 5 L 0.5 8.8 L 2.2 5 Z" fill="#175D80"/>
+    </marker>
+    <marker id="f12-arrow-ink" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.1 5 Z" fill="#3B2E24"/>
+    </marker>
+    <marker id="f12-arrow-gold" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.1 5 Z" fill="#8C5114"/>
+    </marker>
+    <marker id="f12-dot-ink" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="4.5" markerHeight="4.5">
+      <circle cx="4" cy="4" r="2.6" fill="#4A3C31"/>
+    </marker>
+
+    <!-- ==================== SOFT DROP SHADOW FILTERS ==================== -->
+    <filter id="f12-soft-shadow" x="-6%" y="-6%" width="114%" height="116%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#3B2E24" flood-opacity="0.11"/>
+    </filter>
+    <filter id="f12-pill-shadow" x="-8%" y="-12%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.4" flood-color="#2B211A" flood-opacity="0.14"/>
+    </filter>
+
+    <!-- ==================== CLIP PATHS ==================== -->
+    <clipPath id="f12-clip-panel-a">
+      <rect x="36" y="102" width="888" height="256" rx="4"/>
+    </clipPath>
+    <clipPath id="f12-clip-panel-b-left">
+      <rect x="36" y="426" width="540" height="262" rx="5"/>
+    </clipPath>
+
+    <!-- ==================== GRADIENTS: PAPER & SKIES ==================== -->
+    <linearGradient id="f12-paper-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF9F2"/>
+      <stop offset="100%" stop-color="#F6F0E4"/>
+    </linearGradient>
+    <linearGradient id="f12-sky-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DCEBF0"/>
+      <stop offset="52%" stop-color="#EEF4F0"/>
+      <stop offset="100%" stop-color="#FAF4E6"/>
+    </linearGradient>
+    <linearGradient id="f12-sky-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EBF2EC"/>
+      <stop offset="58%" stop-color="#F7F3E7"/>
+      <stop offset="100%" stop-color="#FBF3E0"/>
+    </linearGradient>
+
+    <!-- ==================== GRADIENTS: SOIL STRATA & LEVEE ==================== -->
+    <linearGradient id="f12-stratum-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DFC498"/>
+      <stop offset="100%" stop-color="#CCA979"/>
+    </linearGradient>
+    <linearGradient id="f12-stratum-mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C6A070"/>
+      <stop offset="100%" stop-color="#B0895A"/>
+    </linearGradient>
+    <linearGradient id="f12-stratum-low" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A88257"/>
+      <stop offset="100%" stop-color="#8F6B44"/>
+    </linearGradient>
+    <linearGradient id="f12-stratum-deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A6947"/>
+      <stop offset="100%" stop-color="#705234"/>
+    </linearGradient>
+    <linearGradient id="f12-dike-mud" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#AF8559"/>
+      <stop offset="55%" stop-color="#966C43"/>
+      <stop offset="100%" stop-color="#7B5633"/>
+    </linearGradient>
+    <linearGradient id="f12-soil-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C7A172"/>
+      <stop offset="35%" stop-color="#B1895B"/>
+      <stop offset="100%" stop-color="#8F6A43"/>
+    </linearGradient>
+    <linearGradient id="f12-furrow-soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6A4A2A"/>
+      <stop offset="100%" stop-color="#87613B"/>
+    </linearGradient>
+
+    <!-- ==================== GRADIENTS: WATER ==================== -->
+    <linearGradient id="f12-river-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7AC0DB"/>
+      <stop offset="45%" stop-color="#4A95B8"/>
+      <stop offset="88%" stop-color="#2F7294"/>
+      <stop offset="100%" stop-color="#2B627E"/>
+    </linearGradient>
+    <linearGradient id="f12-flood-surge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5AA5C7" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#3E88AD" stop-opacity="0.40"/>
+    </linearGradient>
+    <linearGradient id="f12-canal-water" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0%" stop-color="#55A2C6"/>
+      <stop offset="50%" stop-color="#4B97BC"/>
+      <stop offset="100%" stop-color="#6BB3D3"/>
+    </linearGradient>
+    <linearGradient id="f12-riverbed-silt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#AE8E63"/>
+      <stop offset="100%" stop-color="#8D6E48"/>
+    </linearGradient>
+
+    <!-- ==================== GRADIENTS: OX, WOOD & BARLEY ==================== -->
+    <linearGradient id="f12-ox-coat" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#BD8656"/>
+      <stop offset="48%" stop-color="#9A663C"/>
+      <stop offset="100%" stop-color="#734827"/>
+    </linearGradient>
+    <linearGradient id="f12-ox-leg" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#A67044"/>
+      <stop offset="100%" stop-color="#7A4E2C"/>
+    </linearGradient>
+    <linearGradient id="f12-ox-head" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A87246"/>
+      <stop offset="100%" stop-color="#724727"/>
+    </linearGradient>
+    <linearGradient id="f12-timber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A5E36"/>
+      <stop offset="50%" stop-color="#6E4725"/>
+      <stop offset="100%" stop-color="#523319"/>
+    </linearGradient>
+    <linearGradient id="f12-funnel-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C68A36"/>
+      <stop offset="42%" stop-color="#E6B65F"/>
+      <stop offset="100%" stop-color="#AC7325"/>
+    </linearGradient>
+    <linearGradient id="f12-grain-rich" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#F7D56B"/>
+      <stop offset="52%" stop-color="#DDA02C"/>
+      <stop offset="100%" stop-color="#B07216"/>
+    </linearGradient>
+    <linearGradient id="f12-grain-soft" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FBE9A8"/>
+      <stop offset="100%" stop-color="#DFB858"/>
+    </linearGradient>
+    <linearGradient id="f12-grain-rain" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#DFBE7B"/>
+      <stop offset="100%" stop-color="#B48C48"/>
+    </linearGradient>
+    <linearGradient id="f12-grain-seed" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#B98A54"/>
+      <stop offset="100%" stop-color="#7A5228"/>
+    </linearGradient>
+
+    <!-- ==================== INK HATCH & SOIL TEXTURE PATTERNS ==================== -->
+    <pattern id="f12-silt-speckle" width="24" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="0.8" fill="#6E5134" opacity="0.28"/>
+      <circle cx="14" cy="9" r="0.7" fill="#5C4128" opacity="0.24"/>
+      <circle cx="20" cy="3" r="0.6" fill="#7D5E3C" opacity="0.30"/>
+      <path d="M 2,11 Q 8,10 13,11.5" fill="none" stroke="#6E5134" stroke-width="0.55" opacity="0.24"/>
+      <path d="M 15,5 Q 19,4.2 23,5.2" fill="none" stroke="#6E5134" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    <pattern id="f12-deep-hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#4D3722" stroke-width="0.8" opacity="0.26"/>
+      <line x1="5" y1="0" x2="5" y2="10" stroke="#4D3722" stroke-width="0.5" opacity="0.16"/>
+    </pattern>
+    <pattern id="f12-mud-courses" width="18" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="4" x2="18" y2="4" stroke="#533820" stroke-width="0.65" opacity="0.35"/>
+      <line x1="0" y1="8" x2="18" y2="8" stroke="#533820" stroke-width="0.65" opacity="0.35"/>
+      <line x1="9" y1="0" x2="9" y2="4" stroke="#533820" stroke-width="0.55" opacity="0.28"/>
+      <line x1="17" y1="4" x2="17" y2="8" stroke="#533820" stroke-width="0.55" opacity="0.28"/>
+    </pattern>
+
+    <!-- ==================== REUSABLE BOTANICAL BARLEY KERNELS ==================== -->
+    <g id="f12-kernel-gold">
+      <path d="M -5.4,0 C -3.2,-3.4 2.8,-3.5 5.6,0 C 2.8,3.5 -3.2,3.4 -5.4,0 Z" fill="url(#f12-grain-rich)" stroke="#6E440D" stroke-width="0.85"/>
+      <path d="M -3.5,0.2 Q 0,1.0 3.7,0.1" fill="none" stroke="#7A4C10" stroke-width="0.6" opacity="0.72"/>
+      <path d="M -2.6,-1.2 Q 0.4,-1.8 2.8,-0.9" fill="none" stroke="#FFF6D2" stroke-width="0.65" opacity="0.8"/>
+    </g>
+    <g id="f12-kernel-range">
+      <path d="M -5.4,0 C -3.2,-3.4 2.8,-3.5 5.6,0 C 2.8,3.5 -3.2,3.4 -5.4,0 Z" fill="url(#f12-grain-soft)" stroke="#9B6E24" stroke-width="0.8" stroke-dasharray="2.2 1.1"/>
+      <path d="M -3.2,0.2 Q 0,0.9 3.3,0.1" fill="none" stroke="#9B6E24" stroke-width="0.55" opacity="0.5"/>
+    </g>
+    <g id="f12-kernel-rain">
+      <path d="M -5.4,0 C -3.2,-3.4 2.8,-3.5 5.6,0 C 2.8,3.5 -3.2,3.4 -5.4,0 Z" fill="url(#f12-grain-rain)" stroke="#6B4D20" stroke-width="0.85"/>
+      <path d="M -3.4,0.2 Q 0,0.9 3.4,0.1" fill="none" stroke="#6B4D20" stroke-width="0.55" opacity="0.65"/>
+      <path d="M -2.3,-1.2 Q 0.3,-1.7 2.4,-0.9" fill="none" stroke="#F8E9C4" stroke-width="0.6" opacity="0.7"/>
+    </g>
+    <g id="f12-kernel-rain-range">
+      <path d="M -5.4,0 C -3.2,-3.4 2.8,-3.5 5.6,0 C 2.8,3.5 -3.2,3.4 -5.4,0 Z" fill="#EFE0BD" stroke="#9A7E4B" stroke-width="0.8" stroke-dasharray="2.2 1.1"/>
+      <path d="M -3.0,0.2 Q 0,0.8 3.0,0.1" fill="none" stroke="#9A7E4B" stroke-width="0.5" opacity="0.45"/>
+    </g>
+    <g id="f12-kernel-seed">
+      <path d="M -6.8,0 C -4.0,-4.2 3.5,-4.3 7.0,0 C 3.5,4.3 -4.0,4.2 -6.8,0 Z" fill="url(#f12-grain-seed)" stroke="#472E15" stroke-width="1.05"/>
+      <path d="M -4.2,0.3 Q 0,1.2 4.4,0.1" fill="none" stroke="#3F2710" stroke-width="0.75" opacity="0.75"/>
+      <path d="M -3.2,-1.5 Q 0.4,-2.2 3.4,-1.2" fill="none" stroke="#E4C69A" stroke-width="0.75" opacity="0.65"/>
+    </g>
+
+    <!-- ==================== REUSABLE GOLDEN BARLEY HEAD ==================== -->
+    <g id="f12-barley-ear">
+      <path d="M -1,-10 L -4.2,-20 M 0,-11 L -0.4,-22 M 1,-10 L 3.5,-20 M -2,-5 L -5,-14 M 2,-5 L 4.6,-14" stroke="#B68728" stroke-width="0.65" opacity="0.75"/>
+      <ellipse cx="-1.5" cy="-2" rx="1.7" ry="2.6" fill="#E3B346" stroke="#8C6114" stroke-width="0.65" transform="rotate(-18 -1.5 -2)"/>
+      <ellipse cx="1.5" cy="-3.5" rx="1.7" ry="2.6" fill="#D5A032" stroke="#8C6114" stroke-width="0.65" transform="rotate(18 1.5 -3.5)"/>
+      <ellipse cx="-1.4" cy="-6" rx="1.6" ry="2.5" fill="#EAC055" stroke="#8C6114" stroke-width="0.65" transform="rotate(-16 -1.4 -6)"/>
+      <ellipse cx="1.4" cy="-7.5" rx="1.6" ry="2.5" fill="#D9A638" stroke="#8C6114" stroke-width="0.65" transform="rotate(16 1.4 -7.5)"/>
+      <ellipse cx="0" cy="-10" rx="1.5" ry="2.3" fill="#EFC862" stroke="#8C6114" stroke-width="0.65"/>
+    </g>
+
+    <!-- ==================== SCOPED TYPOGRAPHY & STYLES ==================== -->
+    <style>
+      #fig1-2 .page-bg { fill: url(#f12-paper-bg); }
+      #fig1-2 .panel-card { fill: #FFFDF8; stroke: #CFC3B0; stroke-width: 1.3; }
+      #fig1-2 .scene-frame { fill: none; stroke: #7C6A58; stroke-width: 1.2; }
+      #fig1-2 .title { font-family: Georgia, "Times New Roman", serif; font-size: 20px; font-weight: bold; fill: #231C17; letter-spacing: -0.2px; }
+      #fig1-2 .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12.2px; fill: #5A4E43; }
+      #fig1-2 .ptitle { font-family: Georgia, "Times New Roman", serif; font-size: 14.8px; font-weight: bold; fill: #261E18; }
+      #fig1-2 .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.5px; font-weight: 700; fill: #261E18; }
+      #fig1-2 .lbl-sm { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #4E4339; }
+      #fig1-2 .lbl-sm-bold { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #3B3027; }
+      #fig1-2 .lbl-blue { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.2px; font-weight: 700; fill: #155678; }
+      #fig1-2 .lbl-blue-sm { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #1E6385; }
+      #fig1-2 .lbl-gold { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.5px; font-weight: 700; fill: #804B10; }
+      #fig1-2 .lbl-green { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.5px; font-weight: 700; fill: #356022; }
+      #fig1-2 .lbl-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11px; font-weight: 700; fill: #FFFDF8; }
+      #fig1-2 .lbl-stat { font-family: Georgia, "Times New Roman", serif; font-size: 14px; font-weight: bold; fill: #2B211A; }
+      #fig1-2 .lbl-stat-gold { font-family: Georgia, "Times New Roman", serif; font-size: 15px; font-weight: bold; fill: #844B0D; }
+      #fig1-2 .callout-line { fill: none; stroke: #4D4036; stroke-width: 1.15; stroke-dasharray: 3 2.2; }
+      #fig1-2 .datum-line { fill: none; stroke: #5E4E40; stroke-width: 1.1; stroke-dasharray: 4 3; }
+      #fig1-2 .pill { fill: #FFFDF8; fill-opacity: 0.94; stroke: #C9BBA7; stroke-width: 1; }
+      #fig1-2 .pill-soil { fill: #FBF5E8; stroke: #7C5E3E; stroke-width: 1.1; }
+    </style>
+  </defs>
+
+  <!-- ==================== PAGE BACKGROUND & HEADER ==================== -->
+  <rect class="page-bg" x="0" y="0" width="960" height="720" rx="10"/>
+  <rect x="0.75" y="0.75" width="958.5" height="718.5" rx="9.5" fill="none" stroke="#DED3C1" stroke-width="1.5"/>
+  <rect x="24" y="18" width="4.5" height="36" rx="2" fill="#A66524"/>
+  <text class="title" x="38" y="34">Figure 1.2: Taming the Rivers — Raised Mud Levees and the Seeder Plow</text>
+  <text class="subtitle" x="38" y="52">How southern farmers used raised riverbanks, gravity canals, and a vertical seed funnel to multiply barley harvests</text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL A: RAISED NATURAL LEVEES, FLOOD DIKE & GRAVITY FEEDER CANAL      -->
+  <!-- ====================================================================== -->
+  <rect class="panel-card" x="24" y="66" width="912" height="304" rx="8" filter="url(#f12-soft-shadow)"/>
+  <text class="ptitle" x="38" y="91">A. Why River Water Flowed Downhill Into the Fields (Cross-Section)</text>
+
+  <!-- Clipped Panel A Cutaway Scene -->
+  <g clip-path="url(#f12-clip-panel-a)">
+    <!-- Warm Mesopotamian sky wash -->
+    <rect x="36" y="102" width="888" height="256" fill="url(#f12-sky-a)"/>
+
+    <!-- Subtle distant horizon haze & palm silhouettes -->
+    <path d="M 36,274 Q 160,266 320,272 Q 520,264 740,271 Q 850,267 924,273 L 924,284 L 36,284 Z" fill="#E6DEC9" opacity="0.75"/>
+    <g fill="#C9BEA5" opacity="0.65">
+      <path d="M 156,271 Q 157,258 159,249 L 161,249 Q 159,258 158,271 Z"/>
+      <path d="M 160,250 Q 153,247 149,252 Q 155,250 160,251 Q 156,244 153,244 Q 159,246 161,250 Q 166,245 170,248 Q 164,249 161,251 Q 167,252 169,256 Q 164,253 160,251 Z"/>
+      <path d="M 735,270 Q 736,258 737,251 L 739,251 Q 738,258 737,270 Z"/>
+      <path d="M 738,252 Q 732,250 729,254 Q 734,252 738,253 Q 735,247 732,247 Q 737,249 739,252 Q 744,248 747,250 Q 742,251 739,253 Q 744,254 746,257 Q 741,254 738,253 Z"/>
+    </g>
+
+    <!-- ============ GEOLOGICAL CUTAWAY STRATA (MILLENNIA OF FLOOD SILT) ============ -->
+    <!-- Layer 4: Deep ancient flat alluvial clay base -->
+    <rect x="36" y="322" width="888" height="38" fill="url(#f12-stratum-deep)"/>
+    <rect x="36" y="322" width="888" height="38" fill="url(#f12-deep-hatch)"/>
+
+    <!-- Layer 3: Early silt deposit lens -->
+    <path d="M 36,308 L 136,307 C 194,305 224,278 270,276 L 418,276 C 464,278 498,304 562,307 L 924,308 L 924,326 L 36,326 Z" fill="url(#f12-stratum-low)" stroke="#684B2E" stroke-width="0.9"/>
+    <path d="M 36,308 L 136,307 C 194,305 224,278 270,276 L 418,276 C 464,278 498,304 562,307 L 924,308 L 924,326 L 36,326 Z" fill="url(#f12-silt-speckle)"/>
+
+    <!-- Layer 2: Middle flood-silt levee stratum -->
+    <path d="M 36,294 L 128,293 C 178,290 212,246 258,242 L 284,258 L 404,258 L 430,242 C 474,246 512,288 574,293 L 924,294 L 924,310 L 562,309 C 498,305 464,278 418,276 L 270,276 C 224,278 194,305 136,309 L 36,310 Z" fill="url(#f12-stratum-mid)" stroke="#745435" stroke-width="0.9"/>
+    <path d="M 36,294 L 128,293 C 178,290 212,246 258,242 L 284,258 L 404,258 L 430,242 C 474,246 512,288 574,293 L 924,294 L 924,310 L 562,309 C 498,305 464,278 418,276 L 270,276 C 224,278 194,305 136,309 L 36,310 Z" fill="url(#f12-silt-speckle)"/>
+
+    <!-- Layer 1: Uppermost natural raised silt levees & fertile plain topsoil -->
+    <path d="M 36,278 L 124,278 C 168,277 192,238 222,217 L 263,217 L 282,250 L 404,250 L 418,216 L 448,216 C 482,232 518,276 576,278 L 924,278 L 924,295 L 574,294 C 512,289 474,247 430,243 L 404,259 L 284,259 L 258,243 C 212,247 178,290 128,294 L 36,295 Z" fill="url(#f12-stratum-top)" stroke="#6B4D30" stroke-width="1.25"/>
+    <path d="M 36,278 L 124,278 C 168,277 192,238 222,217 L 263,217 L 282,250 L 404,250 L 418,216 L 448,216 C 482,232 518,276 576,278 L 924,278 L 924,295 L 574,294 C 512,289 474,247 430,243 L 404,259 L 284,259 L 258,243 C 212,247 178,290 128,294 L 36,295 Z" fill="url(#f12-silt-speckle)"/>
+
+    <!-- Internal silt-bedding contour lines showing layered deposition -->
+    <path d="M 144,286 C 186,282 214,238 250,229 M 158,301 C 200,297 226,262 266,260" fill="none" stroke="#84623E" stroke-width="0.7" opacity="0.55" stroke-dasharray="6 3"/>
+    <path d="M 552,286 C 504,282 472,236 438,228 M 536,301 C 488,297 458,262 420,260" fill="none" stroke="#84623E" stroke-width="0.7" opacity="0.55" stroke-dasharray="6 3"/>
+
+    <!-- ============ RIVER WATER & SUBMERGED SEDIMENT BED ============ -->
+    <!-- April-May high spring flood translucent surge zone (y = 186..216) -->
+    <path d="M 254,186 L 424,186 L 416,216 L 264,216 Z" fill="url(#f12-flood-surge)"/>
+
+    <!-- Normal river water body (y = 216..250) -->
+    <path d="M 264,216 L 416,216 L 402,249 L 284,249 Z" fill="url(#f12-river-water)"/>
+    <!-- Water surface shimmer & gentle wave lines -->
+    <path d="M 266,216 Q 290,213.8 314,216 Q 340,218.2 366,216 Q 392,214 415,216" fill="none" stroke="#DDF2FA" stroke-width="1.8"/>
+    <path d="M 284,225 Q 308,223 332,225.2 M 352,223.5 Q 378,222 400,224" fill="none" stroke="#B6E1F2" stroke-width="1.1" opacity="0.75"/>
+    <path d="M 294,235 Q 326,233.5 358,235.5 M 368,238 Q 386,237 398,238" fill="none" stroke="#93CBE2" stroke-width="0.95" opacity="0.6"/>
+
+    <!-- Submerged sandy-silt sediment bed at bottom of channel -->
+    <path d="M 281,246 Q 312,242 344,246 Q 376,249 405,245 L 402,253 L 284,253 Z" fill="url(#f12-riverbed-silt)" stroke="#684B2E" stroke-width="1.1"/>
+    <g fill="#5C4128" opacity="0.55">
+      <ellipse cx="298" cy="249" rx="2.4" ry="1.1"/>
+      <ellipse cx="322" cy="247.5" rx="3" ry="1.2"/>
+      <ellipse cx="354" cy="249.5" rx="2.6" ry="1.1"/>
+      <ellipse cx="382" cy="248" rx="3.2" ry="1.2"/>
+      <circle cx="338" cy="250" r="1.1"/>
+      <circle cx="368" cy="247" r="1"/>
+    </g>
+
+    <!-- Dashed April-May High Flood Level Line -->
+    <line x1="252" y1="186" x2="424" y2="186" stroke="#155678" stroke-width="2" stroke-dasharray="6 3.5"/>
+    <path d="M 272,193 Q 296,191 320,193 M 356,195 Q 382,193 406,195" fill="none" stroke="#1B668C" stroke-width="0.9" opacity="0.45"/>
+
+    <!-- ============ BUILT APRIL-MAY PACKED-MUD FLOOD DIKE (LEFT CREST) ============ -->
+    <g id="f12-flood-dike">
+      <!-- Dike main earthen body seated flush into the natural levee shoulder -->
+      <path d="M 192,235 L 212,175 C 215,172 246,172 249,175 L 266,220 C 244,218 218,220 192,235 Z" fill="url(#f12-dike-mud)" stroke="#47311D" stroke-width="1.4"/>
+      <path d="M 192,235 L 212,175 C 215,172 246,172 249,175 L 266,220 C 244,218 218,220 192,235 Z" fill="url(#f12-mud-courses)"/>
+      <!-- Woven reed reinforcement mats -->
+      <line x1="205" y1="196" x2="256" y2="196" stroke="#C8A96A" stroke-width="1.5" stroke-dasharray="4 2"/>
+      <line x1="200" y1="210" x2="262" y2="210" stroke="#C8A96A" stroke-width="1.5" stroke-dasharray="4 2"/>
+      <!-- Shaded right slope facing river -->
+      <path d="M 243,174 L 249,175 L 266,220 L 253,218 Z" fill="#4A321C" opacity="0.28"/>
+
+      <!-- Worker 1 firmly on crest with wooden spade packing wet mud -->
+      <g transform="translate(228,173)">
+        <path d="M -2,-6 L -3.5,0 M 2,-6 L 3.5,0" stroke="#4D3522" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M -3.5,-11 L 3,-11 L 4,-5.5 L -3.5,-5.5 Z" fill="#E3D2B4" stroke="#3B2B1E" stroke-width="0.8"/>
+        <path d="M -1,-15 L 1.5,-11 M 1,-13 L 7,-10 M -1,-13 L 4.5,-8.5" stroke="#8E5E3D" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="0" cy="-17" r="2.2" fill="#8E5E3D" stroke="#3B2B1E" stroke-width="0.6"/>
+        <line x1="2.5" y1="-13" x2="10.5" y2="-0.5" stroke="#4A311C" stroke-width="1.3"/>
+        <path d="M 9,-2 L 12.5,0 L 11,1.3 L 8,-0.2 Z" fill="#6E4A2A" stroke="#3B2B1E" stroke-width="0.6"/>
+      </g>
+      <!-- Worker 2 planted firmly on the left levee slope carrying mud basket -->
+      <g transform="translate(194,234)">
+        <path d="M -2,-5.5 L -4,0.5 M 1.5,-5.5 L 3.5,-2" stroke="#4D3522" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M -3,-10.5 L 2.5,-10.5 L 3,-5.5 L -2.8,-5.5 Z" fill="#D5B88E" stroke="#3B2B1E" stroke-width="0.8"/>
+        <path d="M 0,-14 L 1,-10.5 M 0,-13 L -4.5,-14.5" stroke="#8E5E3D" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="0.5" cy="-16" r="2.1" fill="#8E5E3D" stroke="#3B2B1E" stroke-width="0.6"/>
+        <path d="M -8,-17 L -2,-17 L -3,-13.5 L -7,-13.5 Z" fill="#C49A58" stroke="#4A311C" stroke-width="0.7"/>
+        <path d="M -7.5,-17 Q -5,-19.5 -2.5,-17" fill="#7D5632"/>
+      </g>
+    </g>
+
+    <!-- ============ REGULATOR SLUICE GATE & BANKED GRAVITY FEEDER CANAL (PROPER LAYERING) ============ -->
+    <!-- Layer 1 (Back): Mud abutment + rear timber guide post behind water -->
+    <path d="M 412,216 L 418,200 L 444,200 L 452,218 Z" fill="#9B7249" stroke="#4A321C" stroke-width="1.1"/>
+    <rect x="421" y="186" width="5.5" height="44" rx="1" fill="url(#f12-timber)" stroke="#2E1E10" stroke-width="0.9"/>
+
+    <!-- Layer 2 (Mid): Cutaway canal bed & seamless river-to-canal water cascade -->
+    <path d="M 416,226 C 452,228 486,252 536,274 L 686,274 L 686,287 L 530,287 C 478,264 446,240 412,238 Z" fill="#9E7950" stroke="#5A3F25" stroke-width="1.1"/>
+    <path d="M 412,221 C 448,222 480,246 534,275 L 688,275 L 688,283 L 530,283 C 476,256 444,234 409,233 Z" fill="url(#f12-canal-water)"/>
+    <!-- Whitewater foam & flow lines along cascading water -->
+    <path d="M 441,229 C 466,237 490,253 528,274" fill="none" stroke="#E8F8FF" stroke-width="1.6" stroke-dasharray="10 5" opacity="0.9"/>
+    <path d="M 454,239 C 478,248 500,262 532,279 L 668,279" fill="none" stroke="#C5E9F8" stroke-width="1.1" stroke-dasharray="14 6" opacity="0.8"/>
+
+    <!-- Layer 3 (Front): Raised sliding wooden sluice board & front timber guide post IN FRONT of water -->
+    <g id="f12-sluice-gate-front">
+      <rect x="425" y="194" width="12" height="26" fill="#7D542E" stroke="#2E1E10" stroke-width="1"/>
+      <line x1="425.5" y1="200.5" x2="436.5" y2="200.5" stroke="#472D16" stroke-width="0.9"/>
+      <line x1="425.5" y1="206.5" x2="436.5" y2="206.5" stroke="#472D16" stroke-width="0.9"/>
+      <line x1="425.5" y1="212.5" x2="436.5" y2="212.5" stroke="#472D16" stroke-width="0.9"/>
+      <line x1="426" y1="195" x2="436" y2="219" stroke="#53351A" stroke-width="1"/>
+      <rect x="435" y="186" width="5.5" height="48" rx="1" fill="url(#f12-timber)" stroke="#2E1E10" stroke-width="0.9"/>
+      <rect x="418" y="184" width="26" height="4.5" rx="1" fill="#5D3B1D" stroke="#2E1E10" stroke-width="0.9"/>
+      <line x1="431" y1="188.5" x2="431" y2="195" stroke="#D2B480" stroke-width="1.4"/>
+      <path d="M 440,223 Q 447,221 452,226 Q 447,229 441,228 Z" fill="#EDF9FF" opacity="0.88"/>
+    </g>
+
+    <!-- ============ RIPENING GOLDEN BARLEY (LEFT PLAIN, PROTECTED) ============ -->
+    <g id="f12-ripening-barley">
+      <rect x="40" y="276" width="114" height="4" fill="#9E7C48" opacity="0.5"/>
+      <g fill="none" stroke="#A67A22" stroke-width="1.35" stroke-linecap="round">
+        <path d="M 48,278 Q 46,264 49,255"/>
+        <path d="M 56,278 Q 58,263 55,252"/>
+        <path d="M 64,278 Q 62,265 65,254"/>
+        <path d="M 72,278 Q 74,263 71,251"/>
+        <path d="M 80,278 Q 78,265 81,254"/>
+        <path d="M 88,278 Q 90,262 87,250"/>
+        <path d="M 96,278 Q 94,265 97,254"/>
+        <path d="M 104,278 Q 106,263 103,252"/>
+        <path d="M 112,278 Q 110,265 113,254"/>
+        <path d="M 120,278 Q 122,263 119,252"/>
+        <path d="M 128,278 Q 126,265 129,255"/>
+        <path d="M 136,278 Q 138,264 135,253"/>
+        <path d="M 144,278 Q 142,266 145,257"/>
+      </g>
+      <g fill="none" stroke="#B68B32" stroke-width="1" opacity="0.85">
+        <path d="M 56,270 Q 50,265 47,267"/>
+        <path d="M 72,268 Q 78,263 81,265"/>
+        <path d="M 88,269 Q 82,264 79,267"/>
+        <path d="M 104,267 Q 110,262 114,264"/>
+        <path d="M 120,270 Q 115,265 111,268"/>
+        <path d="M 136,269 Q 142,264 145,266"/>
+      </g>
+      <use href="#f12-barley-ear" transform="translate(49,255) rotate(8) scale(0.8)"/>
+      <use href="#f12-barley-ear" transform="translate(55,252) rotate(-6) scale(0.86)"/>
+      <use href="#f12-barley-ear" transform="translate(65,254) rotate(6) scale(0.84)"/>
+      <use href="#f12-barley-ear" transform="translate(71,251) rotate(-8) scale(0.88)"/>
+      <use href="#f12-barley-ear" transform="translate(81,254) rotate(5) scale(0.84)"/>
+      <use href="#f12-barley-ear" transform="translate(87,250) rotate(-5) scale(0.9)"/>
+      <use href="#f12-barley-ear" transform="translate(97,254) rotate(9) scale(0.85)"/>
+      <use href="#f12-barley-ear" transform="translate(103,252) rotate(-7) scale(0.88)"/>
+      <use href="#f12-barley-ear" transform="translate(113,254) rotate(7) scale(0.84)"/>
+      <use href="#f12-barley-ear" transform="translate(119,252) rotate(-5) scale(0.86)"/>
+      <use href="#f12-barley-ear" transform="translate(129,255) rotate(8) scale(0.82)"/>
+      <use href="#f12-barley-ear" transform="translate(135,253) rotate(-6) scale(0.85)"/>
+      <use href="#f12-barley-ear" transform="translate(145,257) rotate(7) scale(0.78)"/>
+    </g>
+
+    <!-- ============ IRRIGATED AUTUMN SPROUTING BARLEY (RIGHT PLAIN) ============ -->
+    <g id="f12-irrigated-fields">
+      <rect x="688" y="275" width="146" height="5.5" fill="#7D5C38"/>
+      <line x1="690" y1="278" x2="832" y2="278" stroke="#62B0D2" stroke-width="2.2" opacity="0.8"/>
+      <!-- Natural varied sprouting autumn barley tufts -->
+      <g fill="none" stroke-linecap="round">
+        <path d="M 700,276 C 698,268 695,263 692,260 M 700,276 C 700,264 702,257 704,253 M 700,276 C 704,267 707,263 711,260" stroke="#4D7E2D" stroke-width="1.5"/>
+        <path d="M 716,276 C 713,266 710,261 707,258 M 716,276 C 717,263 716,256 718,251 M 716,276 C 720,267 724,262 727,260" stroke="#5B8F36" stroke-width="1.5"/>
+        <path d="M 733,276 C 729,267 727,262 724,259 M 733,276 C 733,263 735,255 736,250 M 733,276 C 737,268 740,262 744,259" stroke="#467527" stroke-width="1.55"/>
+        <path d="M 750,276 C 747,265 744,260 741,257 M 750,276 C 751,263 750,256 753,251 M 750,276 C 755,266 758,262 762,259" stroke="#5B8F36" stroke-width="1.5"/>
+        <path d="M 767,276 C 763,267 760,262 758,260 M 767,276 C 767,262 769,255 770,250 M 767,276 C 771,266 775,261 778,258" stroke="#4D7E2D" stroke-width="1.55"/>
+        <path d="M 784,276 C 780,266 778,261 775,258 M 784,276 C 785,263 785,256 787,252 M 784,276 C 789,267 792,263 795,260" stroke="#5E9438" stroke-width="1.5"/>
+        <path d="M 800,276 C 797,266 794,262 791,259 M 800,276 C 800,262 802,255 803,251 M 800,276 C 804,267 808,262 811,259" stroke="#467527" stroke-width="1.5"/>
+        <path d="M 817,276 C 813,266 811,261 808,258 M 817,276 C 818,263 819,257 821,252 M 817,276 C 821,267 825,263 828,260" stroke="#5B8F36" stroke-width="1.5"/>
+        <!-- Fresh pale-green young center shoots -->
+        <path d="M 708,276 Q 709,266 710,261 M 725,276 Q 724,265 725,259 M 742,276 Q 743,265 744,260 M 759,276 Q 758,266 759,260 M 776,276 Q 777,265 778,260 M 792,276 Q 792,266 793,261 M 809,276 Q 810,265 811,260" stroke="#7BB04E" stroke-width="1.15" opacity="0.85"/>
+      </g>
+    </g>
+
+    <!-- ============ AUTUMN STORAGE BASIN (FAR RIGHT) ============ -->
+    <g id="f12-storage-basin">
+      <path d="M 835,278 L 842,272 L 850,272 L 853,278 Z" fill="#A67E53" stroke="#5A3F25" stroke-width="1"/>
+      <path d="M 910,278 L 913,272 L 921,272 L 924,278 Z" fill="#A67E53" stroke="#5A3F25" stroke-width="1"/>
+      <polygon points="846,278 857,304 906,304 916,278" fill="#8C6A45" stroke="#523920" stroke-width="1.2"/>
+      <polygon points="849,282 858,301 905,301 913,282" fill="url(#f12-river-water)"/>
+      <path d="M 852,282 Q 868,280.5 882,282 Q 896,283.5 911,282" fill="none" stroke="#DCF2FA" stroke-width="1.2"/>
+      <path d="M 862,290 Q 878,289 896,290.5" fill="none" stroke="#A7DAF0" stroke-width="0.9" opacity="0.7"/>
+    </g>
+
+    <!-- ============ ELEVATION COMPARISON DATUM & ARCHITECTURAL BRACKET ============ -->
+    <line class="datum-line" x1="402" y1="250" x2="626" y2="250"/>
+    <line class="datum-line" x1="596" y1="278" x2="626" y2="278"/>
+    <g stroke="#2B211A" stroke-width="1.5" fill="none">
+      <line x1="612" y1="250" x2="612" y2="278"/>
+      <line x1="607" y1="250" x2="617" y2="250"/>
+      <line x1="607" y1="278" x2="617" y2="278"/>
+      <path d="M 612,251 L 609.5,255.5 L 614.5,255.5 Z" fill="#2B211A" stroke="none"/>
+      <path d="M 612,277 L 609.5,272.5 L 614.5,272.5 Z" fill="#2B211A" stroke="none"/>
+    </g>
+    <rect class="pill" x="556" y="203" width="136" height="33" rx="4" filter="url(#f12-pill-shadow)"/>
+    <text class="lbl-sm-bold" x="624" y="218" text-anchor="middle">Riverbed sits higher</text>
+    <text class="lbl-sm" x="624" y="231" text-anchor="middle">than the plain</text>
+    <line class="callout-line" x1="612" y1="236" x2="612" y2="249"/>
+
+    <!-- Gravity Flow Curved Arrow -->
+    <path d="M 450,214 Q 494,226 534,261" fill="none" stroke="#175D80" stroke-width="2.5" marker-end="url(#f12-arrow-blue)"/>
+
+    <!-- ============ PANEL A LABELS & LEADER CALLOUTS ============ -->
+    <!-- Left Field Callout (clean breathing room above barley awns & away from left border) -->
+    <text class="lbl-gold" x="103" y="201" text-anchor="middle">Ripening Barley</text>
+    <text class="lbl-sm" x="103" y="215" text-anchor="middle">Protected in April–May</text>
+
+    <!-- Built Flood Dike Callout -->
+    <text class="lbl" x="152" y="122" text-anchor="middle">Packed-Mud Flood Dike</text>
+    <text class="lbl-sm" x="152" y="136" text-anchor="middle">Blocks violent spring flood</text>
+    <line class="callout-line" x1="178" y1="141" x2="212" y2="171" marker-end="url(#f12-dot-ink)"/>
+
+    <!-- April-May Flood Level & River -->
+    <text class="lbl-blue" x="340" y="156" text-anchor="middle">April–May Snowmelt</text>
+    <text class="lbl-blue-sm" x="340" y="170" text-anchor="middle">Spring flood level</text>
+    <text class="lbl-light" x="343" y="235" text-anchor="middle">River</text>
+
+    <!-- Regulator Gate Callout -->
+    <text class="lbl" x="458" y="122" text-anchor="middle">Regulator Gate</text>
+    <text class="lbl-sm" x="458" y="136" text-anchor="middle">Timber &amp; mud sluice</text>
+    <line class="callout-line" x1="452" y1="142" x2="434" y2="182" marker-end="url(#f12-dot-ink)"/>
+
+    <!-- Gravity Flow Callout -->
+    <text class="lbl-blue" x="658" y="124" text-anchor="middle">Gravity Does the Lifting</text>
+    <text class="lbl-sm" x="658" y="138" text-anchor="middle">Water runs downhill down feeder canals</text>
+    <line class="callout-line" x1="598" y1="143" x2="508" y2="226" marker-end="url(#f12-dot-ink)"/>
+
+    <!-- Right Irrigated Fields Callout -->
+    <text class="lbl-green" x="765" y="216" text-anchor="middle">Irrigated Fields</text>
+    <text class="lbl-sm" x="765" y="230" text-anchor="middle">Watered in Sep–Oct</text>
+
+    <!-- Storage Basin Callout -->
+    <text class="lbl-sm-bold" x="881" y="253" text-anchor="middle">Storage</text>
+    <text class="lbl-sm-bold" x="881" y="265" text-anchor="middle">Basin</text>
+
+    <!-- Geological Strata Caption Pill inside bottom cutaway (generous width, zero overflow!) -->
+    <rect class="pill-soil" x="148" y="330" width="394" height="22" rx="4"/>
+    <text class="lbl-sm-bold" x="345" y="345" text-anchor="middle">Layered flood silt built raised natural levees over millennia</text>
+  </g>
+  <rect class="scene-frame" x="36" y="102" width="888" height="256" rx="4"/>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL B: OX-DRAWN SEEDER PLOW & 1:15 TO 1:30 HARVEST MULTIPLIER        -->
+  <!-- ====================================================================== -->
+  <rect class="panel-card" x="24" y="384" width="912" height="316" rx="8" filter="url(#f12-soft-shadow)"/>
+  <text class="ptitle" x="38" y="410">B. The Sumerian Seeder Plow and the 1:15 to 1:30 Harvest Jump</text>
+
+  <!-- ==================== LEFT VIGNETTE: PEN-AND-INK OX & SEEDER PLOW ==================== -->
+  <g clip-path="url(#f12-clip-panel-b-left)">
+    <!-- Sky background -->
+    <rect x="36" y="426" width="540" height="262" fill="url(#f12-sky-b)"/>
+    <!-- Soft distant Mesopotamian plain & irrigation embankment silhouette -->
+    <path d="M 36,610 Q 170,604 340,609 Q 460,605 576,608 L 576,616 L 36,616 Z" fill="#E6DBC5"/>
+    <path d="M 488,607 L 494,601 L 524,601 L 532,607 Z" fill="#D8C9AE"/>
+
+    <!-- Plowed Soil Cutaway Cross-Section -->
+    <rect x="36" y="612" width="540" height="76" fill="url(#f12-soil-b)"/>
+    <rect x="36" y="612" width="540" height="76" fill="url(#f12-silt-speckle)"/>
+    <path d="M 36,612 L 322,612" stroke="#5A3F25" stroke-width="1.5"/>
+
+    <!-- Cutaway Opened Furrow Trench behind plowshare -->
+    <path d="M 314,612 L 336,638 L 576,638 L 576,612 Z" fill="url(#f12-furrow-soil)" stroke="#4C331D" stroke-width="1.2"/>
+    <line x1="336" y1="636" x2="576" y2="636" stroke="#3F2916" stroke-width="1.2" opacity="0.6"/>
+    <!-- Turned soil clods beside plowshare -->
+    <path d="M 304,612 Q 312,603 322,606 Q 328,601 337,607 Q 342,610 344,613 Z" fill="#9C7349" stroke="#4D341E" stroke-width="1"/>
+    <circle cx="308" cy="609" r="2.2" fill="#8B633B"/>
+    <circle cx="326" cy="605" r="2.6" fill="#A67D52"/>
+    <circle cx="348" cy="611" r="2" fill="#7D5834"/>
+
+    <!-- ============ HELPER POURING BARLEY SEEDS FROM WOVEN BASKET INTO FUNNEL ============ -->
+    <g id="f12-helper" transform="translate(296,612)">
+      <!-- Far leg & near leg with calf/ankle taper -->
+      <path d="M -5,-26 C -8,-18 -11,-10 -12,-2 L -8,-2 C -6,-9 -3,-17 -1,-26 Z" fill="#84573A" stroke="#3A281C" stroke-width="1"/>
+      <path d="M 2,-26 C 4,-18 6,-10 7,-2 L 11,-2 C 10,-10 8,-18 6,-26 Z" fill="#9B6947" stroke="#3A281C" stroke-width="1"/>
+      <!-- Feet -->
+      <path d="M -14,-1.5 Q -10,-3 -7,-1 L -14,-0.5 Z M 6,-1.5 Q 10,-3 14,-1 L 6,-0.5 Z" fill="#6E462D" stroke="#3A281C" stroke-width="0.8"/>
+      <!-- Sumerian wrapped belted kilt with drapery folds -->
+      <path d="M -8.5,-56 L 8.5,-56 L 11.5,-24 C 5,-23 -4,-23 -11,-24 Z" fill="#E3D4B8" stroke="#3E2E22" stroke-width="1.2"/>
+      <path d="M -3,-54 Q -2,-40 -4,-25 M 3,-54 Q 4,-40 5,-25" fill="none" stroke="#B6A282" stroke-width="0.8"/>
+      <rect x="-9" y="-49" width="18" height="3.5" fill="#9B6638" stroke="#3E2E22" stroke-width="0.7"/>
+      <line x1="-10" y1="-27" x2="10.5" y2="-27" stroke="#A69374" stroke-width="0.9" stroke-dasharray="2 1.5"/>
+      <!-- Torso, natural sloped shoulders & neck -->
+      <path d="M -7.5,-75 C -4,-79 4,-79 7.5,-75 L 8.5,-56 L -8.5,-56 Z" fill="#A67452" stroke="#3E2E22" stroke-width="1.1"/>
+      <rect x="-2" y="-81" width="4.5" height="5" fill="#9B6947"/>
+      <!-- Sculpted profile head facing right toward funnel -->
+      <path d="M -5,-85 C -5,-93 6.5,-93 7,-85 C 7.5,-83 8.5,-82 7.5,-80.5 C 6.8,-79 5.5,-78 2,-78 C -2,-78 -5,-81 -5,-85 Z" fill="#A67452" stroke="#3E2E22" stroke-width="1.1"/>
+      <path d="M -5.5,-85 C -6,-93.5 6,-94 7,-86.5 C 3.5,-90 -2,-89 -3,-82 Z" fill="#2F231B"/>
+      <path d="M 6.2,-81 Q 7.5,-78.5 4.2,-77.5" fill="none" stroke="#2F231B" stroke-width="1.3"/>
+      <!-- Raised arms holding woven reed seed basket ABOVE the funnel rim! -->
+      <!-- Far arm -->
+      <path d="M 4,-72 L 15,-82 L 26,-98" fill="none" stroke="#8C5D3E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Near arm (upper arm -> elbow -> forearm -> hand) -->
+      <path d="M -2,-71 L 12,-76 L 23,-92" fill="none" stroke="#A67452" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Tilted woven reed seed basket angled downward pouring straight into funnel rim -->
+      <g transform="translate(27,-103) rotate(72)">
+        <path d="M -8,-6 L 8,-6 L 6.2,6.5 L -6.2,6.5 Z" fill="#D1A25A" stroke="#4D351E" stroke-width="1.1"/>
+        <line x1="-7.2" y1="-2" x2="7.2" y2="-2" stroke="#8C622B" stroke-width="0.8"/>
+        <line x1="-6.6" y1="2.2" x2="6.6" y2="2.2" stroke="#8C622B" stroke-width="0.8"/>
+        <ellipse cx="0" cy="-6" rx="7.2" ry="2.2" fill="#E9BE52" stroke="#7A5214" stroke-width="0.7"/>
+      </g>
+    </g>
+
+    <!-- ============ ANATOMICAL PEN-AND-INK DRAFT OX ============ -->
+    <g id="f12-draft-ox">
+      <!-- Far-side anatomical legs (darker shade, contoured muscle/knee/hock/pastern) -->
+      <g stroke="#2C2017" stroke-width="1.35" stroke-linejoin="round">
+        <!-- Far front leg -->
+        <path d="M 138,554 C 141,566 144,574 146,581 C 145,585 147,588 148,595 L 151,608 L 158,608 L 155,592 C 154,585 155,581 153,577 C 151,570 151,562 150,554 Z" fill="#6D462A"/>
+        <!-- Far hind leg with realistic bent hock -->
+        <path d="M 216,552 C 213,564 210,572 213,578 C 212,584 206,594 203,608 L 210,608 C 213,596 218,586 221,578 C 223,572 226,563 229,554 Z" fill="#6D462A"/>
+        <!-- Far hooves -->
+        <path d="M 150,607 L 159,607 L 160,612.5 L 149,612.5 Z" fill="#2A1F17"/>
+        <path d="M 201,607 L 211,607 L 211,612.5 L 200,612.5 Z" fill="#2A1F17"/>
+      </g>
+
+      <!-- Flowing tail with dark hair tuft -->
+      <path d="M 244,524 C 258,532 260,556 254,574" fill="none" stroke="#5A3921" stroke-width="2.9" stroke-linecap="round"/>
+      <path d="M 254,572 C 250,578 251,585 255,588 C 259,584 260,578 256,572 Z" fill="#3B2516"/>
+
+      <!-- Main muscular ox body & humped draft shoulders -->
+      <path d="M 108,524 C 114,504 134,496 154,502 C 174,507 198,505 222,504 C 242,504 250,516 248,536 C 246,554 238,564 226,565 C 204,562 178,566 156,564 C 138,562 124,554 114,548 C 107,544 104,536 108,524 Z" fill="url(#f12-ox-coat)" stroke="#2C2017" stroke-width="1.65" stroke-linejoin="round"/>
+      <!-- Hanging dewlap skin fold under throat/chest -->
+      <path d="M 102,542 C 106,554 118,562 132,560 C 122,554 115,546 112,538" fill="#8C5B35" stroke="#2C2017" stroke-width="1.3"/>
+      <!-- Anatomical muscle/rib shading & pen-and-ink contour hatching -->
+      <path d="M 140,516 C 148,528 148,546 140,556" fill="none" stroke="#5A3920" stroke-width="1.2" opacity="0.65"/>
+      <path d="M 220,512 C 215,526 218,544 226,556" fill="none" stroke="#5A3920" stroke-width="1.2" opacity="0.6"/>
+      <path d="M 164,552 Q 186,558 210,552" fill="none" stroke="#5A3920" stroke-width="1.1" opacity="0.55"/>
+      <path d="M 170,524 Q 174,536 171,546 M 180,523 Q 184,536 181,547 M 190,524 Q 194,536 191,546" fill="none" stroke="#633F24" stroke-width="0.9" opacity="0.45"/>
+      <path d="M 134,504 C 158,507 190,508 222,507" fill="none" stroke="#D9A87A" stroke-width="2" opacity="0.6"/>
+
+      <!-- Near-side anatomical legs with muscular forearm/thigh, knee/hock, fetlock & cloven hooves -->
+      <g stroke="#2C2017" stroke-width="1.45" stroke-linejoin="round">
+        <!-- Near front leg stepping forward -->
+        <path d="M 127,548 C 128,560 128,571 124,579 C 122,583 123,587 121,594 L 117,608 L 126,608 L 130,594 C 132,587 134,583 135,578 C 138,570 142,561 144,552 Z" fill="url(#f12-ox-leg)"/>
+        <!-- Cloven front hoof -->
+        <path d="M 115,607 L 126,607 L 127,613 L 114,613 Z" fill="#32251C"/>
+        <!-- Near hind leg pushing off with pronounced hock angle -->
+        <path d="M 224,544 C 228,558 235,568 242,576 C 244,581 240,592 236,608 L 245,608 C 248,594 252,582 251,574 C 249,565 247,554 244,542 Z" fill="url(#f12-ox-leg)"/>
+        <!-- Cloven hind hoof -->
+        <path d="M 234,607 L 245,607 L 246,613 L 233,613 Z" fill="#32251C"/>
+      </g>
+
+      <!-- Sculpted Ox Head, Ear & Curved Lyre Horns -->
+      <path d="M 101,514 C 95,498 98,487 109,484 C 103,491 102,501 106,513 Z" fill="#D9CCA9" stroke="#3A2D22" stroke-width="1.1"/>
+      <path d="M 112,514 C 104,510 92,513 80,524 L 68,534 C 65,539 67,546 73,548 L 88,547 C 98,546 107,542 114,536 Z" fill="url(#f12-ox-head)" stroke="#2C2017" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M 68,535 C 66,540 68,546 74,547 L 80,546 C 78,541 75,536 72,533 Z" fill="#593B26"/>
+      <ellipse cx="72" cy="540" rx="1.6" ry="1.1" fill="#23160E"/>
+      <circle cx="92" cy="526" r="2.1" fill="#1F1610"/>
+      <circle cx="91.4" cy="525.3" r="0.6" fill="#FFFDF8"/>
+      <path d="M 88,522 Q 93,520 97,523" fill="none" stroke="#3F2817" stroke-width="1"/>
+      <path d="M 107,518 C 114,515 119,519 115,525 C 111,526 107,523 107,518 Z" fill="#8A5A35" stroke="#2C2017" stroke-width="1.1"/>
+      <path d="M 105,515 C 97,502 89,492 98,482 C 95,492 103,499 111,513 Z" fill="#EDE4CC" stroke="#3A2D22" stroke-width="1.25"/>
+      <path d="M 96,486 C 95,484 96,482 98,482 C 97,484 97,485 97.5,487 Z" fill="#3A2D22"/>
+
+      <!-- Carved Wooden Shoulder Yoke & Leather Lashings -->
+      <path d="M 118,496 L 128,496 L 125,534 L 115,534 Z" fill="url(#f12-timber)" stroke="#2E1E10" stroke-width="1.4"/>
+      <path d="M 117,506 Q 108,526 116,544 Q 124,546 127,530" fill="none" stroke="#4D2F18" stroke-width="2.6"/>
+      <path d="M 118,512 L 128,518 M 128,512 L 118,518" stroke="#C9A26B" stroke-width="1.4"/>
+    </g>
+
+    <!-- ============ ANCIENT SUMERIAN WOODEN ARD & SEEDER PLOW ============ -->
+    <g id="f12-seeder-plow">
+      <!-- Slightly arched seasoned wooden draft beam connecting yoke to plow heel -->
+      <path d="M 124,514 Q 230,554 342,606" fill="none" stroke="#362211" stroke-width="9.5" stroke-linecap="round"/>
+      <path d="M 124,514 Q 230,554 342,606" fill="none" stroke="url(#f12-timber)" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 134,516 Q 232,553 336,601" fill="none" stroke="#A67648" stroke-width="1.2" opacity="0.65"/>
+
+      <!-- Curved wooden plowshare / ard sole slicing into soil -->
+      <path d="M 332,600 L 308,628 C 324,634 348,634 364,626 L 360,606 Z" fill="#5D3B1E" stroke="#26180C" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M 308,628 L 328,608 L 323,629 Z" fill="#3E2814" stroke="#23160B" stroke-width="1"/>
+
+      <!-- Twin curved wooden steering handles (stilts) -->
+      <path d="M 348,606 Q 378,582 404,552 L 424,548" fill="none" stroke="#362211" stroke-width="6.5" stroke-linecap="round"/>
+      <path d="M 348,606 Q 378,582 404,552 L 424,548" fill="none" stroke="#7A4F29" stroke-width="4.2" stroke-linecap="round"/>
+      <path d="M 358,610 Q 388,588 412,560 L 432,556" fill="none" stroke="#362211" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 358,610 Q 388,588 412,560 L 432,556" fill="none" stroke="#8C5E35" stroke-width="3.8" stroke-linecap="round"/>
+      <line x1="380" y1="578" x2="392" y2="584" stroke="#523319" stroke-width="3.2" stroke-linecap="round"/>
+
+      <!-- TALL STRAPPED VERTICAL SEED FUNNEL (positioned cleanly below pouring basket!) -->
+      <!-- Flared wooden/reed hopper cone (y = 520..546) -->
+      <path d="M 326,520 L 358,520 L 348,546 L 336,546 Z" fill="url(#f12-funnel-gold)" stroke="#3F2914" stroke-width="1.5" stroke-linejoin="round"/>
+      <ellipse cx="342" cy="520" rx="16" ry="3.5" fill="#B67E2C" stroke="#3F2914" stroke-width="1.2"/>
+      <line x1="330" y1="529" x2="354" y2="529" stroke="#5A391C" stroke-width="1.5"/>
+      <line x1="334" y1="538" x2="350" y2="538" stroke="#5A391C" stroke-width="1.5"/>
+      <!-- Slender vertical seed-drop tube reaching down behind plowshare -->
+      <rect x="338" y="546" width="8.5" height="83" rx="1.5" fill="url(#f12-funnel-gold)" stroke="#3F2914" stroke-width="1.4"/>
+      <!-- Braided leather/rope lashings strapping tube to beam & handle -->
+      <path d="M 335,588 L 350,594 M 335,594 L 350,588 M 335,601 L 351,605" stroke="#472D15" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 335,590 L 350,596" stroke="#C9A26B" stroke-width="1.1"/>
+      <line x1="342.2" y1="552" x2="342.2" y2="624" stroke="#7A4C10" stroke-width="1" stroke-dasharray="2.5 4" opacity="0.65"/>
+
+      <!-- Delicate golden barley seed stream tumbling directly from basket rim (329,508) into open funnel mouth (342,521)! -->
+      <g>
+        <use href="#f12-kernel-gold" transform="translate(331,509) scale(0.42) rotate(35)"/>
+        <use href="#f12-kernel-gold" transform="translate(335,513) scale(0.44) rotate(55)"/>
+        <use href="#f12-kernel-gold" transform="translate(339,517) scale(0.45) rotate(72)"/>
+        <use href="#f12-kernel-gold" transform="translate(342,521) scale(0.44) rotate(82)"/>
+        <use href="#f12-kernel-gold" transform="translate(334,518) scale(0.4) rotate(60)"/>
+      </g>
+    </g>
+
+    <!-- ============ FARMER STEERING BEHIND THE PLOW ============ -->
+    <g id="f12-steering-farmer" transform="translate(454,612)">
+      <!-- Contoured striding legs -->
+      <path d="M -6,-26 C -9,-18 -12,-10 -14,-2 L -10,-2 C -8,-9 -5,-17 -2,-26 Z" fill="#84573A" stroke="#3A281C" stroke-width="1"/>
+      <path d="M 3,-26 C 5,-18 8,-10 10,-2 L 14,-2 C 12,-10 9,-18 7,-26 Z" fill="#9B6947" stroke="#3A281C" stroke-width="1"/>
+      <path d="M -17,-1.5 Q -13,-3 -9,-1 L -17,-0.5 Z M 9,-1.5 Q 13,-3 16,-1 L 9,-0.5 Z" fill="#6E462D" stroke="#3A281C" stroke-width="0.8"/>
+      <!-- Wrapped kilt with drapery folds -->
+      <path d="M -9.5,-56 L 8.5,-56 L 11.5,-24 C 4,-23 -4,-23 -11.5,-24 Z" fill="#D5BE97" stroke="#3E2E22" stroke-width="1.2"/>
+      <path d="M -3,-54 Q -4,-40 -5,-25 M 3,-54 Q 4,-40 5,-25" fill="none" stroke="#A6906B" stroke-width="0.8"/>
+      <rect x="-9.5" y="-49" width="18.5" height="3.5" fill="#7D4F28" stroke="#3E2E22" stroke-width="0.7"/>
+      <!-- Leaning torso & neck -->
+      <path d="M -9.5,-74 C -6,-78 3,-78 6.5,-74 L 8.5,-56 L -9.5,-56 Z" fill="#9E6C4B" stroke="#3E2E22" stroke-width="1.1"/>
+      <rect x="-5" y="-80" width="4.5" height="5" fill="#8F5E3F"/>
+      <!-- Profile head facing left toward plow -->
+      <path d="M -9,-85 C -9,-93 2.5,-93 3,-85 C 3,-81 0,-78 -4,-78 C -7.5,-78 -9,-79 -9.5,-80.5 C -10.5,-82 -9.5,-83 -9,-85 Z" fill="#9E6C4B" stroke="#3E2E22" stroke-width="1.1"/>
+      <path d="M -9.5,-85 C -9,-93.5 3,-93.5 3.5,-85 C 0,-89 -6,-89 -7.5,-82 Z" fill="#2F231B"/>
+      <path d="M -9,-81 Q -10.5,-78.5 -7,-77.5" fill="none" stroke="#2F231B" stroke-width="1.3"/>
+      <!-- Articulated arms & hands firmly gripping twin wooden handles -->
+      <path d="M -6,-70 L -19,-65 L -31,-64" fill="none" stroke="#8C5D3E" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-31.5" cy="-64" r="2.6" fill="#8C5D3E" stroke="#3E2E22" stroke-width="0.8"/>
+      <path d="M -2,-67 L -13,-60 L -23,-56" fill="none" stroke="#9E6C4B" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-23.5" cy="-56" r="2.6" fill="#9E6C4B" stroke="#3E2E22" stroke-width="0.8"/>
+    </g>
+
+    <!-- Evenly spaced golden barley kernels nestled along the cut furrow -->
+    <g>
+      <use href="#f12-kernel-gold" transform="translate(352,631) scale(0.75)"/>
+      <use href="#f12-kernel-gold" transform="translate(384,631) scale(0.75)"/>
+      <use href="#f12-kernel-gold" transform="translate(416,631) scale(0.75)"/>
+      <use href="#f12-kernel-gold" transform="translate(448,631) scale(0.75)"/>
+      <use href="#f12-kernel-gold" transform="translate(480,631) scale(0.75)"/>
+      <use href="#f12-kernel-gold" transform="translate(512,631) scale(0.75)"/>
+      <use href="#f12-kernel-gold" transform="translate(544,631) scale(0.75)"/>
+    </g>
+
+    <!-- ============ PANEL B LEFT CALLOUTS (CLEAR SKY BAND) ============ -->
+    <text class="lbl" x="150" y="446" text-anchor="middle">Ox-Drawn Wooden Plow</text>
+    <line x1="168" y1="459" x2="112" y2="459" stroke="#3B2E24" stroke-width="1.9" marker-end="url(#f12-arrow-ink)"/>
+    <text class="lbl-sm" x="142" y="473" text-anchor="middle">Pull direction</text>
+
+    <text class="lbl-gold" x="424" y="446" text-anchor="middle">Vertical Seed Funnel</text>
+    <text class="lbl-sm" x="424" y="460" text-anchor="middle">Saves ~50% of seed vs. scattering</text>
+    <line class="callout-line" x1="392" y1="466" x2="354" y2="516" marker-end="url(#f12-dot-ink)"/>
+
+    <!-- Crisp bottom furrow caption pill inside soil cutaway -->
+    <rect class="pill-soil" x="308" y="652" width="250" height="24" rx="4"/>
+    <text class="lbl-sm-bold" x="433" y="668" text-anchor="middle">Seeds drop evenly into cut furrow</text>
+  </g>
+  <rect class="scene-frame" x="36" y="426" width="540" height="262" rx="5"/>
+
+  <!-- ==================== RIGHT VIGNETTE: QUANTITATIVE YIELD MULTIPLIER ==================== -->
+  <rect x="590" y="426" width="334" height="262" rx="5" fill="#FFFDF9" stroke="#CFC3B0" stroke-width="1.3"/>
+  <path d="M 591,431 C 591,428 593,427 596,427 L 918,427 C 921,427 923,428 923,431 L 923,453 L 591,453 Z" fill="#F5EDE0"/>
+  <line x1="590" y1="453" x2="924" y2="453" stroke="#E0D5C3" stroke-width="1"/>
+  <text class="lbl" x="757" y="444" text-anchor="middle">Harvest Return per 1 Seed Planted</text>
+
+  <!-- ===== ROW 1: RAIN-FED FARM (1:5 TO 1:8) ===== -->
+  <text class="lbl-sm-bold" x="606" y="471">Rain-Fed Farm (No Irrigation)</text>
+  <use href="#f12-kernel-seed" transform="translate(622,494)"/>
+  <text class="lbl-sm" x="622" y="512" text-anchor="middle">1 seed</text>
+  <line x1="638" y1="494" x2="666" y2="494" stroke="#5A4D41" stroke-width="1.8" marker-end="url(#f12-arrow-ink)"/>
+
+  <!-- 5 solid + 3 range rain-fed barley kernels -->
+  <g transform="translate(684,494)">
+    <use href="#f12-kernel-rain" x="0" y="0"/>
+    <use href="#f12-kernel-rain" x="15" y="0"/>
+    <use href="#f12-kernel-rain" x="30" y="0"/>
+    <use href="#f12-kernel-rain" x="45" y="0"/>
+    <use href="#f12-kernel-rain" x="60" y="0"/>
+    <use href="#f12-kernel-rain-range" x="75" y="0"/>
+    <use href="#f12-kernel-rain-range" x="90" y="0"/>
+    <use href="#f12-kernel-rain-range" x="105" y="0"/>
+  </g>
+  <!-- Proportional scale mini-bar -->
+  <rect x="678" y="509" width="148" height="6" rx="3" fill="#EFE7D8"/>
+  <rect x="678" y="509" width="39" height="6" rx="3" fill="#DFCEAB"/>
+  <rect x="678" y="509" width="25" height="6" rx="3" fill="#B58E4B"/>
+
+  <text class="lbl-stat" x="875" y="494" text-anchor="middle">5–8</text>
+  <text class="lbl-sm" x="875" y="508" text-anchor="middle">grains</text>
+
+  <line x1="604" y1="526" x2="910" y2="526" stroke="#E4DAC9" stroke-width="1"/>
+
+  <!-- ===== ROW 2: IRRIGATED SILT + SEEDER PLOW (1:15 TO 1:30) ===== -->
+  <rect x="600" y="534" width="314" height="104" rx="5" fill="#FDF6E5" stroke="#E4CA94" stroke-width="1"/>
+  <text class="lbl-gold" x="610" y="551">Irrigated Silt + Seeder Plow</text>
+
+  <use href="#f12-kernel-seed" transform="translate(622,588)"/>
+  <text class="lbl-sm" x="622" y="606" text-anchor="middle">1 seed</text>
+  <line x1="638" y1="588" x2="666" y2="588" stroke="#8C5114" stroke-width="2" marker-end="url(#f12-arrow-gold)"/>
+
+  <!-- 30 botanical barley kernels (15 solid rich gold + 15 soft range gold) -->
+  <g transform="translate(684,569)">
+    <use href="#f12-kernel-gold" x="0" y="0"/>
+    <use href="#f12-kernel-gold" x="15" y="0"/>
+    <use href="#f12-kernel-gold" x="30" y="0"/>
+    <use href="#f12-kernel-gold" x="45" y="0"/>
+    <use href="#f12-kernel-gold" x="60" y="0"/>
+    <use href="#f12-kernel-gold" x="75" y="0"/>
+    <use href="#f12-kernel-gold" x="90" y="0"/>
+    <use href="#f12-kernel-gold" x="105" y="0"/>
+    <use href="#f12-kernel-gold" x="120" y="0"/>
+    <use href="#f12-kernel-gold" x="135" y="0"/>
+    <use href="#f12-kernel-gold" x="0" y="15"/>
+    <use href="#f12-kernel-gold" x="15" y="15"/>
+    <use href="#f12-kernel-gold" x="30" y="15"/>
+    <use href="#f12-kernel-gold" x="45" y="15"/>
+    <use href="#f12-kernel-gold" x="60" y="15"/>
+    <use href="#f12-kernel-range" x="75" y="15"/>
+    <use href="#f12-kernel-range" x="90" y="15"/>
+    <use href="#f12-kernel-range" x="105" y="15"/>
+    <use href="#f12-kernel-range" x="120" y="15"/>
+    <use href="#f12-kernel-range" x="135" y="15"/>
+    <use href="#f12-kernel-range" x="0" y="30"/>
+    <use href="#f12-kernel-range" x="15" y="30"/>
+    <use href="#f12-kernel-range" x="30" y="30"/>
+    <use href="#f12-kernel-range" x="45" y="30"/>
+    <use href="#f12-kernel-range" x="60" y="30"/>
+    <use href="#f12-kernel-range" x="75" y="30"/>
+    <use href="#f12-kernel-range" x="90" y="30"/>
+    <use href="#f12-kernel-range" x="105" y="30"/>
+    <use href="#f12-kernel-range" x="120" y="30"/>
+    <use href="#f12-kernel-range" x="135" y="30"/>
+  </g>
+  <!-- Proportional scale bar -->
+  <rect x="678" y="616" width="148" height="6.5" rx="3.2" fill="#F2D488"/>
+  <rect x="678" y="616" width="74" height="6.5" rx="3.2" fill="#D89822"/>
+
+  <text class="lbl-stat-gold" x="875" y="586" text-anchor="middle">15–30</text>
+  <text class="lbl-gold" x="875" y="601" text-anchor="middle">grains</text>
+
+  <!-- Clean two-line Surplus Takeaway Box (generous padding, zero overflow!) -->
+  <rect x="600" y="646" width="314" height="34" rx="4" fill="#F2EDE2" stroke="#D6C9B4" stroke-width="1"/>
+  <text class="lbl-sm-bold" x="757" y="660" text-anchor="middle">Surplus: 1 farming family feeds</text>
+  <text class="lbl-sm" x="757" y="674" text-anchor="middle">full-time weavers, smiths, scribes, and builders</text>
+</svg>

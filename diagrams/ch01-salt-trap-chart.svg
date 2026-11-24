@@ -1,0 +1,507 @@
+<svg id="fig1-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470" role="img" aria-label="Figure 1.6: The Salt Trap and 700-Year Decline of Wheat in Southern Mesopotamian Temple Records">
+  <defs>
+    <!-- Soft Card Shadow -->
+    <filter id="f16-card-shadow" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#3E3228" flood-opacity="0.08"/>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="f16-page-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF9F2"/>
+      <stop offset="100%" stop-color="#F6F0E4"/>
+    </linearGradient>
+
+    <linearGradient id="f16-sky" x1="0.15" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FDF8ED"/>
+      <stop offset="52%" stop-color="#FBEAD0"/>
+      <stop offset="100%" stop-color="#F5D7AA"/>
+    </linearGradient>
+
+    <radialGradient id="f16-sun-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF7D0" stop-opacity="0.96"/>
+      <stop offset="30%" stop-color="#F5BC49" stop-opacity="0.72"/>
+      <stop offset="66%" stop-color="#E78B36" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#E78B36" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="f16-sun-core" cx="42%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#FFFBE4"/>
+      <stop offset="55%" stop-color="#F4B63D"/>
+      <stop offset="100%" stop-color="#D6751E"/>
+    </radialGradient>
+
+    <linearGradient id="f16-puddle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#88CBE0" stop-opacity="0.90"/>
+      <stop offset="55%" stop-color="#53A3BE" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#347D99" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="f16-vapor" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#4A97B2" stop-opacity="0.72"/>
+      <stop offset="50%" stop-color="#C8633C" stop-opacity="0.64"/>
+      <stop offset="100%" stop-color="#B03627" stop-opacity="0.90"/>
+    </linearGradient>
+
+    <linearGradient id="f16-soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D7BA91"/>
+      <stop offset="20%" stop-color="#C6A071"/>
+      <stop offset="65%" stop-color="#AC8155"/>
+      <stop offset="100%" stop-color="#8D653E"/>
+    </linearGradient>
+
+    <linearGradient id="f16-salt-zone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.78"/>
+      <stop offset="48%" stop-color="#FAF4EA" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#FAF4EA" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="f16-groundwater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#75A7BC" stop-opacity="0.88"/>
+      <stop offset="45%" stop-color="#54879E" stop-opacity="0.93"/>
+      <stop offset="100%" stop-color="#38667B" stop-opacity="0.97"/>
+    </linearGradient>
+
+    <linearGradient id="f16-tablet-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF7ED"/>
+      <stop offset="100%" stop-color="#F2E6D3"/>
+    </linearGradient>
+
+    <linearGradient id="f16-decline-area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D99B3E" stop-opacity="0.28"/>
+      <stop offset="62%" stop-color="#C65D41" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#B5382A" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <linearGradient id="f16-bar-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E6B454"/>
+      <stop offset="55%" stop-color="#CE9234"/>
+      <stop offset="100%" stop-color="#AF7320"/>
+    </linearGradient>
+
+    <linearGradient id="f16-bar-rust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D46D50"/>
+      <stop offset="100%" stop-color="#A64028"/>
+    </linearGradient>
+
+    <!-- Subtle Soil Stipple Pattern -->
+    <pattern id="f16-soil-tex" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="5" r="0.9" fill="#5A3C1F" opacity="0.24"/>
+      <circle cx="14" cy="3" r="0.7" fill="#FFF4E0" opacity="0.22"/>
+      <circle cx="20" cy="11" r="1.05" fill="#4A3018" opacity="0.19"/>
+      <circle cx="9" cy="16" r="0.8" fill="#5A3C1F" opacity="0.23"/>
+      <circle cx="18" cy="21" r="0.7" fill="#FFF4E0" opacity="0.20"/>
+      <path d="M 2,19 L 6,18.5 M 13,11 L 17,11.6" stroke="#5A3C1F" stroke-width="0.6" opacity="0.18"/>
+    </pattern>
+
+    <!-- Salt Crystal Speckle Pattern -->
+    <pattern id="f16-salt-speck" width="20" height="16" patternUnits="userSpaceOnUse">
+      <polygon points="4,2 5.8,3.8 4,5.6 2.2,3.8" fill="#FFFFFF" opacity="0.85"/>
+      <polygon points="15,6 16.5,7.5 15,9 13.5,7.5" fill="#FFFFFF" opacity="0.72"/>
+      <polygon points="9,11 10.4,12.4 9,13.8 7.6,12.4" fill="#F5EFE5" opacity="0.78"/>
+    </pattern>
+
+    <!-- Arrow Markers -->
+    <marker id="f16-arrow-red" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0.5 1.3 L 8.8 5 L 0.5 8.7 L 2.3 5 z" fill="#AD3526"/>
+    </marker>
+    <marker id="f16-arrow-vapor" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 z" fill="#B03627"/>
+    </marker>
+    <marker id="f16-arrow-cap" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 z" fill="#9D2D20"/>
+    </marker>
+
+    <!-- Reusable Botanical Wheat Ear Icon for Chart Bar -->
+    <g id="f16-wheat-icon">
+      <path d="M 0,0 L 0,-54" stroke="#FFF6DC" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Paired grain kernels -->
+      <ellipse cx="-2.6" cy="-54" rx="2.1" ry="3.8" transform="rotate(-22 -2.6 -54)" fill="#FFF6DC"/>
+      <ellipse cx="2.6" cy="-54" rx="2.1" ry="3.8" transform="rotate(22 2.6 -54)" fill="#FFF6DC"/>
+      <ellipse cx="-2.8" cy="-60.5" rx="2.1" ry="3.8" transform="rotate(-22 -2.8 -60.5)" fill="#FFF6DC"/>
+      <ellipse cx="2.8" cy="-60.5" rx="2.1" ry="3.8" transform="rotate(22 2.8 -60.5)" fill="#FFF6DC"/>
+      <ellipse cx="-2.4" cy="-67" rx="1.9" ry="3.5" transform="rotate(-18 -2.4 -67)" fill="#FFF6DC"/>
+      <ellipse cx="2.4" cy="-67" rx="1.9" ry="3.5" transform="rotate(18 2.4 -67)" fill="#FFF6DC"/>
+      <ellipse cx="0" cy="-73" rx="1.8" ry="3.4" fill="#FFF6DC"/>
+      <!-- Delicate awns -->
+      <path d="M -2,-73 L -5,-81 M 0,-75 L 0,-84 M 2,-73 L 5,-81" stroke="#FFF6DC" stroke-width="0.75" stroke-linecap="round"/>
+      <!-- Subtle blade -->
+      <path d="M 0,-26 Q -6,-34 -9,-42" fill="none" stroke="#FFF6DC" stroke-width="0.95" stroke-linecap="round"/>
+    </g>
+
+    <!-- Clip Path for Panel A Science Cutaway -->
+    <clipPath id="f16-clip-cutaway">
+      <rect x="36" y="108" width="476" height="328" rx="6"/>
+    </clipPath>
+
+    <style>
+      #fig1-6 .page-bg { fill: url(#f16-page-bg); stroke: #DDD2C1; stroke-width: 1.2; }
+      #fig1-6 .panel { fill: #FFFFFF; stroke: #D8CEBE; stroke-width: 1.3; rx: 9; filter: url(#f16-card-shadow); }
+      #fig1-6 .title { font-family: Georgia, "Times New Roman", serif; font-size: 20.5px; font-weight: bold; fill: #231C16; }
+      #fig1-6 .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12.2px; fill: #5A4E43; }
+      #fig1-6 .ptitle { font-family: Georgia, "Times New Roman", serif; font-size: 14.5px; font-weight: bold; fill: #231C16; }
+      #fig1-6 .psub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.8px; fill: #66594E; }
+      #fig1-6 .kicker { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 1.1px; fill: #847056; }
+      #fig1-6 .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.2px; font-weight: 700; fill: #231C16; }
+      #fig1-6 .lbl-sm { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #4E433A; }
+      #fig1-6 .lbl-red { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.2px; font-weight: 700; fill: #9D2D20; }
+      #fig1-6 .lbl-green { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.2px; font-weight: 700; fill: #355E1E; }
+      #fig1-6 .lbl-white { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.5px; font-weight: 700; fill: #FFFFFF; }
+      #fig1-6 .lbl-white-sm { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #E7F3F8; }
+      #fig1-6 .val-big { font-family: Georgia, "Times New Roman", serif; font-size: 14px; font-weight: bold; fill: #6B4411; }
+      #fig1-6 .val-red { font-family: Georgia, "Times New Roman", serif; font-size: 13.5px; font-weight: bold; fill: #9D2D20; }
+      #fig1-6 .axis-lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 600; fill: #64574C; }
+      #fig1-6 .pill { fill: #FFFDF8; fill-opacity: 0.94; stroke: #D8C9B5; stroke-width: 1; rx: 4; }
+      #fig1-6 .pill-red { fill: #FFF7F5; fill-opacity: 0.95; stroke: #DFA9A0; stroke-width: 1; rx: 4; }
+    </style>
+  </defs>
+
+  <!-- Outer Archival Plate -->
+  <rect class="page-bg" x="1" y="1" width="958" height="468" rx="10"/>
+
+  <!-- Header -->
+  <text class="title" x="24" y="32">Figure 1.6: The Salt Trap — Why Wheat Vanished From Southern Cities</text>
+  <text class="subtitle" x="24" y="51">Trapped basin drainage and 45°C summer heat drew mineral salt into topsoil, tracked across 700 years of temple tablets</text>
+
+  <!-- ==================== PANEL A: THE SALT TRAP SCIENCE CUTAWAY ==================== -->
+  <rect class="panel" x="22" y="66" width="504" height="384"/>
+  <text class="ptitle" x="38" y="89">A. How Fierce Summer Sun Salted Low Fields</text>
+  <text class="psub" x="38" y="102">Cross-section of a low-lying southern Mesopotamian basin</text>
+
+  <!-- Cutaway Clipped Scene -->
+  <g clip-path="url(#f16-clip-cutaway)">
+    <!-- Desert Summer Sky -->
+    <rect x="36" y="108" width="476" height="150" fill="url(#f16-sky)"/>
+
+    <!-- Distant Warm Basin Rim & Haze (illustrating low-lying depression) -->
+    <path d="M 36,242 C 74,225 124,234 176,240 C 232,246 286,236 346,238 C 414,240 462,226 512,216 L 512,260 L 36,260 Z" fill="#EBD3AE" opacity="0.62"/>
+    <path d="M 36,248 C 92,238 148,244 216,248 C 288,252 364,250 432,244 C 470,240 494,234 512,229 L 512,262 L 36,262 Z" fill="#DFC092" opacity="0.72"/>
+
+    <!-- Blazing Summer Sun + Radial Heat Haze -->
+    <circle cx="470" cy="142" r="64" fill="url(#f16-sun-glow)"/>
+    <g stroke="#E39A30" stroke-width="1.2" opacity="0.58" stroke-linecap="round">
+      <line x1="470" y1="112" x2="470" y2="119"/>
+      <line x1="491" y1="121" x2="486" y2="126"/>
+      <line x1="500" y1="142" x2="493" y2="142"/>
+      <line x1="491" y1="163" x2="486" y2="158"/>
+      <line x1="449" y1="121" x2="454" y2="126"/>
+      <line x1="440" y1="142" x2="447" y2="142"/>
+      <line x1="449" y1="163" x2="454" y2="158"/>
+    </g>
+    <!-- Shimmering Heat Haze Arcs -->
+    <path d="M 435,165 Q 452,171 470,169 Q 488,167 503,162" fill="none" stroke="#DF8B2E" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.65"/>
+    <circle cx="470" cy="142" r="18" fill="url(#f16-sun-core)" stroke="#C9741D" stroke-width="1.2"/>
+
+    <!-- Underground Alluvial Silt Profile -->
+    <path d="M 36,248 C 110,250 200,250 296,250 C 330,250 340,258 380,258 C 422,258 446,248 474,244 C 492,241 504,238 512,237 L 512,436 L 36,436 Z" fill="url(#f16-soil)"/>
+    <path d="M 36,248 C 110,250 200,250 296,250 C 330,250 340,258 380,258 C 422,258 446,248 474,244 C 492,241 504,238 512,237 L 512,436 L 36,436 Z" fill="url(#f16-soil-tex)"/>
+
+    <!-- Sedimentary Silt Strata Lines -->
+    <path d="M 36,298 C 140,294 250,302 365,296 C 430,293 475,296 512,293" fill="none" stroke="#8C643C" stroke-width="0.9" opacity="0.34"/>
+    <path d="M 36,335 C 155,340 275,331 390,337 C 445,339 482,335 512,333" fill="none" stroke="#7A5430" stroke-width="0.9" opacity="0.32"/>
+
+    <!-- Salted Upper Root Zone Overlay (extends smoothly full-width across cutaway) -->
+    <path d="M 36,248 C 110,250 200,250 296,250 C 330,250 340,258 380,258 C 422,258 446,248 474,244 C 492,241 504,238 512,237 L 512,286 C 420,293 220,295 36,290 Z" fill="url(#f16-salt-zone)"/>
+    <path d="M 36,252 L 512,252 L 512,282 L 36,282 Z" fill="url(#f16-salt-speck)" opacity="0.65"/>
+
+    <!-- Standing Irrigation Puddle in Low Basin Depression -->
+    <path d="M 318,250 C 340,248 418,248 442,249 C 432,258 412,262 380,262 C 348,262 328,257 318,250 Z" fill="url(#f16-puddle)" stroke="#387C96" stroke-width="1"/>
+    <!-- Puddle Surface Shimmer -->
+    <path d="M 340,252 Q 366,250.3 390,252.2 M 400,251.5 Q 416,250.5 429,251.7" fill="none" stroke="#E8F8FD" stroke-width="1.2" stroke-linecap="round" opacity="0.88"/>
+    <!-- White Mineral Salt Rim Forming Around Evaporating Puddle -->
+    <path d="M 306,250 C 314,248 324,249 331,252 C 321,254 311,253 306,250 Z" fill="#FFFFFF" opacity="0.94"/>
+    <path d="M 434,250 C 443,247 456,245 470,245 C 460,251 444,253 434,250 Z" fill="#FFFFFF" opacity="0.94"/>
+
+    <!-- Crystalline White Salt Crust on Cracked Topsoil -->
+    <path d="M 36,247 L 58,244 L 76,247 L 98,243 L 122,246 L 146,243 L 168,247 L 194,244 L 222,247 L 250,244 L 278,247 L 304,245 L 324,249 L 319,255 L 292,254 L 264,256 L 234,254 L 202,256 L 170,254 L 138,256 L 104,254 L 72,256 L 36,253 Z" fill="#FFFFFF" stroke="#CFA193" stroke-width="0.9"/>
+    <!-- Frosted Upper Salt Ridges & Dried Topsoil Cracks -->
+    <g stroke="#8A6446" stroke-width="0.9" fill="none" opacity="0.65">
+      <path d="M 66,254 L 71,262 L 65,268"/>
+      <path d="M 134,255 L 130,264 L 136,271"/>
+      <path d="M 184,255 L 188,263"/>
+      <path d="M 272,255 L 268,264 L 274,269"/>
+      <path d="M 306,254 L 311,263"/>
+    </g>
+    <!-- Crystalline Salt Facets Along Crust -->
+    <g fill="#FFFFFF" stroke="#D2B8A8" stroke-width="0.6">
+      <polygon points="80,244 84,247.5 80,251 76,247.5"/>
+      <polygon points="154,243 158,246.5 154,250 150,246.5"/>
+      <polygon points="244,244 248,247.5 244,251 240,247.5"/>
+      <polygon points="296,245 300,248.5 296,252 292,248.5"/>
+      <polygon points="454,245 458,248 454,251 450,248"/>
+    </g>
+
+    <!-- Salty Groundwater Table (Bottom Aquifer) -->
+    <path d="M 36,368 C 94,364 156,372 224,367 C 296,362 368,371 438,366 C 472,364 494,365 512,367 L 512,436 L 36,436 Z" fill="url(#f16-groundwater)"/>
+    <!-- Wavy Water-Table Meniscus Line -->
+    <path d="M 36,368 C 94,364 156,372 224,367 C 296,362 368,371 438,366 C 472,364 494,365 512,367" fill="none" stroke="#2D6A85" stroke-width="2" stroke-dasharray="7 4"/>
+    <!-- Subtle Dissolved Salt Crystals in Groundwater -->
+    <g fill="#E4F4FA" opacity="0.64">
+      <polygon points="74,382 77,385 74,388 71,385"/>
+      <polygon points="154,378 157,381 154,384 151,381"/>
+      <polygon points="292,380 295,383 292,386 289,383"/>
+      <polygon points="410,382 413,385 410,388 407,385"/>
+      <polygon points="468,377 471,380 468,383 465,380"/>
+    </g>
+
+    <!-- ==================== UNDERGROUND ROOT SYSTEMS ==================== -->
+    <!-- Withered Shallow Brown Wheat Roots (trapped & shriveled in upper white salt zone) -->
+    <g fill="none" stroke="#784B2A" stroke-linecap="round">
+      <!-- Root cluster 1 -->
+      <path d="M 90,253 C 88,262 81,268 75,274" stroke-width="1.6"/>
+      <path d="M 90,253 C 92,264 97,270 101,276" stroke-width="1.5"/>
+      <path d="M 86,262 C 83,267 82,273 84,279" stroke-width="1.1"/>
+      <path d="M 94,264 C 98,267 101,269 104,271" stroke-width="0.9"/>
+      <!-- Root cluster 2 -->
+      <path d="M 114,253 C 111,263 105,270 100,277" stroke-width="1.7"/>
+      <path d="M 114,253 C 116,266 114,275 112,283" stroke-width="1.5"/>
+      <path d="M 116,261 C 121,267 126,271 130,276" stroke-width="1.2"/>
+      <path d="M 110,268 C 107,273 105,277 104,280" stroke-width="0.9"/>
+      <!-- Root cluster 3 -->
+      <path d="M 136,253 C 134,262 130,269 126,275" stroke-width="1.5"/>
+      <path d="M 136,253 C 140,263 145,269 149,274" stroke-width="1.4"/>
+      <path d="M 139,262 C 137,268 136,273 137,278" stroke-width="0.9"/>
+    </g>
+
+    <!-- Deeper Hardy Green-Tan Barley Roots (reaching below heavy surface salt) -->
+    <g fill="none" stroke="#4A6D2C" stroke-linecap="round">
+      <!-- Barley root cluster 1 -->
+      <path d="M 210,254 C 207,274 200,294 193,318" stroke-width="1.8"/>
+      <path d="M 210,254 C 212,280 210,306 206,334" stroke-width="1.7"/>
+      <path d="M 210,266 C 218,282 222,298 223,316" stroke-width="1.3"/>
+      <path d="M 203,288 C 197,296 190,303 185,310" stroke-width="1.05"/>
+      <path d="M 210,306 C 204,316 200,324 197,332" stroke-width="0.95"/>
+      <!-- Barley root cluster 2 -->
+      <path d="M 234,254 C 232,282 230,312 227,342" stroke-width="1.9"/>
+      <path d="M 234,254 C 240,278 245,304 249,330" stroke-width="1.6"/>
+      <path d="M 232,282 C 225,294 219,306 216,320" stroke-width="1.2"/>
+      <path d="M 240,292 C 247,302 253,312 258,322" stroke-width="1.1"/>
+      <path d="M 230,316 C 236,326 240,334 243,341" stroke-width="0.95"/>
+      <!-- Barley root cluster 3 -->
+      <path d="M 258,254 C 256,278 254,302 252,326" stroke-width="1.7"/>
+      <path d="M 258,254 C 264,274 271,294 276,314" stroke-width="1.5"/>
+      <path d="M 262,276 C 270,286 276,296 281,305" stroke-width="1.1"/>
+      <path d="M 255,300 C 261,310 266,318 269,326" stroke-width="0.95"/>
+    </g>
+
+    <!-- ==================== ABOVE-GROUND CROPS ==================== -->
+    <!-- Wilting Wheat Stalks with Sculpted Drooping Grain Heads (Left) -->
+    <g stroke-linecap="round">
+      <!-- Stalk 1 drooping left -->
+      <path d="M 90,246 C 86,224 78,208 64,205" fill="none" stroke="#A37638" stroke-width="2.1"/>
+      <path d="M 86,228 C 76,226 68,231 62,238" fill="none" stroke="#B68B4A" stroke-width="1.3"/>
+      <g transform="translate(64,205) rotate(-112)">
+        <ellipse cx="-2.2" cy="-3" rx="1.8" ry="3.2" fill="#CFA45A" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="2.2" cy="-3" rx="1.8" ry="3.2" fill="#C69A4E" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="-2" cy="-8" rx="1.7" ry="3" fill="#CFA45A" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="2" cy="-8" rx="1.7" ry="3" fill="#C69A4E" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="0" cy="-12.5" rx="1.6" ry="2.8" fill="#CFA45A" stroke="#8C6328" stroke-width="0.6"/>
+        <path d="M -1.5,-13 L -4,-19 M 0,-14 L 0,-21 M 1.5,-13 L 4,-19" stroke="#9C7134" stroke-width="0.7"/>
+      </g>
+      <!-- Stalk 2 drooping right -->
+      <path d="M 114,246 C 113,220 120,202 134,199" fill="none" stroke="#996C31" stroke-width="2.2"/>
+      <path d="M 114,226 C 104,220 96,224 90,232" fill="none" stroke="#B68B4A" stroke-width="1.3"/>
+      <g transform="translate(134,199) rotate(112)">
+        <ellipse cx="-2.2" cy="-3" rx="1.8" ry="3.3" fill="#CFA45A" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="2.2" cy="-3" rx="1.8" ry="3.3" fill="#C69A4E" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="-2" cy="-8" rx="1.7" ry="3.1" fill="#CFA45A" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="2" cy="-8" rx="1.7" ry="3.1" fill="#C69A4E" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="0" cy="-12.8" rx="1.6" ry="2.9" fill="#CFA45A" stroke="#8C6328" stroke-width="0.6"/>
+        <path d="M -1.5,-13 L -4,-19 M 0,-14 L 0,-21 M 1.5,-13 L 4,-19" stroke="#9C7134" stroke-width="0.7"/>
+      </g>
+      <!-- Stalk 3 bent sharply -->
+      <path d="M 136,246 C 136,227 144,218 154,219" fill="none" stroke="#A37638" stroke-width="1.9"/>
+      <g transform="translate(154,219) rotate(120)">
+        <ellipse cx="-1.9" cy="-2.8" rx="1.6" ry="2.8" fill="#C89B52" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="1.9" cy="-2.8" rx="1.6" ry="2.8" fill="#BD9148" stroke="#8C6328" stroke-width="0.6"/>
+        <ellipse cx="0" cy="-7.2" rx="1.6" ry="2.8" fill="#C89B52" stroke="#8C6328" stroke-width="0.6"/>
+        <path d="M -1,-8 L -3,-13 M 1,-8 L 3,-13" stroke="#9C7134" stroke-width="0.7"/>
+      </g>
+    </g>
+
+    <!-- Hardy Upright Barley Stalks (Center-Left, trimmed cleanly below pill) -->
+    <g stroke-linecap="round">
+      <!-- Barley 1 -->
+      <path d="M 210,246 C 209,228 208,212 206,198" fill="none" stroke="#4A7528" stroke-width="2.3"/>
+      <path d="M 209,232 C 199,224 194,218 191,212" fill="none" stroke="#5E8E36" stroke-width="1.4"/>
+      <path d="M 206,199 C 203,190 203,183 205,177 C 208,183 209,191 206,199 Z" fill="#88A846" stroke="#456924" stroke-width="0.8"/>
+      <path d="M 204,182 L 199,171 M 206,179 L 206,168 M 208,182 L 212,172" stroke="#688832" stroke-width="0.9"/>
+      <!-- Barley 2 (tallest, awns stop cleanly at y=164 leaving 12px gap below pill) -->
+      <path d="M 234,246 C 234,224 234,206 234,193" fill="none" stroke="#3F6820" stroke-width="2.5"/>
+      <path d="M 234,228 C 223,220 218,213 216,206" fill="none" stroke="#5A8833" stroke-width="1.5"/>
+      <path d="M 234,222 C 244,214 249,208 252,201" fill="none" stroke="#5A8833" stroke-width="1.5"/>
+      <path d="M 234,195 C 230,185 231,177 234,171 C 237,177 238,185 234,195 Z" fill="#92B24C" stroke="#3F6820" stroke-width="0.8"/>
+      <path d="M 232,177 L 228,165 M 234,174 L 234,163 M 236,177 L 240,165" stroke="#688832" stroke-width="0.9"/>
+      <!-- Barley 3 -->
+      <path d="M 258,246 C 259,228 260,213 262,200" fill="none" stroke="#4A7528" stroke-width="2.3"/>
+      <path d="M 259,230 C 268,222 273,216 276,210" fill="none" stroke="#5E8E36" stroke-width="1.4"/>
+      <path d="M 262,201 C 259,192 260,185 263,179 C 266,185 266,193 262,201 Z" fill="#88A846" stroke="#456924" stroke-width="0.8"/>
+      <path d="M 261,184 L 257,173 M 263,181 L 264,170 M 265,184 L 269,174" stroke="#688832" stroke-width="0.9"/>
+    </g>
+
+    <!-- ==================== EVAPORATION VAPOR RIBBONS ==================== -->
+    <g fill="none" stroke="url(#f16-vapor)" stroke-width="2.2" stroke-linecap="round">
+      <path d="M 338,244 C 330,228 346,212 338,196 C 332,184 340,176 342,167" marker-end="url(#f16-arrow-vapor)"/>
+      <path d="M 366,244 C 358,228 374,212 366,196 C 360,184 368,176 370,167" marker-end="url(#f16-arrow-vapor)"/>
+      <path d="M 394,244 C 386,228 402,212 394,196 C 388,184 396,176 398,167" marker-end="url(#f16-arrow-vapor)"/>
+    </g>
+
+    <!-- ==================== RISING SALTY WATER ARROWS + SALT CRYSTALS ==================== -->
+    <g stroke="#9D2D20" stroke-width="2.1" fill="none">
+      <path d="M 164,364 L 164,274" marker-end="url(#f16-arrow-cap)"/>
+      <path d="M 304,364 L 304,274" marker-end="url(#f16-arrow-cap)"/>
+      <path d="M 442,364 L 442,274" marker-end="url(#f16-arrow-cap)"/>
+    </g>
+    <!-- Tiny White Salt Crystals Riding Upward Along Capillary Arrows -->
+    <g fill="#FFFFFF" stroke="#9D2D20" stroke-width="0.7">
+      <polygon points="157,344 160,347 157,350 154,347"/>
+      <polygon points="171,320 174,323 171,326 168,323"/>
+      <polygon points="158,296 161,299 158,302 155,299"/>
+      <polygon points="297,342 300,345 297,348 294,345"/>
+      <polygon points="311,316 314,319 311,322 308,319"/>
+      <polygon points="298,292 301,295 298,298 295,295"/>
+      <polygon points="435,340 438,343 435,346 432,343"/>
+      <polygon points="449,314 452,317 449,320 446,317"/>
+      <polygon points="436,290 439,293 436,296 433,293"/>
+    </g>
+
+    <!-- ==================== PANEL A CALLOUTS & LABELS ==================== -->
+    <!-- Wheat Callout -->
+    <rect class="pill-red" x="44" y="116" width="132" height="36"/>
+    <text class="lbl-red" x="110" y="131" text-anchor="middle">Wheat Fails</text>
+    <text class="lbl-sm" x="110" y="145" text-anchor="middle">Salt-sensitive roots</text>
+    <line x1="110" y1="152" x2="112" y2="192" stroke="#B5382A" stroke-width="1" stroke-dasharray="3 2"/>
+
+    <!-- Barley Callout (clean 11px breathing room above barley awns) -->
+    <rect class="pill" x="181" y="116" width="114" height="36"/>
+    <text class="lbl-green" x="238" y="131" text-anchor="middle">Barley Survives</text>
+    <text class="lbl-sm" x="238" y="145" text-anchor="middle">Tolerates more salt</text>
+
+    <!-- Evaporation Callout (generous horizontal padding) -->
+    <rect class="pill-red" x="300" y="116" width="132" height="38"/>
+    <text class="lbl-red" x="366" y="131" text-anchor="middle">Water evaporates;</text>
+    <text class="lbl-red" x="366" y="145" text-anchor="middle">salt stays behind</text>
+
+    <!-- Heat Callout below Sun -->
+    <rect class="pill-red" x="436" y="173" width="68" height="34"/>
+    <text class="lbl-red" x="470" y="188" text-anchor="middle">&gt; 45°C</text>
+    <text class="lbl-sm" x="470" y="201" text-anchor="middle">(113°F)</text>
+
+    <!-- Standing Puddle Callout (cleanly positioned to right of vapor ribbons) -->
+    <rect class="pill" x="405" y="216" width="102" height="20"/>
+    <text class="lbl-sm" x="456" y="229.5" text-anchor="middle" font-weight="600">Standing water</text>
+    <line x1="432" y1="236" x2="420" y2="249" stroke="#387C96" stroke-width="1.1"/>
+    <circle cx="420" cy="250" r="2.1" fill="#387C96"/>
+
+    <!-- Salt Crust Pill Label -->
+    <rect class="pill-red" x="42" y="302" width="112" height="36"/>
+    <text class="lbl-red" x="98" y="317" text-anchor="middle">White salt crust</text>
+    <text class="lbl-sm" x="98" y="331" text-anchor="middle">coats upper soil</text>
+    <line x1="86" y1="302" x2="86" y2="257" stroke="#9D2D20" stroke-width="1.1"/>
+    <circle cx="86" cy="256" r="2.2" fill="#9D2D20"/>
+
+    <!-- Rising Water Pill Label (cleanly centered between x=304 and x=442 arrows) -->
+    <rect class="pill-red" x="323" y="304" width="100" height="44"/>
+    <text class="lbl-red" x="373" y="319" text-anchor="middle">Sun draws</text>
+    <text class="lbl-red" x="373" y="332" text-anchor="middle">salty water</text>
+    <text class="lbl-sm" x="373" y="344" text-anchor="middle">up to roots</text>
+
+    <!-- Groundwater Label -->
+    <text class="lbl-white" x="274" y="401" text-anchor="middle">Trapped Salty Groundwater Table</text>
+    <text class="lbl-white-sm" x="274" y="418" text-anchor="middle">Low-lying basin has poor drainage, so excess water cannot flow away</text>
+  </g>
+  <!-- Crisp Cutaway Border -->
+  <rect x="36" y="108" width="476" height="328" rx="6" fill="none" stroke="#CBBCA8" stroke-width="1.2"/>
+
+  <!-- ==================== PANEL B: 700-YEAR TEMPLE LEDGER DATA CHART ==================== -->
+  <rect class="panel" x="540" y="66" width="398" height="384"/>
+  <text class="ptitle" x="556" y="89">B. Wheat's Share of Southern Grain Harvests</text>
+  <text class="psub" x="556" y="102">Tracked in southern temple clay tablets (c. 2400–1700 BCE)</text>
+
+  <!-- Subtle Clay-Tablet Editorial Plot Container -->
+  <rect x="556" y="112" width="366" height="258" rx="7" fill="url(#f16-tablet-bg)" stroke="#D7C5AA" stroke-width="1.2"/>
+  <!-- Clay Tablet Header Ruling & Cuneiform Stylus Corner Wedges -->
+  <g fill="#BFA47D" opacity="0.78">
+    <polygon points="565,121 573,124 565,127"/>
+    <polygon points="913,121 905,124 913,127"/>
+  </g>
+  <text class="kicker" x="739" y="127" text-anchor="middle">SOUTHERN TEMPLE GRAIN LEDGERS</text>
+  <line x1="566" y1="133" x2="912" y2="133" stroke="#DFD0B8" stroke-width="0.9"/>
+
+  <!-- Horizontal Gridlines (20% = y148, 15% = y185, 10% = y222, 5% = y259, 0% = y296 -> 148px span = 7.4px/%) -->
+  <g stroke="#DED0BC" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="600" y1="148" x2="908" y2="148"/>
+    <line x1="600" y1="185" x2="908" y2="185"/>
+    <line x1="600" y1="222" x2="908" y2="222"/>
+    <line x1="600" y1="259" x2="908" y2="259"/>
+  </g>
+
+  <!-- Shaded Decline Area Under Verified Trend Curve -->
+  <path d="M 652,178 C 708,188 726,266 766,284 C 804,293 836,295 868,296 L 868,296 L 652,296 Z" fill="url(#f16-decline-area)"/>
+  <path d="M 678,184 C 718,200 732,265 766,284 C 804,293 836,295 868,296" fill="none" stroke="#C96B4B" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Axes -->
+  <line x1="600" y1="142" x2="600" y2="296" stroke="#6E5F52" stroke-width="1.4"/>
+  <line x1="600" y1="296" x2="908" y2="296" stroke="#5A4C40" stroke-width="1.6"/>
+
+  <!-- Y-Axis Labels -->
+  <text class="axis-lbl" x="593" y="152" text-anchor="end">20%</text>
+  <text class="axis-lbl" x="593" y="189" text-anchor="end">15%</text>
+  <text class="axis-lbl" x="593" y="226" text-anchor="end">10%</text>
+  <text class="axis-lbl" x="593" y="263" text-anchor="end">5%</text>
+  <text class="axis-lbl" x="593" y="300" text-anchor="end">0%</text>
+
+  <!-- Bar 1: c. 2400 BCE (~16% -> 16 * 7.4 = 118.4px -> y = 177.6) -->
+  <rect x="624" y="178" width="56" height="118" rx="4" fill="url(#f16-bar-gold)" stroke="#825617" stroke-width="1.4"/>
+  <!-- Proportional Botanical Wheat Stalk Icons Inside Bar 1 -->
+  <g opacity="0.72">
+    <use href="#f16-wheat-icon" transform="translate(639,291) scale(0.95)"/>
+    <use href="#f16-wheat-icon" transform="translate(652,291) scale(1.12)"/>
+    <use href="#f16-wheat-icon" transform="translate(665,291) scale(0.92)"/>
+  </g>
+  <text class="val-big" x="652" y="169" text-anchor="middle">~16%</text>
+
+  <!-- Bar 2: By 1700 BCE (< 2% -> ~12px -> y = 284) -->
+  <rect x="738" y="284" width="56" height="12" rx="2.5" fill="url(#f16-bar-rust)" stroke="#7F291A" stroke-width="1.3"/>
+  <!-- Single Tiny Bent Wheat Stalk Above Bar 2 -->
+  <g stroke="#9D2D20" stroke-width="1.25" fill="none" stroke-linecap="round">
+    <path d="M 764,282 C 764,273 769,269 775,269"/>
+    <ellipse cx="777" cy="270" rx="2.8" ry="1.4" transform="rotate(18 777 270)" fill="#C67152"/>
+    <path d="M 780,271 L 783,273" stroke="#9D2D20" stroke-width="0.8"/>
+  </g>
+  <text class="val-red" x="766" y="260" text-anchor="middle">&lt; 2%</text>
+
+  <!-- Bar 3: Later Southern Cities (0% — Vanished) -->
+  <rect x="840" y="293" width="56" height="3" rx="1.5" fill="#8C261B"/>
+  <text class="val-red" x="868" y="271" text-anchor="middle">0%</text>
+  <text class="lbl-red" x="868" y="286" text-anchor="middle">Vanished</text>
+
+  <!-- Smooth Editorial Decline Arrow & Pill (generous padding) -->
+  <path d="M 688,180 C 724,194 745,216 758,242" fill="none" stroke="#AD3526" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#f16-arrow-red)"/>
+  <rect class="pill-red" x="736" y="166" width="166" height="38"/>
+  <text class="lbl-red" x="819" y="181" text-anchor="middle">700-year drop in wheat</text>
+  <text class="lbl-sm" x="819" y="195" text-anchor="middle">Farmers switched to barley</text>
+
+  <!-- X-Axis Baseline Typography -->
+  <text class="lbl" x="652" y="313" text-anchor="middle">c. 2400 BCE</text>
+  <text class="lbl-sm" x="652" y="326" text-anchor="middle">Early southern</text>
+  <text class="lbl-sm" x="652" y="338" text-anchor="middle">temple records</text>
+
+  <text class="lbl" x="766" y="313" text-anchor="middle">By 1700 BCE</text>
+  <text class="lbl-sm" x="766" y="326" text-anchor="middle">Sharp drop</text>
+  <text class="lbl-sm" x="766" y="338" text-anchor="middle">across south</text>
+
+  <text class="lbl" x="868" y="313" text-anchor="middle">Later South</text>
+  <text class="lbl-sm" x="868" y="326" text-anchor="middle">Gone in several</text>
+  <text class="lbl-sm" x="868" y="338" text-anchor="middle">southern cities</text>
+
+  <!-- Ledger Footnote inside Clay Tablet -->
+  <line x1="576" y1="347" x2="902" y2="347" stroke="#DFD0B8" stroke-width="0.8"/>
+  <text class="psub" x="739" y="361" text-anchor="middle">Remaining grain harvest shifted to salt-tolerant barley</text>
+
+  <!-- Bottom Takeaway Banner -->
+  <rect x="556" y="378" width="366" height="58" rx="6" fill="#F9EDE7" stroke="#DFB8AC" stroke-width="1.2"/>
+  <path d="M 562,378 L 562,436 L 561,436 Q 556,436 556,431 L 556,383 Q 556,378 561,378 Z" fill="#AD3526"/>
+  <text class="lbl-red" x="574" y="396">Northward Political Shift Toward Babylon</text>
+  <text class="lbl-sm" x="574" y="412">As rising soil salt cut wheat harvests across southern cities,</text>
+  <text class="lbl-sm" x="574" y="426">grain power and political control shifted north to Babylon.</text>
+</svg>

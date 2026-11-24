@@ -1,0 +1,517 @@
+<svg id="fig1-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 692" width="960" height="692" role="img" aria-label="Figure 1.5: The Sumerian Canal, Tax, Ration, and Trade Loop">
+  <defs>
+    <!-- Canvas & Editorial Gradients -->
+    <linearGradient id="f15-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="55%" stop-color="#FAF5EC"/>
+      <stop offset="100%" stop-color="#F5EDE0"/>
+    </linearGradient>
+    <linearGradient id="f15-top-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#225773"/>
+      <stop offset="30%" stop-color="#B07A23"/>
+      <stop offset="58%" stop-color="#7C4816"/>
+      <stop offset="82%" stop-color="#2E6347"/>
+      <stop offset="100%" stop-color="#A33328"/>
+    </linearGradient>
+
+    <!-- Header Bar Gradients -->
+    <linearGradient id="f15-hdr-water" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#205470"/>
+      <stop offset="100%" stop-color="#357899"/>
+    </linearGradient>
+    <linearGradient id="f15-hdr-grain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#916217"/>
+      <stop offset="100%" stop-color="#BE882C"/>
+    </linearGradient>
+    <linearGradient id="f15-hdr-hub" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#65370E"/>
+      <stop offset="52%" stop-color="#874E18"/>
+      <stop offset="100%" stop-color="#A06223"/>
+    </linearGradient>
+    <linearGradient id="f15-hdr-clay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#624634"/>
+      <stop offset="100%" stop-color="#86634D"/>
+    </linearGradient>
+    <linearGradient id="f15-hdr-trade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27593E"/>
+      <stop offset="100%" stop-color="#3E7D5C"/>
+    </linearGradient>
+    <linearGradient id="f15-hdr-warn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C261C"/>
+      <stop offset="100%" stop-color="#B63C2F"/>
+    </linearGradient>
+
+    <!-- Card Surface Gradients -->
+    <linearGradient id="f15-card-water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F8FB"/>
+    </linearGradient>
+    <linearGradient id="f15-card-grain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FDF7EB"/>
+    </linearGradient>
+    <linearGradient id="f15-card-hub" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF8"/>
+      <stop offset="58%" stop-color="#FCF2DC"/>
+      <stop offset="100%" stop-color="#F6E6C2"/>
+    </linearGradient>
+    <linearGradient id="f15-card-clay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F9F4ED"/>
+    </linearGradient>
+    <linearGradient id="f15-card-trade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F9F4"/>
+    </linearGradient>
+    <linearGradient id="f15-card-warn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDFC"/>
+      <stop offset="100%" stop-color="#FCECE9"/>
+    </linearGradient>
+
+    <!-- Focal Radial Halos -->
+    <radialGradient id="f15-hub-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D99B38" stop-opacity="0.28"/>
+      <stop offset="62%" stop-color="#D99B38" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#D99B38" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="f15-warn-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C84638" stop-opacity="0.14"/>
+      <stop offset="70%" stop-color="#C84638" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#C84638" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle Editorial Paper Dot Grid & Ecological Warning Hatch -->
+    <pattern id="f15-paper-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.7" fill="#C9B9A3" opacity="0.36"/>
+    </pattern>
+    <pattern id="f15-warn-hatch" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="11" stroke="#C5483A" stroke-width="1" opacity="0.09"/>
+    </pattern>
+
+    <!-- Soft Drop Shadows -->
+    <filter id="f15-shadow-card" x="-8%" y="-10%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3.8" flood-color="#3B2B1E" flood-opacity="0.11"/>
+    </filter>
+    <filter id="f15-shadow-hub" x="-10%" y="-12%" width="120%" height="132%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6.5" flood-color="#5A3310" flood-opacity="0.21"/>
+    </filter>
+    <filter id="f15-shadow-pill" x="-10%" y="-16%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.6" flood-color="#3B2B1E" flood-opacity="0.10"/>
+    </filter>
+
+    <!-- Color-Coded Tapered Arrowheads -->
+    <marker id="f15-arr-water" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#286482"/>
+    </marker>
+    <marker id="f15-arr-grain" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#8C5E1A"/>
+    </marker>
+    <marker id="f15-arr-hub" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#7D4816"/>
+    </marker>
+    <marker id="f15-arr-clay" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#6D4F3C"/>
+    </marker>
+    <marker id="f15-arr-trade" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#2F6649"/>
+    </marker>
+    <marker id="f15-arr-warn" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#A93126"/>
+    </marker>
+
+    <style>
+      #fig1-5 .kicker-bg { fill: #7C4816; }
+      #fig1-5 .kicker-txt { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.6px; fill: #FFFBF4; }
+      #fig1-5 .title { font-family: "Liberation Serif", Georgia, "Times New Roman", serif; font-size: 20.5px; font-weight: 700; fill: #231B15; }
+      #fig1-5 .subtitle { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; fill: #5A4E44; }
+      #fig1-5 .legend-txt { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 600; fill: #4A3E35; }
+      #fig1-5 .legend-warn { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 700; fill: #8F281E; }
+      #fig1-5 .hdr-title { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12.2px; font-weight: 700; fill: #FFFFFF; }
+      #fig1-5 .hub-title { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12.8px; font-weight: 700; fill: #FFFDF8; }
+      #fig1-5 .body-main { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11.2px; font-weight: 600; fill: #2A211B; }
+      #fig1-5 .body-sub { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.7px; fill: #5A4E44; }
+      #fig1-5 .body-warn { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11.1px; font-weight: 700; fill: #8E251B; }
+      #fig1-5 .hub-metric { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #6C3C11; }
+      #fig1-5 .pill-txt { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 600; fill: #2E251E; }
+      #fig1-5 .pill-txt-water { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 600; fill: #1F516B; }
+      #fig1-5 .pill-txt-hub { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 600; fill: #693A10; }
+      #fig1-5 .pill-txt-trade { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 600; fill: #235239; }
+      #fig1-5 .pill-txt-warn { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 700; fill: #8E251B; }
+      #fig1-5 .footer-lead { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.8px; font-weight: 700; fill: #8F281E; }
+      #fig1-5 .footer-txt { font-family: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.8px; fill: #4F433A; }
+      #fig1-5 .edge { fill: none; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; }
+      #fig1-5 .edge-water { stroke: #286482; marker-end: url(#f15-arr-water); }
+      #fig1-5 .edge-grain { stroke: #8C5E1A; marker-end: url(#f15-arr-grain); }
+      #fig1-5 .edge-hub { stroke: #7D4816; marker-end: url(#f15-arr-hub); }
+      #fig1-5 .edge-clay { stroke: #6D4F3C; marker-end: url(#f15-arr-clay); }
+      #fig1-5 .edge-trade { stroke: #2F6649; marker-end: url(#f15-arr-trade); }
+      #fig1-5 .edge-warn { stroke: #A93126; marker-end: url(#f15-arr-warn); }
+      #fig1-5 .edge-warn-dash { stroke: #A93126; stroke-dasharray: 5.5 4; marker-end: url(#f15-arr-warn); }
+    </style>
+  </defs>
+
+  <!-- Outer Editorial Canvas -->
+  <rect x="0.75" y="0.75" width="958.5" height="690.5" rx="12" fill="url(#f15-bg)" stroke="#DDD1BF" stroke-width="1.5"/>
+  <rect x="12" y="92" width="936" height="528" rx="8" fill="url(#f15-paper-grid)"/>
+
+  <!-- Single Clean Top Editorial Spectrum Accent Bar -->
+  <path d="M 12.75,1.5 L 947.25,1.5 Q 957.5,1.5 958.5,6.5 L 1.5,6.5 Q 2.5,1.5 12.75,1.5 Z" fill="url(#f15-top-accent)"/>
+
+  <!-- HEADER -->
+  <rect class="kicker-bg" x="28" y="18" width="76" height="19" rx="4"/>
+  <text class="kicker-txt" x="66" y="31.2" text-anchor="middle">FIGURE 1.5</text>
+  <text class="title" x="114" y="34">The Sumerian Canal, Tax, Ration, and Trade Loop</text>
+  <text class="subtitle" x="28" y="54">How southern Mesopotamia turned river water and barley surplus into cities, wool exports, and imported timber and metal</text>
+  <line x1="28" y1="65" x2="932" y2="65" stroke="#E2D6C4" stroke-width="1"/>
+
+  <!-- COMPACT EDITORIAL LEGEND BAR (Evenly distributed across 28..932) -->
+  <g transform="translate(28, 72)">
+    <circle cx="5" cy="8" r="4.5" fill="#2A6582"/>
+    <text class="legend-txt" x="15" y="11.5">Water source</text>
+
+    <circle cx="122" cy="8" r="4.5" fill="#AA7722"/>
+    <text class="legend-txt" x="132" y="11.5">Barley harvest</text>
+
+    <rect x="242" y="3.5" width="9" height="9" rx="2" fill="#824A17"/>
+    <text class="legend-txt" x="257" y="11.5">Central temple hub</text>
+
+    <circle cx="394" cy="8" r="4.5" fill="#775743"/>
+    <text class="legend-txt" x="404" y="11.5">Labor &amp; public works</text>
+
+    <circle cx="552" cy="8" r="4.5" fill="#326C4D"/>
+    <text class="legend-txt" x="562" y="11.5">Craft &amp; trade network</text>
+
+    <line x1="716" y1="8" x2="740" y2="8" stroke="#A93126" stroke-width="2.2" stroke-dasharray="4.5 3"/>
+    <text class="legend-warn" x="747" y="11.5">Ecological feedback limit</text>
+  </g>
+
+  <!-- FOCAL AMBIENT HALOS -->
+  <ellipse cx="480" cy="348" rx="166" ry="88" fill="url(#f15-hub-glow)"/>
+  <ellipse cx="772" cy="157" rx="168" ry="66" fill="url(#f15-warn-halo)"/>
+
+  <!-- UNIFIED ECOLOGICAL FEEDBACK CALLOUT ZONE (Encloses red loop + salt card cleanly) -->
+  <rect x="602" y="96" width="338" height="122" rx="13" fill="url(#f15-warn-hatch)" stroke="#C84638" stroke-width="1.35" stroke-dasharray="5.5 4" opacity="0.88"/>
+
+  <!-- CENTRAL HUB OUTER DOUBLE-RING ACCENT (Drawn beneath arrows so arrows terminate crisply at card border) -->
+  <rect x="360.5" y="284.5" width="239" height="127" rx="12.5" fill="none" stroke="#CFA052" stroke-width="1.35" opacity="0.78"/>
+
+  <!-- ========================================================= -->
+  <!-- CONNECTING FLOW CHANNELS (Drawn underneath cards & pills) -->
+  <!-- ========================================================= -->
+
+  <!-- 1. River -> Fields (Water Blue) -->
+  <path class="edge edge-water" d="M 246,174 L 359,174"/>
+
+  <!-- 2. Fields -> Salt Crust (Solid Crimson Gentle Upper Arc) -->
+  <path class="edge edge-warn" d="M 596,144 Q 655,137 709,144"/>
+
+  <!-- 3. Salt Crust -> Fields (Dashed Crimson Lower Feedback Arc) -->
+  <path class="edge edge-warn-dash" d="M 714,169 Q 655,176 601,169"/>
+
+  <!-- 4. Fields -> Central Temple Hub (Harvest Gold, terminates crisply at hub border y=288) -->
+  <path class="edge edge-grain" d="M 480,208 L 480,285.5"/>
+
+  <!-- 5. Canals & Dikes -> River (Water Blue) -->
+  <path class="edge edge-water" d="M 137,294 L 137,213"/>
+
+  <!-- 6. Central Temple Hub -> Canals & Dikes (Royal Amber) -->
+  <path class="edge edge-hub" d="M 364,368 L 251,368"/>
+
+  <!-- 7. Central Temple Hub -> Wool Workshops (Royal Amber) -->
+  <path class="edge edge-hub" d="M 596,368 L 709,368"/>
+
+  <!-- 8. Free Farming Households -> Canals & Dikes (Mudbrick Earth) -->
+  <path class="edge edge-clay" d="M 104,508 L 104,407"/>
+
+  <!-- 9. Wool Workshops -> Long-Distance Traders (Trade Green) -->
+  <path class="edge edge-trade" d="M 823,402 L 823,503"/>
+
+  <!-- 10. Long-Distance Traders -> Imported Raw Materials (Trade Green) -->
+  <path class="edge edge-trade" d="M 714,578 L 601,578"/>
+
+  <!-- 11. Imported Raw Materials -> Canals & Dikes (Smooth Rounded Orthogonal Elbow, Trade Green) -->
+  <path class="edge edge-trade" d="M 480,508 L 480,471 Q 480,455 464,455 L 220,455 Q 204,455 204,439 L 204,407"/>
+
+  <!-- ========================================================= -->
+  <!-- ROW 1 CARDS (y = 104, h = 104)                            -->
+  <!-- ========================================================= -->
+
+  <!-- NODE 1: Tigris & Euphrates (x=28, y=104, w=218, h=104) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="28" y="104" width="218" height="104" rx="10" fill="url(#f15-card-water)" stroke="#2A6582" stroke-width="1.6"/>
+    <path d="M 28,114 Q 28,104 38,104 L 236,104 Q 246,104 246,114 L 246,138 L 28,138 Z" fill="url(#f15-hdr-water)"/>
+    <!-- Icon Badge: River Waves & Raised Silt Levees -->
+    <circle cx="49" cy="121" r="12" fill="#E3F2F8" stroke="#1E4D66" stroke-width="1"/>
+    <path d="M 38.5,127.5 Q 42,121.5 45.5,123.5 L 45.5,129.5 L 38.5,129.5 Z" fill="#C49E6E"/>
+    <path d="M 59.5,127.5 Q 56,121.5 52.5,123.5 L 52.5,129.5 L 59.5,129.5 Z" fill="#C49E6E"/>
+    <path d="M 40.5,117.5 C 43.2,114.8 46.2,114.8 49,117.5 C 51.8,120.2 54.8,120.2 57.5,117.5" fill="none" stroke="#1E5572" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 41.2,122.5 C 44,120 46.5,120 49,122.5 C 51.5,125 54,125 56.8,122.5" fill="none" stroke="#4D97BA" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M 44,114.6 C 46,113.4 48,113.4 50,114.6" fill="none" stroke="#7CC0DE" stroke-width="1.1" stroke-linecap="round"/>
+    <text class="hdr-title" x="68" y="125.5">Tigris &amp; Euphrates</text>
+    <text class="body-main" x="137" y="160" text-anchor="middle">Natural silt levees sit above plain</text>
+    <text class="body-sub" x="137" y="178" text-anchor="middle">Gravity feeds canals; dry plain</text>
+    <rect x="64" y="185" width="146" height="17" rx="4" fill="#E4F1F7"/>
+    <text class="pill-txt-water" x="137" y="197.2" text-anchor="middle">Rain: under 150 mm/yr</text>
+  </g>
+
+  <!-- NODE 2: Irrigated Barley Fields (x=364, y=104, w=232, h=104) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="364" y="104" width="232" height="104" rx="10" fill="url(#f15-card-grain)" stroke="#9A6B1C" stroke-width="1.6"/>
+    <path d="M 364,114 Q 364,104 374,104 L 586,104 Q 596,104 596,114 L 596,138 L 364,138 Z" fill="url(#f15-hdr-grain)"/>
+    <!-- Icon Badge: Botanical Golden Barley Sheaf -->
+    <circle cx="385" cy="121" r="12" fill="#FCF1D5" stroke="#7E5412" stroke-width="1"/>
+    <path d="M 384.5,130.5 C 384.5,124.5 385.2,118.5 386.2,112" fill="none" stroke="#8C5B14" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 384.8,128.5 C 381.8,127.5 379.8,125.5 378.8,123.5" fill="none" stroke="#A67624" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="386.2" y1="112" x2="386.8" y2="109.2" stroke="#B68224" stroke-width="0.9" stroke-linecap="round"/>
+    <line x1="384.5" y1="113" x2="383.2" y2="110.2" stroke="#B68224" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="387.8" y1="113" x2="389.2" y2="110.4" stroke="#B68224" stroke-width="0.8" stroke-linecap="round"/>
+    <ellipse cx="382" cy="123" rx="2.6" ry="1.4" transform="rotate(-36 382 123)" fill="#D69E33"/>
+    <ellipse cx="388.2" cy="123" rx="2.6" ry="1.4" transform="rotate(36 388.2 123)" fill="#C48B22"/>
+    <ellipse cx="382.3" cy="118.6" rx="2.5" ry="1.35" transform="rotate(-36 382.3 118.6)" fill="#DBAA3E"/>
+    <ellipse cx="388.5" cy="118.6" rx="2.5" ry="1.35" transform="rotate(36 388.5 118.6)" fill="#C78E25"/>
+    <ellipse cx="383.2" cy="114.6" rx="2.2" ry="1.2" transform="rotate(-30 383.2 114.6)" fill="#E4B348"/>
+    <ellipse cx="388.2" cy="114.6" rx="2.2" ry="1.2" transform="rotate(30 388.2 114.6)" fill="#D69E33"/>
+    <text class="hdr-title" x="404" y="125.5">Irrigated Barley Fields</text>
+    <text class="body-main" x="480" y="160" text-anchor="middle">Seeder plow saves ~50% of seed</text>
+    <text class="body-sub" x="480" y="178" text-anchor="middle">Rain-fed farms yield only 1:5 to 1:8</text>
+    <rect x="402" y="185" width="156" height="17" rx="4" fill="#F8EBCB"/>
+    <text class="pill-txt-hub" x="480" y="197.2" text-anchor="middle">Harvest yield: 1:15 to 1:30</text>
+  </g>
+
+  <!-- NODE 3: Topsoil Salt Crust (x=714, y=104, w=218, h=104) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="714" y="104" width="218" height="104" rx="10" fill="url(#f15-card-warn)" stroke="#A33328" stroke-width="1.8"/>
+    <path d="M 714,114 Q 714,104 724,104 L 922,104 Q 932,104 932,114 L 932,138 L 714,138 Z" fill="url(#f15-hdr-warn)"/>
+    <!-- Icon Badge: Crisp White Salt Crystals on Crimson Warning Medallion -->
+    <circle cx="735" cy="121" r="12" fill="#B5382B" stroke="#FCE0DC" stroke-width="1.2"/>
+    <polygon points="735,112 739.2,120.5 735,127 730.8,120.5" fill="#FFFFFF"/>
+    <polygon points="735,112 739.2,120.5 735,120.5" fill="#F9D9D4"/>
+    <polygon points="729,119.5 732,126.5 726.5,126.5" fill="#FDECE9"/>
+    <polygon points="741,118.5 743.8,126.5 738.5,126.5" fill="#F5CBC4"/>
+    <line x1="726" y1="127.5" x2="744" y2="127.5" stroke="#FCE0DC" stroke-width="1.3" stroke-linecap="round"/>
+    <text class="hdr-title" x="754" y="125.5">Topsoil Salt Crust</text>
+    <text class="body-warn" x="823" y="160" text-anchor="middle">Standing water leaves white salt</text>
+    <text class="body-sub" x="823" y="178" text-anchor="middle">Wheat falls from ~16% to under 2%</text>
+    <rect x="742" y="185" width="162" height="17" rx="4" fill="#F9DDD8"/>
+    <text class="pill-txt-warn" x="823" y="197.2" text-anchor="middle">Long-term soil limit</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ROW 2 CARDS (Left/Right: y=294 h=108; Hub: y=288 h=120)   -->
+  <!-- ========================================================= -->
+
+  <!-- NODE 4: Canals, Dikes & Ziggurat (x=28, y=294, w=218, h=108) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="28" y="294" width="218" height="108" rx="10" fill="url(#f15-card-clay)" stroke="#6D4F3C" stroke-width="1.6"/>
+    <path d="M 28,304 Q 28,294 38,294 L 236,294 Q 246,294 246,304 L 246,328 L 28,328 Z" fill="url(#f15-hdr-clay)"/>
+    <!-- Icon Badge: Stepped Ziggurat, Brick Course & Canal -->
+    <circle cx="49" cy="311" r="12" fill="#F2E6DA" stroke="#5A4030" stroke-width="1"/>
+    <rect x="40" y="313.8" width="18" height="4.4" rx="0.5" fill="#9A6D4A"/>
+    <line x1="40.5" y1="316" x2="57.5" y2="316" stroke="#7A5234" stroke-width="0.6"/>
+    <rect x="42.5" y="309.6" width="13" height="4.2" rx="0.5" fill="#B2825B"/>
+    <rect x="45.2" y="305.8" width="7.6" height="3.8" rx="0.5" fill="#C9996F"/>
+    <rect x="47.8" y="309" width="2.4" height="9.2" fill="#5A3C27"/>
+    <path d="M 41,320 C 44,318.8 47,321 50,319.8 C 53,318.6 55.5,320.4 57,319.6" fill="none" stroke="#347899" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="hdr-title" x="68" y="315.5">Canals, Dikes &amp; Ziggurat</text>
+    <text class="body-main" x="137" y="351" text-anchor="middle">Dredge silt &amp; repair flood dikes</text>
+    <text class="body-sub" x="137" y="369" text-anchor="middle">Mold sun-dried mudbrick cores</text>
+    <rect x="52" y="377" width="170" height="17" rx="4" fill="#EFE4D8"/>
+    <text class="pill-txt" x="137" y="389.2" text-anchor="middle">Ur ziggurat: ~64 × 45 m base</text>
+  </g>
+
+  <!-- NODE 5: CENTRAL HUB — Temple Granary & Ledgers (x=364, y=288, w=232, h=120) -->
+  <g filter="url(#f15-shadow-hub)">
+    <rect x="364" y="288" width="232" height="120" rx="10" fill="url(#f15-card-hub)" stroke="#7C4816" stroke-width="2.2"/>
+    <path d="M 364,298 Q 364,288 374,288 L 586,288 Q 596,288 596,298 L 596,326 L 364,326 Z" fill="url(#f15-hdr-hub)"/>
+    <line x1="365" y1="326.5" x2="595" y2="326.5" stroke="#E0B465" stroke-width="1.4"/>
+    <!-- Icon Badge: Clay Cuneiform Tablet with Wedge Marks & Reed Stylus -->
+    <circle cx="386" cy="307" r="13" fill="#FCEAC2" stroke="#63350D" stroke-width="1.1"/>
+    <rect x="378.2" y="299" width="13.8" height="16" rx="2.5" fill="#D5A664" stroke="#6E3F14" stroke-width="1.1"/>
+    <!-- Tiny cuneiform wedge impressions -->
+    <polygon points="380.4,302.2 384.2,303.2 380.4,304.2" fill="#5D330E"/>
+    <polygon points="385.2,302.2 389.6,303.2 385.2,304.2" fill="#5D330E"/>
+    <polygon points="380.4,306 385.2,307 380.4,308" fill="#5D330E"/>
+    <polygon points="386.2,306 389.2,307 386.2,308" fill="#5D330E"/>
+    <polygon points="380.4,309.8 384.8,310.8 380.4,311.8" fill="#5D330E"/>
+    <path d="M 388.8,313.5 L 395.4,303.2" stroke="#4A2709" stroke-width="1.9" stroke-linecap="round"/>
+    <text class="hub-title" x="405" y="311.5">Temple Granary &amp; Ledgers</text>
+    <text class="body-main" x="480" y="348" text-anchor="middle">Stores grain &amp; issues worker rations</text>
+    <text class="body-sub" x="480" y="366" text-anchor="middle">85–90% of Uruk tablets are accounts</text>
+    <rect x="378" y="376" width="204" height="22" rx="5" fill="#F2DCAC" stroke="#D1A658" stroke-width="1"/>
+    <text class="hub-metric" x="480" y="390.8" text-anchor="middle">Kushim: 29,086 measures / 37 mo</text>
+  </g>
+
+  <!-- NODE 6: Wool Textile Workshops (x=714, y=294, w=218, h=108) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="714" y="294" width="218" height="108" rx="10" fill="url(#f15-card-trade)" stroke="#2F6649" stroke-width="1.6"/>
+    <path d="M 714,304 Q 714,294 724,294 L 922,294 Q 932,294 932,304 L 932,328 L 714,328 Z" fill="url(#f15-hdr-trade)"/>
+    <!-- Icon Badge: Wooden Loom & Woven Wool Cloth with Shuttle -->
+    <circle cx="735" cy="311" r="12" fill="#E2F2E9" stroke="#224E37" stroke-width="1"/>
+    <rect x="727.5" y="304.5" width="15" height="13" rx="1" fill="none" stroke="#6E4B2F" stroke-width="1.7"/>
+    <line x1="731" y1="305.5" x2="731" y2="316.5" stroke="#9C7A58" stroke-width="0.95"/>
+    <line x1="735" y1="305.5" x2="735" y2="316.5" stroke="#9C7A58" stroke-width="0.95"/>
+    <line x1="739" y1="305.5" x2="739" y2="316.5" stroke="#9C7A58" stroke-width="0.95"/>
+    <rect x="729" y="308.6" width="12" height="5.4" rx="0.9" fill="#377A56"/>
+    <line x1="729.5" y1="310.6" x2="740.5" y2="310.6" stroke="#DDF0E5" stroke-width="0.9"/>
+    <line x1="729.5" y1="312.6" x2="740.5" y2="312.6" stroke="#BFE2CE" stroke-width="0.9"/>
+    <ellipse cx="735" cy="316.4" rx="4.2" ry="1.5" fill="#F2DEC1" stroke="#855E35" stroke-width="0.7"/>
+    <text class="hdr-title" x="754" y="315.5">Wool Textile Workshops</text>
+    <text class="body-main" x="823" y="351" text-anchor="middle">Hundreds of women weavers</text>
+    <text class="body-sub" x="823" y="369" text-anchor="middle">Turn local wool into export cloth</text>
+    <rect x="742" y="377" width="162" height="17" rx="4" fill="#E1F1E8"/>
+    <text class="pill-txt-trade" x="823" y="389.2" text-anchor="middle">Paid barley, oil &amp; wool</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ROW 3 CARDS (y = 508, h = 102)                            -->
+  <!-- ========================================================= -->
+
+  <!-- NODE 7: Free Farming Households (x=28, y=508, w=218, h=102) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="28" y="508" width="218" height="102" rx="10" fill="url(#f15-card-clay)" stroke="#6D4F3C" stroke-width="1.6"/>
+    <path d="M 28,518 Q 28,508 38,508 L 236,508 Q 246,508 246,518 L 246,542 L 28,542 Z" fill="url(#f15-hdr-clay)"/>
+    <!-- Icon Badge: Mesopotamian Mudbrick House with Roof Timbers -->
+    <circle cx="49" cy="525" r="12" fill="#F2E6DA" stroke="#5A4030" stroke-width="1"/>
+    <rect x="41" y="520.2" width="16" height="11.8" rx="0.8" fill="#BD8E64" stroke="#634532" stroke-width="1"/>
+    <rect x="39.8" y="518.2" width="18.4" height="2.4" rx="0.5" fill="#8A6041"/>
+    <circle cx="43.5" cy="521.4" r="0.7" fill="#5D3E29"/>
+    <circle cx="49" cy="521.4" r="0.7" fill="#5D3E29"/>
+    <circle cx="54.5" cy="521.4" r="0.7" fill="#5D3E29"/>
+    <path d="M 46.8,532 L 46.8,526.8 Q 49,524.8 51.2,526.8 L 51.2,532 Z" fill="#4A3121"/>
+    <rect x="42.8" y="523.4" width="2.4" height="2.4" fill="#F7EAD9"/>
+    <rect x="52.8" y="523.4" width="2.4" height="2.4" fill="#F7EAD9"/>
+    <text class="hdr-title" x="68" y="529.5">Free Farming Households</text>
+    <text class="body-main" x="137" y="564" text-anchor="middle">1 family feeds city specialists</text>
+    <text class="body-sub" x="137" y="582" text-anchor="middle">Weavers, scribes, smiths, builders</text>
+    <rect x="54" y="588" width="166" height="16" rx="4" fill="#EFE4D8"/>
+    <text class="pill-txt" x="137" y="599.8" text-anchor="middle">Uruk: ~40,000 residents</text>
+  </g>
+
+  <!-- NODE 8: Imported Raw Materials (x=364, y=508, w=232, h=102) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="364" y="508" width="232" height="102" rx="10" fill="url(#f15-card-trade)" stroke="#2F6649" stroke-width="1.6"/>
+    <path d="M 364,518 Q 364,508 374,508 L 586,508 Q 596,508 596,518 L 596,542 L 364,542 Z" fill="url(#f15-hdr-trade)"/>
+    <!-- Icon Badge: Distinct Lapis Gem, Cedar Log & Copper Ingot -->
+    <circle cx="385" cy="525" r="12" fill="#E2F2E9" stroke="#224E37" stroke-width="1"/>
+    <!-- Lapis lazuli gem (top) -->
+    <polygon points="385,515.8 389.6,519.6 387.8,523.6 382.2,523.6 380.4,519.6" fill="#2750A0" stroke="#17336B" stroke-width="0.8"/>
+    <polygon points="385,515.8 387.8,519.6 385,521.4 382.2,519.6" fill="#5D8AE0"/>
+    <!-- Cedar log (bottom left) -->
+    <rect x="376.2" y="525" width="8.5" height="4.8" rx="1.4" fill="#8B512B"/>
+    <circle cx="384.2" cy="527.4" r="2.1" fill="#CE915E" stroke="#7A4522" stroke-width="0.6"/>
+    <!-- Copper ingot (bottom right) -->
+    <polygon points="385.5,530 394.2,530 392.8,525.8 386.9,525.8" fill="#C96D36" stroke="#7E3E1A" stroke-width="0.7"/>
+    <line x1="387.8" y1="527.2" x2="392" y2="527.2" stroke="#EFA776" stroke-width="0.8" stroke-linecap="round"/>
+    <text class="hdr-title" x="404" y="529.5">Imported Raw Materials</text>
+    <text class="body-main" x="480" y="564" text-anchor="middle">Cedar, Omani copper, Afghan lapis</text>
+    <text class="body-sub" x="480" y="582" text-anchor="middle">Sumer lacked stone, ore, &amp; tall timber</text>
+    <rect x="394" y="588" width="172" height="16" rx="4" fill="#E1F1E8"/>
+    <text class="pill-txt-trade" x="480" y="599.8" text-anchor="middle">Wide roof beams &amp; copper</text>
+  </g>
+
+  <!-- NODE 9: Long-Distance Traders (x=714, y=508, w=218, h=102) -->
+  <g filter="url(#f15-shadow-card)">
+    <rect x="714" y="508" width="218" height="102" rx="10" fill="url(#f15-card-trade)" stroke="#2F6649" stroke-width="1.6"/>
+    <path d="M 714,518 Q 714,508 724,508 L 922,508 Q 932,508 932,518 L 932,542 L 714,542 Z" fill="url(#f15-hdr-trade)"/>
+    <!-- Icon Badge: Curved Mesopotamian Reed Merchant Boat & Wool Bale -->
+    <circle cx="735" cy="525" r="12" fill="#E2F2E9" stroke="#224E37" stroke-width="1"/>
+    <rect x="730.8" y="520" width="8.4" height="5" rx="1.2" fill="#CCA05C" stroke="#7A5523" stroke-width="0.8"/>
+    <line x1="733.5" y1="520.2" x2="733.5" y2="524.8" stroke="#855E29" stroke-width="0.8"/>
+    <line x1="736.5" y1="520.2" x2="736.5" y2="524.8" stroke="#855E29" stroke-width="0.8"/>
+    <path d="M 725.5,521.8 C 727,527.5 730.5,530 735,530 C 739.5,530 743,527.5 744.5,521.8 L 742,525.2 L 728,525.2 Z" fill="#6F4B2E"/>
+    <path d="M 727,531.6 Q 731,530.2 735,531.6 Q 739,533 743,531.6" fill="none" stroke="#3680A1" stroke-width="1.3" stroke-linecap="round"/>
+    <text class="hdr-title" x="754" y="529.5">Long-Distance Traders</text>
+    <text class="body-main" x="823" y="564" text-anchor="middle">Carry woven wool cloth abroad</text>
+    <text class="body-sub" x="823" y="582" text-anchor="middle">Trade cloth for wood, ore &amp; stone</text>
+    <rect x="735" y="588" width="176" height="16" rx="4" fill="#E1F1E8"/>
+    <text class="pill-txt-trade" x="823" y="599.8" text-anchor="middle">Lebanon · Oman · Afghanistan</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ARROW LABEL PILLS (Generous Padding & Zero Crowding)     -->
+  <!-- ========================================================= -->
+
+  <!-- Pill 1: River -> Fields (Center x=305, cleanly above y=174 arrow) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="257" y="132" width="96" height="32" rx="6" fill="#F2F8FB" stroke="#99C0D4" stroke-width="1.1"/>
+    <text class="pill-txt-water" x="305" y="145.5" text-anchor="middle">Sep–Oct</text>
+    <text class="pill-txt-water" x="305" y="158.5" text-anchor="middle">gravity water</text>
+  </g>
+
+  <!-- Pill 2: Fields -> Salt Crust (Center x=655, inside unified warning box above upper arc) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="608" y="102" width="94" height="32" rx="6" fill="#FFF3F1" stroke="#E0A59D" stroke-width="1.1"/>
+    <text class="pill-txt-warn" x="655" y="115.5" text-anchor="middle">45°C+ sun</text>
+    <text class="pill-txt-warn" x="655" y="128.5" text-anchor="middle">draws salt up</text>
+  </g>
+
+  <!-- Pill 3: Salt Crust -> Fields (Center x=655, inside unified warning box below lower arc) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="608" y="180" width="94" height="32" rx="6" fill="#FFF3F1" stroke="#E0A59D" stroke-width="1.1"/>
+    <text class="pill-txt-warn" x="655" y="193.5" text-anchor="middle">Salt crust</text>
+    <text class="pill-txt-warn" x="655" y="206.5" text-anchor="middle">cuts harvest</text>
+  </g>
+
+  <!-- Pill 4: Fields -> Granary (Center x=480, y=246) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="372" y="233" width="216" height="26" rx="6" fill="#FFFBF2" stroke="#D8BF8E" stroke-width="1.1"/>
+    <text class="pill-txt-hub" x="480" y="249.8" text-anchor="middle">Barley surplus &amp; grain share (tax)</text>
+  </g>
+
+  <!-- Pill 5: Works -> River (Center x=137, y=251) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="28" y="238" width="218" height="26" rx="6" fill="#F2F8FB" stroke="#99C0D4" stroke-width="1.1"/>
+    <text class="pill-txt-water" x="137" y="254.8" text-anchor="middle">Blocks Apr–May floods &amp; clears silt</text>
+  </g>
+
+  <!-- Pill 6: Granary -> Works (Center x=305, generous margin from hub ring & card edge) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="258" y="325" width="94" height="33" rx="6" fill="#FFFBF2" stroke="#D8B682" stroke-width="1.1"/>
+    <text class="pill-txt-hub" x="305" y="339" text-anchor="middle">Ration bowls /</text>
+    <text class="pill-txt-hub" x="305" y="352" text-anchor="middle">60 L/mo pay</text>
+  </g>
+
+  <!-- Pill 7: Granary -> Weavers (Center x=655, generous margin from hub ring & card edge) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="608" y="325" width="94" height="33" rx="6" fill="#FFFBF2" stroke="#D8B682" stroke-width="1.1"/>
+    <text class="pill-txt-hub" x="655" y="339" text-anchor="middle">30–40 L/mo</text>
+    <text class="pill-txt-hub" x="655" y="352" text-anchor="middle">barley + oil</text>
+  </g>
+
+  <!-- Pill 8: Households -> Works (Center x=104, y=455) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="28" y="438" width="152" height="34" rx="6" fill="#FBF7F2" stroke="#CEBBA8" stroke-width="1.1"/>
+    <text class="pill-txt" x="104" y="452.5" text-anchor="middle">15–30 days/yr</text>
+    <text class="pill-txt" x="104" y="465.5" text-anchor="middle">work shifts (labor tax)</text>
+  </g>
+
+  <!-- Pill 9: Weavers -> Traders (Center x=823, y=455) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="726" y="442" width="194" height="26" rx="6" fill="#F2F9F4" stroke="#9AC4AC" stroke-width="1.1"/>
+    <text class="pill-txt-trade" x="823" y="458.8" text-anchor="middle">Exported woven wool cloth</text>
+  </g>
+
+  <!-- Pill 10: Traders -> Imports (Center x=655, above y=578 arrow) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="608" y="535" width="94" height="33" rx="6" fill="#F2F9F4" stroke="#9AC4AC" stroke-width="1.1"/>
+    <text class="pill-txt-trade" x="655" y="549" text-anchor="middle">Wool cloth</text>
+    <text class="pill-txt-trade" x="655" y="562" text-anchor="middle">buys imports</text>
+  </g>
+
+  <!-- Pill 11: Imports -> Works (Symmetrically centered at x=342 along y=455 run) -->
+  <g filter="url(#f15-shadow-pill)">
+    <rect x="256" y="442" width="172" height="26" rx="6" fill="#F2F9F4" stroke="#9AC4AC" stroke-width="1.1"/>
+    <text class="pill-txt-trade" x="342" y="458.8" text-anchor="middle">Timber beams &amp; copper</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- EDITORIAL FOOTER CALLOUT STRIP                            -->
+  <!-- ========================================================= -->
+  <rect x="28" y="629" width="904" height="46" rx="7" fill="#FCF3F1" stroke="#E4C1BA" stroke-width="1.1"/>
+  <path d="M 35,629 L 33.5,629 Q 28,629 28,634.5 L 28,669.5 Q 28,675 33.5,675 L 35,675 Z" fill="#A93126"/>
+  <text x="46" y="648.5">
+    <tspan class="footer-lead">Ecological Limit (c. 2400–1700 BCE): </tspan>
+    <tspan class="footer-txt">Poor drainage and 45°C+ summer evaporation drew mineral salts into southern topsoil, cutting salt-sensitive wheat</tspan>
+  </text>
+  <text class="footer-txt" x="46" y="665.5">from ~16% to under 2% of grain harvests and helping shift political power northward toward Babylon. (Ration standards shown span c. 3200–2000 BCE.)</text>
+</svg>
