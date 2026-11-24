@@ -196,8 +196,8 @@ def main() -> int:
     if not (1650 <= total_words <= 2450):
         print(f"  [WARN] Total words ({total_words}) outside comfortable 1,800–2,250 window.")
         warnings += 1
-    if sam_pct < 38.0 or sam_pct > 62.0:
-        print(f"  [WARN] Speaker balance skewed (Sam {sam_pct:.1f}%). Target 40%–60%.")
+    if sam_pct < 18.0 or sam_pct > 45.0:
+        print(f"  [WARN] Speaker balance outside Historian/Inquirer target (Sam {sam_pct:.1f}%). Target Amy 60%–80% / Sam 20%–40%.")
         warnings += 1
     if stdev_turn < 6.0:
         print(f"  [WARN] Turn lengths look uniform (stdev {stdev_turn:.1f}); vary short pushbacks and fuller explanations.")

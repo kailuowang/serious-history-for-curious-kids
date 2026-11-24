@@ -1,0 +1,39 @@
+{
+  "music": [
+    {
+      "asset": "podcasts/assets/theme-intro.mp3",
+      "role": "Show Intro Theme",
+      "work": "Johann Sebastian Bach — Suite in E Major, BWV 1006a: III. Gavotte en Rondeau (Bars 1–8)",
+      "composition_license": "Public Domain",
+      "performer": "Emilio Antonucci",
+      "album": "Tribute to J.S. Bach (Track 10)",
+      "source_url": "https://archive.org/details/jamendo-108621",
+      "jamendo_url": "https://www.jamendo.com/album/108621",
+      "recording_license": "CC BY-NC-SA 3.0",
+      "recording_license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "excerpt": "00:02.66–00:15.83 (13.17 s)",
+      "modifications": "Trimmed to opening 8-bar Rondeau refrain with 15 ms anti-click fade-in and no fade-out."
+    },
+    {
+      "asset": "podcasts/assets/theme-outro.mp3",
+      "role": "Show Outro Theme",
+      "work": "Johann Sebastian Bach — Suite in E Major, BWV 1006a: III. Gavotte en Rondeau (Final Rondeau Refrain)",
+      "composition_license": "Public Domain",
+      "performer": "Emilio Antonucci",
+      "album": "Tribute to J.S. Bach (Track 10)",
+      "source_url": "https://archive.org/details/jamendo-108621",
+      "jamendo_url": "https://www.jamendo.com/album/108621",
+      "recording_license": "CC BY-NC-SA 3.0",
+      "recording_license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "excerpt": "02:56.67–03:12.00 (15.33 s)",
+      "modifications": "Trimmed cleanly at final refrain upbeat with 15 ms anti-click fade-in and untouched natural closing chord decay."
+    },
+    {
+      "asset": "generated procedural chime (submystery_chime.wav)",
+      "role": "Sub-Mystery Transition Chime",
+      "work": "2-note wooden marimba D5 -> A5 transition chime",
+      "source": "Synthesized locally by .agents/skills/produce-podcast/scripts/_tts_core.py",
+      "recording_license": "Project original (CC0 / Public Domain)"
+    }
+  ]
+}

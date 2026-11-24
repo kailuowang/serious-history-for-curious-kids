@@ -76,7 +76,7 @@ def make_genai_client():
         raise RuntimeError(
             'google-genai SDK is not installed. Run: pip install --upgrade "google-genai>=2.25.0"'
         ) from exc
-    return genai.Client(api_key=api_key)
+    return genai.Client(api_key=api_key, http_options={"api_version": "v1beta"})
 
 
 def apply_pronunciations(text: str, pronunciations: dict[str, str] | None) -> str:

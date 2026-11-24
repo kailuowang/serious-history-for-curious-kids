@@ -1,6 +1,6 @@
 ---
 name: produce-podcast
-description: Produces a standalone, chill two-AI-host (Amy & Sam) companion podcast episode for an audited chapter—spanning blueprint, conversational script, iterative Showrunner flow/engagingness + fact review, dedicated humor/warmth polish, Gemini TTS multi-speaker audio mastering, and audio QA.
+description: Produces a standalone, chill two-host (Amy lead Historian, Sam curious Inquirer) companion podcast episode for an audited chapter—spanning blueprint, conversational script, iterative Showrunner flow/engagingness + fact + scope-humility review, dedicated humor/warmth polish, Gemini TTS multi-speaker audio mastering, and audio QA.
 ---
 
 # Skill: Produce Chapter Podcast (`/produce-podcast`)
@@ -31,12 +31,11 @@ Inspect `podcasts/show-config.json`.
 ## Pass 1 — Macro-Mystery & Sub-Mystery Blueprint (**STOP — Approval Gate #1**)
 Propose an episode blueprint (~12–15 minutes target runtime, ~1,800–2,250 spoken words at ~150 wpm):
 1. **Opening Civilizational Question:** The big serious human puzzle Amy & Sam open with conversationally (zero pop-quiz gimmicks).
-2. **Sub-Mystery Ladder (1 Act per newly earned concept in `ledger/concepts.json`):** For every building block, map:
-   - `Constraint / Puzzle Opened`
-   - `Plausible Flawed Fix Sam Tests`
-   - `Historical Breakthrough & Evidence Amy Brings`
+2. **Sub-Mystery Ladder (1 Act per newly earned concept in `ledger/concepts.json`):** Matching the manuscript chapter's exact content and causal spine (no extra detours or forced strawmen), map each concrete historical solution (as sample elements from that society, never as a universal civilization formula):
+   - `Puzzle & Constraints Opened`
+   - `Historical Mechanism & Evidence (plus a real intermediate step only when the chapter has one)`
    - `Exact Moment Concept Is Earned & Named`
-   - `Causal Handoff to Next Sub-Mystery`
+   - `Causal Handoff to Next Puzzle`
 3. **Prior Concept Callbacks:** Which earlier concepts from `ledger/concepts.json` Amy & Sam build on naturally without re-teaching from scratch.
 4. **Hidden Trade-Off & Next-Episode Bridge:** How the closing act uncovers the system's unintended flaw and sets up the next chapter's big question.
 5. **Visual-to-Audio Translation Table:** For each diagram/physical mechanism in the chapter (e.g., raised levees, ziggurat reed mats, clay envelopes), write the exact 1-sentence spoken mental model that replaces the visual.
@@ -53,8 +52,8 @@ Draft the full episode into `podcasts/<chapter_id>-script.md` following `.agents
   - `## Act 1: <Sub-Mystery 1> (<Concept>)`
   - ...
   - `## Act N: <Hidden Trade-Off & Next Chapter Bridge>`
-- Format every spoken turn strictly as `**Amy:** ...` or `**Sam:** ...` (keeping acts roughly 300–480 words each so Gemini native 2-speaker synthesis maintains peak prosody and room tone).
-- Focus **100% on conversational chill rhythm, strong host equality, causal clarity, and strict factual grounding**. Do **not** force jokes yet—save comedy polish for Pass 4.
+- Format every spoken turn strictly as `**Amy:** ...` or `**Sam:** ...` (keeping acts roughly 250–480 words each so Gemini native 2-speaker synthesis maintains peak prosody and room tone).
+- Focus **100% on conversational chill rhythm, natural Historian/Inquirer roles (Amy ~65%–75% carrying historical detail, Sam ~25%–35% driving transitions, physical catches, and curiosity—with zero machine/AI references and zero sweeping "operating kit" framework claims), causal clarity, and strict factual grounding**. Do **not** force jokes yet—save comedy polish for Pass 4.
 
 ---
 
@@ -64,7 +63,8 @@ Run a disciplined 2-step editorial loop between Pass 2 and Pass 3 (**minimum 1 f
 1. **Step 3a (First!) — Fresh-Eyes Showrunner Review (Read-Only Subagent):**
    Launch a read-only `podcast-showrunner` subagent (via `define_subagent` or `research` subagent) to read `podcasts/<chapter_id>-script.md` cold from the perspective of an experienced narrative-podcast producer + an analytically sharp 9-year-old listener, and evaluate:
    - **Overall Flow & Engagingness:** Does the episode pull the listener forward effortlessly? Flag any flat textbook stretches, rushed reveals, or saggy middle sections (>60–90 seconds without a fresh constraint or turn in thinking).
-   - **Host Chemistry & Anti-Cringe:** Are Amy and Sam genuine intellectual peers? Flag any moment where Sam drops into cheerleading/echoing (*"Whoa!"*, *"So you're saying..."*), any preachy lecturing from Amy, or robotic ping-pong turn lengths.
+   - **Historian / Inquirer Chemistry & Anti-Cringe:** Does Amy carry the historical narrative naturally (~65%–75%) while Sam plays a sharp, natural curious inquirer (~25%–35%) without empty cheerleading (*"Whoa!"*, *"So you're saying..."*) or awkward stat-reciting turns? Also flag **any mention of the hosts being AIs, machines, or software**.
+   - **Anti-Grand-Claim / Scope-Humility Check:** Flag any idiosyncratic overstatement treating the chapter's concepts as a universal checklist or grand framework (*"the five building blocks of civilization"*, *"basic operating kit"*, *"cities everywhere"*). Require them to be framed strictly as concrete solutions and examples from this society.
    - **Blindfold Audio Clarity:** Flag any passage that silently assumes a visual diagram, piles too many numbers into one breath, or loses track of historical time.
    - **Unfolding-Mystery Integrity:** Flag any dropped mystery, causal teleport, or concept named before it is earned.
 
@@ -74,7 +74,7 @@ Run a disciplined 2-step editorial loop between Pass 2 and Pass 3 (**minimum 1 f
      ```bash
      python3 .agents/skills/produce-podcast/scripts/check_script.py <chapter_id>
      ```
-     Confirm: ~1,800–2,250 words (~12–15 min), Amy/Sam speaking share balanced (~40/60 to 60/40), varied turn lengths, zero banned corny filler/exclamation marks/unanchored era shorthand, and 100% of chapter concepts from `ledger/concepts.json` covered.
+     Confirm: ~1,800–2,250 words (~12–15 min), Historian/Inquirer speaking balance cleanly inside target (Amy ~60%–80%, Sam ~20%–40%), varied turn lengths, zero banned corny filler/exclamation marks/unanchored era shorthand, and 100% of chapter concepts from `ledger/concepts.json` covered.
 
 3. **Iterate:** Rewrite `podcasts/<chapter_id>-script.md` to resolve every Showrunner and fact note, then re-run Step 3a + Step 3b until the Showrunner signs off with zero major flow/engagingness issues and `check_script.py` passes cleanly.
 
@@ -82,7 +82,7 @@ Run a disciplined 2-step editorial loop between Pass 2 and Pass 3 (**minimum 1 f
 
 ## Pass 4 — Dedicated Humor, Warmth & Vocal-Tag Polish (**STOP — Approval Gate #2**)
 Now that the causal spine and facts are rock-solid:
-1. Read through `podcasts/<chapter_id>-script.md` specifically looking for **4–6 natural, dry-humor or warm conversational moments** (organic observations about human nature, relatable modern scale comparisons, or playful self-aware AI moments between Amy & Sam—zero corny puns or fake hype).
+1. Read through `podcasts/<chapter_id>-script.md` specifically looking for **4–6 natural, dry-humor or warm conversational moments** (organic observations about human nature, relatable modern scale comparisons, or Sam's dry curiosity—zero corny puns, zero fake hype, and zero AI/machine self-references).
 2. Add sparse, natural Gemini vocal tags (`[soft laugh]`, `[thoughtfully]`, `[warmly]`, `[sighs]`, `[short pause]`) only where vocal acting genuinely elevates the line (~1 tag per 6–10 turns).
 3. Run a quick **Anti-Drift Re-Check**: confirm no added joke smuggled in an unverified historical fact, broke causal flow, or pushed `check_script.py` out of bounds.
 4. Compile the structured cue sheet `podcasts/<chapter_id>-script.json` (acts, turns, speaker, display text, phonetic TTS overrides from the Pronunciation Sheet, delivery direction, chapter marker titles).

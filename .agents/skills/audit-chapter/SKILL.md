@@ -10,6 +10,7 @@ When invoked with a chapter ID (e.g., `/audit-chapter ch01`):
 1. **Pass 1 — Fact & Hallucination Check (Prose + Diagrams):**
    - Extract and verify every number, date, dimension, ration, place name, artifact, and causal claim in BOTH `manuscript/<chapter_id>-*.md` AND `diagrams/<chapter_id>-*.svg` against `research/<chapter_id>-fact-sheet.md`.
    - Flag and remove or rewrite any unsupported extrapolation (including invented hypothetical numbers, unverified geographical adjectives, or undocumented outcomes).
+   - **Anti-Grand-Claim / Scope-Humility Check:** Flag any unsupported universalizing framework claim (e.g., *"the basic operating kit of early civilization"*, *"the five building blocks of civilization"*, *"every society everywhere ran on..."*) and rewrite it as grounded examples from the chapter's specific time and place.
    - Verify scholarly interpretations and estimates remain transparently framed (e.g., "scholars think," "estimated").
 
 2. **Pass 2 — Lexicon, Tone, Active Voice & Rhythm Linter:**
@@ -26,6 +27,7 @@ When invoked with a chapter ID (e.g., `/audit-chapter ch01`):
      - **Dropped Mysteries / Orphaned Problems:** Any difficulty, tension, or question introduced in a paragraph that is not answered in the very next beat (or explicitly parked as a section-ending cliffhanger paid off at the start of the next section).
      - **Causal Teleports:** Any transition that skips over an unsolved mechanism with a hand-waving summary phrase (e.g., *"Working together under a shared schedule paid off..."* before explaining how people actually coordinated).
      - **Premature Outcomes / Ordering Flaws / Time Disorientation:** Any consequence stated before its cause, any forward reference to an unexplained mechanism, or any unanchored era name (`Ur III`, `Old Babylonian`, etc.) that leaves a 9-year-old unable to tell how old an event is or how it relates in time to the rest of the chapter.
+     - **Idiosyncratic Framework Overreach:** Any sweeping summary claiming the chapter's selected examples are the universal "kit," "pillars," or formula for all civilizations.
      - **Weak Unit-to-Unit Bridges:** Any section ending that closes flat instead of handing a live puzzle or trade-off to the next section.
    - Apply targeted structural rewrites to close every flagged flow gap, then re-verify word count, sentence rhythm, and factual grounding.
 

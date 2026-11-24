@@ -265,25 +265,44 @@ def main() -> int:
     chapter_markers: list[tuple[int, int, str]] = []
     cursor_ms = 0
 
-    # Optional Lyria intro sting
-    intro_rel = cfg.get("music", {}).get("intro_track")
+    # Optional intro music
+    music_cfg = cfg.get("music", {})
+    music_vol = float(music_cfg.get("music_volume", 0.80))
+    intro_rel = music_cfg.get("intro_track")
     intro_src = (REPO_ROOT / intro_rel) if intro_rel else None
     if intro_src and intro_src.is_file():
-        intro_dur = float(cfg["music"].get("intro_duration_sec", 7.0))
         intro_wav = tmp_dir / "intro_trimmed.wav"
-        fade_start = max(0.5, intro_dur - 1.8)
-        run_ffmpeg(
-            [
-                "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
-                "-i", str(intro_src),
-                "-t", f"{intro_dur:.2f}",
-                "-af", f"afade=t=in:st=0:d=0.4,afade=t=out:st={fade_start:.2f}:d=1.8,volume=0.55",
-                "-ac", "1", "-ar", str(sample_rate), "-c:a", "pcm_s16le",
-                str(intro_wav),
-            ]
-        )
-        segments.append(intro_wav)
-        cursor_ms += int(round(wav_duration_sec(intro_wav) * 1000))
+        if music_cfg.get("preserve_full_intro"):
+            run_ffmpeg(
+                [
+                    "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                    "-i", str(intro_src),
+                    "-vn",
+                    "-af", f"volume={music_vol:.2f}",
+                    "-ac", "1", "-ar", str(sample_rate), "-c:a", "pcm_s16le",
+                    str(intro_wav),
+                ]
+            )
+            segments.append(intro_wav)
+            cursor_ms += int(round(wav_duration_sec(intro_wav) * 1000))
+            segments.append(gap_after)
+            cursor_ms += int(round(wav_duration_sec(gap_after) * 1000))
+        else:
+            intro_dur = float(music_cfg.get("intro_duration_sec", 7.0))
+            fade_start = max(0.5, intro_dur - 1.8)
+            run_ffmpeg(
+                [
+                    "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                    "-i", str(intro_src),
+                    "-vn",
+                    "-t", f"{intro_dur:.2f}",
+                    "-af", f"afade=t=in:st=0:d=0.4,afade=t=out:st={fade_start:.2f}:d=1.8,volume=0.55",
+                    "-ac", "1", "-ar", str(sample_rate), "-c:a", "pcm_s16le",
+                    str(intro_wav),
+                ]
+            )
+            segments.append(intro_wav)
+            cursor_ms += int(round(wav_duration_sec(intro_wav) * 1000))
 
     # Voice acts + chimes
     for idx, (act, wav_path) in enumerate(act_wavs):
@@ -306,23 +325,36 @@ def main() -> int:
         if wpm < 95 or wpm > 230:
             print(f"  [QA WARN] Act {idx:02d} speech rate looks unusual ({wpm:.0f} wpm; check for skipped text or leaked directions).")
 
-    # Optional Lyria outro sting
-    outro_rel = cfg.get("music", {}).get("outro_track")
+    # Optional outro music
+    outro_rel = music_cfg.get("outro_track")
     outro_src = (REPO_ROOT / outro_rel) if outro_rel else None
     if outro_src and outro_src.is_file():
-        outro_dur = float(cfg["music"].get("outro_duration_sec", 8.0))
         outro_wav = tmp_dir / "outro_trimmed.wav"
-        fade_start = max(0.5, outro_dur - 2.5)
-        run_ffmpeg(
-            [
-                "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
-                "-i", str(outro_src),
-                "-t", f"{outro_dur:.2f}",
-                "-af", f"afade=t=in:st=0:d=1.0,afade=t=out:st={fade_start:.2f}:d=2.5,volume=0.55",
-                "-ac", "1", "-ar", str(sample_rate), "-c:a", "pcm_s16le",
-                str(outro_wav),
-            ]
-        )
+        if music_cfg.get("preserve_full_outro"):
+            run_ffmpeg(
+                [
+                    "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                    "-i", str(outro_src),
+                    "-vn",
+                    "-af", f"volume={music_vol:.2f}",
+                    "-ac", "1", "-ar", str(sample_rate), "-c:a", "pcm_s16le",
+                    str(outro_wav),
+                ]
+            )
+        else:
+            outro_dur = float(music_cfg.get("outro_duration_sec", 8.0))
+            fade_start = max(0.5, outro_dur - 2.5)
+            run_ffmpeg(
+                [
+                    "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                    "-i", str(outro_src),
+                    "-vn",
+                    "-t", f"{outro_dur:.2f}",
+                    "-af", f"afade=t=in:st=0:d=1.0,afade=t=out:st={fade_start:.2f}:d=2.5,volume=0.55",
+                    "-ac", "1", "-ar", str(sample_rate), "-c:a", "pcm_s16le",
+                    str(outro_wav),
+                ]
+            )
         segments.append(act_gap)
         segments.append(outro_wav)
 

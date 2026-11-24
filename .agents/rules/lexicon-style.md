@@ -31,3 +31,7 @@ Before writing or editing any file in `manuscript/`, read `syllabus/style-anchor
 - **Zero Dropped Threads:** Whenever a paragraph introduces a difficulty or question (e.g., "No single family could pull that off" or "What stopped someone from scratching out a number?"), the **very next beat** must either solve it directly OR explicitly frame it as the cliffhanger question that the next section immediately answers.
 - **Zero Causal Teleports:** Never skip over an unsolved problem with a hand-waving summary transition (e.g., "Working together under a shared schedule paid off..." before explaining *how* people got neighbors onto a shared schedule).
 - **Strict Cause-Before-Effect Ordering:** Never show a large-scale outcome (e.g., a city of 40,000) as already achieved before explaining the mechanism that made it possible, unless explicitly framed as the puzzle/prize we are about to explain.
+
+## 5. Avoid Grand Idiosyncratic Claims
+- Present each chapter's newly earned concepts (`surplus`, `tax`, `ledger`, `contract`, etc.) strictly as concrete solutions and historical examples from that specific time and place.
+- Never inflate a chapter's tools into a sweeping universal theory or personal framework—avoid phrases like *"the basic operating kit of all civilization"*, *"the N pillars of society"*, or sweeping claims that *"every city everywhere"* ran on the same checklist.

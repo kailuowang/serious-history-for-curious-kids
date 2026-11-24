@@ -1,7 +1,7 @@
 {
   "show_title": "The Mechanics of Civilization",
   "show_subtitle": "Amy & Sam take apart how human civilization actually got built—one survival puzzle at a time.",
-  "status": "pending_audition",
+  "status": "locked",
   "tts": {
     "model": "gemini-3.8-flash-tts",
     "note": "Primary GA model (gemini-3.8-flash-tts) via Gemini Interactions API; supports 30 prebuilt voices, 2,000+ Extended Library voices, Voice Design, and pipe backchannels (|mhm|, |wait|). Also supports gemini-3.8-flash-lite-tts (cheaper bulk) or legacy gemini-3.1-flash-tts-preview.",
@@ -10,20 +10,27 @@
   },
   "music": {
     "model": "lyria-3-clip-preview",
+    "source": "J. S. Bach — Suite in E Major, BWV 1006a: Gavotte en Rondeau (solo classical guitar by Emilio Antonucci, Jamendo #108621)",
+    "source_url": "https://archive.org/details/jamendo-108621",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "intro_track": "podcasts/assets/theme-intro.mp3",
     "outro_track": "podcasts/assets/theme-outro.mp3",
-    "intro_duration_sec": 7.0,
-    "outro_duration_sec": 8.0,
+    "intro_duration_sec": 13.17,
+    "outro_duration_sec": 15.33,
+    "preserve_full_intro": true,
+    "preserve_full_outro": true,
+    "music_volume": 0.8,
     "use_submystery_chimes": true
   },
   "hosts": {
     "Amy": {
-      "role": "Historian & Field Detective (Female AI)",
-      "voice_name": "Aoede",
+      "role": "Lead Historian & Storyteller",
+      "voice_name": "Sulafat",
       "style_direction": "warm, relaxed, conversational"
     },
     "Sam": {
-      "role": "Inquirer & Systems Skeptic (Young Male AI)",
+      "role": "Inquirer & Conversational Guide",
       "voice_name": "Puck",
       "style_direction": "chill, curious, quick-witted"
     }
@@ -92,6 +99,10 @@
     "bullae": "BOO-lay",
     "Ur-Nammu": "OOR-NAH-moo",
     "Euphrates": "yoo-FRAY-teez",
-    "Tigris": "TY-gris"
+    "Tigris": "TY-gris",
+    "dusu": "DOO-soo",
+    "Anatolia": "an-uh-TOH-lee-uh",
+    "Magan": "MAH-gahn",
+    "bitumen": "bih-TOO-men"
   }
 }
