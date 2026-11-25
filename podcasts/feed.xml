@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Mechanics of Civilization</title>
+    <link>https://github.com/kailuowang/serious-history-for-curious-kids</link>
+    <atom:link href="https://raw.githubusercontent.com/kailuowang/serious-history-for-curious-kids/main/podcasts/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <description>Amy &amp; Sam take apart how human civilization actually got built—one survival puzzle at a time.</description>
+    <itunes:subtitle>Amy &amp; Sam take apart how human civilization actually got built—one survival puzzle at a time.</itunes:subtitle>
+    <itunes:summary>Companion audio episodes to The Mechanics of Civilization. Hosts Amy and Sam trace how early human societies solved physical survival puzzles—organizing water, taxes, writing, trade, architecture, and courts in plain everyday language.</itunes:summary>
+    <itunes:author>Amy &amp; Sam</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>yes</itunes:block>
+    <itunes:type>serial</itunes:type>
+    <itunes:category text="History" />
+    <itunes:category text="Kids &amp; Family">
+      <itunes:category text="Education for Kids" />
+    </itunes:category>
+
+    <item>
+      <title>Episode 1: Mud, Canals, and the First Ledgers</title>
+      <guid isPermaLink="false">mechanics-of-civilization-ch01</guid>
+      <pubDate>Tue, 24 Nov 2026 21:10:00 -0500</pubDate>
+      <link>https://github.com/kailuowang/serious-history-for-curious-kids/blob/main/podcasts/ch01-script.md</link>
+      <enclosure url="https://raw.githubusercontent.com/kailuowang/serious-history-for-curious-kids/main/podcasts/ch01-episode.mp3" length="15013731" type="audio/mpeg" />
+      <itunes:title>Episode 1: Mud, Canals, and the First Ledgers</itunes:title>
+      <itunes:author>Amy &amp; Sam</itunes:author>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>15:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <description>Over five thousand years ago in southern Mesopotamia, cities like Uruk and Ur put tens of thousands of strangers on dry river mud with almost no timber or stone. Amy and Sam unpack how gravity canals turned wrong-season floods into barley surplus, how temple devotion, crisis lugal leaders, dusu work shifts, and še-ba grain rations created early politics and taxes, how proto-cuneiform ledgers (like Kushim's three-year barley record) kept counts straight, how mudbrick ziggurats, wool-for-copper caravans, and sealed clay-envelope contracts held cities together—and why trapped salt slowly pushed farming north. Theme music: J. S. Bach — Suite in E Major, BWV 1006a: Gavotte en Rondeau (solo guitar by Emilio Antonucci, Jamendo #108621, CC BY-NC-SA 3.0).</description>
+      <itunes:summary>Over five thousand years ago in southern Mesopotamia, cities like Uruk and Ur put tens of thousands of strangers on dry river mud with almost no timber or stone. Amy and Sam trace gravity canals, barley surplus, politics, dusu shifts and še-ba rations, Kushim's ledger, mudbrick ziggurats, wool trade, sealed clay-envelope contracts, and the slow salt trap. Theme music: J. S. Bach — Suite in E Major, BWV 1006a: Gavotte en Rondeau (Emilio Antonucci, Jamendo #108621, CC BY-NC-SA 3.0).</itunes:summary>
+    </item>
+  </channel>
+</rss>

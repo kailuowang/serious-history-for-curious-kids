@@ -53,7 +53,7 @@ Draft the full episode into `podcasts/<chapter_id>-script.md` following `.agents
   - ...
   - `## Act N: <Hidden Trade-Off & Next Chapter Bridge>`
 - Format every spoken turn strictly as `**Amy:** ...` or `**Sam:** ...` (keeping acts roughly 250–480 words each so Gemini native 2-speaker synthesis maintains peak prosody and room tone).
-- Focus **100% on conversational chill rhythm, natural Historian/Inquirer roles (Amy ~65%–75% carrying historical detail, Sam ~25%–35% driving transitions, physical catches, and curiosity—with zero machine/AI references and zero sweeping "operating kit" framework claims), causal clarity, and strict factual grounding**. Do **not** force jokes yet—save comedy polish for Pass 4.
+- Focus **100% on true spoken conversation (one idea per sentence, subject next to verb, zero semicolons, sparse em-dashes, everyday spoken connectors rather than condensed book prose), natural Historian/Inquirer roles (Amy ~65%–75% carrying historical detail, Sam ~25%–35% driving transitions, physical catches, and curiosity—with zero machine/AI references and zero sweeping "operating kit" framework claims), causal clarity, and strict factual grounding**. Do **not** force jokes yet—save comedy polish for Pass 4.
 
 ---
 
@@ -62,6 +62,7 @@ Run a disciplined 2-step editorial loop between Pass 2 and Pass 3 (**minimum 1 f
 
 1. **Step 3a (First!) — Fresh-Eyes Showrunner Review (Read-Only Subagent):**
    Launch a read-only `podcast-showrunner` subagent (via `define_subagent` or `research` subagent) to read `podcasts/<chapter_id>-script.md` cold from the perspective of an experienced narrative-podcast producer + an analytically sharp 9-year-old listener, and evaluate:
+   - **Verbal vs. Written Prose Check:** Read every turn aloud mentally—flag any sentence that sounds like condensed book prose, a stacked participial modifier, an interrupting `—...—` parenthetical, a textbook flashcard definition, or a literary transition (`", yet"`, `"giving us"`, `"however"`) instead of two people genuinely talking.
    - **Overall Flow & Engagingness:** Does the episode pull the listener forward effortlessly? Flag any flat textbook stretches, rushed reveals, or saggy middle sections (>60–90 seconds without a fresh constraint or turn in thinking).
    - **Historian / Inquirer Chemistry & Anti-Cringe:** Does Amy carry the historical narrative naturally (~65%–75%) while Sam plays a sharp, natural curious inquirer (~25%–35%) without empty cheerleading (*"Whoa!"*, *"So you're saying..."*) or awkward stat-reciting turns? Also flag **any mention of the hosts being AIs, machines, or software**.
    - **Anti-Grand-Claim / Scope-Humility Check:** Flag any idiosyncratic overstatement treating the chapter's concepts as a universal checklist or grand framework (*"the five building blocks of civilization"*, *"basic operating kit"*, *"cities everywhere"*). Require them to be framed strictly as concrete solutions and examples from this society.
@@ -74,7 +75,7 @@ Run a disciplined 2-step editorial loop between Pass 2 and Pass 3 (**minimum 1 f
      ```bash
      python3 .agents/skills/produce-podcast/scripts/check_script.py <chapter_id>
      ```
-     Confirm: ~1,800–2,250 words (~12–15 min), Historian/Inquirer speaking balance cleanly inside target (Amy ~60%–80%, Sam ~20%–40%), varied turn lengths, zero banned corny filler/exclamation marks/unanchored era shorthand, and 100% of chapter concepts from `ledger/concepts.json` covered.
+     Confirm: ~1,800–2,250 words (~12–15 min), Historian/Inquirer speaking balance cleanly inside target (Amy ~60%–80%, Sam ~20%–40%), varied turn lengths, spoken syntax checks passing (zero semicolons, em-dashes `<= 0.30/turn`, zero written-prose tics), zero banned corny filler/exclamation marks/unanchored era shorthand, and 100% of chapter concepts from `ledger/concepts.json` covered.
 
 3. **Iterate:** Rewrite `podcasts/<chapter_id>-script.md` to resolve every Showrunner and fact note, then re-run Step 3a + Step 3b until the Showrunner signs off with zero major flow/engagingness issues and `check_script.py` passes cleanly.
 
@@ -105,6 +106,7 @@ What the renderer does automatically:
 ---
 
 ## Pass 6 — Audio QA & Packaging
-1. Inspect the QA report emitted by `render_podcast.py` (duration check, loudness LUFS/TP, unexpected dead-air silences > 2.5s, per-act runtime anomalies that could indicate skipped lines or leaked stage directions).
-2. If any act has a mispronunciation or pacing glitch, tweak its phonetic override in `podcasts/<chapter_id>-script.json` and re-render **only** that act (`--only-act <N>`).
-3. Update `podcasts/feed.xml` (private RSS feed metadata) and note the finished episode in `README.md` (and optionally add an audio bar/link in `typeset-preview`).
+1. Inspect the automated QA report emitted by `render_podcast.py` (duration check, loudness LUFS/TP, unexpected dead-air silences > 2.5s, per-act runtime/WPM anomalies that could indicate skipped lines or leaked stage directions).
+2. **Full-Episode Two-Listener Audio QA (before packaging):** Slice the mastered episode (`podcasts/<chapter_id>-episode.mp3`) by chapter timestamps into per-act MP3 segments under `podcasts/tmp/<chapter_id>/qa_slices/` using `ffmpeg` and launch two parallel read-only **Audio QA Listener** subagents (covering 100% of acts between them) to listen with `read_file` and inspect against `podcasts/<chapter_id>-script.md` for mispronunciations, phoneme slurring/lip-pops, rushed clauses, sibilance, phantom bleed, or flat/robotic delivery.
+3. For any flagged `High` or `Medium` defect, fix phonetic overrides in `podcasts/show-config.json` / `<chapter_id>-script.json` (probing unfamiliar short names before re-rendering) and/or refine spoken phrasing in `<chapter_id>-script.md`, then re-render **only** the affected act WAVs (`--only-act <N>` or deleting only affected `act_XX.wav` files + `--from-md`) and re-verify those re-rendered slices with independent listeners before user sign-off.
+4. Once approved, update `podcasts/feed.xml` (private RSS feed metadata) and note the finished episode in `README.md` (and optionally add an audio bar/link in `typeset-preview`).

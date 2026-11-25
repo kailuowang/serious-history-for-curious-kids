@@ -57,6 +57,11 @@
     #notes ul.bib-list li { font-size: 13.5px; line-height: 1.5; margin-bottom: 7px; padding-left: 20px; text-indent: -20px; break-inside: avoid; }
     #notes a { color: var(--primary); text-decoration: none; }
     #notes a:hover { text-decoration: underline; }
+    .podcast-bar { margin-top: 14px; padding: 10px 14px; background: var(--background); border: 1px solid var(--border); border-radius: 8px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 13px; color: var(--muted-foreground); }
+    .podcast-bar strong { color: var(--primary); font-weight: 700; }
+    .podcast-bar audio { height: 34px; flex: 1 1 240px; min-width: 200px; }
+    .podcast-bar a { color: var(--primary); font-weight: 600; text-decoration: none; white-space: nowrap; }
+    .podcast-bar a:hover { text-decoration: underline; }
     @media print { .screen-only { display: none; } #notes { break-before: page; border-top: none; padding-top: 0; } #notes ul.note-list li, #notes ul.bib-list li { font-size: 9.5pt; line-height: 1.4; } #notes a { color: inherit; text-decoration: none; } }
     @media (max-width: 700px) { article.book-sheet { padding: 28px 20px 36px; } figure, .photo-strip, .photo-single { margin: 20px 0; } .photo-strip { grid-template-columns: 1fr; } .photo-single { flex-direction: column; } .photo-single > div, .photo-single figcaption { width: 100%; } }
     @media print {
@@ -80,6 +85,11 @@
       <div class="part-kicker">Part I: Surplus, Rules, and Stone (3500 BCE &ndash; 1200 BCE)</div>
       <h1>Chapter 1: Mud, Canals, and the First Ledgers</h1>
       <div class="meta">Southern Mesopotamia (Uruk &amp; Ur, c. 3500&ndash;1700 BCE) &middot; 3,468 words &middot; 6 Diagrams + 9 Real Photographs &middot; 5 Mechanics Earned</div>
+      <div class="podcast-bar screen-only">
+        <span><strong>Companion Podcast</strong> &middot; Episode 1 (Amy &amp; Sam, 15:38)</span>
+        <audio controls preload="metadata" src="../podcasts/ch01-episode.mp3"></audio>
+        <a href="../podcasts/ch01-script.md">Read Script</a>
+      </div>
     </header>
     <div class="book-prose">
 <section id="sec-1">

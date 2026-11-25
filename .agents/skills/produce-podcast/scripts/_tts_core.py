@@ -84,7 +84,7 @@ def apply_pronunciations(text: str, pronunciations: dict[str, str] | None) -> st
     if not pronunciations:
         return text
     out = text
-    for term, spoken in pronunciations.items():
+    for term, spoken in sorted(pronunciations.items(), key=lambda kv: -len(kv[0])):
         if not term or not spoken:
             continue
         out = re.sub(rf"\b{re.escape(term)}\b", spoken, out)

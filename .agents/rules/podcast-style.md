@@ -31,7 +31,12 @@ Before drafting or revising any file in `podcasts/`, read `syllabus/style-anchor
 
 ## 4. Writing for the Ear ("Blindfold Test")
 - **Zero Visual Leakage:** Never assume the listener can see a map, cutaway, or diagram. Translate every visual mechanic into a vivid spoken mental model (e.g., compare raised river levees to a water slide sitting slightly above the yard; compare 60 liters of barley to thirty big two-liter bottles).
-- **Natural Spoken Rhythm:** Use contractions (`don't`, `they'd`, `here's`), crisp spoken clauses, and varied turn lengths (mix Sam's snappy questions/comments with Amy's vivid 3–5 sentence explanations; avoid robotic ping-pong).
+- **Spoken Syntax, Not Read-Aloud Essay Prose:** Write how smart people actually talk, never compressed book paragraphs read out loud:
+  - One idea per sentence. Keep the subject right next to its verb—never wedge a 15-word `—...—` parenthetical between who did something and what they did.
+  - Zero semicolons (`;`), sparse em-dashes (`<= 0.30/turn`), and avoid chained participial modifiers (`"fitted with... dropping... cutting..."`) or flashcard definitions (`"That required share... gives us an early tax"`).
+  - Use everyday spoken connectors (`"but"`, `"so"`, `"basically"`, `"here's the thing"`, `"think about it"`) rather than literary phrasing (`", yet"`, `"however"`, `"therefore"`, `"thus"`, `"giving us"`, `"First, note..."`).
+  - Keep Amy's turns breathable (2–4 clear sentences at a time) so Sam can step in mid-thought with real reactions or follow-up questions.
+- **Natural Spoken Rhythm:** Use contractions (`don't`, `they'd`, `here's`), crisp spoken clauses, and varied turn lengths (mix Sam's snappy questions/comments with Amy's vivid storytelling turns; avoid robotic ping-pong).
 - **One Number at a Time:** Never stack four statistics in one breath. Anchor every key figure physically and anchor every historical era in human scale (*"five thousand years ago"*, *"a thousand years later"*)—never drop unanchored historian shorthand (`Ur III`, `Old Babylonian`, `Late Uruk`).
 - **Strict Fact Grounding & Scope Humility:** Spoken ad-libs are a prime vector for both accidental hallucinations and sweeping claims. Every date, dimension, ration, place name, and historical claim must trace directly to `research/chXX-fact-sheet.md`, preserving scholarly uncertainty transparently (*"archaeologists estimate"*, *"historians weigh three ideas"*), and never inflating local Sumerian solutions into a universal formula for all civilizations.
 

@@ -36,6 +36,19 @@ BANNED_CORNY_PHRASES = [
     r"\bbustling\b",
 ]
 
+WRITTEN_PROSE_TICS = [
+    r"\bgiv(?:ing|es) us\b",
+    r"\bfirst,\s+note\b",
+    r"\bhowever\b",
+    r"\btherefore\b",
+    r"\bthus\b",
+    r"\bhence\b",
+    r"\bwhereas\b",
+    r"\bnotably\b",
+    r"\bnevertheless\b",
+    r"(?:,|—|\.)\s+yet\b|^yet\b",
+]
+
 UNANCHORED_ERA_LABELS = [
     r"\bUr III\b",
     r"\bOld Babylonian\b",
@@ -92,6 +105,10 @@ def main() -> int:
     exclamations: list[tuple[int, str]] = []
     banned_hits: list[tuple[int, str, str]] = []
     era_hits: list[tuple[int, str, str]] = []
+    semicolons: list[tuple[int, str]] = []
+    written_tics: list[tuple[int, str, str]] = []
+    long_emdash_parens: list[tuple[int, str]] = []
+    total_emdashes = 0
 
     for lineno, raw in enumerate(lines, start=1):
         line = raw.strip()
@@ -125,6 +142,14 @@ def main() -> int:
 
             if "!" in spoken:
                 exclamations.append((lineno, spoken[:100]))
+            if ";" in spoken:
+                semicolons.append((lineno, spoken[:100]))
+            total_emdashes += spoken.count("—")
+            if re.search(r"—[^—.?!]{60,}—", spoken):
+                long_emdash_parens.append((lineno, spoken[:100]))
+            for pat in WRITTEN_PROSE_TICS:
+                if re.search(pat, spoken, re.IGNORECASE):
+                    written_tics.append((lineno, pat, spoken[:100]))
             for pat in BANNED_CORNY_PHRASES:
                 if re.search(pat, spoken, re.IGNORECASE):
                     banned_hits.append((lineno, pat, spoken[:100]))
@@ -144,6 +169,7 @@ def main() -> int:
     avg_turn = statistics.mean(turn_lengths)
     stdev_turn = statistics.stdev(turn_lengths) if len(turn_lengths) > 1 else 0.0
     total_tags = sum(len(t["tags"]) for t in turns)
+    emdash_rate = total_emdashes / max(len(turns), 1)
     amy_pct = (amy_words / total_words) * 100
     sam_pct = (sam_words / total_words) * 100
 
@@ -159,6 +185,7 @@ def main() -> int:
     print(f"Speaker share:   Amy {amy_pct:.1f}% ({amy_words}w) | Sam {sam_pct:.1f}% ({sam_words}w)")
     print(f"Turn length:     avg {avg_turn:.1f} words, stdev {stdev_turn:.1f} (min {min(turn_lengths)}, max {max(turn_lengths)})")
     print(f"Vocal tags:      {total_tags} ({total_tags / max(len(turns), 1):.2f}/turn; target ~0.10–0.18)")
+    print(f"Spoken syntax:   {total_emdashes} em-dashes ({emdash_rate:.2f}/turn; target <= 0.30), {len(semicolons)} semicolons, {len(written_tics)} written-prose tics")
 
     print("\n--- Per-Act Breakdown (target 250–500 words/act for clean Gemini TTS chunks) ---")
     warnings = 0
@@ -222,6 +249,24 @@ def main() -> int:
         for ln, tag in unknown_tags:
             print(f"         L{ln}: [{tag}]")
         warnings += len(unknown_tags)
+    if semicolons:
+        print(f"  [WARN] Semicolons sound like written prose ({len(semicolons)}):")
+        for ln, snippet in semicolons[:8]:
+            print(f"         L{ln}: {snippet}")
+        warnings += len(semicolons)
+    if written_tics:
+        print(f"  [WARN] Written-prose transitions/tics ({len(written_tics)}):")
+        for ln, pat, snippet in written_tics[:10]:
+            print(f"         L{ln} ({pat}): {snippet}")
+        warnings += len(written_tics)
+    if emdash_rate > 0.30:
+        print(f"  [WARN] High em-dash density ({total_emdashes} em-dashes, {emdash_rate:.2f}/turn > 0.30); break nested clauses into spoken sentences.")
+        warnings += 1
+    if long_emdash_parens:
+        print(f"  [WARN] Long interrupting em-dash clause(s) ({len(long_emdash_parens)}):")
+        for ln, snippet in long_emdash_parens[:8]:
+            print(f"         L{ln}: {snippet}")
+        warnings += len(long_emdash_parens)
 
     if warnings == 0:
         print("  PASS — Zero warnings.")

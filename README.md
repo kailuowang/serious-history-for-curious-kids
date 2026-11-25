@@ -6,7 +6,7 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 
 | Chapter | Title | Status | Outputs |
 | --- | --- | --- | --- |
-| **Ch. 1** | *Mud, Canals, and the First Ledgers* (Sumer, c. 3500–1700 BCE) | Complete & Audited | [Manuscript](manuscript/ch01-mud-canals-and-first-ledgers.md) · [Offline HTML Reader](build/ch01-preview.html) · [Full Print PDF (11 pp.)](build/ch01-full.pdf) · [2-Page Test Read PDF](build/ch01-test-read-p1-2.pdf) |
+| **Ch. 1** | *Mud, Canals, and the First Ledgers* (Sumer, c. 3500–1700 BCE) | Complete & Audited | [Manuscript](manuscript/ch01-mud-canals-and-first-ledgers.md) · [Offline HTML Reader](build/ch01-preview.html) · [Full Print PDF (11 pp.)](build/ch01-full.pdf) · [2-Page Test Read PDF](build/ch01-test-read-p1-2.pdf) · [Podcast Episode (15:38 MP3)](podcasts/ch01-episode.mp3) · [Podcast Script](podcasts/ch01-script.md) |
 
 ## Core Principles
 
@@ -25,8 +25,8 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 - [`diagrams/`](diagrams/) — Publication-grade SVG maps, architectural cutaways, artifact field plates, system loops, and charts.
 - [`photos/`](photos/) — Open-licensed (CC0 / Public Domain / CC-BY) real-world and museum photographs with full attribution logs in `photos/chXX-credits.json`.
 - [`build/`](build/) — Standalone offline HTML chapter readers and print-ready US Letter PDFs.
-- [`podcasts/`](podcasts/) — Companion two-AI-host (**Amy & Sam**) podcast configuration, scripts, and mastered episodes (see [`HANDOFF-LOCAL-ANTIGRAVITY.md`](podcasts/HANDOFF-LOCAL-ANTIGRAVITY.md)).
+- [`podcasts/`](podcasts/) — Companion two-host (**Amy & Sam**) podcast configuration, scripts, mastered episodes, private RSS feed ([`feed.xml`](podcasts/feed.xml)), and music credits ([`credits.json`](podcasts/credits.json)).
 
 ## Photo & Media Attribution
 
-All photographs in `photos/` are sourced under open licenses (Public Domain, CC0, CC BY, or CC BY-SA). Complete source URLs, authors, and license details for every image are recorded in `photos/chXX-credits.json` (e.g., [`photos/ch01-credits.json`](photos/ch01-credits.json)).
+All photographs in `photos/` are sourced under open licenses (Public Domain, CC0, CC BY, or CC BY-SA). Complete source URLs, authors, and license details for every image are recorded in `photos/chXX-credits.json` (e.g., [`photos/ch01-credits.json`](photos/ch01-credits.json)). Companion podcast theme music credits and Creative Commons licensing (J. S. Bach BWV 1006a performed by Emilio Antonucci, CC BY-NC-SA 3.0) are recorded in [`podcasts/credits.json`](podcasts/credits.json).

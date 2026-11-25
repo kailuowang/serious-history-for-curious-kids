@@ -91,18 +91,22 @@
     "chime_gap_after_ms": 450
   },
   "default_pronunciations": {
+    "Uruk's": "OO-rooks",
     "Uruk": "OO-rook",
     "lugal": "LOO-gal",
     "še-ba": "SHAY-bah",
     "Kushim": "KOO-sheem",
     "sila": "SEE-lah",
     "bullae": "BOO-lay",
-    "Ur-Nammu": "OOR-NAH-moo",
     "Euphrates": "yoo-FRAY-teez",
     "Tigris": "TY-gris",
-    "dusu": "DOO-soo",
+    "dusu": "doo-soo",
     "Anatolia": "an-uh-TOH-lee-uh",
+    "Amanus": "uh-MAY-nuhs",
     "Magan": "MAH-gahn",
-    "bitumen": "bih-TOO-men"
+    "bitumen": "bih-TOO-men",
+    "Nissen": "NISS-en",
+    "proto-cuneiform": "PROH-toh kyoo-NEE-uh-form",
+    "lapis lazuli": "LAP-iss LAZ-yoo-lee"
   }
 }
