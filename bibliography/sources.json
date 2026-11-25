@@ -5,29 +5,95 @@
     {
       "id": "adams-1981",
       "type": "book",
-      "authors": ["Robert McC. Adams"],
+      "authors": [
+        "Robert McC. Adams"
+      ],
       "year": 1981,
       "title": "Heartland of Cities: Surveys of Ancient Settlement and Land Use on the Central Floodplain of the Euphrates",
       "publisher": "University of Chicago Press",
       "place": "Chicago",
       "isbn": "978-0-226-00544-7",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01",
+        "ch02"
+      ]
+    },
+    {
+      "id": "arnold-1991",
+      "type": "book",
+      "authors": [
+        "Dieter Arnold"
+      ],
+      "year": 1991,
+      "title": "Building in Egypt: Pharaonic Stone Masonry",
+      "publisher": "Oxford University Press",
+      "place": "New York and Oxford",
+      "isbn": "978-0-19-506350-9",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "butzer-1976",
+      "type": "book",
+      "authors": [
+        "Karl W. Butzer"
+      ],
+      "year": 1976,
+      "title": "Early Hydraulic Civilization in Egypt: A Study in Cultural Ecology",
+      "publisher": "University of Chicago Press",
+      "place": "Chicago",
+      "isbn": "978-0-226-08635-4",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "fall-et-al-2014",
+      "type": "article",
+      "authors": [
+        "Abdoulaye Fall",
+        "Bart Weber",
+        "Maryam Pakpour",
+        "N. Lenoir",
+        "N. Shahidzadeh",
+        "J. Fiscina",
+        "C. Wagner",
+        "Daniel Bonn"
+      ],
+      "year": 2014,
+      "title": "Sliding Friction on Wet and Dry Sand",
+      "container_title": "Physical Review Letters",
+      "volume": "112",
+      "issue": "17",
+      "pages": "175502",
+      "doi": "10.1103/PhysRevLett.112.175502",
+      "chapters_used": [
+        "ch02"
+      ]
     },
     {
       "id": "graeber-wengrow-2021",
       "type": "book",
-      "authors": ["David Graeber", "David Wengrow"],
+      "authors": [
+        "David Graeber",
+        "David Wengrow"
+      ],
       "year": 2021,
       "title": "The Dawn of Everything: A New History of Humanity",
       "publisher": "Farrar, Straus and Giroux",
       "place": "New York",
       "isbn": "978-0-374-15735-7",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "jacobsen-1943",
       "type": "article",
-      "authors": ["Thorkild Jacobsen"],
+      "authors": [
+        "Thorkild Jacobsen"
+      ],
       "year": 1943,
       "title": "Primitive Democracy in Ancient Mesopotamia",
       "container_title": "Journal of Near Eastern Studies",
@@ -35,23 +101,32 @@
       "issue": "3",
       "pages": "159-172",
       "doi": "10.1086/370672",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "jacobsen-1976",
       "type": "book",
-      "authors": ["Thorkild Jacobsen"],
+      "authors": [
+        "Thorkild Jacobsen"
+      ],
       "year": 1976,
       "title": "The Treasures of Darkness: A History of Mesopotamian Religion",
       "publisher": "Yale University Press",
       "place": "New Haven",
       "isbn": "978-0-300-01844-8",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "jacobsen-adams-1958",
       "type": "article",
-      "authors": ["Thorkild Jacobsen", "Robert McC. Adams"],
+      "authors": [
+        "Thorkild Jacobsen",
+        "Robert McC. Adams"
+      ],
       "year": 1958,
       "title": "Salt and Silt in Ancient Mesopotamian Agriculture",
       "container_title": "Science",
@@ -59,123 +134,397 @@
       "issue": "3334",
       "pages": "1251-1258",
       "doi": "10.1126/science.128.3334.1251",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01",
+        "ch02"
+      ]
     },
     {
       "id": "katz-1993",
       "type": "primary_text",
-      "authors": ["Dina Katz"],
+      "authors": [
+        "Dina Katz"
+      ],
       "year": 1993,
       "title": "Gilgamesh and Akka",
       "publisher": "Styx Publications",
       "place": "Groningen",
       "notes": "Standard critical edition and translation of the Sumerian narrative composition (ETCSL 1.8.1.1).",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
+    },
+    {
+      "id": "kemp-2018",
+      "type": "book",
+      "authors": [
+        "Barry J. Kemp"
+      ],
+      "year": 2018,
+      "title": "Ancient Egypt: Anatomy of a Civilization",
+      "edition": "3rd ed.",
+      "publisher": "Routledge",
+      "place": "Abingdon and New York",
+      "isbn": "978-0-415-82726-3",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "lehner-1997",
+      "type": "book",
+      "authors": [
+        "Mark Lehner"
+      ],
+      "year": 1997,
+      "title": "The Complete Pyramids: Solving the Ancient Mysteries",
+      "publisher": "Thames & Hudson",
+      "place": "London",
+      "isbn": "978-0-500-05084-2",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "lehner-2015",
+      "type": "chapter",
+      "authors": [
+        "Mark Lehner"
+      ],
+      "editors": [
+        "Piotr Steinkeller",
+        "Michael Hudson"
+      ],
+      "year": 2015,
+      "title": "Labor and the Pyramids: The Heit el-Ghurab 'Workers Town' at Giza",
+      "container_title": "Labor in the Ancient World",
+      "publisher": "ISLET-Verlag",
+      "place": "Dresden",
+      "pages": "397-522",
+      "isbn": "978-3-9814842-3-6",
+      "chapters_used": [
+        "ch02"
+      ]
     },
     {
       "id": "liverani-2006",
       "type": "book",
-      "authors": ["Mario Liverani"],
-      "translators": ["Zainab Bahrani", "Marc Van De Mieroop"],
+      "authors": [
+        "Mario Liverani"
+      ],
+      "translators": [
+        "Zainab Bahrani",
+        "Marc Van De Mieroop"
+      ],
       "year": 2006,
       "title": "Uruk: The First City",
       "publisher": "Equinox Publishing",
       "place": "London",
       "isbn": "978-1-84553-191-1",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "nissen-1970",
       "type": "article",
-      "authors": ["Hans J. Nissen"],
+      "authors": [
+        "Hans J. Nissen"
+      ],
       "year": 1970,
       "title": "Grabung in den Quadraten K/L XII in Uruk-Warka",
       "container_title": "Baghdader Mitteilungen",
       "volume": "5",
       "pages": "101-191",
       "notes": "Original publication proposing the standardized ration-bowl hypothesis for Uruk beveled-rim bowls (p. 137).",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "nissen-damerow-englund-1993",
       "type": "book",
-      "authors": ["Hans J. Nissen", "Peter Damerow", "Robert K. Englund"],
-      "translators": ["Paul Larsen"],
+      "authors": [
+        "Hans J. Nissen",
+        "Peter Damerow",
+        "Robert K. Englund"
+      ],
+      "translators": [
+        "Paul Larsen"
+      ],
       "year": 1993,
       "title": "Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient Near East",
       "publisher": "University of Chicago Press",
       "place": "Chicago",
       "isbn": "978-0-226-58659-5",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "podany-2014",
       "type": "book",
-      "authors": ["Amanda H. Podany"],
+      "authors": [
+        "Amanda H. Podany"
+      ],
       "year": 2014,
       "title": "The Ancient Near East: A Very Short Introduction",
       "publisher": "Oxford University Press",
       "place": "Oxford",
       "isbn": "978-0-19-537799-6",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "podany-2022",
       "type": "book",
-      "authors": ["Amanda H. Podany"],
+      "authors": [
+        "Amanda H. Podany"
+      ],
       "year": 2022,
       "title": "Weavers, Scribes, and Kings: A New History of the Ancient Near East",
       "publisher": "Oxford University Press",
       "place": "New York",
       "isbn": "978-0-19-005904-0",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     },
     {
       "id": "potts-2009",
       "type": "article",
-      "authors": ["Daniel T. Potts"],
+      "authors": [
+        "Daniel T. Potts"
+      ],
       "year": 2009,
       "title": "Bevel-Rim Bowls and Bakeries: Evidence and Explanations from Iran and the Indo-Iranian Borderlands",
       "container_title": "Journal of Cuneiform Studies",
       "volume": "61",
       "pages": "1-23",
       "doi": "10.1086/JCS25608631",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
+    },
+    {
+      "id": "redding-2010",
+      "type": "chapter",
+      "authors": [
+        "Richard W. Redding"
+      ],
+      "editors": [
+        "Douglas Campana",
+        "Pam Crabtree",
+        "Susan D. deFrance",
+        "Justin Lev-Tov",
+        "Alice Choyke"
+      ],
+      "year": 2010,
+      "title": "Status and Diet at the Workers' Town, Giza, Egypt",
+      "container_title": "Anthropological Approaches to Zooarchaeology: Complexity, Colonialism, and Animal Transformations",
+      "publisher": "Oxbow Books",
+      "place": "Oxford",
+      "pages": "65-75",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "redding-2016",
+      "type": "chapter",
+      "authors": [
+        "Richard W. Redding"
+      ],
+      "editors": [
+        "Bea De Cupere",
+        "Veerle Linseele",
+        "Sheila Hamilton-Dyer"
+      ],
+      "year": 2016,
+      "title": "A Tale of Two Sites: Old Kingdom Subsistence Economy and the Infrastructure of Pyramid Construction",
+      "container_title": "Archaeozoology of the Near East X: Proceedings of the Tenth International Symposium on the Archaeozoology of South-Western Asia and Adjacent Areas",
+      "publisher": "Peeters",
+      "place": "Leuven",
+      "pages": "307-322",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "shaw-2000",
+      "type": "book",
+      "editors": [
+        "Ian Shaw"
+      ],
+      "year": 2000,
+      "title": "The Oxford History of Ancient Egypt",
+      "publisher": "Oxford University Press",
+      "place": "Oxford",
+      "isbn": "978-0-19-815034-3",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "stanley-et-al-2003",
+      "type": "article",
+      "authors": [
+        "Jean-Daniel Stanley",
+        "Michael D. Krom",
+        "Robert A. Cliff",
+        "Jamie C. Woodward"
+      ],
+      "year": 2003,
+      "title": "Short Contribution: Nile Flow Failure at the End of the Old Kingdom, Egypt: Strontium Isotopic and Petrologic Evidence",
+      "container_title": "Geoarchaeology",
+      "volume": "18",
+      "issue": "3",
+      "pages": "395-402",
+      "doi": "10.1002/gea.10065",
+      "chapters_used": [
+        "ch02"
+      ]
     },
     {
       "id": "steinkeller-1999",
       "type": "chapter",
-      "authors": ["Piotr Steinkeller"],
-      "editors": ["Kazuko Watanabe"],
+      "authors": [
+        "Piotr Steinkeller"
+      ],
+      "editors": [
+        "Kazuko Watanabe"
+      ],
       "year": 1999,
       "title": "On Rulers, Priests and Sacred Marriage: Tracing the Evolution of Early Sumerian Kingship",
       "container_title": "Priests and Officials in the Ancient Near East",
       "publisher": "Universitätsverlag C. Winter",
       "place": "Heidelberg",
       "pages": "103-138",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
+    },
+    {
+      "id": "stocks-2003",
+      "type": "book",
+      "authors": [
+        "Denys A. Stocks"
+      ],
+      "year": 2003,
+      "title": "Experiments in Egyptian Archaeology: Stoneworking Technology in Ancient Egypt",
+      "publisher": "Routledge",
+      "place": "London and New York",
+      "isbn": "978-0-415-30664-5",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "tallet-2017",
+      "type": "book",
+      "authors": [
+        "Pierre Tallet"
+      ],
+      "year": 2017,
+      "title": "Les Papyrus de la Mer Rouge I: Le 'Journal de Merer' (Papyrus Jarf A et B)",
+      "publisher": "Institut français d'archéologie orientale (IFAO)",
+      "place": "Cairo",
+      "isbn": "978-2-7247-0706-9",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "tallet-lehner-2021",
+      "type": "book",
+      "authors": [
+        "Pierre Tallet",
+        "Mark Lehner"
+      ],
+      "year": 2021,
+      "title": "The Red Sea Scrolls: How Ancient Papyri Reveal the Secrets of the Pyramids",
+      "publisher": "Thames & Hudson",
+      "place": "London",
+      "isbn": "978-0-500-05211-2",
+      "chapters_used": [
+        "ch02"
+      ]
     },
     {
       "id": "van-de-mieroop-2016",
       "type": "book",
-      "authors": ["Marc Van De Mieroop"],
+      "authors": [
+        "Marc Van De Mieroop"
+      ],
       "year": 2016,
       "title": "A History of the Ancient Near East, ca. 3000–323 BC",
       "edition": "3rd ed.",
       "publisher": "Wiley-Blackwell",
       "place": "Chichester",
       "isbn": "978-1-118-71816-2",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
+    },
+    {
+      "id": "verner-2001",
+      "type": "book",
+      "authors": [
+        "Miroslav Verner"
+      ],
+      "year": 2001,
+      "title": "The Pyramids: The Mystery, Culture, and Science of Egypt's Great Monuments",
+      "publisher": "Grove Press",
+      "place": "New York",
+      "isbn": "978-0-8021-1703-8",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "wilkinson-1999",
+      "type": "book",
+      "authors": [
+        "Toby A. H. Wilkinson"
+      ],
+      "year": 1999,
+      "title": "Early Dynastic Egypt",
+      "publisher": "Routledge",
+      "place": "London and New York",
+      "isbn": "978-0-415-26011-4",
+      "chapters_used": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "wilkinson-2010",
+      "type": "book",
+      "authors": [
+        "Toby A. H. Wilkinson"
+      ],
+      "year": 2010,
+      "title": "The Rise and Fall of Ancient Egypt",
+      "publisher": "Bloomsbury Publishing",
+      "place": "London",
+      "isbn": "978-0-7475-9949-4",
+      "chapters_used": [
+        "ch02"
+      ]
     },
     {
       "id": "woolley-1939",
       "type": "book",
-      "authors": ["C. Leonard Woolley"],
+      "authors": [
+        "C. Leonard Woolley"
+      ],
       "year": 1939,
       "title": "Ur Excavations, Vol. V: The Ziggurat and Its Surroundings",
       "publisher": "Published for the Trustees of the Two Museums (British Museum and University Museum, University of Pennsylvania)",
       "place": "London and Philadelphia",
-      "chapters_used": ["ch01"]
+      "chapters_used": [
+        "ch01"
+      ]
     }
   ]
 }

@@ -6,7 +6,8 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 
 | Chapter | Title | Status | Outputs |
 | --- | --- | --- | --- |
-| **Ch. 1** | *Mud, Canals, and the First Ledgers* (Sumer, c. 3500–1700 BCE) | Complete & Audited | [Manuscript](manuscript/ch01-mud-canals-and-first-ledgers.md) · [Offline HTML Reader](build/ch01-preview.html) · [Full Print PDF (11 pp.)](build/ch01-full.pdf) · [2-Page Test Read PDF](build/ch01-test-read-p1-2.pdf) · [Podcast Episode (15:38 MP3)](podcasts/ch01-episode.mp3) · [Podcast Script](podcasts/ch01-script.md) |
+| **Ch. 1** | *Mud, Canals, and the First Ledgers* (Sumer, c. 3500–1700 BCE) | Complete & Audited | [Manuscript](manuscript/ch01-mud-canals-and-first-ledgers.md) · [Offline HTML Reader](build/ch01-preview.html) · [Full Print PDF (19 pp.)](build/ch01-full.pdf) · [2-Page Test Read PDF](build/ch01-test-read-p1-2.pdf) · [Podcast Episode (15:38 MP3)](podcasts/ch01-episode.mp3) · [Podcast Script](podcasts/ch01-script.md) |
+| **Ch. 2** | *How to Feed Ten Thousand Stonecutters* (Egypt, c. 3100–2055 BCE) | Complete & Audited (Stages 1–7) | [Manuscript](manuscript/ch02-how-to-feed-ten-thousand-stonecutters.md) · [Offline HTML Reader](build/ch02-preview.html) · [Full Print PDF (18 pp.)](build/ch02-full.pdf) |
 
 ## Core Principles
 
@@ -17,7 +18,7 @@ A 42-chapter (~500-page) history of human civilization written for an analytical
 
 ## Repository Layout
 
-- [`AGENTS.md`](AGENTS.md) & [`.agents/`](.agents/) — Authoring rules and 7-stage chapter pipeline skills (`/ingest-sources`, `/draft-chapter`, `/illustrate-chapter`, `/audit-chapter`, `/curate-photos`, `/typeset-preview`, `/produce-podcast`).
+- [`AGENTS.md`](AGENTS.md) & [`.agents/`](.agents/) — Authoring rules and 8-stage chapter pipeline skills (`/ingest-sources`, `/draft-chapter`, `/review-writing`, `/audit-chapter`, `/illustrate-chapter`, `/curate-photos`, `/typeset-preview`, `/produce-podcast`).
 - [`syllabus/`](syllabus/) — 42-chapter master outline ([`master-outline.md`](syllabus/master-outline.md)) and prose voice anchor ([`style-anchor.md`](syllabus/style-anchor.md)).
 - [`ledger/concepts.json`](ledger/concepts.json) — Cumulative registry of earned systemic concepts across chapters.
 - [`sources/`](sources/) & [`research/`](research/) — Scholarly reference packets and verified causal fact sheets.

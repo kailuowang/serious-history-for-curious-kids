@@ -10,7 +10,7 @@ When invoked with a chapter ID (e.g., `/illustrate-chapter ch02`):
 1. **Environment Check (`rsvg-convert` & Fonts):**
    - Check `which rsvg-convert`. If missing, install `librsvg2-bin fonts-liberation fonts-dejavu-core` via `sudo apt-get update -qq && sudo apt-get install -y -qq ...`.
    - Ensure a scratch directory exists for visual iteration renders (e.g., `<artifact_dir>/scratch/` or `/tmp/diagram-renders/<chapter_id>/`).
-   - Read `research/<chapter_id>-fact-sheet.md`, `manuscript/<chapter_id>-*.md`, and `.agents/rules/diagram-standards.md`.
+   - Read `research/<chapter_id>-fact-sheet.md`, the **audited** `manuscript/<chapter_id>-*.md` (post-`/audit-chapter`), and `.agents/rules/diagram-standards.md`.
 
 2. **Define Specialist Subagent (`diagram-illustrator`):**
    - Define a reusable `diagram-illustrator` subagent with write tools enabled (`enable_write_tools: true`) whose system prompt enforces:
@@ -27,9 +27,11 @@ When invoked with a chapter ID (e.g., `/illustrate-chapter ch02`):
    - Give each subagent tailored art direction matching the book's unified palette (`#FBF8F3` parchment, `#241D18` ink, `#5E5248` muted ink, era-appropriate accents) and its exact assigned figure number (`Figure X.1` through `Figure X.N`) and namespace prefix (`figXX-N` / `fXXN-`).
    - Wait reactively for all fleet agents to finish (never poll in a loop).
 
-4. **Lead Art-Director Sign-Off & Cross-Figure Integrity Check:**
+4. **Lead Art-Director Sign-Off, Grounding Audit & Citation Sync:**
    - Visually inspect each subagent's final rendered PNG via `view_file`. If any plate still shows overlap, coarseness, or a grounding slip, send targeted feedback to that specific subagent (`send_message`) for one more pass.
+   - Verify every number, date, dimension, and label across all `diagrams/<chapter_id>-*.svg` strictly against `research/<chapter_id>-fact-sheet.md` (zero unanchored era shorthand or exclamation marks).
    - Run a cross-file Python check across ALL `diagrams/<chapter_id>-*.svg` confirming:
      - Every SVG parses cleanly with `xml.etree.ElementTree.parse`.
      - Zero duplicate `id="..."` values exist across all SVGs in the chapter.
      - Every `<style>` selector is scoped to its own `#figXX-N`.
+   - Populate the `diagrams` array in `research/<chapter_id>-citations.json` mapping every `Figure XX.N` to its verified `bibliography/sources.json` IDs, and validate JSON + ID references.

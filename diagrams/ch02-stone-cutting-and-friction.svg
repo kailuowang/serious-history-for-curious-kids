@@ -1,0 +1,712 @@
+<svg id="fig02-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" width="960" height="650" role="img" aria-label="Figure 2.4: Soft Metal, Wet Sand, and the Ramp Debate — Cutting stone without iron, reducing sledge friction with wet sand, and four competing ramp hypotheses at Giza">
+  <defs>
+    <!-- ==================== ARROW & DOT MARKERS ==================== -->
+    <marker id="f024-arrow-ink" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 Z" fill="#241D18"/>
+    </marker>
+    <marker id="f024-arrow-terracotta" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 Z" fill="#B85D3B"/>
+    </marker>
+    <marker id="f024-arrow-blue" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 Z" fill="#2D7DA3"/>
+    </marker>
+    <marker id="f024-arrow-green" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 Z" fill="#1E6A52"/>
+    </marker>
+    <marker id="f024-arrow-crimson" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 Z" fill="#A63D2F"/>
+    </marker>
+    <marker id="f024-arrow-white" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M 0.5 1.4 L 8.8 5 L 0.5 8.6 L 2.2 5 Z" fill="#FFFDF8"/>
+    </marker>
+
+    <!-- ==================== SHADOW FILTERS ==================== -->
+    <filter id="f024-card-shadow" x="-5%" y="-5%" width="112%" height="114%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#3B2E24" flood-opacity="0.10"/>
+    </filter>
+    <filter id="f024-loupe-shadow" x="-14%" y="-14%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#241D18" flood-opacity="0.18"/>
+    </filter>
+    <filter id="f024-obj-shadow" x="-10%" y="-10%" width="124%" height="128%">
+      <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#241D18" flood-opacity="0.18"/>
+    </filter>
+
+    <!-- ==================== GRADIENTS: PAGE & CARDS ==================== -->
+    <linearGradient id="f024-paper-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF9F2"/>
+      <stop offset="100%" stop-color="#F6F0E4"/>
+    </linearGradient>
+    <linearGradient id="f024-sub-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF8F0"/>
+      <stop offset="100%" stop-color="#F5EDE0"/>
+    </linearGradient>
+    <linearGradient id="f024-wet-row-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F1F8F5"/>
+      <stop offset="100%" stop-color="#E9F4EF"/>
+    </linearGradient>
+
+    <!-- ==================== GRADIENTS: STONE, METAL & WOOD ==================== -->
+    <linearGradient id="f024-limestone-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6ECD5"/>
+      <stop offset="100%" stop-color="#E6D4B0"/>
+    </linearGradient>
+    <linearGradient id="f024-limestone-front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EAD8B5"/>
+      <stop offset="100%" stop-color="#CEB78C"/>
+    </linearGradient>
+    <linearGradient id="f024-limestone-side" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#CDB58B"/>
+      <stop offset="100%" stop-color="#B3986B"/>
+    </linearGradient>
+
+    <linearGradient id="f024-granite-base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D18A73"/>
+      <stop offset="55%" stop-color="#B96D56"/>
+      <stop offset="100%" stop-color="#96503B"/>
+    </linearGradient>
+    <linearGradient id="f024-granite-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0A18B"/>
+      <stop offset="100%" stop-color="#C47961"/>
+    </linearGradient>
+
+    <linearGradient id="f024-copper-metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9B4C25"/>
+      <stop offset="30%" stop-color="#E49663"/>
+      <stop offset="52%" stop-color="#F5BE95"/>
+      <stop offset="76%" stop-color="#C86F3B"/>
+      <stop offset="100%" stop-color="#873F1D"/>
+    </linearGradient>
+    <linearGradient id="f024-copper-horiz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2B98E"/>
+      <stop offset="48%" stop-color="#C97040"/>
+      <stop offset="100%" stop-color="#873E1C"/>
+    </linearGradient>
+    <radialGradient id="f024-dolerite-ball" cx="34%" cy="28%" r="68%">
+      <stop offset="0%" stop-color="#76797D"/>
+      <stop offset="42%" stop-color="#474A4F"/>
+      <stop offset="82%" stop-color="#292B2E"/>
+      <stop offset="100%" stop-color="#1A1C1E"/>
+    </radialGradient>
+    <linearGradient id="f024-wood-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B58250"/>
+      <stop offset="50%" stop-color="#926237"/>
+      <stop offset="100%" stop-color="#6B4423"/>
+    </linearGradient>
+    <linearGradient id="f024-flame-grad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#D95326"/>
+      <stop offset="55%" stop-color="#F29F38"/>
+      <stop offset="100%" stop-color="#FFE680"/>
+    </linearGradient>
+
+    <!-- ==================== GRADIENTS: SAND, WATER & MUD ==================== -->
+    <linearGradient id="f024-dry-sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D9A3"/>
+      <stop offset="100%" stop-color="#D8B673"/>
+    </linearGradient>
+    <linearGradient id="f024-damp-sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CFA96B"/>
+      <stop offset="100%" stop-color="#B38A4E"/>
+    </linearGradient>
+    <linearGradient id="f024-mud-sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9A7E58"/>
+      <stop offset="55%" stop-color="#7D6241"/>
+      <stop offset="100%" stop-color="#644D31"/>
+    </linearGradient>
+    <linearGradient id="f024-water-stream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#76C2E2"/>
+      <stop offset="100%" stop-color="#2D7DA3"/>
+    </linearGradient>
+
+    <!-- ==================== GRADIENTS: ISOMETRIC PYRAMIDS & RAMPS ==================== -->
+    <linearGradient id="f024-pyr-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5E8CB"/>
+      <stop offset="100%" stop-color="#DFC799"/>
+    </linearGradient>
+    <linearGradient id="f024-pyr-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C9AF82"/>
+      <stop offset="100%" stop-color="#A3875A"/>
+    </linearGradient>
+    <linearGradient id="f024-ramp-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E2C28B"/>
+      <stop offset="100%" stop-color="#C8A062"/>
+    </linearGradient>
+    <linearGradient id="f024-ramp-side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B58B51"/>
+      <stop offset="100%" stop-color="#8A6433"/>
+    </linearGradient>
+    <linearGradient id="f024-iso-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7EFE0"/>
+      <stop offset="100%" stop-color="#ECE0C9"/>
+    </linearGradient>
+
+    <!-- ==================== ORGANIC TEXTURE PATTERNS ==================== -->
+    <pattern id="f024-granite-speckle" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="none"/>
+      <!-- Angular black biotite & hornblende crystals -->
+      <polygon points="3,4 5.2,3.4 4.8,5.8 2.6,5.4" fill="#2F231F" opacity="0.62"/>
+      <polygon points="16,2 18.2,3.2 17.2,5.0 15.2,4.1" fill="#3B2B26" opacity="0.55"/>
+      <polygon points="24,11 26.4,12.1 25.0,14.2 23.2,13.0" fill="#2A1E1A" opacity="0.60"/>
+      <polygon points="9,15 11.4,14.6 10.6,17.0 8.5,16.4" fill="#3D2C26" opacity="0.56"/>
+      <polygon points="20,21 22.4,20.5 21.8,23.2 19.6,22.4" fill="#2F231F" opacity="0.60"/>
+      <polygon points="4,23 6.1,22.4 5.6,24.8 3.6,24.2" fill="#3D2C26" opacity="0.54"/>
+      <!-- Pale pink feldspar & glassy quartz crystals -->
+      <polygon points="10,5 12.6,4.2 13.0,6.4 10.4,7.0" fill="#FBECE2" opacity="0.68"/>
+      <polygon points="21,6 23.2,5.6 22.8,7.8 20.5,7.4" fill="#F5D7C6" opacity="0.62"/>
+      <polygon points="2,13 4.8,12.2 5.0,14.5 2.4,15.0" fill="#FCEFE6" opacity="0.64"/>
+      <polygon points="15,12 17.8,11.6 17.4,14.0 14.8,13.6" fill="#F4D3C0" opacity="0.58"/>
+      <polygon points="13,22 15.8,21.2 16.0,23.6 13.2,24.0" fill="#FCEFE6" opacity="0.66"/>
+      <polygon points="24,23 26.5,22.6 26.2,24.9 23.8,24.5" fill="#F4D4C2" opacity="0.58"/>
+      <!-- Subtle deeper rose grains -->
+      <polygon points="7,9 9.2,8.5 8.8,10.8 6.8,10.3" fill="#7D3B2B" opacity="0.48"/>
+      <polygon points="18,16 20.4,15.4 19.8,17.8 17.6,17.2" fill="#7D3B2B" opacity="0.45"/>
+    </pattern>
+
+    <pattern id="f024-sand-dots" width="16" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="3" r="0.7" fill="#A68246" opacity="0.45"/>
+      <circle cx="9" cy="2" r="0.6" fill="#FFFFFF" opacity="0.45"/>
+      <circle cx="14" cy="7" r="0.75" fill="#9A763D" opacity="0.40"/>
+      <circle cx="6" cy="9.5" r="0.65" fill="#8C6A35" opacity="0.38"/>
+    </pattern>
+
+    <pattern id="f024-pyr-courses" width="10" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="4.5" x2="10" y2="4.5" stroke="#9B8258" stroke-width="0.5" opacity="0.42"/>
+    </pattern>
+
+    <!-- ==================== CLIP PATHS ==================== -->
+    <clipPath id="f024-clip-loupe-a">
+      <circle cx="386" cy="291" r="40"/>
+    </clipPath>
+    <clipPath id="f024-clip-grain-1">
+      <circle cx="742" cy="152" r="24"/>
+    </clipPath>
+    <clipPath id="f024-clip-grain-2">
+      <circle cx="742" cy="239" r="24"/>
+    </clipPath>
+    <clipPath id="f024-clip-grain-3">
+      <circle cx="742" cy="326" r="24"/>
+    </clipPath>
+
+    <!-- ==================== SCOPED STYLES ==================== -->
+    <style>
+      #fig02-4 .page-bg { fill: url(#f024-paper-bg); }
+      #fig02-4 .panel-card { fill: #FFFDF8; stroke: #D2C7B5; stroke-width: 1.3; }
+      #fig02-4 .sub-card { fill: url(#f024-sub-bg); stroke: #DED4C3; stroke-width: 1; }
+      #fig02-4 .title { font-family: "Liberation Serif", Georgia, "Times New Roman", serif; font-size: 19.5px; font-weight: bold; fill: #241D18; letter-spacing: -0.15px; }
+      #fig02-4 .subtitle { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, sans-serif; font-size: 11.8px; fill: #5E5248; }
+      #fig02-4 .ptitle { font-family: "Liberation Serif", Georgia, "Times New Roman", serif; font-size: 14.5px; font-weight: bold; fill: #241D18; }
+      #fig02-4 .badge-letter { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 12px; font-weight: 700; fill: #FFFDF8; text-anchor: middle; }
+      #fig02-4 .lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11.2px; font-weight: 700; fill: #241D18; }
+      #fig02-4 .lbl-sm { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; fill: #5E5248; }
+      #fig02-4 .lbl-sm-bold { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; fill: #3A3028; }
+      #fig02-4 .lbl-crimson { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; fill: #A63D2F; }
+      #fig02-4 .lbl-green { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; fill: #1E6A52; }
+      #fig02-4 .lbl-blue { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; fill: #1E6384; }
+      #fig02-4 .lbl-terra { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; fill: #9D4827; }
+      #fig02-4 .lbl-badge-w { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; font-weight: 700; fill: #FFFFFF; text-anchor: middle; }
+      #fig02-4 .debate-pill { fill: #FBF3E4; stroke: #D9A34A; stroke-width: 1.15; }
+      #fig02-4 .debate-txt { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.8px; font-weight: 700; fill: #845210; text-anchor: middle; }
+      #fig02-4 .ramp-card { fill: #FFFDF8; stroke: #D8CFC2; stroke-width: 1.1; }
+      #fig02-4 .ramp-title { font-family: "Liberation Serif", Georgia, "Times New Roman", serif; font-size: 12.2px; font-weight: bold; fill: #241D18; }
+      #fig02-4 .leader { fill: none; stroke: #4D4036; stroke-width: 1.05; stroke-dasharray: 2.6 2; }
+      #fig02-4 .footer { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; fill: #5E5248; }
+    </style>
+  </defs>
+
+  <!-- ==================== PAGE CANVAS & HEADER ==================== -->
+  <rect class="page-bg" x="0" y="0" width="960" height="650" rx="10"/>
+  <rect x="0.75" y="0.75" width="958.5" height="648.5" rx="9.5" fill="none" stroke="#D8CFC2" stroke-width="1.5"/>
+  <rect x="24" y="15" width="4.5" height="36" rx="2" fill="#B85D3B"/>
+  <text class="title" x="38" y="31">Figure 2.4: Soft Metal, Wet Sand, and the Ramp Debate</text>
+  <text class="subtitle" x="38" y="48">How Giza's builders cut hard rock without iron, cut sliding friction roughly in half, and lifted 2.3 million stone blocks</text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL A: CUTTING STONE WITHOUT IRON (TOP LEFT)                         -->
+  <!-- ====================================================================== -->
+  <rect class="panel-card" x="24" y="62" width="446" height="320" rx="8" filter="url(#f024-card-shadow)"/>
+  <circle cx="44" cy="82" r="11" fill="#B85D3B"/>
+  <text class="badge-letter" x="44" y="86">A</text>
+  <text class="ptitle" x="62" y="87">Cutting Stone Without Iron</text>
+
+  <!-- SUB-ZONE A1: COPPER CHISEL LIMITS (LIMESTONE vs GRANITE) -->
+  <rect class="sub-card" x="36" y="100" width="206" height="94" rx="6"/>
+  <rect class="sub-card" x="252" y="100" width="206" height="94" rx="6"/>
+
+  <!-- A1 Left: Copper chisel on limestone + furnace recasting -->
+  <g id="f024-chisel-limestone">
+    <text class="lbl" x="45" y="115">Soft Limestone (Core)</text>
+    <!-- Limestone block (shifted down 2px for clean clearance below title) -->
+    <polygon points="48,158 128,158 138,150 58,150" fill="url(#f024-limestone-top)" stroke="#8B7755" stroke-width="0.9"/>
+    <polygon points="48,158 128,158 128,176 48,176" fill="url(#f024-limestone-front)" stroke="#8B7755" stroke-width="0.9"/>
+    <polygon points="128,158 138,150 138,168 128,176" fill="url(#f024-limestone-side)" stroke="#8B7755" stroke-width="0.9"/>
+    <!-- Subtle bedding + fossil dots -->
+    <line x1="51" y1="166" x2="125" y2="166" stroke="#A68F66" stroke-width="0.6" stroke-dasharray="5 3"/>
+    <circle cx="64" cy="171" r="1.4" fill="none" stroke="#9A835C" stroke-width="0.7"/>
+    <circle cx="96" cy="163" r="1.2" fill="none" stroke="#9A835C" stroke-width="0.7"/>
+    <!-- Flaked limestone chips -->
+    <polygon points="82,152 87,148 89,153" fill="#F2E4C6" stroke="#8B7755" stroke-width="0.6"/>
+    <polygon points="73,149 77,145 80,149" fill="#EBDAB5" stroke="#8B7755" stroke-width="0.6"/>
+    <polygon points="103,151 107,147 109,152" fill="#F2E4C6" stroke="#8B7755" stroke-width="0.6"/>
+    <!-- Hammered copper chisel (compact handle, zero title overlap) -->
+    <g transform="translate(94,153) rotate(-36)">
+      <rect x="-4" y="-31" width="8" height="12" rx="2.5" fill="url(#f024-wood-grad)" stroke="#4F3218" stroke-width="0.8"/>
+      <path d="M -3.2,-19 L 3.2,-19 L 4.0,-2 Q 0,1.2 -4.0,-2 Z" fill="url(#f024-copper-metal)" stroke="#6B3116" stroke-width="0.8"/>
+      <path d="M -3.8,-2 Q 0,1.5 3.8,-2" fill="none" stroke="#D95326" stroke-width="1.6"/>
+    </g>
+    <!-- Recast furnace loop arrow -->
+    <path d="M 122,134 Q 148,122 169,136" fill="none" stroke="#B85D3B" stroke-width="1.3" stroke-dasharray="3 2" marker-end="url(#f024-arrow-terracotta)"/>
+    <!-- Mudbrick smelting hearth + glowing flame -->
+    <text class="lbl-sm" x="198" y="140" text-anchor="middle">Furnace</text>
+    <path d="M 176,172 L 182,146 L 210,146 L 216,172 Z" fill="#AE8258" stroke="#6B4A2C" stroke-width="0.9"/>
+    <path d="M 185,172 L 187,155 L 205,155 L 207,172 Z" fill="#462B1D"/>
+    <path d="M 196,171 C 189,167 189,158 196,151 C 203,158 203,167 196,171 Z" fill="url(#f024-flame-grad)"/>
+    <path d="M 196,171 C 192,168 193,162 196,158 C 199,162 200,168 196,171 Z" fill="#FFF3AE"/>
+    <text class="lbl-sm" x="45" y="188">Blunts fast — recast in furnace</text>
+  </g>
+
+  <!-- A1 Right: Copper chisel bending on Aswan red granite -->
+  <g id="f024-chisel-granite">
+    <text class="lbl" x="261" y="115">Hard Aswan Granite</text>
+    <!-- Speckled Aswan granite block -->
+    <polygon points="264,158 364,158 376,149 276,149" fill="url(#f024-granite-top)" stroke="#6B3B2D" stroke-width="0.9"/>
+    <polygon points="264,158 364,158 364,176 264,176" fill="url(#f024-granite-base)" stroke="#6B3B2D" stroke-width="0.9"/>
+    <polygon points="364,158 376,149 376,167 364,176" fill="#8B4835" stroke="#6B3B2D" stroke-width="0.9"/>
+    <polygon points="264,158 364,158 364,176 264,176" fill="url(#f024-granite-speckle)"/>
+    <polygon points="264,158 364,158 376,149 276,149" fill="url(#f024-granite-speckle)"/>
+    <!-- Copper chisel hitting granite and BENDING visibly (clean clearance below title!) -->
+    <g transform="translate(318,153)">
+      <g transform="rotate(-24)">
+        <rect x="-4" y="-31" width="8" height="12" rx="2.5" fill="url(#f024-wood-grad)" stroke="#4F3218" stroke-width="0.8"/>
+        <!-- Bent copper blade curving sideways at impact -->
+        <path d="M -3.2,-19 L 3.2,-19 L 3.4,-7 C 3.7,-1 9.5,1 13.5,-0.5 L 12.2,3.4 C 6.4,5.0 -1.5,3.0 -3.0,-4 Z" fill="url(#f024-copper-metal)" stroke="#6B3116" stroke-width="0.85"/>
+      </g>
+      <path d="M -6,-2 L -11,-5 M 11,-3 L 16,-7 M 3,-7 L 5,-12" stroke="#A63D2F" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+    <!-- Crimson X pill on right -->
+    <circle cx="424" cy="148" r="13.5" fill="#FBEAE7" stroke="#A63D2F" stroke-width="1.3"/>
+    <path d="M 418.5,142.5 L 429.5,153.5 M 429.5,142.5 L 418.5,153.5" stroke="#A63D2F" stroke-width="2.3" stroke-linecap="round"/>
+    <text class="lbl-crimson" x="424" y="174" text-anchor="middle">Bends</text>
+    <text class="lbl-sm" x="261" y="188">Soft copper cannot cut granite</text>
+  </g>
+
+  <!-- Divider label for A2 -->
+  <line x1="36" y1="203" x2="458" y2="203" stroke="#E0D5C3" stroke-width="1"/>
+  <text class="lbl-terra" x="36" y="218">HOW MASONS ACTUALLY SHAPED GRANITE (EXPERIMENTAL ARCHAEOLOGY)</text>
+
+  <!-- SUB-ZONE A2 LEFT: DOLERITE POUNDING BALLS -->
+  <rect class="sub-card" x="36" y="226" width="154" height="146" rx="6"/>
+  <g id="f024-dolerite-scene">
+    <text class="lbl" x="45" y="242">1. Dolerite Pounders</text>
+    <!-- Granite quarry trench cutaway with stepped shoulder -->
+    <path d="M 44,306 L 76,306 L 83,318 L 143,318 L 150,306 L 182,306 L 182,334 L 44,334 Z" fill="url(#f024-granite-base)" stroke="#6B3B2D" stroke-width="0.95"/>
+    <path d="M 44,306 L 76,306 L 83,318 L 143,318 L 150,306 L 182,306 L 182,334 L 44,334 Z" fill="url(#f024-granite-speckle)"/>
+    <!-- Crushed granite dust puff & flying micro-chips -->
+    <path d="M 86,317 Q 95,305 108,310 Q 116,302 128,310 Q 137,306 142,317 Z" fill="#F2D4C6" opacity="0.88"/>
+    <circle cx="91" cy="303" r="1.4" fill="#B96D56"/>
+    <circle cx="135" cy="301" r="1.3" fill="#B96D56"/>
+    <circle cx="127" cy="296" r="1.1" fill="#8C4A36"/>
+    <!-- Three separate downward pounding force lines with crisp arrowheads -->
+    <line x1="99" y1="254" x2="99" y2="269" stroke="#5E5248" stroke-width="1.2" marker-end="url(#f024-arrow-ink)"/>
+    <line x1="113" y1="250" x2="113" y2="268" stroke="#241D18" stroke-width="1.6" marker-end="url(#f024-arrow-ink)"/>
+    <line x1="127" y1="254" x2="127" y2="269" stroke="#5E5248" stroke-width="1.2" marker-end="url(#f024-arrow-ink)"/>
+    <!-- Heavy rounded dark dolerite stone ball -->
+    <ellipse cx="113" cy="295" rx="20" ry="18" fill="url(#f024-dolerite-ball)" stroke="#18191B" stroke-width="1" filter="url(#f024-obj-shadow)"/>
+    <path d="M 100,287 Q 106,281 115,283" fill="none" stroke="#9EA1A6" stroke-width="1.2" stroke-linecap="round" opacity="0.72"/>
+    <circle cx="121" cy="297" r="1.3" fill="#1C1D1F" opacity="0.65"/>
+    <circle cx="107" cy="301" r="1.6" fill="#232528" opacity="0.55"/>
+    <circle cx="118" cy="288" r="1.1" fill="#63666B" opacity="0.6"/>
+    <!-- Caption inside card -->
+    <text class="lbl-sm" x="45" y="349">Hard dark volcanic rock</text>
+    <text class="lbl-sm" x="45" y="363">pounds blocks free</text>
+  </g>
+
+  <!-- SUB-ZONE A2 RIGHT: TOOTHLESS COPPER SAW + QUARTZ SAND LOUPE -->
+  <rect class="sub-card" x="198" y="226" width="260" height="146" rx="6"/>
+  <g id="f024-quartz-saw-scene">
+    <text class="lbl" x="207" y="242">2. Copper Saw / Tube + Quartz Sand</text>
+    <!-- Granite block cross-section with vertical saw kerf + hollow drill socket -->
+    <path d="M 206,294 L 220,294 L 220,308 L 223,308 L 223,297 L 231,297 L 231,308 L 234,308 L 234,294 L 266,294 L 266,321 L 278,321 L 278,294 L 332,294 L 332,336 L 206,336 Z" fill="url(#f024-granite-base)" stroke="#6B3B2D" stroke-width="0.95"/>
+    <path d="M 206,294 L 220,294 L 220,308 L 223,308 L 223,297 L 231,297 L 231,308 L 234,308 L 234,294 L 266,294 L 266,321 L 278,321 L 278,294 L 332,294 L 332,336 L 206,336 Z" fill="url(#f024-granite-speckle)"/>
+    <!-- Small quartz sand pile poured into kerf -->
+    <path d="M 254,294 Q 262,286 267,294 Z" fill="#F2E4C1" stroke="#A68B5B" stroke-width="0.7"/>
+    <path d="M 277,294 Q 284,286 291,294 Z" fill="#F2E4C1" stroke="#A68B5B" stroke-width="0.7"/>
+    <!-- Hollow copper tube drill sitting right in its cored socket -->
+    <g transform="translate(227,280)">
+      <ellipse cx="0" cy="-11" rx="6.5" ry="2.4" fill="#F3B88C" stroke="#6B3116" stroke-width="0.75"/>
+      <ellipse cx="0" cy="-11" rx="3.8" ry="1.3" fill="#5A3320"/>
+      <path d="M -6.5,-11 L -6.5,14 A 6.5,2.4 0 0,0 6.5,14 L 6.5,-11" fill="url(#f024-copper-metal)" stroke="#6B3116" stroke-width="0.75"/>
+      <!-- Curved twist arrow showing rotary drilling motion -->
+      <path d="M -9,-4 Q 0,0.5 9,-4" fill="none" stroke="#B85D3B" stroke-width="1.2" marker-end="url(#f024-arrow-terracotta)"/>
+    </g>
+    <text class="lbl-sm" x="227" y="261" text-anchor="middle">Tube</text>
+    <!-- Toothless copper saw blade inside kerf -->
+    <rect x="268.5" y="266" width="7" height="52" rx="1" fill="url(#f024-copper-metal)" stroke="#6B3116" stroke-width="0.85"/>
+    <!-- Back-and-forth saw motion arrows -->
+    <path d="M 248,276 L 262,276" stroke="#B85D3B" stroke-width="1.4" marker-start="url(#f024-arrow-terracotta)"/>
+    <path d="M 282,276 L 296,276" stroke="#B85D3B" stroke-width="1.4" marker-end="url(#f024-arrow-terracotta)"/>
+    <!-- Zoom indicator box around kerf bottom -->
+    <rect x="264" y="312" width="16" height="13" rx="2" fill="none" stroke="#241D18" stroke-width="1.15" stroke-dasharray="2.5 1.5"/>
+    <line x1="280" y1="315" x2="347" y2="296" stroke="#241D18" stroke-width="1.05" stroke-dasharray="2.5 2"/>
+    <line x1="280" y1="322" x2="354" y2="316" stroke="#241D18" stroke-width="1.05" stroke-dasharray="2.5 2"/>
+
+    <!-- Magnified Loupe Circle (cx=386, cy=291, r=40) — ZERO CLIPPING! -->
+    <g filter="url(#f024-loupe-shadow)">
+      <circle cx="386" cy="291" r="40" fill="#FFFDF8"/>
+    </g>
+    <g clip-path="url(#f024-clip-loupe-a)">
+      <rect x="344" y="249" width="84" height="84" fill="#FAF4E8"/>
+      <!-- Bottom: Speckled granite being ground away -->
+      <path d="M 344,304 L 357,302 L 367,306 L 379,303 L 391,307 L 404,303 L 416,306 L 428,303 L 428,334 L 344,334 Z" fill="url(#f024-granite-base)" stroke="#6B3B2D" stroke-width="1"/>
+      <rect x="344" y="304" width="84" height="30" fill="url(#f024-granite-speckle)"/>
+      <!-- Subtle dark band for crisp white Granite label legibility -->
+      <rect x="358" y="311" width="56" height="14" rx="7" fill="#6E3524" fill-opacity="0.72"/>
+      <!-- Top: Toothless flat copper saw edge pressing down -->
+      <rect x="344" y="249" width="84" height="40" fill="url(#f024-copper-horiz)" stroke="#6B3116" stroke-width="1"/>
+      <text class="lbl-badge-w" x="386" y="272">Copper saw</text>
+      <!-- Horizontal sliding arrow inside copper blade -->
+      <path d="M 366,281 L 406,281" stroke="#FFFDF8" stroke-width="1.35" marker-start="url(#f024-arrow-white)" marker-end="url(#f024-arrow-white)"/>
+      <!-- Hard faceted QUARTZ SAND GRAINS trapped between blade and granite -->
+      <g stroke="#2D6A82" stroke-width="0.9">
+        <polygon points="354,290 362,288 365,298 358,303 350,298" fill="#E8F6FB"/>
+        <polygon points="369,289 378,291 380,300 372,304 366,297" fill="#FFFFFF"/>
+        <polygon points="383,290 392,288 396,299 389,305 381,299" fill="#DDF1F8"/>
+        <polygon points="399,289 408,292 410,301 402,304 396,297" fill="#FFFFFF"/>
+        <polygon points="413,290 422,289 425,299 417,304 411,298" fill="#E8F6FB"/>
+      </g>
+      <circle cx="364" cy="308" r="1.3" fill="#FFFDF8"/>
+      <circle cx="385" cy="309" r="1.3" fill="#FFFDF8"/>
+      <circle cx="404" cy="308" r="1.2" fill="#FFFDF8"/>
+      <text class="lbl-badge-w" x="386" y="321.5">Granite</text>
+    </g>
+    <!-- Loupe Brass Rim -->
+    <circle cx="386" cy="291" r="40" fill="none" stroke="#5E4632" stroke-width="2.4"/>
+    <circle cx="386" cy="291" r="38" fill="none" stroke="#DFC498" stroke-width="0.9"/>
+
+    <!-- Loupe callout caption below (aligned cleanly on baseline y=349) -->
+    <text class="lbl-sm-bold" x="207" y="349">Quartz sand grains</text>
+    <text class="lbl-sm" x="207" y="363">grind through granite</text>
+    <text class="lbl-blue" x="386" y="349" text-anchor="middle">Quartz grit zoom</text>
+  </g>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL B: BEATING SLIDING FRICTION WITH WETTED SAND (TOP RIGHT)         -->
+  <!-- ====================================================================== -->
+  <rect class="panel-card" x="484" y="62" width="452" height="320" rx="8" filter="url(#f024-card-shadow)"/>
+  <circle cx="504" cy="82" r="11" fill="#2D7DA3"/>
+  <text class="badge-letter" x="504" y="86">B</text>
+  <text class="ptitle" x="522" y="85">Beating Sliding Friction with Wet Sand</text>
+  <text class="lbl-sm" x="522" y="99">Wooden sledge (~2.5-ton block) · Djehutihotep (c. 1880 BCE) · 2014 tests</text>
+
+  <!-- Column headers for Panel B -->
+  <text class="lbl-sm-bold" x="593" y="113" text-anchor="middle">Sledge &amp; Sand Track</text>
+  <text class="lbl-sm-bold" x="742" y="113" text-anchor="middle">Sand-Grain Zoom</text>
+  <text class="lbl-sm-bold" x="851" y="113" text-anchor="middle">Friction Result</text>
+
+  <!-- ==================== ROW B1: DRY SAND ==================== -->
+  <rect x="496" y="118" width="428" height="81" rx="6" fill="#FCF8F0" stroke="#DED4C3" stroke-width="1"/>
+  <text class="lbl" x="504" y="132">1. Dry Sand</text>
+  <!-- Dry sand bed (x=502..684, clean 34px gap before grain zoom!) -->
+  <path d="M 502,171 L 614,171 C 624,171 629,159 638,159 C 648,159 654,171 664,171 L 684,171 L 684,182 L 502,182 Z" fill="url(#f024-dry-sand)" stroke="#B09052" stroke-width="0.9"/>
+  <path d="M 502,171 L 614,171 C 624,171 629,159 638,159 C 648,159 654,171 664,171 L 684,171 L 684,182 L 502,182 Z" fill="url(#f024-sand-dots)"/>
+  <!-- Wooden sledge + 2.5-ton limestone block (clean breathing room below title) -->
+  <g transform="translate(514,132)">
+    <rect x="12" y="9" width="70" height="25" rx="1.5" fill="url(#f024-limestone-front)" stroke="#7F6A47" stroke-width="0.95"/>
+    <line x1="13" y1="17" x2="81" y2="17" stroke="#A68F66" stroke-width="0.5" stroke-dasharray="4 3"/>
+    <line x1="18" y1="9" x2="18" y2="37" stroke="#6E4E2E" stroke-width="1.5"/>
+    <line x1="76" y1="9" x2="76" y2="37" stroke="#6E4E2E" stroke-width="1.5"/>
+    <text class="lbl-sm-bold" x="47" y="25" text-anchor="middle">2.5 tons</text>
+    <!-- Wooden sledge runner -->
+    <path d="M 4,34 L 92,34 Q 103,34 108,24 L 111,26 Q 105,39 92,39 L 4,39 Z" fill="url(#f024-wood-grad)" stroke="#4F3218" stroke-width="0.85"/>
+    <!-- Taut pulling rope -->
+    <line x1="109" y1="27" x2="146" y2="27" stroke="#6E4E2E" stroke-width="1.4"/>
+    <path d="M 136,27 L 154,27" stroke="#5E5248" stroke-width="1.4" marker-end="url(#f024-arrow-ink)"/>
+    <!-- Red opposing jam arrow right at mound -->
+    <path d="M 122,39 L 106,39" stroke="#A63D2F" stroke-width="2" marker-end="url(#f024-arrow-crimson)"/>
+  </g>
+  <!-- Clean high-contrast caption BELOW sand track -->
+  <text class="lbl-crimson" x="593" y="194" text-anchor="middle">Sand mound jams runners</text>
+
+  <!-- Row B1 Grain Zoom (r=24 at cx=742, cy=152) -->
+  <circle cx="742" cy="152" r="24" fill="#FAF5EA" stroke="#B09052" stroke-width="1.5"/>
+  <g clip-path="url(#f024-clip-grain-1)">
+    <circle cx="729" cy="143" r="5.8" fill="#DFBE7F" stroke="#9D7D44" stroke-width="0.9"/>
+    <circle cx="745" cy="140" r="5.4" fill="#E9CB8E" stroke="#9D7D44" stroke-width="0.9"/>
+    <circle cx="757" cy="148" r="5.8" fill="#D9B674" stroke="#9D7D44" stroke-width="0.9"/>
+    <circle cx="735" cy="159" r="6.0" fill="#E6C687" stroke="#9D7D44" stroke-width="0.9"/>
+    <circle cx="750" cy="162" r="5.6" fill="#DFBE7F" stroke="#9D7D44" stroke-width="0.9"/>
+    <circle cx="723" cy="156" r="5.0" fill="#D5B16D" stroke="#9D7D44" stroke-width="0.9"/>
+    <path d="M 740,151 L 746,147 M 734,150 L 739,146" stroke="#A63D2F" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <text class="lbl-sm" x="742" y="192" text-anchor="middle">Loose grains</text>
+
+  <!-- Row B1 Friction Verdict -->
+  <rect x="788" y="126" width="126" height="18" rx="9" fill="#A63D2F"/>
+  <text class="lbl-badge-w" x="851" y="139">HIGH FRICTION</text>
+  <rect x="788" y="150" width="126" height="8" rx="4" fill="#ECE4D6"/>
+  <rect x="788" y="150" width="116" height="8" rx="4" fill="#A63D2F"/>
+  <text class="lbl-sm" x="788" y="172">Grains pile up in front;</text>
+  <text class="lbl-sm" x="788" y="186">heavy runners dig in</text>
+
+  <!-- ==================== ROW B2: JUST ENOUGH WATER (SWEET SPOT) ==================== -->
+  <rect x="496" y="205" width="428" height="82" rx="6" fill="url(#f024-wet-row-bg)" stroke="#1E6A52" stroke-width="1.5"/>
+  <text class="lbl-green" x="504" y="219">2. Just Enough Water</text>
+  <!-- Flat stiffened damp sand track -->
+  <rect x="502" y="258" width="182" height="11" fill="url(#f024-damp-sand)" stroke="#8E6C39" stroke-width="0.9"/>
+  <rect x="502" y="258" width="182" height="11" fill="url(#f024-sand-dots)"/>
+  <!-- Wetted dark surface sheen right under & ahead of runner -->
+  <rect x="516" y="258" width="150" height="4" fill="#2D7DA3" opacity="0.45"/>
+  <!-- Wooden sledge gliding smoothly -->
+  <g transform="translate(514,219)">
+    <rect x="12" y="9" width="70" height="25" rx="1.5" fill="url(#f024-limestone-front)" stroke="#7F6A47" stroke-width="0.95"/>
+    <line x1="18" y1="9" x2="18" y2="37" stroke="#6E4E2E" stroke-width="1.5"/>
+    <line x1="76" y1="9" x2="76" y2="37" stroke="#6E4E2E" stroke-width="1.5"/>
+    <text class="lbl-sm-bold" x="47" y="25" text-anchor="middle">2.5 tons</text>
+    <path d="M 4,34 L 92,34 Q 103,34 108,24 L 111,26 Q 105,39 92,39 L 4,39 Z" fill="url(#f024-wood-grad)" stroke="#4F3218" stroke-width="0.85"/>
+    <!-- Smooth gliding pull arrow -->
+    <line x1="109" y1="27" x2="146" y2="27" stroke="#6E4E2E" stroke-width="1.4"/>
+    <path d="M 136,27 L 160,27" stroke="#1E6A52" stroke-width="2" marker-end="url(#f024-arrow-green)"/>
+    <!-- Glide lines behind sledge -->
+    <line x1="-10" y1="18" x2="0" y2="18" stroke="#1E6A52" stroke-width="1.3" stroke-linecap="round"/>
+    <line x1="-12" y1="26" x2="-2" y2="26" stroke="#1E6A52" stroke-width="1.3" stroke-linecap="round"/>
+  </g>
+  <!-- Tilted clay water jar pouring water stream ahead of runner -->
+  <g transform="translate(657,226)">
+    <path d="M 5,-6 C 12,-8 16,-2 13,4 C 10,9 3,9 -2,4 L -6,3 L -5,0 L -1,-1 C 1,-4 3,-5 5,-6 Z" fill="#C4784F" stroke="#7A4225" stroke-width="0.9"/>
+    <path d="M -6,2 C -11,9 -12,20 -11,31" fill="none" stroke="url(#f024-water-stream)" stroke-width="3.0" stroke-linecap="round"/>
+    <circle cx="-11" cy="30" r="2.0" fill="#2D7DA3"/>
+    <circle cx="-16" cy="29" r="1.3" fill="#2D7DA3"/>
+  </g>
+  <!-- Clean caption BELOW track -->
+  <text class="lbl-blue" x="593" y="282" text-anchor="middle">Water stiffens sand track</text>
+
+  <!-- Row B2 Grain Zoom (CRISP CAPILLARY WATER BRIDGES) -->
+  <circle cx="742" cy="239" r="24" fill="#EAF5FA" stroke="#2D7DA3" stroke-width="1.8"/>
+  <g clip-path="url(#f024-clip-grain-2)">
+    <!-- Distinct concave blue capillary water menisci linking sand grains -->
+    <path d="M 731,229 Q 737,232 742,228 L 743,237 Q 737,234 731,238 Z" fill="#2D85AD"/>
+    <path d="M 747,229 Q 752,233 757,231 L 754,240 Q 750,237 745,239 Z" fill="#2D85AD"/>
+    <path d="M 727,238 Q 732,243 729,249 L 737,248 Q 735,243 738,238 Z" fill="#2D85AD"/>
+    <path d="M 744,238 Q 748,244 746,250 L 754,249 Q 751,244 754,238 Z" fill="#2D85AD"/>
+    <path d="M 736,247 Q 742,251 748,248 L 748,257 Q 742,254 736,257 Z" fill="#2D85AD"/>
+    <!-- Highlight glints on bridges -->
+    <line x1="735" y1="232.5" x2="739" y2="232.5" stroke="#B6E4F7" stroke-width="0.9"/>
+    <line x1="739" y1="251.5" x2="744" y2="251.5" stroke="#B6E4F7" stroke-width="0.9"/>
+    <!-- Sand grains locked firmly together -->
+    <circle cx="728" cy="232" r="5.9" fill="#CFA665" stroke="#856332" stroke-width="0.9"/>
+    <circle cx="744" cy="230" r="5.7" fill="#D9B16E" stroke="#856332" stroke-width="0.9"/>
+    <circle cx="758" cy="236" r="5.7" fill="#C99E5C" stroke="#856332" stroke-width="0.9"/>
+    <circle cx="733" cy="249" r="5.9" fill="#D4AC6A" stroke="#856332" stroke-width="0.9"/>
+    <circle cx="751" cy="251" r="5.7" fill="#CFA665" stroke="#856332" stroke-width="0.9"/>
+  </g>
+  <text class="lbl-blue" x="742" y="280" text-anchor="middle">Water bridges</text>
+
+  <!-- Row B2 Friction Verdict -->
+  <rect x="788" y="213" width="126" height="18" rx="9" fill="#1E6A52"/>
+  <text class="lbl-badge-w" x="851" y="226">~½ FRICTION</text>
+  <rect x="788" y="237" width="126" height="8" rx="4" fill="#D7E6DF"/>
+  <rect x="788" y="237" width="60" height="8" rx="4" fill="#1E6A52"/>
+  <text class="lbl-sm-bold" x="788" y="259">Sandcastle stiffness;</text>
+  <text class="lbl-sm" x="788" y="273">runners glide cleanly</text>
+
+  <!-- ==================== ROW B3: TOO MUCH WATER ==================== -->
+  <rect x="496" y="293" width="428" height="80" rx="6" fill="#FCF8F0" stroke="#DED4C3" stroke-width="1"/>
+  <text class="lbl" x="504" y="307">3. Too Much Water</text>
+  <!-- Soft mud bed with sunken rut (x=502..684) -->
+  <path d="M 502,344 L 516,344 C 520,351 526,352 536,352 L 610,352 C 621,352 627,340 637,342 C 646,344 653,344 665,344 L 684,344 L 684,356 L 502,356 Z" fill="url(#f024-mud-sand)" stroke="#5E472D" stroke-width="0.9"/>
+  <!-- Surface water sheen puddles -->
+  <ellipse cx="662" cy="347" rx="13" ry="1.9" fill="#6BB3D3" opacity="0.58"/>
+  <ellipse cx="509" cy="347" rx="5.5" ry="1.5" fill="#6BB3D3" opacity="0.50"/>
+  <!-- Wooden sledge SUNK deep into mud -->
+  <g transform="translate(514,312)">
+    <rect x="12" y="9" width="70" height="25" rx="1.5" fill="url(#f024-limestone-front)" stroke="#7F6A47" stroke-width="0.95"/>
+    <line x1="18" y1="9" x2="18" y2="37" stroke="#6E4E2E" stroke-width="1.5"/>
+    <line x1="76" y1="9" x2="76" y2="37" stroke="#6E4E2E" stroke-width="1.5"/>
+    <text class="lbl-sm-bold" x="47" y="25" text-anchor="middle">2.5 tons</text>
+    <path d="M 4,34 L 92,34 Q 103,34 108,24 L 111,26 Q 105,39 92,39 L 4,39 Z" fill="url(#f024-wood-grad)" stroke="#4F3218" stroke-width="0.85"/>
+    <!-- Mud squishing over runner lip -->
+    <path d="M 94,35 Q 104,30 114,35 L 114,41 L 92,41 Z" fill="#7D6241" opacity="0.9"/>
+    <line x1="109" y1="27" x2="143" y2="27" stroke="#6E4E2E" stroke-width="1.4"/>
+    <path d="M 134,27 L 151,27" stroke="#5E5248" stroke-width="1.4" marker-end="url(#f024-arrow-ink)"/>
+    <!-- Crisp downward sink arrow cleanly beside rear of block (zero text crowding!) -->
+    <path d="M -4,12 L -4,29" stroke="#A63D2F" stroke-width="1.7" marker-end="url(#f024-arrow-crimson)"/>
+  </g>
+  <!-- Clean high-contrast caption BELOW mud track -->
+  <text class="lbl-terra" x="593" y="368" text-anchor="middle">Runners sink in mud</text>
+
+  <!-- Row B3 Grain Zoom (flooded grains floating in water) -->
+  <circle cx="742" cy="326" r="24" fill="#5BA4C5" stroke="#2D7DA3" stroke-width="1.5"/>
+  <g clip-path="url(#f024-clip-grain-3)">
+    <rect x="716" y="300" width="52" height="52" fill="#6BB3D3" opacity="0.65"/>
+    <circle cx="728" cy="316" r="5.0" fill="#B5935A" stroke="#6D542E" stroke-width="0.9"/>
+    <circle cx="751" cy="314" r="5.0" fill="#A8864E" stroke="#6D542E" stroke-width="0.9"/>
+    <circle cx="740" cy="329" r="5.2" fill="#B5935A" stroke="#6D542E" stroke-width="0.9"/>
+    <circle cx="757" cy="334" r="4.8" fill="#9E7C46" stroke="#6D542E" stroke-width="0.9"/>
+    <circle cx="727" cy="338" r="5.1" fill="#A8864E" stroke="#6D542E" stroke-width="0.9"/>
+  </g>
+  <text class="lbl-sm" x="742" y="366" text-anchor="middle">Flooded slush</text>
+
+  <!-- Row B3 Friction Verdict -->
+  <rect x="788" y="300" width="126" height="18" rx="9" fill="#B85D3B"/>
+  <text class="lbl-badge-w" x="851" y="313">FRICTION RISES</text>
+  <rect x="788" y="324" width="126" height="8" rx="4" fill="#ECE4D6"/>
+  <rect x="788" y="324" width="100" height="8" rx="4" fill="#B85D3B"/>
+  <text class="lbl-sm" x="788" y="346">Sand turns to soft mud;</text>
+  <text class="lbl-sm" x="788" y="360">sledge drags and sinks</text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL C: HOW DID THEY LIFT BLOCKS 481 FEET? (BOTTOM WIDE BAND)         -->
+  <!-- ====================================================================== -->
+  <rect class="panel-card" x="24" y="394" width="912" height="232" rx="8" filter="url(#f024-card-shadow)"/>
+  <circle cx="44" cy="414" r="11" fill="#D9A34A"/>
+  <text class="badge-letter" x="44" y="418">C</text>
+  <text class="ptitle" x="62" y="419">How Did They Lift Blocks 481 Feet (146.6 m)?</text>
+
+  <!-- Prominent Open Scholarly Debate Pill -->
+  <rect class="debate-pill" x="518" y="403" width="406" height="23" rx="11.5"/>
+  <text class="debate-txt" x="721" y="418.5">Open Scholarly Debate — no complete ramp survives at Giza</text>
+
+  <!-- ==================== RAMP MODEL 1: SINGLE STRAIGHT RAMP ==================== -->
+  <rect class="ramp-card" x="36" y="434" width="212" height="182" rx="6"/>
+  <rect x="42" y="440" width="200" height="104" rx="4" fill="url(#f024-iso-ground)"/>
+  <g id="f024-ramp-straight">
+    <!-- Isometric ground shadow -->
+    <polygon points="184,522 232,499 184,476 136,499" fill="#DFD1B7"/>
+    <!-- Completed apex dashed ghost -->
+    <polyline points="142,499 184,447 226,499" fill="none" stroke="#9A8565" stroke-width="0.9" stroke-dasharray="3 2"/>
+    <line x1="184" y1="447" x2="184" y2="519" stroke="#9A8565" stroke-width="0.8" stroke-dasharray="3 2"/>
+    <!-- Left lit face -->
+    <polygon points="142,499 184,519 184,468 172,462" fill="url(#f024-pyr-light)" stroke="#8B7552" stroke-width="0.9"/>
+    <polygon points="142,499 184,519 184,468 172,462" fill="url(#f024-pyr-courses)"/>
+    <!-- Right shaded face -->
+    <polygon points="184,519 226,499 196,462 184,468" fill="url(#f024-pyr-shadow)" stroke="#8B7552" stroke-width="0.9"/>
+    <polygon points="184,519 226,499 196,462 184,468" fill="url(#f024-pyr-courses)"/>
+    <!-- Flat work top -->
+    <polygon points="172,462 184,456 196,462 184,468" fill="#F8EED8" stroke="#8B7552" stroke-width="0.85"/>
+    <!-- Single Straight External Ramp stretching far to lower-left -->
+    <polygon points="173,466 56,527 56,534 178,510" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.9"/>
+    <polygon points="168,463 177,467 60,528 50,523" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.9"/>
+    <!-- Tiny sledge & block climbing ramp for instant scale -->
+    <polygon points="109,496 116,492 119,494 112,498" fill="#F6ECD5" stroke="#6B4E2E" stroke-width="0.7"/>
+    <path d="M 65,519 L 154,473" stroke="#7A4225" stroke-width="1.35" stroke-dasharray="4 2.5" marker-end="url(#f024-arrow-terracotta)"/>
+    <!-- Angled length dimension bar parallel to ramp -->
+    <path d="M 52,516 L 161,459" fill="none" stroke="#5E5248" stroke-width="0.95" marker-start="url(#f024-arrow-ink)" marker-end="url(#f024-arrow-ink)"/>
+    <text class="lbl-sm-bold" x="96" y="454" text-anchor="middle">~1 mile (~1.5 km)</text>
+    <path d="M 96,458 L 96,491" class="leader"/>
+  </g>
+  <text class="ramp-title" x="46" y="560">1. Single Straight Ramp</text>
+  <text class="lbl-sm" x="46" y="576">Simple straight hauling path,</text>
+  <text class="lbl-sm" x="46" y="590">but ~1 mile long — earth fill</text>
+  <text class="lbl-sm" x="46" y="604">rivals the pyramid's volume</text>
+
+  <!-- ==================== RAMP MODEL 2: OUTER SPIRAL RAMP ==================== -->
+  <rect class="ramp-card" x="261" y="434" width="212" height="182" rx="6"/>
+  <rect x="267" y="440" width="200" height="104" rx="4" fill="url(#f024-iso-ground)"/>
+  <g id="f024-ramp-spiral">
+    <!-- Ground shadow -->
+    <polygon points="367,534 425,505 367,476 309,505" fill="#DFD1B7"/>
+    <!-- Pyramid body -->
+    <polyline points="315,505 367,446 419,505" fill="none" stroke="#9A8565" stroke-width="0.9" stroke-dasharray="3 2"/>
+    <polygon points="315,505 367,531 367,469 354,462" fill="url(#f024-pyr-light)" stroke="#8B7552" stroke-width="0.9"/>
+    <polygon points="315,505 367,531 367,469 354,462" fill="url(#f024-pyr-courses)"/>
+    <polygon points="367,531 419,505 380,462 367,469" fill="url(#f024-pyr-shadow)" stroke="#8B7552" stroke-width="0.9"/>
+    <polygon points="367,531 419,505 380,462 367,469" fill="url(#f024-pyr-courses)"/>
+    <polygon points="354,462 367,455 380,462 367,469" fill="#F8EED8" stroke="#8B7552" stroke-width="0.85"/>
+    <!-- Outer spiral ramp ribbons hugging faces -->
+    <polygon points="309,508 367,522 367,528 309,514" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="309,508 317,504 373,518 367,522" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="367,522 417,493 417,499 367,528" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="367,522 363,517 411,489 417,493" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="333,485 367,492 367,497 333,490" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="333,485 338,481 372,488 367,492" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="367,492 396,472 396,477 367,497" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="367,492 363,488 391,468 396,472" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <!-- Tight 90 deg corner highlights in crimson -->
+    <circle cx="367" cy="521" r="4.5" fill="none" stroke="#A63D2F" stroke-width="1.5"/>
+    <circle cx="367" cy="491" r="4.5" fill="none" stroke="#A63D2F" stroke-width="1.5"/>
+    <text class="lbl-crimson" x="432" y="456" text-anchor="middle">Tight 90°</text>
+    <text class="lbl-crimson" x="432" y="468" text-anchor="middle">turns</text>
+    <path d="M 407,465 L 372,488" class="leader"/>
+  </g>
+  <text class="ramp-title" x="271" y="560">2. Outer Spiral Ramp</text>
+  <text class="lbl-sm" x="271" y="576">Far less earth fill, but tight</text>
+  <text class="lbl-sm" x="271" y="590">90° sledge turns and blocked</text>
+  <text class="lbl-sm" x="271" y="604">corner views for surveyors</text>
+
+  <!-- ==================== RAMP MODEL 3: COMBINATION RAMP ==================== -->
+  <rect class="ramp-card" x="486" y="434" width="212" height="182" rx="6"/>
+  <rect x="492" y="440" width="200" height="104" rx="4" fill="url(#f024-iso-ground)"/>
+  <g id="f024-ramp-combo">
+    <!-- Ground shadow -->
+    <polygon points="614,530 668,503 614,476 560,503" fill="#DFD1B7"/>
+    <!-- Pyramid body -->
+    <polyline points="566,503 614,447 662,503" fill="none" stroke="#9A8565" stroke-width="0.9" stroke-dasharray="3 2"/>
+    <polygon points="566,503 614,527 614,468 602,462" fill="url(#f024-pyr-light)" stroke="#8B7552" stroke-width="0.9"/>
+    <polygon points="566,503 614,527 614,468 602,462" fill="url(#f024-pyr-courses)"/>
+    <polygon points="614,527 662,503 626,462 614,468" fill="url(#f024-pyr-shadow)" stroke="#8B7552" stroke-width="0.9"/>
+    <polygon points="614,527 662,503 626,462 614,468" fill="url(#f024-pyr-courses)"/>
+    <polygon points="602,462 614,456 626,462 614,468" fill="#F8EED8" stroke="#8B7552" stroke-width="0.85"/>
+    <!-- Subtle interior King's Chamber outline strictly inside pyramid at 1/3 height -->
+    <line x1="590" y1="495" x2="640" y2="495" stroke="#9D4827" stroke-width="0.95" stroke-dasharray="2.5 2"/>
+    <rect x="610" y="488" width="9" height="7" rx="1" fill="#B85D3B" fill-opacity="0.34" stroke="#9D4827" stroke-width="0.9" stroke-dasharray="2 1"/>
+    <!-- Broad straight ramp for heavy lower third -->
+    <polygon points="586,496 510,530 510,537 592,516" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.9"/>
+    <polygon points="577,491 591,497 518,530 503,524" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.9"/>
+    <path d="M 518,523 L 575,498" stroke="#1E6A52" stroke-width="1.4" marker-end="url(#f024-arrow-green)"/>
+    <!-- Narrower wrap-around ramp higher up -->
+    <polygon points="588,494 614,500 614,505 588,499" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="588,494 592,491 618,496 614,500" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="614,500 644,480 644,485 614,505" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="614,500 610,496 640,476 644,480" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <polygon points="596,474 614,478 614,482 596,478" fill="url(#f024-ramp-side)" stroke="#75532A" stroke-width="0.75"/>
+    <polygon points="596,474 600,471 618,475 614,478" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.75"/>
+    <!-- Callouts -->
+    <text class="lbl-green" x="536" y="456" text-anchor="middle">Lower 1/3</text>
+    <text class="lbl-sm" x="536" y="468" text-anchor="middle">broad ramp</text>
+    <path d="M 538,472 L 546,506" class="leader"/>
+    <text class="lbl-terra" x="662" y="456" text-anchor="middle">King's</text>
+    <text class="lbl-terra" x="662" y="468" text-anchor="middle">Chamber</text>
+    <path d="M 647,470 L 621,490" class="leader"/>
+  </g>
+  <text class="ramp-title" x="496" y="560">3. Combination Ramp</text>
+  <text class="lbl-sm" x="496" y="576">Broad straight ramp for heavy</text>
+  <text class="lbl-sm" x="496" y="590">lower third (King's Chamber)</text>
+  <text class="lbl-sm" x="496" y="604">+ wrap-around ramp higher up</text>
+
+  <!-- ==================== RAMP MODEL 4: INTERNAL SPIRAL RAMP ==================== -->
+  <rect class="ramp-card" x="711" y="434" width="212" height="182" rx="6"/>
+  <rect x="717" y="440" width="200" height="104" rx="4" fill="url(#f024-iso-ground)"/>
+  <g id="f024-ramp-internal">
+    <!-- Ground shadow -->
+    <polygon points="817,533 875,504 817,475 759,504" fill="#DFD1B7"/>
+    <!-- Semi-translucent outer limestone shell with cutaway reveal -->
+    <polygon points="765,504 817,530 817,448" fill="#EEDFB8" fill-opacity="0.62" stroke="#8B7552" stroke-width="1"/>
+    <polygon points="817,530 869,504 817,448" fill="#C9AF82" fill-opacity="0.58" stroke="#8B7552" stroke-width="1"/>
+    <!-- Architectural cutaway reveal window on left face exposing interior corridor -->
+    <polygon points="783,499 814,511 814,520 778,507" fill="#7D4933" fill-opacity="0.32" stroke="#8B5A42" stroke-width="0.7"/>
+    <polygon points="794,484 814,492 814,500 790,491" fill="#7D4933" fill-opacity="0.32" stroke="#8B5A42" stroke-width="0.7"/>
+    <!-- Proposed hidden internal spiral corridor (dashed terracotta path just inside walls) -->
+    <path d="M 776,502 L 817,484 L 854,499" fill="none" stroke="#B85D3B" stroke-width="2.0" stroke-dasharray="3.5 2.5" opacity="0.50"/>
+    <path d="M 775,503 L 817,518 L 855,495" fill="none" stroke="#B85D3B" stroke-width="3.0" stroke-dasharray="4.5 2.2"/>
+    <path d="M 854,495 L 817,473 L 788,487" fill="none" stroke="#B85D3B" stroke-width="2.0" stroke-dasharray="3.5 2.5" opacity="0.50"/>
+    <path d="M 788,487 L 817,498 L 841,480" fill="none" stroke="#B85D3B" stroke-width="2.8" stroke-dasharray="4.5 2.2"/>
+    <path d="M 841,480 L 817,463 L 802,471" fill="none" stroke="#B85D3B" stroke-width="1.9" stroke-dasharray="3 2" opacity="0.50"/>
+    <path d="M 802,471 L 817,477 L 829,465" fill="none" stroke="#B85D3B" stroke-width="2.5" stroke-dasharray="4 2" marker-end="url(#f024-arrow-terracotta)"/>
+    <!-- Open corner turning notches on outer edges -->
+    <rect x="814" y="514" width="6" height="6" rx="1" fill="#FFFDF8" stroke="#B85D3B" stroke-width="1.1"/>
+    <rect x="814" y="494" width="6" height="6" rx="1" fill="#FFFDF8" stroke="#B85D3B" stroke-width="1.1"/>
+    <rect x="785" y="484" width="5.5" height="5.5" rx="1" fill="#FFFDF8" stroke="#B85D3B" stroke-width="1.1"/>
+    <rect x="838" y="477" width="5.5" height="5.5" rx="1" fill="#FFFDF8" stroke="#B85D3B" stroke-width="1.1"/>
+    <!-- Lower short feeder ramp at base -->
+    <polygon points="738,524 776,506 780,510 743,529" fill="url(#f024-ramp-top)" stroke="#75532A" stroke-width="0.8"/>
+    <!-- Callout -->
+    <text class="lbl-terra" x="752" y="456" text-anchor="middle">Hidden</text>
+    <text class="lbl-terra" x="752" y="468" text-anchor="middle">corridor?</text>
+    <path d="M 776,466 L 796,478" class="leader"/>
+  </g>
+  <text class="ramp-title" x="721" y="560">4. Internal Spiral Ramp</text>
+  <text class="lbl-sm" x="721" y="576">Proposed hidden ramp tucked</text>
+  <text class="lbl-sm" x="721" y="590">just inside outer stone walls —</text>
+  <text class="lbl-sm-bold" x="721" y="604">unconfirmed by excavation</text>
+
+  <!-- ==================== GROUNDED SOURCE FOOTER ==================== -->
+  <text class="footer" x="24" y="641">Sources: Stocks (2003); Fall et al. (2014); Arnold (1991); Lehner (1997); Verner (2001). Grounded in Giza surveys &amp; experimental archaeology.</text>
+</svg>

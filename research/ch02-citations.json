@@ -1,0 +1,456 @@
+{
+  "chapter": "ch02",
+  "title": "Chapter 2: How to Feed Ten Thousand Stonecutters",
+  "style": "phrase-keyed end-of-chapter notes",
+  "sections": [
+    {
+      "section": 1,
+      "heading": "1. One River, One Crown",
+      "notes": [
+        {
+          "phrase": "rose 481 feet (146.6 meters) high",
+          "note": "Survey measurements place the Great Pyramid of Khufu (built c. 2589–2566 BCE over roughly 20–27 years) at an original height of 146.6 m / 481 ft (280 royal cubits), an estimated ~2.3 million limestone blocks averaging ~2.5 tons each, and Aswan red granite ceiling beams weighing 25–80 tons.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "Great Pyramid survey & dimensions",
+              "verified_page": false
+            },
+            {
+              "source_id": "verner-2001",
+              "locator": "Khufu pyramid overview",
+              "verified_page": false
+            },
+            {
+              "source_id": "arnold-1991",
+              "locator": "stone masonry & granite ceilings",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "the Nile runs roughly 600 miles in one clean line",
+          "note": "From the First Cataract at Aswan to the Mediterranean Sea, the Egyptian Nile corridor spans ~1,000 km (~600 miles): a narrow 8–16 km (5–10 mile) valley hemmed by deserts opening into the ~25,000 sq km (~9,650 sq mi) Nile Delta, with a north-flowing current and prevailing south-blowing winds acting as a two-way transport highway.",
+          "citations": [
+            {
+              "source_id": "butzer-1976",
+              "locator": "Nile Valley & Delta geography",
+              "verified_page": false
+            },
+            {
+              "source_id": "wilkinson-2010",
+              "locator": "Egypt's river geography",
+              "verified_page": false
+            },
+            {
+              "source_id": "kemp-2018",
+              "locator": "Nile transport & unification",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "the two-foot-tall siltstone slab",
+          "note": "Primary artifact: the Narmer Palette, a ceremonial dark green siltstone palette (~64 × 42 cm / ~25 × 16 in) excavated at Hierakonpolis in 1897–1898, now Egyptian Museum, Cairo (JE 32169 / CG 14716; c. 3100 BCE). Scholars read it as a ceremonial royal statement of unified kingship over Upper and Lower Egypt rather than a literal snapshot of a single battle.",
+          "citations": [
+            {
+              "source_id": "wilkinson-1999",
+              "locator": "Early Dynastic unification & Narmer Palette",
+              "verified_page": false
+            },
+            {
+              "source_id": "shaw-2000",
+              "locator": "Early Dynastic period chapter",
+              "verified_page": false
+            },
+            {
+              "source_id": "kemp-2018",
+              "locator": "early state formation & royal iconography",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "protecting *Ma'at*—the truth, balance, and order of the universe",
+          "note": "On divine kingship (the living king as earthly embodiment of Horus), the ideology of Ma'at binding valley order to royal authority, and monumental royal tombs as shared national enterprises.",
+          "citations": [
+            {
+              "source_id": "kemp-2018",
+              "locator": "ideology of kingship & Ma'at",
+              "verified_page": false
+            },
+            {
+              "source_id": "wilkinson-2010",
+              "locator": "divine kingship & Old Kingdom ideology",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "sparing Egypt from Sumer's slow salt trap",
+          "note": "Driven by East African summer rains, the Nile's three-season cycle (Akhet, Peret, Shemu) drained cleanly back into a deeper main river channel—flushing mineral salts out to the Mediterranean Sea while leaving farmland submerged for 3–4 flood months each year.",
+          "citations": [
+            {
+              "source_id": "butzer-1976",
+              "locator": "basin hydrology & natural drainage",
+              "verified_page": false
+            },
+            {
+              "source_id": "shaw-2000",
+              "locator": "Egyptian agricultural calendar",
+              "verified_page": false
+            },
+            {
+              "source_id": "lehner-1997",
+              "locator": "seasonal flood labor mobilization",
+              "verified_page": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "heading": "2. The Giza Food Machine",
+      "notes": [
+        {
+          "phrase": "Heit el-Ghurab, or \"Wall of the Crow\"",
+          "note": "Excavated since 1988 by Mark Lehner and Ancient Egypt Research Associates (AERA), the planned Giza workers' town covers >7 hectares with 5.2 m (~17 ft) streets, five sunken grain silos, and four blocks of modular pillared barracks. Refuting Herodotus's 5th-century BCE claim of 100,000 men, AERA estimates a peak workforce of ~20,000–25,000 for Khufu's Great Pyramid and ~10,000 for Menkaure's smaller pyramid.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "workforce calculations",
+              "verified_page": false
+            },
+            {
+              "source_id": "lehner-2015",
+              "locator": "pp. 397–522",
+              "verified_page": false
+            },
+            {
+              "source_id": "tallet-lehner-2021",
+              "locator": "Giza workforce & port town",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "more than 175,000 animal bone fragments",
+          "note": "Zooarchaeologist Richard W. Redding compared >175,000 bone fragments from Heit el-Ghurab with the Delta herding site Kom el-Hisn, showing prime young male cattle (1–2 years old), sheep, and goats shipped south—an estimated ~11 cattle and 30–37 sheep/goats (~4,000 lb / 1,800 kg meat) slaughtered daily to feed ~10,000 workers alongside emmer bread baked in bedja molds, beer, and fish.",
+          "citations": [
+            {
+              "source_id": "redding-2010",
+              "locator": "pp. 65–75",
+              "verified_page": false
+            },
+            {
+              "source_id": "redding-2016",
+              "locator": "pp. 307–322",
+              "verified_page": false
+            },
+            {
+              "source_id": "lehner-2015",
+              "locator": "pp. 397–522",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "including an overseer named Idu",
+          "note": "Workers' cemeteries south of Giza (excavated by Zahi Hawass) contain mudbrick tombs for laborers and gang overseers such as Idu, showing heavy skeletal wear alongside professionally set, healed bone fractures—confirming conscripted rotating labor-tax crews compensated with housing, care, and rations rather than starved enslaved captives.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "Giza workers' cemeteries",
+              "verified_page": false
+            },
+            {
+              "source_id": "lehner-2015",
+              "locator": "pp. 397–522",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "Friends of Khufu",
+          "note": "Primary artifact: red-ochre quarry graffiti inside Khufu's relieving chambers and Menkaure's complex recording nested crews (~2,000), phyles/za (~200), and squads (~20–40) with proud names ('Friends of Khufu', 'Drunkards of Menkaure'). Barry Kemp and Mark Lehner argue pyramid mobilization actively forged Egypt's centralized state.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "phyle & gang organization",
+              "verified_page": false
+            },
+            {
+              "source_id": "verner-2001",
+              "locator": "builders' graffiti",
+              "verified_page": false
+            },
+            {
+              "source_id": "kemp-2018",
+              "locator": "state-building via royal projects",
+              "verified_page": false
+            },
+            {
+              "source_id": "lehner-2015",
+              "locator": "pp. 397–522",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "daily logbook of Inspector Merer",
+          "note": "Primary artifact: Papyrus Jarf A and B (the Diary of Merer, Khufu Year 27, c. 2560 BCE; exhibited in the Egyptian Museum, Cairo), excavated in 2013 by Pierre Tallet and Gregory Marouard at Khufu's Red Sea harbor Wadi al-Jarf (~119 km / 74 mi south of Suez). Records a ~40-man crew making 2–3 round trips per 10-day week hauling ~30 white Tura limestone blocks (2–3 tons each; ~200/month) through Giza canals to Akhet-Khufu under Ankhhaf, plus food runs to Heliopolis.",
+          "citations": [
+            {
+              "source_id": "tallet-2017",
+              "locator": "Papyrus Jarf A et B edition",
+              "verified_page": false
+            },
+            {
+              "source_id": "tallet-lehner-2021",
+              "locator": "Diary of Merer & Giza harbor canals",
+              "verified_page": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "heading": "3. Soft Metal, Wet Sand, and Stone Physics",
+      "notes": [
+        {
+          "phrase": "Step Pyramid rose 205 feet high",
+          "note": "On the ~100-year engineering evolution from Imhotep's six-tier Step Pyramid of Djoser at Saqqara (c. 2670 BCE, 62.5 m / 205 ft tall, 121 × 109 m / ~397 × 358 ft base) to Sneferu's Bent Pyramid at Dahshur (c. 2600 BCE, shifted mid-build from ~54° to ~43° at 47 m / 154 ft due to soft-ground settling/cracking, with minor debate over symbolic intent) and smooth 43° Red Pyramid.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "Step, Bent, and Red Pyramids",
+              "verified_page": false
+            },
+            {
+              "source_id": "verner-2001",
+              "locator": "Third & early Fourth Dynasty pyramids",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "cut the bedrock flat within less than one inch",
+          "note": "Great Pyramid base survey: 230.33 m (756 ft) sides matching within ~5.8 cm (2.3 in) average error, true-north alignment within ~3–4 arcminutes (~1/15th degree), perimeter bedrock level within 2.1 cm (<1 in), 51.8° slope (51°50'40\"), and outer Tura casing joints averaging under 0.5 mm. Exact leveling (water trenches vs. sighting posts, per Edwards vs. Lehner) and north-alignment methods (circumpolar stars vs. solar shadows) remain debated.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "Giza survey & alignment debate",
+              "verified_page": false
+            },
+            {
+              "source_id": "arnold-1991",
+              "locator": "surveying & leveling",
+              "verified_page": false
+            },
+            {
+              "source_id": "verner-2001",
+              "locator": "Great Pyramid architecture",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "Experimental toolmakers have tested replica Egyptian tools",
+          "note": "Replica-tool experiments by Denys A. Stocks demonstrated that hammered arsenical copper chisels shaped softer limestone (blunting quickly and requiring constant resmelting) while hard Aswan granite (>800–900 km / ~500–560 mi south) was quarried with hard dolerite pounding balls and sawed/drilled using toothless copper blades and hollow tubes fed with abrasive quartz sand.",
+          "citations": [
+            {
+              "source_id": "stocks-2003",
+              "locator": "Ch. 2 & Ch. 4",
+              "verified_page": false
+            },
+            {
+              "source_id": "arnold-1991",
+              "locator": "stoneworking tools & quarrying",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "cutting sliding friction roughly in half",
+          "note": "Inspired by the c. 1880 BCE tomb painting of Djehutihotep at Deir el-Bersha (172 men pulling a ~60–80 ton statue on a wooden sledge while a worker pours water ahead), physicists Abdoulaye Fall, Bart Weber, Daniel Bonn, and colleagues (2014) demonstrated experimentally that controlled capillary water bridges stiffen sand and cut sliding friction roughly in half, while excess water raises friction again. Egyptologists also note ritual purification meanings and wet-mud/timber ramp tracks.",
+          "citations": [
+            {
+              "source_id": "fall-et-al-2014",
+              "locator": "p. 175502",
+              "verified_page": true
+            },
+            {
+              "source_id": "arnold-1991",
+              "locator": "sledge transport & lubrication",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "scholars weigh competing ideas",
+          "note": "Because no full ramp survives at Giza, scholars debate straight external ramps (~1.5 km / ~1 mile, requiring fill volume rivaling the pyramid), outer wrap-around spiral ramps, Mark Lehner's combination ramp (broad straight lower third + wrap-around upper tiers), and French architect Jean-Pierre Houdin's unconfirmed internal spiral ramp.",
+          "citations": [
+            {
+              "source_id": "lehner-1997",
+              "locator": "pyramid ramp hypotheses",
+              "verified_page": false
+            },
+            {
+              "source_id": "arnold-1991",
+              "locator": "ramps & lifting devices",
+              "verified_page": false
+            },
+            {
+              "source_id": "verner-2001",
+              "locator": "construction theories",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "five low empty spaces called relieving chambers",
+          "note": "Above the granite King's Chamber (~10.5 × 5.2 × 5.8 m / ~34 × 17 × 19 ft), five stacked relieving chambers bridged by 25–80 ton Aswan red granite beams lift and cushion a top gabled limestone roof (steep stone tent) that redirects downward compressive stress outward into solid flanking masonry.",
+          "citations": [
+            {
+              "source_id": "arnold-1991",
+              "locator": "relieving chambers & gabled roofs",
+              "verified_page": false
+            },
+            {
+              "source_id": "lehner-1997",
+              "locator": "King's Chamber structural engineering",
+              "verified_page": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "heading": "4. The Cost of Eternity and the Soft-Metal Limit",
+      "notes": [
+        {
+          "phrase": "declared those estates free from central taxes",
+          "note": "Perpetual tax-exempt royal mortuary endowments gradually eroded central crown revenue at Memphis while provincial governors (nomarchs) converted royal appointments into hereditary family dynasties.",
+          "citations": [
+            {
+              "source_id": "kemp-2018",
+              "locator": "Old Kingdom economy & mortuary endowments",
+              "verified_page": false
+            },
+            {
+              "source_id": "wilkinson-2010",
+              "locator": "late Old Kingdom decentralization",
+              "verified_page": false
+            },
+            {
+              "source_id": "shaw-2000",
+              "locator": "end of the Old Kingdom chapter",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "Modern Earth scientists drilled deep tubes of layered mud",
+          "note": "Strontium-isotope and petrologic analysis of drilled Nile Delta sediment cores by Jean-Daniel Stanley, Michael D. Krom, Robert A. Cliff, and Jamie C. Woodward (2003) revealed a sharp reduction in East African Blue Nile volcanic flood sediment around 4,200 years ago (c. 2200 BCE), coinciding with political fragmentation into regional powers (~2181–2055 BCE).",
+          "citations": [
+            {
+              "source_id": "stanley-et-al-2003",
+              "locator": "pp. 395–402",
+              "verified_page": true
+            },
+            {
+              "source_id": "wilkinson-2010",
+              "locator": "First Intermediate Period transition",
+              "verified_page": false
+            },
+            {
+              "source_id": "shaw-2000",
+              "locator": "First Intermediate Period chapter",
+              "verified_page": false
+            }
+          ]
+        },
+        {
+          "phrase": "Melting copper with roughly one part in ten of a rare metal called tin",
+          "note": "On Old Kingdom reliance on softer hammered/arsenical Sinai copper and the technological shift toward ~10% tin-bronze alloys requiring long-distance trade networks across the eastern Mediterranean and western Asia (developed in Chapter 3).",
+          "citations": [
+            {
+              "source_id": "stocks-2003",
+              "locator": "Ch. 2 copper vs. bronze hardness",
+              "verified_page": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagrams": [
+    {
+      "figure": "Figure 2.1",
+      "title": "The Nile Corridor & Giza Supply Network (c. 2560 BCE)",
+      "sources": [
+        "butzer-1976",
+        "wilkinson-1999",
+        "wilkinson-2010",
+        "kemp-2018",
+        "tallet-lehner-2021",
+        "lehner-1997",
+        "redding-2016",
+        "arnold-1991"
+      ],
+      "note": "600-mile (~1,000 km) Nile corridor from the First Cataract at Aswan to the Mediterranean Delta (~9,650 sq mi / 25,000 sq km), north-flowing river current vs. south-blowing prevailing wind, Memphis choke point, Kom el-Hisn herds, Tura white casing limestone (6–9 mi / 10–15 km SE), Wadi al-Jarf Red Sea copper port (~74 mi / 119 km S of Suez), Hierakonpolis (Narmer Palette, c. 3100 BCE), and Aswan red granite (>500 mi / 800–900 km S)."
+    },
+    {
+      "figure": "Figure 2.2",
+      "title": "Two Rivers, Two Clocks — Mesopotamia vs. Egypt",
+      "sources": [
+        "butzer-1976",
+        "shaw-2000",
+        "lehner-1997",
+        "adams-1981",
+        "jacobsen-adams-1958"
+      ],
+      "note": "12-month flood & farming comparison contrasting southern Mesopotamia's violent April–May snowmelt floods and trapped raised-levee basins (evaporating under >45°C / 113°F heat into mineral salt crusts) with Egypt's three predictable 4-month seasons (Akhet Jul–Oct, Peret Nov–Feb, Shemu Mar–Jun), clean return drainage flushing salts to the Mediterranean Sea, and the 3–4 month flood-season labor window."
+    },
+    {
+      "figure": "Figure 2.3",
+      "title": "The Giza Food & Supply Machine (Logistics & Division of Labor)",
+      "sources": [
+        "lehner-1997",
+        "lehner-2015",
+        "redding-2010",
+        "redding-2016",
+        "tallet-2017",
+        "tallet-lehner-2021",
+        "kemp-2018",
+        "verner-2001"
+      ],
+      "note": "State ration network linking Kom el-Hisn Delta livestock (~11 cattle + 30–37 sheep/goats daily, ~4,000 lb meat for ~10,000 workers from >175,000 bones), Heit el-Ghurab (>7 ha, 4 pillared barracks, 17-ft / 5.2 m streets, 5 sunken silos, bedja bread molds, healed fractures & honored tombs), nested crew teams ('Friends of Khufu', 'Drunkards of Menkaure'; ~20,000–25,000 Khufu / ~10,000 Menkaure), Inspector Merer's ~40-man limestone barges (Papyrus Jarf A & B, 2–3 trips/10 days, ~30 blocks/trip), and Sinai copper ore via Wadi al-Jarf."
+    },
+    {
+      "figure": "Figure 2.4",
+      "title": "Soft Metal, Wet Sand, and the Ramp Debate",
+      "sources": [
+        "stocks-2003",
+        "fall-et-al-2014",
+        "arnold-1991",
+        "lehner-1997",
+        "verner-2001"
+      ],
+      "note": "Experimental archaeology of soft arsenical copper chisels on limestone vs. dolerite pounders and toothless copper saws/tubes with quartz sand on Aswan granite; 3-state wetted-sand friction physics (Fall et al. 2014, inspired by Djehutihotep c. 1880 BCE: capillary water bridges halving sliding friction); and the four competing open-debate ramp hypotheses (straight ~1 mi / 1.5 km, outer spiral, Lehner combination, Houdin unconfirmed internal spiral)."
+    },
+    {
+      "figure": "Figure 2.5",
+      "title": "From Cracking Slopes to the King's Chamber",
+      "sources": [
+        "lehner-1997",
+        "arnold-1991",
+        "verner-2001"
+      ],
+      "note": "True-scale 1:1 profile comparison of Imhotep's Step Pyramid (205 ft / 62.5 m, c. 2670 BCE), Sneferu's Bent Pyramid (54° to 43° bend at 154 ft / 47 m on soft soil, finishing at 344 ft / 105 m, c. 2600 BCE), and Khufu's Great Pyramid (481 ft / 146.6 m, 51.8°, 756 ft / 230.33 m base flat within <1 in / 2.1 cm on bedrock, c. 2560 BCE), paired with a 3/4 cutaway of the granite King's Chamber (~34 × 17 × 19 ft), five relieving chambers bridged by 25–80 ton beams, and steep angled limestone roof slabs deflecting downward compression sideways."
+    }
+  ]
+}

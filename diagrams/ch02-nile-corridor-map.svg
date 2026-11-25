@@ -1,0 +1,684 @@
+<svg id="fig02-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" role="img" aria-label="Figure 2.1: Regional cartographic map of the Nile Corridor and Giza Supply Network around 2560 BCE, showing the Mediterranean Sea, Red Sea, Gulf of Suez, Nile Delta, narrow Nile Valley, two-way river current and prevailing wind highway, Kom el-Hisn livestock herds, detail inset of Giza, Tura, Memphis, Saqqara, and Dahshur, Wadi al-Jarf harbor and Sinai copper mines, Hierakonpolis, and Aswan granite quarries at the First Cataract.">
+  <defs>
+    <!-- Canvas & Parchment Gradients -->
+    <linearGradient id="f021-frame-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF9F2"/>
+      <stop offset="100%" stop-color="#F6F0E4"/>
+    </linearGradient>
+    <linearGradient id="f021-land-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EAD6"/>
+      <stop offset="52%" stop-color="#EEE0C2"/>
+      <stop offset="100%" stop-color="#E5D2AE"/>
+    </linearGradient>
+    <radialGradient id="f021-desert-warm" cx="28%" cy="62%" r="54%">
+      <stop offset="0%" stop-color="#DFC495" stop-opacity="0.46"/>
+      <stop offset="68%" stop-color="#E7D4B0" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#E7D4B0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="f021-sea-grad" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#B0D3E3"/>
+      <stop offset="55%" stop-color="#C5E1ED"/>
+      <stop offset="100%" stop-color="#A3CADD"/>
+    </linearGradient>
+    <linearGradient id="f021-redsea-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C3E0EC"/>
+      <stop offset="50%" stop-color="#AED3E3"/>
+      <stop offset="100%" stop-color="#96C3D8"/>
+    </linearGradient>
+    <linearGradient id="f021-delta-grad" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#9AC186" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#85B372" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#76A463" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="f021-valley-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87B374" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#7AA666" stop-opacity="0.82"/>
+    </linearGradient>
+
+    <!-- Shaded-Relief Mountain Gradients (Red Sea Hills & Sinai) -->
+    <linearGradient id="f021-mtn-lit" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#E5D3B5"/>
+      <stop offset="100%" stop-color="#C9AC85"/>
+    </linearGradient>
+    <linearGradient id="f021-mtn-shade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B1906D"/>
+      <stop offset="100%" stop-color="#8C6C4D"/>
+    </linearGradient>
+    <linearGradient id="f021-sinai-lit" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#E1C7A6"/>
+      <stop offset="100%" stop-color="#C39D76"/>
+    </linearGradient>
+    <linearGradient id="f021-sinai-shade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A87D59"/>
+      <stop offset="100%" stop-color="#865E3F"/>
+    </linearGradient>
+
+    <!-- Desert Stipple Texture -->
+    <pattern id="f021-desert-stipple" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="5" r="0.65" fill="#B59970" opacity="0.28"/>
+      <circle cx="13" cy="9" r="0.55" fill="#B59970" opacity="0.22"/>
+      <circle cx="8" cy="16" r="0.6" fill="#B59970" opacity="0.25"/>
+      <circle cx="17" cy="17" r="0.5" fill="#B59970" opacity="0.2"/>
+    </pattern>
+
+    <!-- Icon & Material Gradients -->
+    <linearGradient id="f021-copper-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E89A5D"/>
+      <stop offset="52%" stop-color="#C26A33"/>
+      <stop offset="100%" stop-color="#8A4219"/>
+    </linearGradient>
+    <linearGradient id="f021-granite-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D47E60"/>
+      <stop offset="55%" stop-color="#B15437"/>
+      <stop offset="100%" stop-color="#7E3520"/>
+    </linearGradient>
+    <linearGradient id="f021-limestone-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF8"/>
+      <stop offset="65%" stop-color="#EFE6D4"/>
+      <stop offset="100%" stop-color="#D6C8AF"/>
+    </linearGradient>
+    <linearGradient id="f021-siltstone-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#587061"/>
+      <stop offset="60%" stop-color="#3D5245"/>
+      <stop offset="100%" stop-color="#28382E"/>
+    </linearGradient>
+    <linearGradient id="f021-pyr-lit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7E7C2"/>
+      <stop offset="100%" stop-color="#DFC186"/>
+    </linearGradient>
+    <linearGradient id="f021-pyr-shade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C29B5C"/>
+      <stop offset="100%" stop-color="#9A753C"/>
+    </linearGradient>
+
+    <!-- Soft Card Shadow Filter -->
+    <filter id="f021-card-shadow" x="-8%" y="-12%" width="118%" height="132%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.1" result="blur"/>
+      <feOffset in="blur" dx="0" dy="1.7" result="offsetBlur"/>
+      <feFlood flood-color="#3A2D1F" flood-opacity="0.16" result="color"/>
+      <feComposite in="color" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Viewport Clips -->
+    <clipPath id="f021-map-clip">
+      <rect x="24" y="66" width="912" height="498" rx="5"/>
+    </clipPath>
+    <clipPath id="f021-inset-clip">
+      <rect x="60" y="216" width="298" height="190" rx="4"/>
+    </clipPath>
+
+    <!-- Arrow Markers -->
+    <marker id="f021-arr-current" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
+      <path d="M 1 1.5 L 10.5 6 L 1 10.5 L 3.2 6 Z" fill="#1D668A"/>
+    </marker>
+    <marker id="f021-arr-wind" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
+      <path d="M 1 1.5 L 10.5 6 L 1 10.5 L 3.2 6 Z" fill="#B87A1E"/>
+    </marker>
+    <marker id="f021-arr-stone" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 1 1.5 L 10.5 6 L 1 10.5 L 3.2 6 Z" fill="#A64628"/>
+    </marker>
+    <marker id="f021-arr-herd" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 1 1.5 L 10.5 6 L 1 10.5 L 3.2 6 Z" fill="#1E6A52"/>
+    </marker>
+    <marker id="f021-arr-mini-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.8" markerHeight="5.8" orient="auto-start-reverse">
+      <path d="M 1 1.5 L 9 5 L 1 8.5 L 2.8 5 Z" fill="#F0FAFD"/>
+    </marker>
+
+    <style>
+      #fig02-1 .frame { fill: url(#f021-frame-bg); }
+      #fig02-1 .title { font-family: "Liberation Serif", Georgia, "Times New Roman", serif; font-size: 20px; font-weight: bold; fill: #241D18; }
+      #fig02-1 .subtitle { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 12px; fill: #5E5248; }
+      #fig02-1 .graticule { stroke: #9D8F7B; stroke-width: 0.6; stroke-dasharray: 2.5 3.5; opacity: 0.42; fill: none; }
+      #fig02-1 .coord-lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; fill: #6F6150; font-weight: 600; }
+      #fig02-1 .sea-lbl { font-family: "Liberation Serif", Georgia, serif; font-size: 13px; font-style: italic; fill: #265770; letter-spacing: 0.08em; }
+      #fig02-1 .sea-lbl-sm { font-family: "Liberation Serif", Georgia, serif; font-size: 10.5px; font-style: italic; fill: #255770; letter-spacing: 0.04em; }
+      #fig02-1 .geo-lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; letter-spacing: 0.13em; fill: #6B5842; }
+      #fig02-1 .region-lbl { font-family: "Liberation Serif", Georgia, serif; font-size: 12px; font-weight: bold; letter-spacing: 0.12em; fill: #1D5742; }
+      #fig02-1 .river-lbl { font-family: "Liberation Serif", Georgia, serif; font-size: 11.6px; font-style: italic; font-weight: bold; fill: #145374; }
+      #fig02-1 .city-lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11.6px; font-weight: 700; fill: #241D18; }
+      #fig02-1 .city-sub { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; fill: #4E4339; }
+      #fig02-1 .halo-land { paint-order: stroke; stroke: #EFE2C6; stroke-width: 3.4px; stroke-linejoin: round; }
+      #fig02-1 .halo-green { paint-order: stroke; stroke: #DCEAD2; stroke-width: 3.4px; stroke-linejoin: round; }
+      #fig02-1 .halo-inset { paint-order: stroke; stroke: #F5ECD9; stroke-width: 3.2px; stroke-linejoin: round; }
+      #fig02-1 .halo-sea { paint-order: stroke; stroke: #B6D8E7; stroke-width: 3.0px; stroke-linejoin: round; }
+      #fig02-1 .card { fill: #FFFDF8; stroke: #C9BBA4; stroke-width: 1.1; rx: 5.5; }
+      #fig02-1 .card-stone { fill: #FEF6F1; stroke: #C78C6F; stroke-width: 1.15; rx: 5.5; }
+      #fig02-1 .card-green { fill: #EFF8F3; stroke: #5E9C83; stroke-width: 1.15; rx: 5.5; }
+      #fig02-1 .card-warm { fill: #FBF3E4; stroke: #CFA96B; stroke-width: 1.15; rx: 5.5; }
+      #fig02-1 .lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11.2px; font-weight: 700; fill: #241D18; }
+      #fig02-1 .lbl-sm { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; fill: #50453B; }
+      #fig02-1 .lbl-stone { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11.2px; font-weight: 700; fill: #8C391D; }
+      #fig02-1 .lbl-green { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11.2px; font-weight: 700; fill: #165741; }
+      #fig02-1 .lbl-water { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11px; font-weight: 700; fill: #185B7C; }
+      #fig02-1 .lbl-wind { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 11px; font-weight: 700; fill: #996112; }
+      #fig02-1 .inset-hdr { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.6px; font-weight: 700; letter-spacing: 0.04em; fill: #FFFDF8; }
+      #fig02-1 .legend-lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; fill: #3E352D; }
+      #fig02-1 .scale-lbl { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5px; font-weight: 600; fill: #4E4338; }
+    </style>
+  </defs>
+
+  <!-- Outer Editorial Book Plate Frame -->
+  <rect class="frame" x="0" y="0" width="960" height="640" rx="10"/>
+  <text class="title" x="26" y="31">Figure 2.1: The Nile Corridor &amp; Giza Supply Network (c. 2560 BCE)</text>
+  <text class="subtitle" x="26" y="50">A single 600-mile (1,000 km) two-way river highway carrying limestone, red granite, copper ore, and Delta herds to Giza</text>
+
+  <!-- ===================================================================== -->
+  <!-- MAIN MAP VIEWPORT: 32.35°N..23.35°N (y=66..564), 32°E at x=530       -->
+  <!-- ===================================================================== -->
+  <g clip-path="url(#f021-map-clip)">
+    <!-- Base Desert Landmass -->
+    <rect x="24" y="66" width="912" height="498" fill="url(#f021-land-grad)"/>
+    <rect x="24" y="66" width="912" height="498" fill="url(#f021-desert-warm)"/>
+    <!-- Western Desert & Arabian Desert Stipple Texture -->
+    <rect x="24" y="120" width="460" height="444" fill="url(#f021-desert-stipple)"/>
+    <rect x="660" y="160" width="276" height="404" fill="url(#f021-desert-stipple)"/>
+    <!-- Subtle Western Desert Sand Dune Whispers -->
+    <g fill="none" stroke="#CBB189" stroke-width="0.9" opacity="0.45" stroke-linecap="round">
+      <path d="M 88,434 Q 118,426 148,434 Q 178,442 208,434"/>
+      <path d="M 106,448 Q 138,440 170,448 Q 202,456 234,448"/>
+      <path d="M 74,484 Q 106,476 138,484 Q 170,492 202,484"/>
+      <path d="M 380,418 Q 408,412 434,418"/>
+      <path d="M 374,256 Q 396,250 418,256"/>
+      <path d="M 760,158 Q 792,150 824,158"/>
+    </g>
+
+    <!-- SUBTLE LAT/LONG GRATICULE -->
+    <g class="graticule">
+      <!-- Parallels: 30°N (y=196), 28°N (y=307), 26°N (y=417), 24°N (y=528) -->
+      <line x1="24" y1="196" x2="936" y2="196"/>
+      <line x1="24" y1="307" x2="936" y2="307"/>
+      <line x1="24" y1="417" x2="936" y2="417"/>
+      <line x1="24" y1="528" x2="936" y2="528"/>
+      <!-- Meridians: 26°E (x=236), 30°E (x=432), 34°E (x=628), 38°E (x=824) -->
+      <line x1="236" y1="66" x2="236" y2="564"/>
+      <line x1="432" y1="66" x2="432" y2="564"/>
+      <line x1="628" y1="66" x2="628" y2="564"/>
+      <line x1="824" y1="66" x2="824" y2="564"/>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- MEDITERRANEAN SEA (Authentic North African, Delta & Levant Coast)   -->
+    <!-- =================================================================== -->
+    <path d="M 24,66 L 682,66 C 674,84 666,104 652,122 C 638,136 616,144 590,145 C 566,146 544,138 526,122 C 516,112 502,107 484,108 C 466,109 452,118 438,128 C 424,136 404,142 382,144 C 354,146 322,138 286,128 C 254,120 218,122 182,118 C 146,114 114,104 82,92 C 58,83 38,80 24,84 Z" fill="url(#f021-sea-grad)"/>
+    <!-- Mediterranean Bathymetry Contours -->
+    <path d="M 24,74 C 66,76 112,92 162,104 C 218,116 286,114 348,130 C 392,138 432,122 468,104 C 504,96 536,116 568,132 C 602,138 634,124 654,102 C 664,90 670,78 674,66" fill="none" stroke="#7EB0C7" stroke-width="1.1" opacity="0.58"/>
+    <path d="M 106,66 C 154,84 212,98 282,104 C 344,110 402,114 454,94 C 498,84 544,106 588,118 C 618,120 644,102 660,66" fill="none" stroke="#669AB4" stroke-width="0.9" opacity="0.44"/>
+    <!-- Mediterranean Crisp Coastline -->
+    <path d="M 682,66 C 674,84 666,104 652,122 C 638,136 616,144 590,145 C 566,146 544,138 526,122 C 516,112 502,107 484,108 C 466,109 452,118 438,128 C 424,136 404,142 382,144 C 354,146 322,138 286,128 C 254,120 218,122 182,118 C 146,114 114,104 82,92 C 58,83 38,80 24,84" fill="none" stroke="#4A7C96" stroke-width="1.45"/>
+
+    <!-- =================================================================== -->
+    <!-- RED SEA, GULF OF SUEZ & GULF OF AQABA (Authentic Sinai V-Shape)     -->
+    <!-- =================================================================== -->
+    <path d="M 555,194 C 564,200 572,216 582,236 C 594,258 614,284 636,312 C 642,320 648,316 650,304 C 654,278 662,248 672,222 C 675,215 679,217 678,226 C 674,256 670,288 676,308 C 694,344 726,386 762,434 C 794,478 824,524 850,564 L 722,564 C 696,522 666,472 642,422 C 626,388 614,358 606,336 C 590,308 572,276 558,246 C 550,226 546,204 551,195 C 552,193 554,193 555,194 Z" fill="url(#f021-redsea-grad)"/>
+    <!-- Red Sea Bathymetry Contours -->
+    <path d="M 558,214 C 574,248 598,288 624,328 C 650,374 686,436 728,504 C 742,526 756,546 768,564" fill="none" stroke="#79ABC2" stroke-width="1.05" opacity="0.55"/>
+    <path d="M 658,314 C 682,356 716,406 754,462 C 778,498 800,532 820,564" fill="none" stroke="#669AB3" stroke-width="0.95" opacity="0.46"/>
+    <!-- Red Sea Crisp Coastline -->
+    <path d="M 722,564 C 696,522 666,472 642,422 C 626,388 614,358 606,336 C 590,308 572,276 558,246 C 550,226 546,204 551,195 C 552,193 554,193 555,194 C 564,200 572,216 582,236 C 594,258 614,284 636,312 C 642,320 648,316 650,304 C 654,278 662,248 672,222 C 675,215 679,217 678,226 C 674,256 670,288 676,308 C 694,344 726,386 762,434 C 794,478 824,524 850,564" fill="none" stroke="#4A7C96" stroke-width="1.4"/>
+
+    <!-- =================================================================== -->
+    <!-- ORGANIC SHADED-RELIEF MOUNTAINS: RED SEA HILLS & SOUTHERN SINAI     -->
+    <!-- =================================================================== -->
+    <!-- 1. Southern Sinai Rugged Massif -->
+    <g id="f021-sinai-mts">
+      <path d="M 592,254 C 606,236 620,232 632,238 C 644,248 652,272 654,294 C 644,304 632,302 618,290 C 606,278 596,266 592,254 Z" fill="#B5936F" opacity="0.24"/>
+      <path d="M 594,262 C 602,248 610,239 618,238 C 624,244 628,252 634,256 C 640,264 648,278 653,294 C 640,298 626,294 614,286 C 606,278 598,270 594,262 Z" fill="url(#f021-sinai-lit)"/>
+      <path d="M 618,238 C 624,246 630,256 638,266 C 628,268 620,266 613,260 C 616,250 618,243 618,238 Z" fill="url(#f021-sinai-shade)" opacity="0.86"/>
+      <path d="M 634,256 C 641,266 648,279 653,294 C 642,296 634,292 628,284 C 632,273 634,264 634,256 Z" fill="url(#f021-sinai-shade)" opacity="0.9"/>
+      <g fill="none" stroke="#6E4E34" stroke-width="0.9" stroke-linecap="round">
+        <path d="M 600,258 C 608,248 614,242 618,238 C 624,246 630,254 635,262"/>
+        <path d="M 618,282 C 626,270 630,262 634,256 C 640,265 646,277 650,288"/>
+      </g>
+      <g stroke="#7A5A3E" stroke-width="0.58" opacity="0.45" stroke-linecap="round">
+        <line x1="621" y1="248" x2="629" y2="258"/>
+        <line x1="637" y1="268" x2="646" y2="281"/>
+      </g>
+    </g>
+
+    <!-- 2. Eastern Desert / Red Sea Hills (Continuous Organic Escarpment) -->
+    <g id="f021-redsea-hills">
+      <path d="M 552,306 C 568,302 586,328 608,370 C 632,418 662,478 698,556 L 656,558 C 626,506 602,456 584,412 C 566,368 548,332 552,306 Z" fill="#B59B78" opacity="0.22"/>
+      <path d="M 554,324 C 562,312 570,305 577,306 C 584,316 588,328 594,334 C 602,344 606,356 612,366 C 618,376 624,386 632,398 C 640,414 648,430 658,448 C 668,468 680,492 696,536 C 674,540 652,528 634,508 C 618,488 606,464 596,438 C 584,410 572,380 562,354 C 558,342 554,332 554,324 Z" fill="url(#f021-mtn-lit)"/>
+      <path d="M 577,306 C 586,316 594,330 602,344 C 590,346 580,340 572,332 C 575,321 577,312 577,306 Z" fill="url(#f021-mtn-shade)" opacity="0.82"/>
+      <path d="M 594,334 C 604,346 614,364 624,382 C 610,384 598,376 590,366 C 593,354 594,343 594,334 Z" fill="url(#f021-mtn-shade)" opacity="0.84"/>
+      <path d="M 615,374 C 626,388 638,408 648,428 C 632,430 620,420 611,408 C 614,394 615,383 615,374 Z" fill="url(#f021-mtn-shade)" opacity="0.86"/>
+      <path d="M 638,420 C 650,436 662,458 674,480 C 656,482 642,470 633,456 C 636,442 638,430 638,420 Z" fill="url(#f021-mtn-shade)" opacity="0.86"/>
+      <path d="M 662,472 C 674,490 686,514 698,538 C 678,540 662,528 652,512 C 656,496 660,482 662,472 Z" fill="url(#f021-mtn-shade)" opacity="0.88"/>
+      <g fill="none" stroke="#755D45" stroke-width="0.9" stroke-linecap="round">
+        <path d="M 562,320 C 569,312 573,308 577,306 C 584,316 590,326 594,334 C 602,348 610,362 615,374 C 624,390 632,406 638,420 C 648,438 656,456 662,472 C 672,492 682,512 692,532"/>
+        <path d="M 578,354 C 584,344 590,338 594,334"/>
+        <path d="M 596,396 C 604,386 610,379 615,374"/>
+        <path d="M 618,444 C 626,434 633,426 638,420"/>
+        <path d="M 642,496 C 650,486 657,478 662,472"/>
+      </g>
+      <g stroke="#7A624A" stroke-width="0.58" opacity="0.44" stroke-linecap="round">
+        <line x1="581" y1="318" x2="591" y2="332"/>
+        <line x1="599" y1="348" x2="611" y2="364"/>
+        <line x1="620" y1="390" x2="634" y2="408"/>
+        <line x1="643" y1="438" x2="657" y2="458"/>
+        <line x1="667" y1="490" x2="682" y2="514"/>
+      </g>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- FERTILE GREEN NILE DELTA (LOWER EGYPT) & NILE VALLEY (UPPER EGYPT)  -->
+    <!-- =================================================================== -->
+    <path d="M 490,192 C 472,182 448,162 434,142 C 430,134 434,129 442,124 C 456,115 470,108 486,107 C 504,107 520,114 532,126 C 542,136 544,146 536,160 C 524,174 508,186 496,194 Z" fill="url(#f021-delta-grad)" stroke="#5D8C4D" stroke-width="0.9"/>
+    <!-- Fayum Oasis Basin -->
+    <path d="M 464,230 C 454,224 442,226 438,235 C 435,244 446,252 458,248 C 466,245 470,237 464,230 Z" fill="#8BB578" opacity="0.72"/>
+    <ellipse cx="450" cy="233" rx="6.5" ry="2.6" fill="#77B1CA" opacity="0.75" transform="rotate(-12 450 233)"/>
+
+    <!-- Narrow Fertile Green Nile Valley Ribbon (5–10 mi / 8–16 km wide) -->
+    <path d="M 492,194 C 488,218 480,248 472,282 C 466,308 476,334 492,358 C 508,382 534,398 564,408 C 574,412 568,426 562,442 C 558,454 568,466 572,484 C 576,502 576,518 574,536 C 572,548 570,558 568,564" fill="none" stroke="url(#f021-valley-grad)" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 492,194 C 488,218 480,248 472,282 C 466,308 476,334 492,358 C 508,382 534,398 564,408 C 574,412 568,426 562,442 C 558,454 568,466 572,484 C 576,502 576,518 574,536 C 572,548 570,558 568,564" fill="none" stroke="#9AC287" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+
+    <!-- =================================================================== -->
+    <!-- THE NILE RIVER & DELTA DISTRIBUTARIES                               -->
+    <!-- =================================================================== -->
+    <path d="M 568,564 C 570,552 573,538 574,524 C 576,506 574,488 570,470 C 566,456 558,444 564,430 C 568,420 572,412 565,408 C 538,396 510,380 492,356 C 476,332 467,306 472,280 C 478,248 488,220 492,194" fill="none" stroke="#1E7096" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 568,564 C 570,552 573,538 574,524 C 576,506 574,488 570,470 C 566,456 558,444 564,430 C 568,420 572,412 565,408 C 538,396 510,380 492,356 C 476,332 467,306 472,280 C 478,248 488,220 492,194" fill="none" stroke="#53A3C4" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+
+    <!-- Nile Delta Distributaries -->
+    <g fill="none" stroke="#1E7096" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 492,194 C 484,174 470,154 460,136 C 456,128 452,122 450,118" stroke-width="2.3"/>
+      <path d="M 492,194 C 492,172 488,146 485,112" stroke-width="1.7" opacity="0.85"/>
+      <path d="M 492,194 C 500,174 510,148 518,116" stroke-width="2.2"/>
+      <path d="M 494,190 C 510,174 526,156 538,134" stroke-width="1.5" opacity="0.8"/>
+      <path d="M 474,162 C 460,158 448,148 438,134" stroke-width="1.2" opacity="0.72"/>
+    </g>
+
+    <!-- Delicate Papyrus Reed Tufts in Northern Delta -->
+    <g stroke="#396634" stroke-width="0.95" stroke-linecap="round" opacity="0.72">
+      <path d="M 472,124 L 470,119 M 474,124 L 474,118 M 476,124 L 478,119"/>
+      <path d="M 502,126 L 500,121 M 504,126 L 504,120 M 506,126 L 508,121"/>
+      <path d="M 488,140 L 486,135 M 490,140 L 490,134 M 492,140 L 494,135"/>
+    </g>
+
+    <!-- FIRST CATARACT ROCKY RAPIDS AT ASWAN -->
+    <g id="f021-cataract">
+      <ellipse cx="572" cy="527" rx="3.4" ry="2.1" fill="#8C5942" stroke="#4D2F22" stroke-width="0.6"/>
+      <ellipse cx="577" cy="532" rx="2.8" ry="1.8" fill="#9E684E" stroke="#4D2F22" stroke-width="0.6"/>
+      <ellipse cx="570" cy="536" rx="2.6" ry="1.7" fill="#7D4C37" stroke="#4D2F22" stroke-width="0.6"/>
+      <path d="M 568,524 L 580,524 M 567,530 L 581,530 M 567,535 L 579,535" stroke="#FFFFFF" stroke-width="1.15" stroke-dasharray="2.5 2" opacity="0.88"/>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- SUPPLY ROUTES & TWO-WAY RIVER HIGHWAY ARROWS                        -->
+    <!-- =================================================================== -->
+
+    <!-- 1. Kom el-Hisn Delta Herds -> South to Giza -->
+    <path d="M 461,156 C 464,172 472,184 482,193" fill="none" stroke="#1E6A52" stroke-width="2.2" stroke-dasharray="4.5 2.5" stroke-linecap="round" marker-end="url(#f021-arr-herd)"/>
+
+    <!-- 2. Sinai Copper Mines -> Sea Route across Gulf of Suez -> Wadi al-Jarf -> Desert Track to Giza -->
+    <path d="M 596,252 C 584,244 574,248 566,255" fill="none" stroke="#A64628" stroke-width="2.3" stroke-linecap="round" marker-end="url(#f021-arr-stone)"/>
+    <path d="M 556,254 C 538,238 518,220 502,206" fill="none" stroke="#A64628" stroke-width="2" stroke-dasharray="4.5 3" stroke-linecap="round" marker-end="url(#f021-arr-stone)"/>
+
+    <!-- 3. Aswan Red Granite Barges -> Floated North along Nile toward Giza -->
+    <path d="M 560,516 C 556,482 546,456 548,434 C 549,422 544,414 522,404 C 504,394 490,382 479,366" fill="none" stroke="#A64628" stroke-width="2.3" stroke-dasharray="6 3" stroke-linecap="round" marker-end="url(#f021-arr-stone)"/>
+
+    <!-- 4. TWO-WAY RIVER HIGHWAY ARROWS BESIDE THE MIDDLE NILE (Zero Overlaps!) -->
+    <!-- Bold Blue Arrow: RIVER CURRENT (FLOWS NORTH / Downstream) -->
+    <path d="M 454,358 C 446,328 448,298 459,264" fill="none" stroke="#EFE2C6" stroke-width="6.5" stroke-linecap="round" opacity="0.78"/>
+    <path d="M 454,358 C 446,328 448,298 459,264" fill="none" stroke="#1D668A" stroke-width="3.2" stroke-linecap="round" marker-end="url(#f021-arr-current)"/>
+    <text class="lbl-water halo-land" x="438" y="294" text-anchor="end">Current</text>
+    <text class="city-sub halo-land" x="438" y="307" text-anchor="end">Flows N</text>
+    <!-- Crisp Stone Cargo Barge Icon -->
+    <g transform="translate(414, 315)">
+      <path d="M 0,10 Q 10,14 20,10 L 17,6 L 3,6 Z" fill="#6E4627" stroke="#3D2614" stroke-width="0.7"/>
+      <rect x="6" y="2" width="8" height="4.5" fill="#C97353" stroke="#6B311C" stroke-width="0.6"/>
+      <line x1="1" y1="12.5" x2="19" y2="12.5" stroke="#1D668A" stroke-width="0.9" opacity="0.7"/>
+    </g>
+
+    <!-- Crisp Gold Arrow: PREVAILING WIND (BLOWS SOUTH / Upstream) — starts cleanly BELOW Wadi al-Jarf! -->
+    <path d="M 498,278 C 493,304 497,330 510,358" fill="none" stroke="#EFE2C6" stroke-width="6.5" stroke-linecap="round" opacity="0.78"/>
+    <path d="M 498,278 C 493,304 497,330 510,358" fill="none" stroke="#B87A1E" stroke-width="3.0" stroke-linecap="round" marker-end="url(#f021-arr-wind)"/>
+    <!-- Label & Sailboat cleanly placed in open desert between Wind arrow and Red Sea Hills -->
+    <text class="lbl-wind halo-land" x="509" y="292">Wind</text>
+    <text class="city-sub halo-land" x="509" y="305">Blows S</text>
+    <g transform="translate(512, 312)">
+      <path d="M 2,16 Q 10,19 18,16 L 16,13 L 4,13 Z" fill="#7D4F2A" stroke="#3D2614" stroke-width="0.7"/>
+      <line x1="10" y1="13" x2="10" y2="2" stroke="#4D311B" stroke-width="1"/>
+      <path d="M 4,4 Q 10,6.5 16,4 L 15,11 Q 10,13 5,11 Z" fill="#FFF8E8" stroke="#B87A1E" stroke-width="0.8"/>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- KEY SITE MARKERS ON MAIN MAP                                        -->
+    <!-- =================================================================== -->
+
+    <!-- Zoom Box around Giza / Memphis / Tura / Saqqara / Dahshur Cluster -->
+    <rect x="478" y="188" width="28" height="28" rx="3" fill="#FFFDF8" fill-opacity="0.32" stroke="#A64628" stroke-width="1.35" stroke-dasharray="3.5 2"/>
+    <line x1="478" y1="202" x2="360" y2="202" stroke="#A64628" stroke-width="1.35" stroke-dasharray="4 2.5"/>
+    <circle cx="478" cy="202" r="2.6" fill="#A64628"/>
+
+    <!-- Giza Hub Marker -->
+    <polygon points="487,192 482,200 492,200" fill="#D9A34A" stroke="#241D18" stroke-width="1"/>
+    <circle cx="493" cy="206" r="3.4" fill="#241D18" stroke="#FFFDF8" stroke-width="1.2"/>
+    <circle cx="497" cy="200" r="2.6" fill="#FFFDF8" stroke="#8C6D46" stroke-width="1.1"/>
+    <text class="city-lbl halo-land" x="510" y="197">Giza &amp; Memphis</text>
+    <text class="city-sub halo-land" x="510" y="210">(see Detail Inset)</text>
+
+    <!-- Kom el-Hisn Marker -->
+    <circle cx="461" cy="152" r="5.2" fill="#1E6A52" stroke="#FFFDF8" stroke-width="1.8"/>
+    <circle cx="461" cy="152" r="1.8" fill="#E8F5EC"/>
+
+    <!-- Wadi al-Jarf Harbor Marker + Direct Map Label (100% clear of Wind arrow!) -->
+    <circle cx="561" cy="257" r="5.4" fill="#A64628" stroke="#FFFDF8" stroke-width="1.8"/>
+    <circle cx="561" cy="257" r="1.8" fill="#FDECE4"/>
+    <text class="city-sub halo-land" x="553" y="266" text-anchor="end" font-weight="700" fill="#7D3219">Wadi al-Jarf</text>
+
+    <!-- Sinai Copper Mines Marker -->
+    <polygon points="602,247 608,254 602,261 596,254" fill="#C26A33" stroke="#FFFDF8" stroke-width="1.5"/>
+
+    <!-- Hierakonpolis Marker -->
+    <circle cx="566" cy="467" r="5.2" fill="#241D18" stroke="#FFFDF8" stroke-width="1.8"/>
+    <circle cx="566" cy="467" r="1.8" fill="#D9A34A"/>
+
+    <!-- Aswan & First Cataract Marker -->
+    <circle cx="574" cy="524" r="5.8" fill="#A64628" stroke="#FFFDF8" stroke-width="1.9"/>
+    <circle cx="574" cy="524" r="2.0" fill="#FDECE4"/>
+
+    <!-- =================================================================== -->
+    <!-- GEOGRAPHIC & REGION LABELS (Zero Collisions!)                       -->
+    <!-- =================================================================== -->
+    <text class="sea-lbl" x="210" y="96" text-anchor="middle">Mediterranean Sea</text>
+    <text class="sea-lbl-sm halo-sea" x="598" y="294" text-anchor="middle" transform="rotate(56 598 294)">Gulf of Suez</text>
+    <text class="sea-lbl" x="726" y="458" text-anchor="middle" transform="rotate(56 726 458)">Red Sea</text>
+
+    <text class="region-lbl halo-green" x="492" y="144" text-anchor="middle">LOWER</text>
+    <text class="region-lbl halo-green" x="492" y="157" text-anchor="middle">EGYPT</text>
+
+    <!-- Upper Egypt + Metric & Imperial Corridor Width (clear of Inset, Red Arrow & Hierakonpolis!) -->
+    <text class="region-lbl halo-land" x="424" y="382" text-anchor="middle">UPPER EGYPT</text>
+    <text class="city-sub halo-land" x="424" y="395" text-anchor="middle">Nile Valley</text>
+    <text class="city-sub halo-land" x="424" y="408" text-anchor="middle">(5–10 mi / 8–16 km)</text>
+
+    <text class="river-lbl halo-land" x="528" y="385" transform="rotate(33 528 385)">Nile River</text>
+
+    <text class="geo-lbl" x="154" y="466" text-anchor="middle" opacity="0.56">WESTERN DESERT</text>
+    <text class="geo-lbl halo-land" x="630" y="428" text-anchor="middle" transform="rotate(62 630 428)" opacity="0.74">RED SEA HILLS</text>
+    <text class="geo-lbl halo-land" x="625" y="218" text-anchor="middle">SINAI</text>
+    <text class="geo-lbl" x="862" y="520" text-anchor="middle" opacity="0.46">ARABIA</text>
+
+    <!-- =================================================================== -->
+    <!-- NATIONAL GEOGRAPHIC DETAIL INSET: GIZA–MEMPHIS CORRIDOR             -->
+    <!-- =================================================================== -->
+    <g id="f021-inset-group" filter="url(#f021-card-shadow)">
+      <rect x="58" y="192" width="302" height="216" rx="6" fill="#FFFDF8" stroke="#8C7B65" stroke-width="1.4"/>
+      <path d="M 58,198 Q 58,192 64,192 L 354,192 Q 360,192 360,198 L 360,216 L 58,216 Z" fill="#5D4B3B"/>
+      <text class="inset-hdr" x="68" y="208">DETAIL INSET · GIZA–MEMPHIS CORRIDOR</text>
+
+      <g clip-path="url(#f021-inset-clip)">
+        <rect x="60" y="216" width="298" height="190" fill="#F3EAD6"/>
+        <!-- Western Limestone Plateau Escarpment -->
+        <path d="M 60,216 L 170,216 C 176,248 186,284 190,322 C 194,354 192,384 186,406 L 60,406 Z" fill="#EADAC0" opacity="0.78"/>
+        <!-- Eastern Tura Limestone Quarry Cliffs -->
+        <path d="M 284,216 L 358,216 L 358,406 L 272,406 C 272,368 278,324 282,276 Z" fill="#E6D4B5" opacity="0.84"/>
+        <!-- Subtle Plateau Escarpment Rim Lines -->
+        <path d="M 166,216 C 172,248 182,284 186,322 C 190,354 188,384 182,406" fill="none" stroke="#BFA988" stroke-width="1" stroke-dasharray="3 2.5"/>
+        <path d="M 288,216 C 284,248 282,292 276,348 C 274,372 274,390 274,406" fill="none" stroke="#BFA988" stroke-width="1" stroke-dasharray="3 2.5"/>
+
+        <!-- Fertile Floodplain Valley -->
+        <path d="M 162,216 C 174,246 186,284 190,322 C 194,356 190,386 186,406 L 272,406 C 272,368 278,322 282,274 C 288,246 296,226 304,216 Z" fill="#9BC388" opacity="0.84"/>
+
+        <!-- Wide Zoomed Nile River -->
+        <path d="M 238,406 C 240,376 244,342 240,306 C 236,276 232,246 236,216" fill="none" stroke="#1E7096" stroke-width="11" stroke-linecap="round"/>
+        <path d="M 238,406 C 240,376 244,342 240,306 C 236,276 232,246 236,216" fill="none" stroke="#4D9EC0" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+        <!-- Crisp northward flow arrow inside zoomed Nile -->
+        <line x1="239" y1="384" x2="240" y2="356" stroke="#F0FAFD" stroke-width="1.8" marker-end="url(#f021-arr-mini-blue)" opacity="0.92"/>
+
+        <!-- Artificial Harbor Canal leading to Giza -->
+        <path d="M 234,252 C 218,252 204,254 192,254" fill="none" stroke="#1E7096" stroke-width="2.6" stroke-linecap="round"/>
+        <rect x="185" y="250" width="8" height="7" rx="1.5" fill="#2D7DA3" stroke="#185470" stroke-width="0.7"/>
+
+        <!-- Tura -> Giza Limestone Barge Crossing Arrow (~6–9 mi / 10–15 km SE across Nile) -->
+        <path d="M 278,270 C 260,268 236,258 200,254" fill="none" stroke="#FFFDF8" stroke-width="4.2" stroke-linecap="round" opacity="0.78"/>
+        <path d="M 278,270 C 260,268 236,258 200,254" fill="none" stroke="#A64628" stroke-width="2.1" stroke-dasharray="4 2" stroke-linecap="round" marker-end="url(#f021-arr-stone)"/>
+
+        <!-- 1. GIZA (Great Pyramid of Khufu, c. 2560 BCE) -->
+        <g transform="translate(162, 236)">
+          <polygon points="10,0 0,16 10,16" fill="url(#f021-pyr-lit)" stroke="#4A3A28" stroke-width="0.9"/>
+          <polygon points="10,0 20,16 10,16" fill="url(#f021-pyr-shade)" stroke="#4A3A28" stroke-width="0.9"/>
+        </g>
+        <text class="city-lbl halo-inset" x="158" y="242" text-anchor="end">Giza</text>
+        <text class="city-sub halo-inset" x="158" y="255" text-anchor="end">Great Pyramid</text>
+        <text class="city-sub halo-inset" x="158" y="267" text-anchor="end">(c. 2560 BCE)</text>
+
+        <!-- 2. TURA (East Bank Limestone Quarries, ~6–9 mi / 10–15 km SE) -->
+        <g transform="translate(280, 258)">
+          <polygon points="2,7 8,3 17,3 11,7" fill="#FFFFFF" stroke="#7A6B58" stroke-width="0.8"/>
+          <polygon points="2,7 11,7 11,15 2,15" fill="url(#f021-limestone-grad)" stroke="#7A6B58" stroke-width="0.8"/>
+          <polygon points="11,7 17,3 17,11 11,15" fill="#CFC0A6" stroke="#7A6B58" stroke-width="0.8"/>
+        </g>
+        <text class="city-lbl halo-inset" x="301" y="266">Tura</text>
+        <text class="city-sub halo-inset" x="260" y="287">White casing stone</text>
+        <text class="city-sub halo-inset" x="260" y="300">6–9 mi (10–15 km)</text>
+
+        <!-- 3. MEMPHIS (Royal Capital at Valley/Delta Choke Point) -->
+        <circle cx="222" cy="326" r="5.2" fill="#241D18" stroke="#FFFDF8" stroke-width="1.6"/>
+        <circle cx="222" cy="326" r="1.9" fill="#D9A34A"/>
+        <line x1="227" y1="329" x2="253" y2="338" stroke="#241D18" stroke-width="0.9"/>
+        <text class="city-lbl halo-inset" x="256" y="342">Memphis</text>
+        <text class="city-sub halo-inset" x="256" y="355">Royal capital</text>
+        <text class="city-sub halo-inset" x="256" y="367">(choke point)</text>
+
+        <!-- 4. SAQQARA (Step Pyramid, c. 2670 BCE) -->
+        <g transform="translate(180, 310)">
+          <rect x="0" y="10" width="16" height="4" fill="#D8BA82" stroke="#4A3A28" stroke-width="0.75"/>
+          <rect x="2.5" y="6.5" width="11" height="3.5" fill="#E3C894" stroke="#4A3A28" stroke-width="0.75"/>
+          <rect x="5" y="3" width="6" height="3.5" fill="#EED7A8" stroke="#4A3A28" stroke-width="0.75"/>
+        </g>
+        <text class="city-lbl halo-inset" x="175" y="316" text-anchor="end">Saqqara</text>
+        <text class="city-sub halo-inset" x="175" y="329" text-anchor="end">Step Pyramid</text>
+        <text class="city-sub halo-inset" x="175" y="341" text-anchor="end">(c. 2670 BCE)</text>
+
+        <!-- 5. DAHSHUR (Bent & Red Pyramids, c. 2600 BCE) -->
+        <g transform="translate(178, 366)">
+          <polygon points="8,1 3,7 0,14 16,14 13,7" fill="#D4B074" stroke="#4A3A28" stroke-width="0.8"/>
+          <polygon points="21,4 14,14 28,14" fill="#C77B58" stroke="#4A3A28" stroke-width="0.75"/>
+        </g>
+        <text class="city-lbl halo-inset" x="173" y="374" text-anchor="end">Dahshur</text>
+        <text class="city-sub halo-inset" x="173" y="387" text-anchor="end">Bent &amp; Red</text>
+        <text class="city-sub halo-inset" x="173" y="399" text-anchor="end">(c. 2600 BCE)</text>
+
+        <!-- Nile Label inside Inset -->
+        <text class="river-lbl halo-inset" x="239" y="232" text-anchor="middle">Nile</text>
+
+        <!-- Mini Scale Bar inside Inset -->
+        <g transform="translate(274, 386)">
+          <rect x="-6" y="-11" width="78" height="23" rx="3" fill="#FFFDF8" fill-opacity="0.9" stroke="#C9BBA4" stroke-width="0.7"/>
+          <rect x="0" y="3.5" width="32" height="3.5" fill="#4E4237"/>
+          <rect x="32" y="3.5" width="32" height="3.5" fill="#FFFDF8" stroke="#4E4237" stroke-width="0.7"/>
+          <text class="scale-lbl" x="0" y="0">0</text>
+          <text class="scale-lbl" x="65" y="0" text-anchor="end">10 mi</text>
+        </g>
+      </g>
+      <rect x="60" y="216" width="298" height="190" rx="4" fill="none" stroke="#C9BBA4" stroke-width="0.9"/>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- EDITORIAL CALLOUT CARDS WITH CUSTOM MATERIAL ICONS                  -->
+    <!-- =================================================================== -->
+
+    <!-- 1. KOM EL-HISN (Nile Delta Herds) — Upper Left -->
+    <line x1="360" y1="154" x2="455" y2="152" stroke="#1E6A52" stroke-width="1.25" stroke-dasharray="3 2"/>
+    <circle cx="455" cy="152" r="2.4" fill="#1E6A52"/>
+    <g filter="url(#f021-card-shadow)">
+      <rect class="card-green" x="58" y="132" width="302" height="46"/>
+      <g transform="translate(68, 143)">
+        <rect x="0" y="0" width="24" height="24" rx="4" fill="#DAF0E5" stroke="#85BDA5" stroke-width="0.8"/>
+        <path d="M 5,15 C 5,11 8,9.5 13,10 L 17,9.5 L 19.5,11.5 L 18.5,14 L 16.5,14 L 16.5,19.5 L 14.5,19.5 L 14.5,15.5 L 9.5,15.5 L 9.5,19.5 L 7.5,19.5 L 7.5,15.5 L 5.5,17 Z" fill="#5C402B"/>
+        <path d="M 17.5,9.5 C 17,6.5 15.5,5.2 14.2,5.5 M 18.8,10 C 20.5,7.2 21.5,5.8 20.2,4.8" fill="none" stroke="#3D291A" stroke-width="1.25" stroke-linecap="round"/>
+      </g>
+      <text class="lbl-green" x="100" y="152">Kom el-Hisn (Nile Delta)</text>
+      <text class="lbl-sm" x="100" y="168">Cattle, sheep &amp; goat herds shipped south</text>
+    </g>
+
+    <!-- 2. NILE DELTA (Lower Egypt) — Upper Center-Right -->
+    <line x1="576" y1="114" x2="526" y2="132" stroke="#1E6A52" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <circle cx="526" cy="132" r="2.4" fill="#1E6A52"/>
+    <g filter="url(#f021-card-shadow)">
+      <rect class="card-green" x="576" y="88" width="248" height="46"/>
+      <text class="lbl-green" x="700" y="107" text-anchor="middle">Nile Delta (Lower Egypt)</text>
+      <text class="lbl-sm" x="700" y="123" text-anchor="middle">~9,650 sq mi (~25,000 sq km) fan</text>
+    </g>
+
+    <!-- 3. WADI AL-JARF & SINAI COPPER MINES — Mid-Upper Right (generous margins!) -->
+    <line x1="688" y1="234" x2="607" y2="253" stroke="#A64628" stroke-width="1.25" stroke-dasharray="3 2"/>
+    <circle cx="607" cy="253" r="2.4" fill="#A64628"/>
+    <g filter="url(#f021-card-shadow)">
+      <rect class="card-stone" x="688" y="178" width="238" height="100"/>
+      <g transform="translate(698, 189)">
+        <rect x="0" y="0" width="24" height="24" rx="4" fill="#F8E5D4" stroke="#D9A77C" stroke-width="0.8"/>
+        <polygon points="4.5,14.5 8.5,8 18.5,8 20.5,14.5" fill="url(#f021-copper-grad)" stroke="#6B3212" stroke-width="0.85"/>
+        <polygon points="4.5,14.5 20.5,14.5 19,18.8 3,18.8" fill="#8C4218" stroke="#6B3212" stroke-width="0.8"/>
+        <line x1="9" y1="10.2" x2="17" y2="10.2" stroke="#F6C291" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+      </g>
+      <text class="lbl-stone" x="729" y="199">Wadi al-Jarf &amp; Sinai Copper</text>
+      <text class="lbl-sm" x="729" y="213">Harbor ~74 mi (119 km) S of Suez</text>
+      <line x1="698" y1="223" x2="916" y2="223" stroke="#E4C6B4" stroke-width="0.8"/>
+      <text class="lbl-sm" x="699" y="238">Sea route across Gulf of Suez to</text>
+      <text class="lbl-sm" x="699" y="253">Sinai copper mines for stone-cutting</text>
+      <text class="lbl-sm" x="699" y="268">chisels and saws used at Giza.</text>
+    </g>
+
+    <!-- 4. TWO-WAY RIVER HIGHWAY EXPLAINER — Mid-Right (right-aligned with card above at x=926!) -->
+    <g filter="url(#f021-card-shadow)">
+      <rect class="card-warm" x="702" y="294" width="224" height="106"/>
+      <text class="lbl" x="814" y="313" text-anchor="middle">Two-Way River Highway</text>
+      <line x1="716" y1="321" x2="912" y2="321" stroke="#DFC89E" stroke-width="0.9"/>
+      <line x1="716" y1="340" x2="740" y2="340" stroke="#1D668A" stroke-width="2.8" marker-end="url(#f021-arr-current)"/>
+      <text class="lbl-water" x="749" y="338">River Current (North)</text>
+      <text class="lbl-sm" x="749" y="352">Floats heavy stone barges</text>
+      <line x1="716" y1="376" x2="740" y2="376" stroke="#B87A1E" stroke-width="2.8" marker-end="url(#f021-arr-wind)"/>
+      <text class="lbl-wind" x="749" y="374">Prevailing Wind (South)</text>
+      <text class="lbl-sm" x="749" y="388">Fills sails back upstream</text>
+    </g>
+
+    <!-- 5. HIERAKONPOLIS (Narmer Palette Site) — Lower-Center Left -->
+    <line x1="534" y1="458" x2="560" y2="467" stroke="#3D5245" stroke-width="1.25" stroke-dasharray="3 2"/>
+    <circle cx="560" cy="467" r="2.4" fill="#3D5245"/>
+    <g filter="url(#f021-card-shadow)">
+      <rect class="card" x="274" y="432" width="260" height="46"/>
+      <g transform="translate(284, 443)">
+        <rect x="0" y="0" width="24" height="24" rx="4" fill="#ECEAE3" stroke="#BDB4A2" stroke-width="0.8"/>
+        <path d="M 6,4 L 18,4 L 17,15 C 16.5,18.5 14,20.5 12,21 C 10,20.5 7.5,18.5 7,15 Z" fill="url(#f021-siltstone-grad)" stroke="#233028" stroke-width="0.8"/>
+        <circle cx="12" cy="11.5" r="2.6" fill="none" stroke="#9BB0A2" stroke-width="0.9"/>
+        <line x1="8.5" y1="6.8" x2="15.5" y2="6.8" stroke="#9BB0A2" stroke-width="0.8"/>
+      </g>
+      <text class="lbl" x="316" y="451">Hierakonpolis (c. 3100 BCE)</text>
+      <text class="lbl-sm" x="316" y="467">Temple site of the Narmer Palette</text>
+    </g>
+
+    <!-- 6. ASWAN & FIRST CATARACT (Red Granite Quarries) — Bottom Center-Left -->
+    <line x1="534" y1="524" x2="567" y2="524" stroke="#A64628" stroke-width="1.3" stroke-dasharray="3 2"/>
+    <circle cx="567" cy="524" r="2.5" fill="#A64628"/>
+    <g filter="url(#f021-card-shadow)">
+      <rect class="card-stone" x="262" y="492" width="272" height="60"/>
+      <g transform="translate(272, 508)">
+        <rect x="0" y="0" width="24" height="24" rx="4" fill="#F8E4DA" stroke="#D79E88" stroke-width="0.8"/>
+        <polygon points="3,14 7,9 21,9 17,14" fill="#DE8E72" stroke="#6E2E1A" stroke-width="0.75"/>
+        <polygon points="3,14 17,14 17,18.5 3,18.5" fill="url(#f021-granite-grad)" stroke="#6E2E1A" stroke-width="0.75"/>
+        <polygon points="17,14 21,9 21,13.5 17,18.5" fill="#853922" stroke="#6E2E1A" stroke-width="0.75"/>
+        <circle cx="8" cy="16" r="0.6" fill="#F9D5C6"/>
+        <circle cx="13" cy="16.4" r="0.6" fill="#4E1F10"/>
+      </g>
+      <text class="lbl-stone" x="304" y="510">Aswan &amp; First Cataract</text>
+      <text class="lbl-sm" x="304" y="526">&gt;500 mi (800–900 km) south of Giza</text>
+      <text class="lbl-sm" x="304" y="541">Red granite beams (25–80 tons) floated N</text>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- ORNATE CLASSIC COMPASS ROSE (Upper Right)                           -->
+    <!-- =================================================================== -->
+    <g transform="translate(882, 118)">
+      <circle cx="0" cy="0" r="28" fill="#FFFDF7" fill-opacity="0.93" stroke="#AE9D84" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#C9B9A0" stroke-width="0.7" stroke-dasharray="1.8 2.4"/>
+      <polygon points="0,0 3,-3 12,-12 0,-3.5" fill="#9E8C72"/>
+      <polygon points="0,0 3,-3 12,-12 3.5,0" fill="#CFC0A8"/>
+      <polygon points="0,0 3,3 12,12 3.5,0" fill="#9E8C72"/>
+      <polygon points="0,0 3,3 12,12 0,3.5" fill="#CFC0A8"/>
+      <polygon points="0,0 -3,3 -12,12 0,3.5" fill="#9E8C72"/>
+      <polygon points="0,0 -3,3 -12,12 -3.5,0" fill="#CFC0A8"/>
+      <polygon points="0,0 -3,-3 -12,-12 -3.5,0" fill="#9E8C72"/>
+      <polygon points="0,0 -3,-3 -12,-12 0,-3.5" fill="#CFC0A8"/>
+      <polygon points="0,-21 0,0 -4.5,-4.5" fill="#241D18"/>
+      <polygon points="0,-21 0,0 4.5,-4.5" fill="#6F5D4B"/>
+      <polygon points="0,21 0,0 4.5,4.5" fill="#7D6B58"/>
+      <polygon points="0,21 0,0 -4.5,4.5" fill="#C7B8A1"/>
+      <polygon points="21,0 0,0 4.5,-4.5" fill="#7D6B58"/>
+      <polygon points="21,0 0,0 4.5,4.5" fill="#C7B8A1"/>
+      <polygon points="-21,0 0,0 -4.5,4.5" fill="#7D6B58"/>
+      <polygon points="-21,0 0,0 -4.5,-4.5" fill="#C7B8A1"/>
+      <circle cx="0" cy="0" r="2.6" fill="#FFFDF7" stroke="#241D18" stroke-width="1"/>
+      <text x="0" y="-31" text-anchor="middle" font-family="Liberation Serif, Georgia, serif" font-size="11.5" font-weight="bold" fill="#241D18">N</text>
+      <text x="34" y="4" text-anchor="middle" font-family="Liberation Serif, Georgia, serif" font-size="10.5" font-weight="bold" fill="#6E5F4E">E</text>
+      <text x="0" y="39" text-anchor="middle" font-family="Liberation Serif, Georgia, serif" font-size="10.5" font-weight="bold" fill="#6E5F4E">S</text>
+      <text x="-35" y="4" text-anchor="middle" font-family="Liberation Serif, Georgia, serif" font-size="10.5" font-weight="bold" fill="#6E5F4E">W</text>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- CALIBRATED DUAL SCALE BAR (200 mi = 160.5px, 300 km = 149.6px)      -->
+    <!-- =================================================================== -->
+    <g transform="translate(68, 514)">
+      <rect x="-10" y="-16" width="186" height="54" rx="5" fill="#FFFDF8" fill-opacity="0.93" stroke="#C9BBA4" stroke-width="1"/>
+      <rect x="0" y="0" width="80.2" height="5" fill="#4E4237"/>
+      <rect x="80.2" y="0" width="80.2" height="5" fill="#FFFDF8" stroke="#4E4237" stroke-width="0.8"/>
+      <rect x="0" y="0" width="160.5" height="5" fill="none" stroke="#4E4237" stroke-width="0.8"/>
+      <text class="scale-lbl" x="0" y="-4" text-anchor="middle">0</text>
+      <text class="scale-lbl" x="80.2" y="-4" text-anchor="middle">100</text>
+      <text class="scale-lbl" x="168" y="-4" text-anchor="end">200 mi</text>
+      <rect x="0" y="13" width="74.8" height="5" fill="#FFFDF8" stroke="#4E4237" stroke-width="0.8"/>
+      <rect x="74.8" y="13" width="74.8" height="5" fill="#4E4237"/>
+      <rect x="0" y="13" width="149.6" height="5" fill="none" stroke="#4E4237" stroke-width="0.8"/>
+      <text class="scale-lbl" x="0" y="31" text-anchor="middle">0</text>
+      <text class="scale-lbl" x="74.8" y="31" text-anchor="middle">150</text>
+      <text class="scale-lbl" x="162" y="31" text-anchor="end">300 km</text>
+    </g>
+
+    <!-- =================================================================== -->
+    <!-- SUBTLE GRATICULE COORDINATE LABELS                                  -->
+    <!-- =================================================================== -->
+    <g class="coord-lbl">
+      <text x="30" y="192">30°N</text>
+      <text x="30" y="303">28°N</text>
+      <text x="30" y="413">26°N</text>
+      <text x="30" y="524">24°N</text>
+      <text x="236" y="79" text-anchor="middle">26°E</text>
+      <text x="432" y="79" text-anchor="middle">30°E</text>
+      <text x="628" y="79" text-anchor="middle">34°E</text>
+      <text x="824" y="79" text-anchor="middle">38°E</text>
+    </g>
+  </g>
+
+  <!-- Double-Line National Geographic Map Neatline -->
+  <rect x="24" y="66" width="912" height="498" rx="5" fill="none" stroke="#8C7B65" stroke-width="1.6"/>
+  <rect x="27" y="69" width="906" height="492" rx="3.5" fill="none" stroke="#C9BBA5" stroke-width="0.7"/>
+
+  <!-- ===================================================================== -->
+  <!-- EDITORIAL LEGEND & ROUTE KEY STRIP                                    -->
+  <!-- ===================================================================== -->
+  <rect x="24" y="576" width="912" height="48" rx="6" fill="#FFFDF8" stroke="#D5C8B3" stroke-width="1.1"/>
+  <g transform="translate(38, 592)">
+    <rect x="0" y="2" width="16" height="12" rx="2" fill="#89B675" stroke="#537E44" stroke-width="1"/>
+    <text class="legend-lbl" x="22" y="12">Fertile Nile Valley &amp; Delta</text>
+
+    <line x1="170" y1="8" x2="198" y2="8" stroke="#1D668A" stroke-width="2.8" marker-end="url(#f021-arr-current)"/>
+    <text class="legend-lbl" x="207" y="12">River current (N)</text>
+
+    <line x1="312" y1="8" x2="340" y2="8" stroke="#B87A1E" stroke-width="2.8" marker-end="url(#f021-arr-wind)"/>
+    <text class="legend-lbl" x="349" y="12">Prevailing wind (S)</text>
+
+    <line x1="464" y1="8" x2="492" y2="8" stroke="#A64628" stroke-width="2.3" stroke-dasharray="5 2.5" marker-end="url(#f021-arr-stone)"/>
+    <text class="legend-lbl" x="501" y="12">Stone &amp; copper supply</text>
+
+    <line x1="636" y1="8" x2="664" y2="8" stroke="#1E6A52" stroke-width="2.3" stroke-dasharray="4.5 2.5" marker-end="url(#f021-arr-herd)"/>
+    <text class="legend-lbl" x="673" y="12">Delta livestock herds</text>
+
+    <polygon points="804,2 798,14 810,14" fill="#D9A34A" stroke="#241D18" stroke-width="1"/>
+    <text class="legend-lbl" x="816" y="12">Pyramid site</text>
+  </g>
+</svg>

@@ -1,0 +1,656 @@
+<svg id="fig02-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Figure 2.2: Two Rivers, Two Clocks — Mesopotamia vs. Egypt, comparing the twelve-month flood and farming calendars and riverbank drainage cross-sections">
+  <defs>
+    <!-- ==================== SHADOW FILTERS ==================== -->
+    <filter id="f022-card-shadow" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.8" flood-color="#3E3228" flood-opacity="0.09"/>
+    </filter>
+    <filter id="f022-pill-shadow" x="-6%" y="-10%" width="112%" height="124%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.4" flood-color="#2A2018" flood-opacity="0.14"/>
+    </filter>
+
+    <!-- ==================== PAGE & PANEL GRADIENTS ==================== -->
+    <linearGradient id="f022-page-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF9F2"/>
+      <stop offset="100%" stop-color="#F6F0E4"/>
+    </linearGradient>
+
+    <!-- Calendar Band Gradients -->
+    <linearGradient id="f022-crisis-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BC4637"/>
+      <stop offset="55%" stop-color="#A63D2F"/>
+      <stop offset="100%" stop-color="#872B1F"/>
+    </linearGradient>
+    <linearGradient id="f022-akhet-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A90B8"/>
+      <stop offset="55%" stop-color="#2D7DA3"/>
+      <stop offset="100%" stop-color="#1E5F80"/>
+    </linearGradient>
+    <linearGradient id="f022-shemu-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF4DC"/>
+      <stop offset="100%" stop-color="#F5E0AC"/>
+    </linearGradient>
+    <linearGradient id="f022-peret-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E7F4EE"/>
+      <stop offset="100%" stop-color="#D1E7DC"/>
+    </linearGradient>
+    <linearGradient id="f022-dry-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF0DF"/>
+      <stop offset="100%" stop-color="#EDD6B4"/>
+    </linearGradient>
+    <linearGradient id="f022-plant-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBEFE4"/>
+      <stop offset="100%" stop-color="#F0D5BE"/>
+    </linearGradient>
+    <linearGradient id="f022-labor-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FCF3DF"/>
+      <stop offset="100%" stop-color="#F6E4BC"/>
+    </linearGradient>
+
+    <!-- Diagonal Crisis Stripe Pattern -->
+    <pattern id="f022-crisis-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#681B12" stroke-width="1.5" opacity="0.22"/>
+    </pattern>
+
+    <!-- Subtle Water Wave Pattern for Akhet -->
+    <pattern id="f022-akhet-waves" width="28" height="12" patternUnits="userSpaceOnUse">
+      <path d="M 0,6 Q 7,3 14,6 T 28,6" fill="none" stroke="#C0E7F7" stroke-width="0.9" opacity="0.24"/>
+    </pattern>
+
+    <!-- ==================== CUTAWAY SKIES & SUN ==================== -->
+    <linearGradient id="f022-sky-mesop" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FDF8EC"/>
+      <stop offset="50%" stop-color="#FCE9CD"/>
+      <stop offset="100%" stop-color="#F3D09C"/>
+    </linearGradient>
+    <linearGradient id="f022-sky-egypt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D5EAF2"/>
+      <stop offset="56%" stop-color="#ECF5F3"/>
+      <stop offset="100%" stop-color="#FBF5E8"/>
+    </linearGradient>
+    <radialGradient id="f022-sun-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF7CE" stop-opacity="0.96"/>
+      <stop offset="35%" stop-color="#F5BA47" stop-opacity="0.65"/>
+      <stop offset="70%" stop-color="#E78A34" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#E78A34" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="f022-sun-core" cx="42%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#FFFCE4"/>
+      <stop offset="55%" stop-color="#F4B53C"/>
+      <stop offset="100%" stop-color="#D5731D"/>
+    </radialGradient>
+
+    <!-- ==================== WATER & SOIL GRADIENTS ==================== -->
+    <linearGradient id="f022-river-mesop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7BC1DC"/>
+      <stop offset="48%" stop-color="#4592B6"/>
+      <stop offset="100%" stop-color="#27698A"/>
+    </linearGradient>
+    <linearGradient id="f022-river-nile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6BB8D8"/>
+      <stop offset="42%" stop-color="#2D7DA3"/>
+      <stop offset="100%" stop-color="#195270"/>
+    </linearGradient>
+    <linearGradient id="f022-akhet-sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5AAAD0" stop-opacity="0.16"/>
+      <stop offset="65%" stop-color="#2D7DA3" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#2D7DA3" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="f022-puddle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CBE0" stop-opacity="0.92"/>
+      <stop offset="60%" stop-color="#4A98B5" stop-opacity="0.94"/>
+      <stop offset="100%" stop-color="#2E7490" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="f022-soil-mesop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DFC499"/>
+      <stop offset="28%" stop-color="#C9A372"/>
+      <stop offset="68%" stop-color="#AE8356"/>
+      <stop offset="100%" stop-color="#8B633C"/>
+    </linearGradient>
+    <linearGradient id="f022-soil-egypt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9A87D"/>
+      <stop offset="35%" stop-color="#B38C5F"/>
+      <stop offset="72%" stop-color="#977149"/>
+      <stop offset="100%" stop-color="#7B5A38"/>
+    </linearGradient>
+    <linearGradient id="f022-volcanic-silt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#483423"/>
+      <stop offset="55%" stop-color="#5B432F"/>
+      <stop offset="100%" stop-color="#6F5239"/>
+    </linearGradient>
+    <linearGradient id="f022-desert-cliff" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#E7CE9F"/>
+      <stop offset="52%" stop-color="#D6B47C"/>
+      <stop offset="100%" stop-color="#BC945A"/>
+    </linearGradient>
+    <linearGradient id="f022-salt-zone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.88"/>
+      <stop offset="48%" stop-color="#FAF4EA" stop-opacity="0.48"/>
+      <stop offset="100%" stop-color="#FAF4EA" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f022-watertable" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78AAC0" stop-opacity="0.86"/>
+      <stop offset="50%" stop-color="#4F849C" stop-opacity="0.93"/>
+      <stop offset="100%" stop-color="#356378" stop-opacity="0.97"/>
+    </linearGradient>
+    <linearGradient id="f022-vapor" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#4292B0" stop-opacity="0.72"/>
+      <stop offset="52%" stop-color="#C8633C" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#A63D2F" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- ==================== TEXTURE PATTERNS ==================== -->
+    <pattern id="f022-soil-tex" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="5" r="0.85" fill="#52361B" opacity="0.24"/>
+      <circle cx="13" cy="3" r="0.65" fill="#FFF3DC" opacity="0.22"/>
+      <circle cx="19" cy="11" r="0.95" fill="#462D16" opacity="0.18"/>
+      <circle cx="8" cy="16" r="0.75" fill="#52361B" opacity="0.22"/>
+      <circle cx="17" cy="19" r="0.65" fill="#FFF3DC" opacity="0.18"/>
+      <path d="M 2,18 L 6,17.4 M 12,11 L 16,11.6" stroke="#52361B" stroke-width="0.55" opacity="0.18"/>
+    </pattern>
+    <pattern id="f022-salt-speck" width="18" height="14" patternUnits="userSpaceOnUse">
+      <polygon points="4,2 5.6,3.6 4,5.2 2.4,3.6" fill="#FFFFFF" opacity="0.92"/>
+      <polygon points="13,5 14.4,6.4 13,7.8 11.6,6.4" fill="#FFFFFF" opacity="0.78"/>
+      <polygon points="8,10 9.3,11.3 8,12.6 6.7,11.3" fill="#F5EFE5" opacity="0.82"/>
+    </pattern>
+
+    <!-- ==================== ARROW MARKERS ==================== -->
+    <marker id="f022-arrow-blue" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6.2" markerHeight="6.2" orient="auto-start-reverse">
+      <path d="M 0.5 1.2 L 9 5 L 0.5 8.8 L 2.2 5 Z" fill="#185C7E"/>
+    </marker>
+    <marker id="f022-arrow-white" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="5.8" markerHeight="5.8" orient="auto-start-reverse">
+      <path d="M 0.5 1.2 L 9 5 L 0.5 8.8 L 2.2 5 Z" fill="#FFFFFF"/>
+    </marker>
+    <marker id="f022-arrow-red" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0.5 1.3 L 8.8 5 L 0.5 8.7 L 2.2 5 Z" fill="#A63D2F"/>
+    </marker>
+    <marker id="f022-dot-ink" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="4.5" markerHeight="4.5">
+      <circle cx="4" cy="4" r="2.5" fill="#4A3D32"/>
+    </marker>
+    <marker id="f022-dot-blue" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="4.5" markerHeight="4.5">
+      <circle cx="4" cy="4" r="2.5" fill="#1D6486"/>
+    </marker>
+    <marker id="f022-dot-green" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="4.5" markerHeight="4.5">
+      <circle cx="4" cy="4" r="2.5" fill="#1E6A52"/>
+    </marker>
+    <marker id="f022-dot-silt" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5.5" markerHeight="5.5">
+      <circle cx="5" cy="5" r="3" fill="#6CD4A8" stroke="#FFFFFF" stroke-width="1.2"/>
+    </marker>
+    <marker id="f022-dot-red" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="4.5" markerHeight="4.5">
+      <circle cx="4" cy="4" r="2.5" fill="#A63D2F"/>
+    </marker>
+
+    <!-- ==================== REUSABLE BOTANICAL MICRO-ICONS ==================== -->
+    <g id="f022-wheat-healthy">
+      <!-- Fine roots reaching into dark silt -->
+      <path d="M 0,0 Q -3,4 -5,7 M 0,0 Q 2,5 4,8 M 0,0 L 0,7" fill="none" stroke="#A68B66" stroke-width="0.7" opacity="0.68"/>
+      <!-- Lush stem & blades -->
+      <path d="M 0,0 Q -1,-11 0,-24" fill="none" stroke="#2D6A3E" stroke-width="1.35" stroke-linecap="round"/>
+      <path d="M 0,-6 Q -6,-12 -8.5,-17" fill="none" stroke="#367C49" stroke-width="1.05" stroke-linecap="round"/>
+      <path d="M 0,-10 Q 5.5,-15 8,-19.5" fill="none" stroke="#367C49" stroke-width="1.05" stroke-linecap="round"/>
+      <!-- Golden emmer wheat ear -->
+      <ellipse cx="-2.1" cy="-22" rx="1.55" ry="2.7" transform="rotate(-22 -2.1 -22)" fill="#D9A34A"/>
+      <ellipse cx="2.1" cy="-22" rx="1.55" ry="2.7" transform="rotate(22 2.1 -22)" fill="#D9A34A"/>
+      <ellipse cx="-2" cy="-26.8" rx="1.45" ry="2.5" transform="rotate(-20 -2 -26.8)" fill="#E3B35C"/>
+      <ellipse cx="2" cy="-26.8" rx="1.45" ry="2.5" transform="rotate(20 2 -26.8)" fill="#E3B35C"/>
+      <ellipse cx="0" cy="-31" rx="1.35" ry="2.3" fill="#E3B35C"/>
+      <path d="M -1.5,-31.5 L -3.4,-36.5 M 0,-33 L 0,-38.5 M 1.5,-31.5 L 3.4,-36.5" stroke="#C58B2E" stroke-width="0.68" stroke-linecap="round"/>
+    </g>
+
+    <g id="f022-wheat-stunted">
+      <path d="M 0,0 Q 2,-6.5 5,-12" fill="none" stroke="#8C7748" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M 1,-4 Q -4,-6.5 -6,-4.5" fill="none" stroke="#9C8452" stroke-width="0.95" stroke-linecap="round"/>
+      <ellipse cx="5.2" cy="-13.5" rx="1.15" ry="2" transform="rotate(28 5.2 -13.5)" fill="#BA9E63"/>
+      <ellipse cx="7.4" cy="-11.5" rx="1.05" ry="1.8" transform="rotate(52 7.4 -11.5)" fill="#A98C53"/>
+    </g>
+
+    <!-- ==================== CLIP PATHS ==================== -->
+    <clipPath id="f022-clip-mesop">
+      <rect x="34" y="344" width="424" height="228" rx="6"/>
+    </clipPath>
+    <clipPath id="f022-clip-egypt">
+      <rect x="502" y="344" width="424" height="228" rx="6"/>
+    </clipPath>
+
+    <!-- ==================== SCOPED STYLES ==================== -->
+    <style>
+      #fig02-2 .page-bg { fill: url(#f022-page-bg); stroke: #D8CFC2; stroke-width: 1.2; }
+      #fig02-2 .panel { fill: #FFFFFF; stroke: #D8CFC2; stroke-width: 1.25; rx: 9; filter: url(#f022-card-shadow); }
+      #fig02-2 .title { font-family: Georgia, "Liberation Serif", "Times New Roman", serif; font-size: 19.5px; font-weight: bold; fill: #241D18; }
+      #fig02-2 .subtitle { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11.6px; fill: #5E5248; }
+      #fig02-2 .ptitle { font-family: Georgia, "Liberation Serif", "Times New Roman", serif; font-size: 13.8px; font-weight: bold; fill: #241D18; }
+      #fig02-2 .psub { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; fill: #5E5248; }
+      #fig02-2 .month-hdr { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.6px; fill: #5E5248; }
+      #fig02-2 .month-hdr-red { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.6px; fill: #A63D2F; }
+      #fig02-2 .month-hdr-blue { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.6px; fill: #1D6486; }
+      #fig02-2 .row-title { font-family: Georgia, "Liberation Serif", "Times New Roman", serif; font-size: 11.3px; font-weight: bold; fill: #241D18; }
+      #fig02-2 .row-sub { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #5E5248; }
+      #fig02-2 .band-head { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #241D18; }
+      #fig02-2 .band-sub { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #4A4038; }
+      #fig02-2 .band-head-w { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.7px; font-weight: 700; fill: #FFFFFF; }
+      #fig02-2 .band-sub-w { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #F5F9FC; }
+      #fig02-2 .lbl { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.8px; font-weight: 700; fill: #241D18; }
+      #fig02-2 .lbl-sm { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #4E433A; }
+      #fig02-2 .lbl-red { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #A63D2F; }
+      #fig02-2 .lbl-blue { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #1D6486; }
+      #fig02-2 .lbl-green { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #1E6A52; }
+      #fig02-2 .lbl-gold { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #855712; }
+      #fig02-2 .lbl-cliff { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; fill: #6B4D22; }
+      #fig02-2 .lbl-white { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.6px; font-weight: 700; fill: #FFFFFF; }
+      #fig02-2 .lbl-river-w { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-weight: 700; fill: #F4FBFE; }
+      #fig02-2 .lbl-datum { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-style: italic; font-weight: 600; fill: #3E2D1E; }
+      #fig02-2 .lbl-datum-blue { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; font-style: italic; font-weight: 600; fill: #1D6486; }
+      #fig02-2 .pill { fill: #FFFDF8; fill-opacity: 0.94; stroke: #D8CFC2; stroke-width: 1; rx: 4.5; filter: url(#f022-pill-shadow); }
+      #fig02-2 .pill-red { fill: #FFF7F5; fill-opacity: 0.96; stroke: #D99B92; stroke-width: 1; rx: 4.5; filter: url(#f022-pill-shadow); }
+      #fig02-2 .pill-blue { fill: #F4FAFD; fill-opacity: 0.95; stroke: #9AC4D9; stroke-width: 1; rx: 4.5; filter: url(#f022-pill-shadow); }
+      #fig02-2 .pill-green { fill: #F3FAF6; fill-opacity: 0.95; stroke: #94C5B3; stroke-width: 1; rx: 4.5; filter: url(#f022-pill-shadow); }
+      #fig02-2 .legend-txt { font-family: "Liberation Sans", "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10.5px; fill: #4E433A; }
+    </style>
+  </defs>
+
+  <!-- Outer Archival Plate -->
+  <rect class="page-bg" x="1" y="1" width="958" height="598" rx="10"/>
+
+  <!-- ==================== FIGURE HEADER ==================== -->
+  <text class="title" x="22" y="29">Figure 2.2: Two Rivers, Two Clocks — Mesopotamia vs. Egypt</text>
+  <text class="subtitle" x="22" y="47">Why the Nile's late-summer flood clock and deep riverbed spared Egypt from Sumer's spring flood crisis and salt trap</text>
+
+  <!-- ==================== TOP HALF: PANEL A (12-MONTH CALENDAR) ==================== -->
+  <rect class="panel" x="20" y="58" width="920" height="234"/>
+
+  <!-- Panel A Header + Inline Legend -->
+  <text class="ptitle" x="34" y="79">A. Twelve-Month Flood &amp; Farming Calendar</text>
+
+  <!-- Compact Color Legend -->
+  <g transform="translate(466, 68)">
+    <rect x="0" y="1" width="10" height="10" rx="2" fill="#A63D2F"/>
+    <text class="legend-txt" x="14" y="10">Flood crisis</text>
+
+    <rect x="86" y="1" width="10" height="10" rx="2" fill="#2D7DA3"/>
+    <text class="legend-txt" x="100" y="10">Gentle silt flood</text>
+
+    <rect x="196" y="1" width="10" height="10" rx="2" fill="#D1E7DC" stroke="#1E6A52" stroke-width="1"/>
+    <text class="legend-txt" x="210" y="10">Plant &amp; grow</text>
+
+    <rect x="292" y="1" width="10" height="10" rx="2" fill="#F5E0AC" stroke="#C88F32" stroke-width="1"/>
+    <text class="legend-txt" x="306" y="10">Harvest</text>
+
+    <rect x="364" y="1" width="10" height="10" rx="2" fill="#F6E4BC" stroke="#B85D3B" stroke-width="1"/>
+    <text class="legend-txt" x="378" y="10">Labor window</text>
+  </g>
+
+  <!-- Month Header Bar (12 equal columns: x=190 to 922, 61px each) -->
+  <rect x="190" y="89" width="732" height="22" rx="4" fill="#F5EFE4" stroke="#DDD2C1" stroke-width="0.9"/>
+  <!-- Highlight Tints inside Month Bar for Key Flood Windows -->
+  <rect x="373" y="90" width="122" height="20" fill="#FCECE9"/>
+  <rect x="556" y="90" width="244" height="20" fill="#E6F3F9"/>
+  <!-- Crisp Month Separator Ticks inside Header Bar -->
+  <g stroke="#DDD2C1" stroke-width="0.8" opacity="0.85">
+    <line x1="251" y1="90" x2="251" y2="110"/>
+    <line x1="312" y1="90" x2="312" y2="110"/>
+    <line x1="373" y1="90" x2="373" y2="110"/>
+    <line x1="434" y1="90" x2="434" y2="110"/>
+    <line x1="495" y1="90" x2="495" y2="110"/>
+    <line x1="556" y1="90" x2="556" y2="110"/>
+    <line x1="617" y1="90" x2="617" y2="110"/>
+    <line x1="678" y1="90" x2="678" y2="110"/>
+    <line x1="739" y1="90" x2="739" y2="110"/>
+    <line x1="800" y1="90" x2="800" y2="110"/>
+    <line x1="861" y1="90" x2="861" y2="110"/>
+  </g>
+  <g text-anchor="middle">
+    <text class="month-hdr" x="220.5" y="104">JAN</text>
+    <text class="month-hdr" x="281.5" y="104">FEB</text>
+    <text class="month-hdr" x="342.5" y="104">MAR</text>
+    <text class="month-hdr-red" x="403.5" y="104">APR</text>
+    <text class="month-hdr-red" x="464.5" y="104">MAY</text>
+    <text class="month-hdr" x="525.5" y="104">JUN</text>
+    <text class="month-hdr-blue" x="586.5" y="104">JUL</text>
+    <text class="month-hdr-blue" x="647.5" y="104">AUG</text>
+    <text class="month-hdr-blue" x="708.5" y="104">SEP</text>
+    <text class="month-hdr-blue" x="769.5" y="104">OCT</text>
+    <text class="month-hdr" x="830.5" y="104">NOV</text>
+    <text class="month-hdr" x="891.5" y="104">DEC</text>
+  </g>
+
+  <!-- Vertical Month Gridlines -->
+  <g stroke="#E3D9CA" stroke-width="0.8" stroke-dasharray="2.5 2.5">
+    <line x1="251" y1="111" x2="251" y2="241"/>
+    <line x1="312" y1="111" x2="312" y2="241"/>
+    <line x1="373" y1="111" x2="373" y2="241"/>
+    <line x1="434" y1="111" x2="434" y2="241"/>
+    <line x1="495" y1="111" x2="495" y2="241"/>
+    <line x1="556" y1="111" x2="556" y2="241"/>
+    <line x1="617" y1="111" x2="617" y2="241"/>
+    <line x1="678" y1="111" x2="678" y2="241"/>
+    <line x1="739" y1="111" x2="739" y2="241"/>
+    <line x1="800" y1="111" x2="800" y2="241"/>
+    <line x1="861" y1="111" x2="861" y2="241"/>
+  </g>
+
+  <!-- Subtle Vertical Apr-May Clock-Clash Alignment Column -->
+  <rect x="373" y="111" width="122" height="133" fill="#A63D2F" opacity="0.045"/>
+
+  <!-- ===== ROW 1: SOUTHERN MESOPOTAMIA (y=116..169, h=53) ===== -->
+  <rect x="32" y="116" width="152" height="53" rx="5" fill="#FBF7F0" stroke="#DDD2C1" stroke-width="1"/>
+  <rect x="32" y="116" width="5" height="53" rx="2.5" fill="#B85D3B"/>
+  <text class="row-title" x="43" y="132">Southern Mesopotamia</text>
+  <text class="row-sub" x="43" y="146.5">Tigris &amp; Euphrates</text>
+  <text class="lbl-red" x="43" y="161">Spring snowmelt</text>
+
+  <!-- Mesop Jan-Mar: Winter barley growing -->
+  <rect x="191" y="117" width="181" height="51" rx="4" fill="url(#f022-peret-grad)" stroke="#8BB59E" stroke-width="1"/>
+  <text class="band-head" x="281.5" y="134" text-anchor="middle">WINTER BARLEY GROWING</text>
+  <text class="band-sub" x="281.5" y="148" text-anchor="middle">Irrigated winter crop</text>
+  <text class="band-sub" x="281.5" y="161.5" text-anchor="middle">ripening toward spring</text>
+
+  <!-- Mesop Apr-May: CRIMSON FLOOD CRISIS -->
+  <rect x="374" y="116" width="120" height="53" rx="4" fill="url(#f022-crisis-grad)" stroke="#752016" stroke-width="1.4"/>
+  <rect x="374" y="116" width="120" height="53" rx="4" fill="url(#f022-crisis-hatch)"/>
+  <text class="band-head-w" x="434" y="133.5" text-anchor="middle">VIOLENT FLOOD</text>
+  <text class="band-sub-w" x="434" y="147.5" text-anchor="middle">Hits ripe barley</text>
+  <text class="band-sub-w" x="434" y="161" text-anchor="middle">Dikes required</text>
+
+  <!-- Mesop Jun-Aug: Dry baked plain -->
+  <rect x="496" y="117" width="181" height="51" rx="4" fill="url(#f022-dry-grad)" stroke="#D4B387" stroke-width="1"/>
+  <text class="band-head" x="586.5" y="134" text-anchor="middle">DRY BAKED PLAIN</text>
+  <text class="band-sub" x="586.5" y="148" text-anchor="middle">Heat over 45°C (113°F)</text>
+  <text class="band-sub" x="586.5" y="161.5" text-anchor="middle">Standing water salts soil</text>
+
+  <!-- Mesop Sep-Oct: Manual stored-water planting -->
+  <rect x="679" y="117" width="120" height="51" rx="4" fill="url(#f022-plant-grad)" stroke="#C88159" stroke-width="1"/>
+  <text class="band-head" x="739" y="133.5" text-anchor="middle">PLANTING</text>
+  <text class="band-sub" x="739" y="147.5" text-anchor="middle">Release stored</text>
+  <text class="band-sub" x="739" y="161" text-anchor="middle">basin water</text>
+
+  <!-- Mesop Nov-Dec: Sprouting -->
+  <rect x="801" y="117" width="120" height="51" rx="4" fill="url(#f022-peret-grad)" stroke="#8BB59E" stroke-width="1"/>
+  <text class="band-head" x="861" y="133.5" text-anchor="middle">SPROUTING</text>
+  <text class="band-sub" x="861" y="147.5" text-anchor="middle">Winter barley</text>
+  <text class="band-sub" x="861" y="161" text-anchor="middle">grows ▸</text>
+
+  <!-- Row Separator -->
+  <line x1="32" y1="176" x2="922" y2="176" stroke="#E5DDD0" stroke-width="1"/>
+
+  <!-- ===== ROW 2: EGYPT — NILE RIVER (y=183..236, h=53) ===== -->
+  <rect x="32" y="183" width="152" height="53" rx="5" fill="#F4F9FC" stroke="#B7D2E0" stroke-width="1"/>
+  <rect x="32" y="183" width="5" height="53" rx="2.5" fill="#2D7DA3"/>
+  <text class="row-title" x="43" y="199">Egypt</text>
+  <text class="row-sub" x="43" y="213.5">Nile River</text>
+  <text class="lbl-blue" x="43" y="228">3 four-month seasons</text>
+
+  <!-- Egypt Jan-Feb: Peret (cont.) -->
+  <rect x="191" y="184" width="120" height="51" rx="4" fill="url(#f022-peret-grad)" stroke="#1E6A52" stroke-width="1.1"/>
+  <text class="lbl-green" x="251" y="200.5" text-anchor="middle">PERET (cont.)</text>
+  <text class="band-sub" x="251" y="214.5" text-anchor="middle">Emmer &amp; barley</text>
+  <text class="band-sub" x="251" y="228" text-anchor="middle">grow in wet mud</text>
+
+  <!-- Egypt Mar-Jun: Shemu (Harvest) -->
+  <rect x="313" y="184" width="242" height="51" rx="4" fill="url(#f022-shemu-grad)" stroke="#C88F32" stroke-width="1.15"/>
+  <rect x="313" y="184" width="242" height="4" rx="2" fill="#D9A34A"/>
+  <text class="lbl-gold" x="434" y="201.5" text-anchor="middle">SHEMU · Harvest (Mar–Jun)</text>
+  <text class="band-sub" x="434" y="215.5" text-anchor="middle">Reap wheat &amp; barley before summer heat</text>
+  <text class="band-sub" x="434" y="229" text-anchor="middle">Repair basin dikes ahead of next flood</text>
+
+  <!-- Egypt Jul-Oct: Akhet (Gentle Flood) -->
+  <rect x="557" y="183" width="242" height="53" rx="4" fill="url(#f022-akhet-grad)" stroke="#174D6A" stroke-width="1.35"/>
+  <rect x="557" y="183" width="242" height="53" rx="4" fill="url(#f022-akhet-waves)"/>
+  <text class="band-head-w" x="678" y="200.5" text-anchor="middle">AKHET · Gentle Flood (Jul–Oct)</text>
+  <text class="band-sub-w" x="678" y="215" text-anchor="middle">East African rains drop dark volcanic silt</text>
+  <text class="band-sub-w" x="678" y="228.5" text-anchor="middle">Valley fields underwater for 3–4 months</text>
+
+  <!-- Egypt Nov-Dec: Peret (Start) -->
+  <rect x="801" y="184" width="120" height="51" rx="4" fill="url(#f022-peret-grad)" stroke="#1E6A52" stroke-width="1.1"/>
+  <text class="lbl-green" x="861" y="200.5" text-anchor="middle">PERET (Nov–Feb)</text>
+  <text class="band-sub" x="861" y="214.5" text-anchor="middle">Flood drains;</text>
+  <text class="band-sub" x="861" y="228" text-anchor="middle">sow wet mud ▸</text>
+
+  <!-- ===== CALLOUT STRIP BELOW CALENDAR (y=244..284) ===== -->
+  <!-- Left Note under Row Headers -->
+  <text class="psub" x="36" y="264">Yearly cycle wraps</text>
+  <text class="psub" x="36" y="278">smoothly Dec → Jan</text>
+
+  <!-- Apr-May Contrast Bracket & Callout Pill -->
+  <path d="M 374,239 L 374,244 L 494,244 L 494,239" fill="none" stroke="#A63D2F" stroke-width="1.3"/>
+  <line x1="434" y1="244" x2="434" y2="253" stroke="#A63D2F" stroke-width="1.3"/>
+  <rect x="191" y="253" width="352" height="29" rx="5" fill="#FFF7F5" stroke="#DBA299" stroke-width="1"/>
+  <text x="367" y="271.5" text-anchor="middle">
+    <tspan class="lbl-red">Apr–May Clock Clash: </tspan>
+    <tspan class="lbl-sm">Sumer fights snowmelt while Egypt harvests</tspan>
+  </text>
+
+  <!-- Royal Labor Window Bracket & Callout Ribbon linked to Akhet (Jul-Oct) -->
+  <path d="M 559,239 L 559,245 L 797,245 L 797,239" fill="none" stroke="#B85D3B" stroke-width="1.35"/>
+  <line x1="678" y1="245" x2="678" y2="253" stroke="#B85D3B" stroke-width="1.35"/>
+  <rect x="557" y="253" width="364" height="29" rx="5" fill="url(#f022-labor-grad)" stroke="#C98A3A" stroke-width="1.1"/>
+  <!-- Mini Giza Pyramid Icon -->
+  <g transform="translate(568, 259)">
+    <polygon points="9,1 18,16 0,16" fill="#D9A34A" stroke="#855712" stroke-width="0.9"/>
+    <polygon points="9,1 18,16 10.5,16" fill="#B87E2A" opacity="0.55"/>
+    <line x1="4.5" y1="9" x2="13.5" y2="9" stroke="#855712" stroke-width="0.6" opacity="0.6"/>
+    <line x1="2.3" y1="13" x2="15.7" y2="13" stroke="#855712" stroke-width="0.6" opacity="0.6"/>
+  </g>
+  <text x="594" y="271.5">
+    <tspan class="lbl-gold">3–4 Month Labor Window: </tspan>
+    <tspan class="lbl-sm">Flooded farms free royal crews</tspan>
+  </text>
+
+  <!-- ==================== BOTTOM LEFT: PANEL B (MESOPOTAMIA SALT TRAP) ==================== -->
+  <rect class="panel" x="20" y="302" width="452" height="284"/>
+  <text class="ptitle" x="34" y="323">B. Mesopotamia's Salt Trap</text>
+  <text class="psub" x="34" y="338">Raised mud levees lift riverbed above flat plain; trapped water evaporates into salt</text>
+
+  <!-- Panel B Clipped Geological Cutaway -->
+  <g clip-path="url(#f022-clip-mesop)">
+    <!-- Blazing Desert Sky -->
+    <rect x="34" y="344" width="424" height="145" fill="url(#f022-sky-mesop)"/>
+
+    <!-- Distant Flat Alluvial Horizon -->
+    <path d="M 34,458 Q 140,452 250,458 T 458,454 L 458,488 L 34,488 Z" fill="#EBD2AA" opacity="0.55"/>
+
+    <!-- Blazing Summer Sun + Heat Shimmer -->
+    <circle cx="424" cy="376" r="46" fill="url(#f022-sun-glow)"/>
+    <g stroke="#E3972C" stroke-width="1.15" opacity="0.64" stroke-linecap="round">
+      <line x1="424" y1="352" x2="424" y2="358"/>
+      <line x1="441" y1="359" x2="437" y2="363"/>
+      <line x1="448" y1="376" x2="442" y2="376"/>
+      <line x1="441" y1="393" x2="437" y2="389"/>
+      <line x1="407" y1="359" x2="411" y2="363"/>
+      <line x1="400" y1="376" x2="406" y2="376"/>
+      <line x1="407" y1="393" x2="411" y2="389"/>
+    </g>
+    <path d="M 398,399 Q 412,404 426,401 Q 438,399 449,396" fill="none" stroke="#DE872A" stroke-width="1.05" stroke-dasharray="3.5 2.5" opacity="0.65"/>
+    <circle cx="424" cy="376" r="14" fill="url(#f022-sun-core)" stroke="#C66E1A" stroke-width="1.1"/>
+
+    <!-- Raised Natural Levees & Alluvial Soil Body -->
+    <path d="M 34,442 C 44,436 52,428 62,428 L 72,428 C 78,448 86,462 108,462 C 130,462 138,448 144,428 L 156,428 C 176,432 200,474 232,489 C 266,499 368,499 416,492 C 436,489 448,485 458,482 L 458,572 L 34,572 Z" fill="url(#f022-soil-mesop)"/>
+    <path d="M 34,442 C 44,436 52,428 62,428 L 72,428 C 78,448 86,462 108,462 C 130,462 138,448 144,428 L 156,428 C 176,432 200,474 232,489 C 266,499 368,499 416,492 C 436,489 448,485 458,482 L 458,572 L 34,572 Z" fill="url(#f022-soil-tex)"/>
+
+    <!-- Built-up Levee Silt Accretion Arcs -->
+    <path d="M 34,468 C 52,456 62,448 76,456 M 140,456 C 162,446 184,468 214,484" fill="none" stroke="#8C643C" stroke-width="1" stroke-dasharray="3 2.5" opacity="0.52"/>
+    <!-- Sedimentary Strata Lines -->
+    <path d="M 34,518 C 145,514 265,522 375,517 C 415,515 440,516 458,514" fill="none" stroke="#7E5935" stroke-width="0.9" opacity="0.34"/>
+
+    <!-- High Salty Water Table at Bottom -->
+    <path d="M 34,539 C 120,535 210,541 315,535 C 380,532 425,536 458,534 L 458,572 L 34,572 Z" fill="url(#f022-watertable)"/>
+    <path d="M 34,539 C 120,535 210,541 315,535 C 380,532 425,536 458,534" fill="none" stroke="#B6DDE9" stroke-width="1.2" opacity="0.72"/>
+
+    <!-- White Mineral Salt Crust Zone in Low Basin Topsoil -->
+    <path d="M 224,487 C 266,498 370,499 422,491 C 438,488 449,485 458,482 L 458,514 C 395,519 286,521 222,512 Z" fill="url(#f022-salt-zone)"/>
+    <path d="M 228,491 L 456,486 L 456,512 L 228,512 Z" fill="url(#f022-salt-speck)" opacity="0.78"/>
+    <!-- Crisp White Salt Crust Rim on Surface -->
+    <path d="M 228,488 C 262,497 368,498 420,491 C 436,489 448,485 458,482" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" opacity="0.94"/>
+    <path d="M 232,490 C 266,498 368,499 418,492" fill="none" stroke="#E2D9CC" stroke-width="1" stroke-dasharray="3 2"/>
+
+    <!-- Raised Tigris/Euphrates River Water (high above plain) -->
+    <path d="M 70,436 L 146,436 C 141,452 132,464 108,464 C 84,464 75,452 70,436 Z" fill="url(#f022-river-mesop)" stroke="#235F7E" stroke-width="1"/>
+    <path d="M 78,441 Q 96,439 112,441 T 139,440" fill="none" stroke="#DFF4FC" stroke-width="1.15" stroke-linecap="round" opacity="0.88"/>
+    <path d="M 88,449 Q 106,447.5 124,449" fill="none" stroke="#BBE6F6" stroke-width="0.9" stroke-linecap="round" opacity="0.65"/>
+
+    <!-- Gravity Canal Ribbon Cutting Down Right Levee into Low Basin -->
+    <path d="M 145,439 C 166,442 186,468 228,486 L 234,491 C 188,473 164,448 144,444 Z" fill="#4E9CC0" opacity="0.88"/>
+
+    <!-- Trapped Standing Water Pool in Low Basin (x=236..364) -->
+    <path d="M 238,489 C 266,487 336,487 364,489 C 354,498 332,501 301,501 C 270,501 248,497 238,489 Z" fill="url(#f022-puddle)" stroke="#30728C" stroke-width="1"/>
+    <path d="M 256,491 Q 286,489.5 314,491.5 M 326,490.8 Q 340,490 352,491" fill="none" stroke="#EBF9FE" stroke-width="1.1" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- Reference Elevation Dashed Line showing Riverbed > Low Basin -->
+    <line x1="42" y1="464" x2="274" y2="464" stroke="#4D3C2C" stroke-width="0.95" stroke-dasharray="3.5 3" opacity="0.72"/>
+    <text class="lbl-datum" x="44" y="479">Riverbed level</text>
+
+    <!-- Gravity Flow Arrow Downhill from Raised River to Low Basin -->
+    <path d="M 136,436 C 166,438 190,462 228,482" fill="none" stroke="#185C7E" stroke-width="2.1" marker-end="url(#f022-arrow-blue)"/>
+
+    <!-- Blocked Return Flow Indicator (Cannot Drain Back Uphill) -->
+    <path d="M 252,482 C 224,477 200,466 182,455" fill="none" stroke="#A63D2F" stroke-width="1.7" stroke-dasharray="4 2.5" marker-end="url(#f022-arrow-red)"/>
+    <!-- Crisp Red X Badge on Blocked Arrow -->
+    <circle cx="212" cy="470" r="7.5" fill="#A63D2F" stroke="#FFFFFF" stroke-width="1.3"/>
+    <path d="M 209,467 L 215,473 M 215,467 L 209,473" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Upward Evaporation Wavy Arrows from Trapped Pool (Reaching higher toward sun/pill) -->
+    <path d="M 276,484 C 270,469 282,456 276,440 C 270,427 281,417 277,406" fill="none" stroke="url(#f022-vapor)" stroke-width="2" stroke-linecap="round" marker-end="url(#f022-arrow-red)"/>
+    <path d="M 308,484 C 302,469 314,456 308,440 C 302,427 313,417 309,406" fill="none" stroke="url(#f022-vapor)" stroke-width="2" stroke-linecap="round" marker-end="url(#f022-arrow-red)"/>
+    <path d="M 340,484 C 334,469 346,456 340,440 C 334,427 345,417 341,406" fill="none" stroke="url(#f022-vapor)" stroke-width="2" stroke-linecap="round" marker-end="url(#f022-arrow-red)"/>
+
+    <!-- Upward Capillary Salt Draw Arrows (Positioned cleanly to the LEFT of the salt crust pill) -->
+    <path d="M 248,537 L 248,512" fill="none" stroke="#A63D2F" stroke-width="1.45" stroke-dasharray="2.5 2" marker-end="url(#f022-arrow-red)"/>
+    <path d="M 274,536 L 274,512" fill="none" stroke="#A63D2F" stroke-width="1.45" stroke-dasharray="2.5 2" marker-end="url(#f022-arrow-red)"/>
+
+    <!-- Stunted Crops in Salted Topsoil (Organic slight variations) -->
+    <use href="#f022-wheat-stunted" transform="translate(382,493) scale(0.95) rotate(-4)"/>
+    <use href="#f022-wheat-stunted" transform="translate(399,492) scale(1.06) rotate(3)"/>
+    <use href="#f022-wheat-stunted" transform="translate(416,490) scale(0.92) rotate(-6)"/>
+    <use href="#f022-wheat-stunted" transform="translate(432,487) scale(1.02) rotate(5)"/>
+    <use href="#f022-wheat-stunted" transform="translate(445,484) scale(0.88) rotate(-2)"/>
+
+    <!-- ===== PANEL B CALLOUT PILLS & LABELS ===== -->
+    <!-- Raised Riverbed Callout -->
+    <rect class="pill" x="42" y="352" width="160" height="36"/>
+    <text class="lbl" x="50" y="367">Raised Levees &amp; Riverbed</text>
+    <text class="lbl-sm" x="50" y="381">Sits higher than flat plain</text>
+    <path d="M 108,388 L 108,435" stroke="#4A3D32" stroke-width="1" marker-end="url(#f022-dot-ink)"/>
+
+    <!-- Evaporation Callout -->
+    <rect class="pill-red" x="224" y="352" width="166" height="36"/>
+    <text class="lbl-red" x="232" y="367">Fierce Sun (&gt;45°C / 113°F)</text>
+    <text class="lbl-sm" x="232" y="381">Evaporates water; pulls salt up</text>
+
+    <!-- Cannot Drain Pill -->
+    <rect class="pill-red" x="150" y="400" width="122" height="34"/>
+    <text class="lbl-red" x="158" y="415">No Return Drain</text>
+    <text class="lbl-sm" x="158" y="428">Water trapped low</text>
+    <line x1="208" y1="434" x2="211" y2="462.5" stroke="#A63D2F" stroke-width="1"/>
+
+    <!-- White Salt Crust Label -->
+    <rect class="pill" x="292" y="507" width="158" height="23"/>
+    <text class="lbl-red" x="371" y="522" text-anchor="middle">White mineral salt crust</text>
+    <path d="M 382,507 L 382,496" stroke="#A63D2F" stroke-width="1" marker-end="url(#f022-dot-red)"/>
+
+    <!-- Salty Water Table Label -->
+    <text class="lbl-white" x="246" y="560" text-anchor="middle">High salty groundwater table (poor drainage)</text>
+  </g>
+  <!-- Crisp Cutaway Border Frame -->
+  <rect x="34" y="344" width="424" height="228" rx="6" fill="none" stroke="#CBBFA9" stroke-width="1.2"/>
+
+  <!-- ==================== BOTTOM RIGHT: PANEL C (EGYPT NATURAL FLUSH) ==================== -->
+  <rect class="panel" x="488" y="302" width="452" height="284"/>
+  <text class="ptitle" x="502" y="323">C. Egypt's Natural Flush</text>
+  <text class="psub" x="502" y="338">Deeper Nile channel drains floodwater cleanly back, flushing salts to the sea</text>
+
+  <!-- Panel C Clipped Geological Cutaway -->
+  <g clip-path="url(#f022-clip-egypt)">
+    <!-- Clear Egyptian Valley Sky -->
+    <rect x="502" y="344" width="424" height="148" fill="url(#f022-sky-egypt)"/>
+
+    <!-- Distant Desert Plateau Horizon -->
+    <path d="M 502,448 L 540,444 L 838,444 L 870,418 L 926,412 L 926,472 L 502,472 Z" fill="#EFE0C3" opacity="0.58"/>
+
+    <!-- Akhet Peak Floodwater Translucent Band (Extends smoothly down to y=492 behind soil) -->
+    <path d="M 502,444 L 868,444 L 868,492 L 502,492 Z" fill="url(#f022-akhet-sheet)"/>
+    <line x1="502" y1="444" x2="862" y2="444" stroke="#2D7DA3" stroke-width="1.25" stroke-dasharray="4.5 3"/>
+    <text class="lbl-datum-blue" x="508" y="439">Akhet level</text>
+
+    <!-- Desert Sandstone Cliff Wall on Far Right with Organic Bedrock Transition -->
+    <path d="M 848,468 C 862,458 872,428 886,418 L 926,412 L 926,572 L 828,572 C 840,540 845,500 848,468 Z" fill="url(#f022-desert-cliff)"/>
+    <path d="M 874,432 L 926,427 M 866,448 L 926,444 M 860,464 L 926,461 M 850,492 L 926,488 M 842,528 L 926,524" stroke="#A67E48" stroke-width="0.9" opacity="0.45"/>
+
+    <!-- Deeper Nile Channel Carved Below Floodplain + Alluvial Valley Soil -->
+    <path d="M 502,468 L 520,468 C 528,494 540,534 581,534 C 622,534 634,494 644,470 C 685,468 775,465 854,465 C 850,502 842,542 830,572 L 502,572 Z" fill="url(#f022-soil-egypt)"/>
+    <path d="M 502,468 L 520,468 C 528,494 540,534 581,534 C 622,534 634,494 644,470 C 685,468 775,465 854,465 C 850,502 842,542 830,572 L 502,572 Z" fill="url(#f022-soil-tex)"/>
+
+    <!-- Sedimentary Strata Lines -->
+    <path d="M 642,508 C 715,505 785,510 846,506" fill="none" stroke="#6E4E2E" stroke-width="0.9" opacity="0.34"/>
+    <path d="M 502,550 C 620,554 735,548 836,552" fill="none" stroke="#5D4126" stroke-width="0.9" opacity="0.34"/>
+
+    <!-- Fresh Dark Volcanic Silt Topsoil Layer on Floodplain -->
+    <path d="M 644,468 C 686,466 775,463 854,463 L 852,477 C 774,478 686,480 640,481 Z" fill="url(#f022-volcanic-silt)"/>
+    <path d="M 644,468 C 686,466 775,463 854,463" fill="none" stroke="#2F2115" stroke-width="1.3"/>
+
+    <!-- Deep Nile Channel Water (Receding Peret Level y=488, well below floodplain y=466) -->
+    <path d="M 526,488 L 636,488 C 628,512 616,535 581,535 C 546,535 534,512 526,488 Z" fill="url(#f022-river-nile)" stroke="#174D6A" stroke-width="1.1"/>
+    <!-- River Surface Shimmer -->
+    <path d="M 538,493 Q 560,491 581,493.5 T 624,492.5" fill="none" stroke="#DDF4FC" stroke-width="1.2" stroke-linecap="round" opacity="0.9"/>
+    <text class="lbl-river-w" x="581" y="510" text-anchor="middle">Nile</text>
+
+    <!-- Dissolved Salt Specks Being Flushed Down Channel -->
+    <g fill="#E9F7FC" opacity="0.88">
+      <circle cx="552" cy="517" r="1.3"/>
+      <circle cx="567" cy="529" r="1.2"/>
+      <circle cx="596" cy="528" r="1.2"/>
+      <circle cx="609" cy="516" r="1.3"/>
+    </g>
+
+    <!-- Surface & Subsurface Clean Drainage Arrows Flowing Back into Deeper Nile -->
+    <path d="M 702,456 C 668,458 646,466 628,482" fill="none" stroke="#185C7E" stroke-width="2.2" marker-end="url(#f022-arrow-blue)"/>
+    <path d="M 732,487 C 688,492 662,497 636,506" fill="none" stroke="#185C7E" stroke-width="1.9" stroke-dasharray="4 2.5" marker-end="url(#f022-arrow-blue)"/>
+    <path d="M 688,506 C 665,510 647,513 630,517" fill="none" stroke="#185C7E" stroke-width="1.7" stroke-dasharray="4 2.5" marker-end="url(#f022-arrow-blue)"/>
+
+    <!-- Outflow Flow Arrow inside Deep Channel -->
+    <path d="M 556,523 L 606,523" fill="none" stroke="#FFFFFF" stroke-width="1.6" marker-end="url(#f022-arrow-white)"/>
+
+    <!-- Subtle Green Grass Tufts Along Silt Edge -->
+    <path d="M 716,466 L 714,460 M 718,466 L 720,461 M 756,465 L 754,460 M 796,464 L 798,459 M 834,464 L 832,459" stroke="#2D6A3E" stroke-width="0.95" stroke-linecap="round"/>
+
+    <!-- Thriving Emmer Wheat & Barley Stalks on Dark Volcanic Silt (Organic variations) -->
+    <use href="#f022-wheat-healthy" transform="translate(724,467) scale(0.96) rotate(-4)"/>
+    <use href="#f022-wheat-healthy" transform="translate(743,466) scale(1.05) rotate(2)"/>
+    <use href="#f022-wheat-healthy" transform="translate(763,466) scale(0.98) rotate(-2)"/>
+    <use href="#f022-wheat-healthy" transform="translate(783,465) scale(1.07) rotate(3)"/>
+    <use href="#f022-wheat-healthy" transform="translate(803,465) scale(0.95) rotate(-3)"/>
+    <use href="#f022-wheat-healthy" transform="translate(822,465) scale(1.02) rotate(2)"/>
+
+    <!-- ===== PANEL C CALLOUT PILLS & LABELS ===== -->
+    <!-- Deeper Main Channel Pill -->
+    <rect class="pill-blue" x="510" y="352" width="152" height="36"/>
+    <text class="lbl-blue" x="518" y="367">Deeper Main Channel</text>
+    <text class="lbl-sm" x="518" y="381">Carved below valley fields</text>
+    <path d="M 581,388 L 581,486" stroke="#1D6486" stroke-width="1" marker-end="url(#f022-dot-blue)"/>
+
+    <!-- Akhet Flood Level Pill -->
+    <rect class="pill-blue" x="678" y="352" width="174" height="36"/>
+    <text class="lbl-blue" x="686" y="367">Akhet Flood (Jul–Oct)</text>
+    <text class="lbl-sm" x="686" y="381">Drops fresh dark volcanic silt</text>
+    <path d="M 842,388 L 842,443" stroke="#1D6486" stroke-width="1" marker-end="url(#f022-dot-blue)"/>
+
+    <!-- Desert Edge Label -->
+    <text class="lbl-cliff" x="894" y="394" text-anchor="middle">Desert</text>
+    <text class="lbl-cliff" x="894" y="407" text-anchor="middle">cliffs</text>
+
+    <!-- Clean Return Drain Pill -->
+    <rect class="pill-green" x="592" y="398" width="126" height="34"/>
+    <text class="lbl-green" x="600" y="413">Clean Return Drain</text>
+    <text class="lbl-sm" x="600" y="426">Flows back after flood</text>
+    <path d="M 656,432 L 656,462" stroke="#1E6A52" stroke-width="1" marker-end="url(#f022-dot-green)"/>
+
+    <!-- Healthy Emmer & Barley Callout -->
+    <rect class="pill-green" x="742" y="492" width="166" height="34"/>
+    <text class="lbl-green" x="750" y="507">Dark Volcanic Silt</text>
+    <text class="lbl-sm" x="750" y="520">Salt-free emmer &amp; barley</text>
+    <path d="M 796,492 L 796,472" stroke="#1E6A52" stroke-width="1.1" marker-end="url(#f022-dot-silt)"/>
+
+    <!-- Flushed to Sea Bottom Banner -->
+    <rect x="512" y="542" width="324" height="23" rx="4" fill="#1D6486" fill-opacity="0.93"/>
+    <text class="lbl-white" x="674" y="557" text-anchor="middle">Dissolved mineral salts flushed north to Mediterranean Sea</text>
+  </g>
+  <!-- Crisp Cutaway Border Frame -->
+  <rect x="502" y="344" width="424" height="228" rx="6" fill="none" stroke="#CBBFA9" stroke-width="1.2"/>
+</svg>

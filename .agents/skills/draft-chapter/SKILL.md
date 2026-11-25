@@ -9,7 +9,7 @@ When invoked with a chapter ID (e.g., `/draft-chapter ch01`):
 
 1. **Context Load:** Read `syllabus/style-anchor.md`, `ledger/concepts.json`, the chapter target in `syllabus/master-outline.md`, `.agents/rules/lexicon-style.md`, `.agents/rules/diagram-standards.md`, and `research/<chapter_id>-fact-sheet.md`.
 2. **Scene, Mystery Chain & Visual Plan (Stop for Approval):** Propose a 4-section chapter blueprint (~750 words per section, ~3,000 words total):
-   - Explicitly list **prior concepts** reused from `ledger/concepts.json` and the **newly earned bolded concepts** that the chapter's causal chain requires.
+   - Explicitly list **prior social institutions** reused from `ledger/concepts.json` and the **newly earned bolded social institutions** (durable economic, political, or organizational systems—never laws of physics or engineering forces) that the chapter's causal chain requires.
    - **Unfolding-Mystery Chain Map (Mandatory):** For every section and every major sub-beat, map out:
      `Mystery / Problem Opened → Exact Beat That Solves It → Next Mystery / Tension Handed Off`
      Verify before drafting that **zero** raised difficulties are skipped, deferred silently, or hand-waved away.
@@ -24,4 +24,4 @@ When invoked with a chapter ID (e.g., `/draft-chapter ch01`):
    - Keep chronological eras clearly distinguished when a chapter spans multiple centuries.
    - Reserve bold formatting strictly for the chapter's newly earned systemic concepts.
    - Maintain **Scope Humility**: present the chapter's mechanisms as concrete local examples rather than a grand universal formula or checklist for all civilizations.
-   - After drafting all 4 sections, run a quick Python rhythm & banned-word check to confirm ~3,000 words and 14–18 words/sentence average before proceeding to `/illustrate-chapter <chapter_id>` and `/audit-chapter <chapter_id>`.
+   - After drafting all 4 sections, run a quick Python rhythm & banned-word check to confirm ~3,000 words and 14–18 words/sentence average before proceeding to `/review-writing <chapter_id>`, then `/audit-chapter <chapter_id>`, and then `/illustrate-chapter <chapter_id>`.

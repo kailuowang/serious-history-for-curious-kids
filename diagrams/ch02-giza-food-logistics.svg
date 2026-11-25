@@ -1,0 +1,733 @@
+<svg id="fig02-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" role="img" aria-label="Figure 2.3: The Giza Food and Supply Machine — Logistics and Division of Labor">
+  <defs>
+    <!-- Canvas & Top Editorial Spectrum Bar -->
+    <linearGradient id="f023-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCF9F2"/>
+      <stop offset="55%" stop-color="#FBF8F3"/>
+      <stop offset="100%" stop-color="#F6F0E4"/>
+    </linearGradient>
+    <linearGradient id="f023-top-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E6A52"/>
+      <stop offset="28%" stop-color="#2D7DA3"/>
+      <stop offset="55%" stop-color="#D9A34A"/>
+      <stop offset="80%" stop-color="#B85D3B"/>
+      <stop offset="100%" stop-color="#6B472C"/>
+    </linearGradient>
+
+    <!-- Card Header Gradients -->
+    <linearGradient id="f023-hdr-delta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#175440"/>
+      <stop offset="100%" stop-color="#257C61"/>
+    </linearGradient>
+    <linearGradient id="f023-hdr-river" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#205C7A"/>
+      <stop offset="100%" stop-color="#3588AE"/>
+    </linearGradient>
+    <linearGradient id="f023-hdr-copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8F4327"/>
+      <stop offset="100%" stop-color="#C46642"/>
+    </linearGradient>
+    <linearGradient id="f023-hdr-town" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#875617"/>
+      <stop offset="52%" stop-color="#B17924"/>
+      <stop offset="100%" stop-color="#CA9234"/>
+    </linearGradient>
+    <linearGradient id="f023-hdr-teams" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#563925"/>
+      <stop offset="55%" stop-color="#765137"/>
+      <stop offset="100%" stop-color="#8E6547"/>
+    </linearGradient>
+
+    <!-- Card Surface Gradients -->
+    <linearGradient id="f023-card-delta" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2F9F5"/>
+    </linearGradient>
+    <linearGradient id="f023-card-river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F8FC"/>
+    </linearGradient>
+    <linearGradient id="f023-card-copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FDF4F0"/>
+    </linearGradient>
+    <linearGradient id="f023-card-town" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF8"/>
+      <stop offset="60%" stop-color="#FCF4E2"/>
+      <stop offset="100%" stop-color="#F7E9C8"/>
+    </linearGradient>
+    <linearGradient id="f023-card-teams" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDFB"/>
+      <stop offset="62%" stop-color="#F9F3EA"/>
+      <stop offset="100%" stop-color="#F2E7D8"/>
+    </linearGradient>
+
+    <!-- Mini-Illustration Sky, River, Sandstone & Metal Gradients -->
+    <linearGradient id="f023-delta-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E7F4EE"/>
+      <stop offset="65%" stop-color="#F4F9F2"/>
+      <stop offset="100%" stop-color="#D9ECDE"/>
+    </linearGradient>
+    <linearGradient id="f023-nile-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5F2F9"/>
+      <stop offset="60%" stop-color="#F7FAFC"/>
+      <stop offset="100%" stop-color="#D7EBF5"/>
+    </linearGradient>
+    <linearGradient id="f023-sinai-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBECE2"/>
+      <stop offset="65%" stop-color="#FDF6EE"/>
+      <stop offset="100%" stop-color="#F1DCC6"/>
+    </linearGradient>
+    <linearGradient id="f023-nile-water" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#256A8C"/>
+      <stop offset="50%" stop-color="#3A90B8"/>
+      <stop offset="100%" stop-color="#2B7A9E"/>
+    </linearGradient>
+    <linearGradient id="f023-papyrus-sheet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8E9C8"/>
+      <stop offset="52%" stop-color="#EED7A7"/>
+      <stop offset="100%" stop-color="#DFBE80"/>
+    </linearGradient>
+    <linearGradient id="f023-furnace-glow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C93E14"/>
+      <stop offset="55%" stop-color="#F09028"/>
+      <stop offset="100%" stop-color="#FEE68A"/>
+    </linearGradient>
+    <linearGradient id="f023-copper-blade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EB9D73"/>
+      <stop offset="50%" stop-color="#B85D3B"/>
+      <stop offset="100%" stop-color="#7B361D"/>
+    </linearGradient>
+    <linearGradient id="f023-silo-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B78C56"/>
+      <stop offset="100%" stop-color="#7D5A30"/>
+    </linearGradient>
+    <radialGradient id="f023-silo-grain" cx="42%" cy="40%" r="58%">
+      <stop offset="0%" stop-color="#F2CA69"/>
+      <stop offset="70%" stop-color="#DDA63B"/>
+      <stop offset="100%" stop-color="#B58022"/>
+    </radialGradient>
+    <linearGradient id="f023-limestone-frieze" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F6EFE2"/>
+      <stop offset="50%" stop-color="#FBF6EC"/>
+      <stop offset="100%" stop-color="#F2E8D6"/>
+    </linearGradient>
+
+    <!-- Focal Radial Halos -->
+    <radialGradient id="f023-town-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D9A34A" stop-opacity="0.22"/>
+      <stop offset="65%" stop-color="#D9A34A" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#D9A34A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="f023-teams-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B85D3B" stop-opacity="0.16"/>
+      <stop offset="65%" stop-color="#B85D3B" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#B85D3B" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Rounded Vignette Clip Paths for Seamless Edge Bleed -->
+    <clipPath id="f023-clip-delta">
+      <rect x="36" y="131" width="260" height="58" rx="6"/>
+    </clipPath>
+    <clipPath id="f023-clip-nile">
+      <rect x="350" y="131" width="260" height="58" rx="6"/>
+    </clipPath>
+    <clipPath id="f023-clip-sinai">
+      <rect x="664" y="131" width="260" height="58" rx="6"/>
+    </clipPath>
+
+    <!-- Subtle Paper Dot Grid -->
+    <pattern id="f023-paper-grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.68" fill="#C9B9A3" opacity="0.35"/>
+    </pattern>
+
+    <!-- Soft Drop Shadows -->
+    <filter id="f023-shadow-card" x="-6%" y="-8%" width="112%" height="122%">
+      <feDropShadow dx="0" dy="2.8" stdDeviation="3.4" flood-color="#3B2B1E" flood-opacity="0.11"/>
+    </filter>
+    <filter id="f023-shadow-hub" x="-6%" y="-8%" width="112%" height="124%">
+      <feDropShadow dx="0" dy="4.2" stdDeviation="5.2" flood-color="#4A2E14" flood-opacity="0.17"/>
+    </filter>
+    <filter id="f023-shadow-pill" x="-8%" y="-14%" width="116%" height="136%">
+      <feDropShadow dx="0" dy="1.3" stdDeviation="1.5" flood-color="#3B2B1E" flood-opacity="0.11"/>
+    </filter>
+
+    <!-- Tapered Color-Coded Arrowheads -->
+    <marker id="f023-arr-delta" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#1E6A52"/>
+    </marker>
+    <marker id="f023-arr-river" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#2D7DA3"/>
+    </marker>
+    <marker id="f023-arr-copper" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#B85D3B"/>
+    </marker>
+    <marker id="f023-arr-town" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 1 1.5 L 11 6 L 1 10.5 L 3.4 6 Z" fill="#A36E1E"/>
+    </marker>
+
+    <style>
+      #fig02-3 .kicker-bg { fill: #9D6A1F; }
+      #fig02-3 .kicker-txt { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.6px; fill: #FFFBF4; }
+      #fig02-3 .title { font-family: "Liberation Serif", Georgia, "Times New Roman", serif; font-size: 20px; font-weight: 700; fill: #241D18; }
+      #fig02-3 .subtitle { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 11.7px; fill: #5E5248; }
+      #fig02-3 .legend-txt { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.6px; font-weight: 600; fill: #4A3E35; }
+      #fig02-3 .hdr-title { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 12.2px; font-weight: 700; fill: #FFFFFF; }
+      #fig02-3 .hub-title { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 12.6px; font-weight: 700; fill: #FFFDF8; }
+      #fig02-3 .body-main { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #241D18; }
+      #fig02-3 .body-sub { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.6px; fill: #5E5248; }
+      #fig02-3 .metric-bold-delta { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.8px; font-weight: 700; fill: #154E3B; }
+      #fig02-3 .metric-sub-delta { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #2D5A4B; }
+      #fig02-3 .metric-bold-river { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.8px; font-weight: 700; fill: #1B5470; }
+      #fig02-3 .metric-sub-river { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #2E5D75; }
+      #fig02-3 .metric-bold-copper { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.8px; font-weight: 700; fill: #843B21; }
+      #fig02-3 .metric-sub-copper { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #6B4333; }
+      #fig02-3 .metric-bold-town { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.7px; font-weight: 700; fill: #6E430E; }
+      #fig02-3 .metric-bold-teams { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.7px; font-weight: 700; fill: #4E3320; }
+      #fig02-3 .mini-lbl { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #3E332A; }
+      #fig02-3 .mini-sub { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #5E5248; }
+      #fig02-3 .tier-txt { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.8px; font-weight: 700; fill: #FFFFFF; }
+      #fig02-3 .graffiti-lead { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #5E5248; }
+      #fig02-3 .graffiti-txt { font-family: "Liberation Serif", Georgia, serif; font-size: 11px; font-weight: 700; font-style: italic; fill: #A63D2F; }
+      #fig02-3 .pill-delta { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #16523F; }
+      #fig02-3 .pill-river { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #1D5774; }
+      #fig02-3 .pill-copper { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #8B3F24; }
+      #fig02-3 .pill-town { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 700; fill: #6E430E; }
+      #fig02-3 .footer-lead { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.7px; font-weight: 700; fill: #7D4D14; }
+      #fig02-3 .footer-txt { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; font-size: 10.7px; fill: #4E4239; }
+      #fig02-3 .edge { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      #fig02-3 .edge-delta { stroke: #1E6A52; marker-end: url(#f023-arr-delta); }
+      #fig02-3 .edge-river { stroke: #2D7DA3; marker-end: url(#f023-arr-river); }
+      #fig02-3 .edge-copper { stroke: #B85D3B; marker-end: url(#f023-arr-copper); }
+      #fig02-3 .edge-town { stroke: #A36E1E; stroke-width: 3; marker-end: url(#f023-arr-town); }
+    </style>
+  </defs>
+
+  <!-- Outer Parchment Book Plate -->
+  <rect x="0.75" y="0.75" width="958.5" height="618.5" rx="12" fill="url(#f023-bg)" stroke="#D8CFC2" stroke-width="1.5"/>
+  <rect x="12" y="84" width="936" height="476" rx="8" fill="url(#f023-paper-grid)"/>
+
+  <!-- Editorial Top Spectrum Accent Bar -->
+  <path d="M 12.75,1.5 L 947.25,1.5 Q 957.5,1.5 958.5,6.5 L 1.5,6.5 Q 2.5,1.5 12.75,1.5 Z" fill="url(#f023-top-accent)"/>
+
+  <!-- HEADER -->
+  <rect class="kicker-bg" x="24" y="15" width="76" height="19" rx="4"/>
+  <text class="kicker-txt" x="62" y="28.2" text-anchor="middle">FIGURE 2.3</text>
+  <text class="title" x="110" y="30.8">The Giza Food &amp; Supply Machine</text>
+  <text class="subtitle" x="24" y="49.5">How Egypt's coinless ration state linked Delta herds, river stone barges, Sinai copper, a planned town, and organized teams</text>
+  <line x1="24" y1="58" x2="936" y2="58" stroke="#E0D5C5" stroke-width="1"/>
+
+  <!-- COMPACT EDITORIAL LEGEND BAR -->
+  <g transform="translate(24, 63)">
+    <circle cx="5" cy="8" r="4.5" fill="#1E6A52"/>
+    <text class="legend-txt" x="15" y="11.5">Delta livestock</text>
+
+    <circle cx="130" cy="8" r="4.5" fill="#2D7DA3"/>
+    <text class="legend-txt" x="140" y="11.5">Papyrus &amp; river barges</text>
+
+    <circle cx="300" cy="8" r="4.5" fill="#B85D3B"/>
+    <text class="legend-txt" x="310" y="11.5">Sinai copper line</text>
+
+    <rect x="444" y="3.5" width="9" height="9" rx="2" fill="#B17924"/>
+    <text class="legend-txt" x="459" y="11.5">Workers' town hub</text>
+
+    <rect x="600" y="3.5" width="9" height="9" rx="2" fill="#765137"/>
+    <text class="legend-txt" x="615" y="11.5">Organized pyramid crews</text>
+
+    <line x1="784" y1="8" x2="808" y2="8" stroke="#5E5248" stroke-width="1.9" stroke-dasharray="4 3"/>
+    <text class="legend-txt" x="815" y="11.5">Shared royal squad</text>
+  </g>
+
+  <!-- AMBIENT FOCAL HALOS BEHIND BOTTOM GIZA ENGINE HUBS -->
+  <ellipse cx="228" cy="454" rx="220" ry="110" fill="url(#f023-town-glow)"/>
+  <ellipse cx="732" cy="454" rx="220" ry="110" fill="url(#f023-teams-glow)"/>
+
+  <!-- DOUBLE-RING ACCENT FRAMES FOR BOTTOM GIZA ENGINE HUBS -->
+  <rect x="20.5" y="348.5" width="415" height="211" rx="13" fill="none" stroke="#CFA052" stroke-width="1.3" opacity="0.72"/>
+  <rect x="524.5" y="348.5" width="415" height="211" rx="13" fill="none" stroke="#A68265" stroke-width="1.3" opacity="0.65"/>
+
+  <!-- ========================================================= -->
+  <!-- DIRECTIONAL LOGISTICS FLOW CHANNELS (Beneath Cards/Pills) -->
+  <!-- ========================================================= -->
+
+  <!-- Dashed shared-crew link between Merer's Logbook & Wadi al-Jarf caves -->
+  <line x1="622" y1="160" x2="652" y2="160" stroke="#5E5248" stroke-width="2.1" stroke-dasharray="4 3"/>
+  <circle cx="622" cy="160" r="3" fill="#2D7DA3" stroke="#FFFFFF" stroke-width="0.9"/>
+  <circle cx="652" cy="160" r="3" fill="#B85D3B" stroke="#FFFFFF" stroke-width="0.9"/>
+
+  <!-- Flow 1: Delta Herds -> Workers' Town -->
+  <path class="edge edge-delta" d="M 166,286 L 166,348.5"/>
+
+  <!-- Flow 2a: Diary of Merer -> Workers' Town (Heliopolis grain & bread) -->
+  <path class="edge edge-river" d="M 384,286 L 384,348.5"/>
+
+  <!-- Flow 2b: Diary of Merer -> Organized Teams (Tura white limestone blocks) -->
+  <path class="edge edge-river" d="M 576,286 L 576,348.5"/>
+
+  <!-- Flow 3: Red Sea Copper Line -> Organized Teams (Sinai ore -> recast chisels) -->
+  <path class="edge edge-copper" d="M 794,286 L 794,348.5"/>
+
+  <!-- Flow 4: Workers' Town -> Organized Teams (Coinless rations, housing & bone care) -->
+  <path class="edge edge-town" d="M 432,462 L 524,462"/>
+
+  <!-- ========================================================= -->
+  <!-- ROW 1: THREE KINGDOM-WIDE SUPPLY PIPELINES (y=92, h=194)  -->
+  <!-- ========================================================= -->
+
+  <!-- CARD 1: DELTA HERDS (Kom el-Hisn -> Giza) [x=24..308, w=284, h=194] -->
+  <g filter="url(#f023-shadow-card)">
+    <rect x="24" y="92" width="284" height="194" rx="10" fill="url(#f023-card-delta)" stroke="#1E6A52" stroke-width="1.6"/>
+    <path d="M 24,102 Q 24,92 34,92 L 298,92 Q 308,92 308,102 L 308,124 L 24,124 Z" fill="url(#f023-hdr-delta)"/>
+    <!-- Icon Medallion: Lyre-Horned Bull Head -->
+    <circle cx="44" cy="108" r="11.5" fill="#E3F4EC" stroke="#124232" stroke-width="1"/>
+    <path d="M 37.5,103.5 C 36.2,100 39.5,99.2 41,103 C 42.5,102.4 45.5,102.4 47,103 C 48.5,99.2 51.8,100 50.5,103.5 C 49.5,105.5 47.6,106.4 47.4,109.2 C 47.2,112 45.8,114.2 44,114.5 C 42.2,114.2 40.8,112 40.6,109.2 C 40.4,106.4 38.5,105.5 37.5,103.5 Z" fill="#6E4427"/>
+    <circle cx="42.2" cy="108.3" r="0.9" fill="#FFF7EB"/>
+    <circle cx="45.8" cy="108.3" r="0.9" fill="#FFF7EB"/>
+    <ellipse cx="44" cy="112.4" rx="2.1" ry="1.2" fill="#9A6B47"/>
+    <text class="hdr-title" x="62" y="112.5">Delta Herds · Kom el-Hisn</text>
+
+    <!-- Bespoke Mini-Illustration: Nile Delta Marsh, Young Cattle & Sheep/Goats (Clipped flush!) -->
+    <g clip-path="url(#f023-clip-delta)">
+      <rect x="36" y="131" width="260" height="58" fill="url(#f023-delta-sky)"/>
+      <!-- Rolling Delta pasture hills -->
+      <path d="M 35,173 Q 96,164 162,171 Q 225,177 297,167 L 297,190 L 35,190 Z" fill="#A4CDA9"/>
+      <path d="M 35,179 Q 112,174 190,180 L 297,178 L 297,190 L 35,190 Z" fill="#74AA80"/>
+      <!-- Nile branch at right -->
+      <path d="M 224,190 Q 242,174 264,171 L 297,171 L 297,190 Z" fill="#3283A8"/>
+      <path d="M 240,182 Q 258,179 276,182" fill="none" stroke="#BEE2F0" stroke-width="1.1" stroke-linecap="round"/>
+      <!-- Graceful Papyrus Reeds on Left -->
+      <g stroke="#29694E" stroke-width="1.35" stroke-linecap="round">
+        <line x1="47" y1="181" x2="45" y2="147"/>
+        <line x1="54" y1="181" x2="55" y2="141"/>
+        <line x1="61" y1="181" x2="64" y2="151"/>
+      </g>
+      <path d="M 39.5,148 Q 45,139.5 50.5,148 Z" fill="#3B8A67"/>
+      <path d="M 48.5,142 Q 55,133 61.5,142 Z" fill="#2A7352"/>
+      <path d="M 59,152 Q 64,144.5 69,152 Z" fill="#3F916D"/>
+      <!-- Detailed Egyptian Young Long-Horned Bull -->
+      <g transform="translate(80, 144)">
+        <ellipse cx="24" cy="36" rx="19" ry="2.4" fill="#466F51" opacity="0.45"/>
+        <path d="M 10,21 L 9,34 M 15,22 L 15,34 M 33,21 L 32,34 M 37,21 L 39,34" stroke="#57331B" stroke-width="2.3" stroke-linecap="round"/>
+        <rect x="7.8" y="33.5" width="2.8" height="1.6" rx="0.5" fill="#2F1A0D"/>
+        <rect x="13.8" y="33.5" width="2.8" height="1.6" rx="0.5" fill="#2F1A0D"/>
+        <rect x="30.8" y="33.5" width="2.8" height="1.6" rx="0.5" fill="#2F1A0D"/>
+        <rect x="37.8" y="33.5" width="2.8" height="1.6" rx="0.5" fill="#2F1A0D"/>
+        <path d="M 7,13 Q 1,19 3.5,27" fill="none" stroke="#57331B" stroke-width="1.3" stroke-linecap="round"/>
+        <ellipse cx="3.5" cy="28" rx="1.4" ry="2.2" fill="#462814"/>
+        <path d="M 7,13 C 12,7 22,8 30,7.5 C 35,7.2 39,9.5 42,11.5 L 43,19.5 C 35,23 16,23 8,20 Z" fill="#7D4C2B"/>
+        <path d="M 10,12 C 18,9.5 28,9.5 36,11 L 35,16.5 C 26,15 16,15.5 10,16.5 Z" fill="#9E6840" opacity="0.55"/>
+        <path d="M 38,17 Q 42,21 44,18 L 43,11 Z" fill="#6E4123"/>
+        <path d="M 41,10.5 L 51,12.5 L 49.5,17.5 L 41.5,16.5 Z" fill="#683D20"/>
+        <ellipse cx="43" cy="12" rx="2.2" ry="1.1" transform="rotate(-25 43 12)" fill="#7D4C2B"/>
+        <path d="M 44,10.5 C 42,3.5 46,0.8 48.5,4.2" fill="none" stroke="#F4ECDC" stroke-width="1.7" stroke-linecap="round"/>
+        <path d="M 46.2,10.5 C 48.5,4 53,2 54.5,6.2" fill="none" stroke="#E5D7BC" stroke-width="1.6" stroke-linecap="round"/>
+      </g>
+      <!-- Two Sheep / Goats beside bull -->
+      <g transform="translate(152, 159)">
+        <ellipse cx="14" cy="21" rx="11" ry="1.8" fill="#466F51" opacity="0.4"/>
+        <path d="M 7,13 L 6,20 M 11,13 L 11,20 M 18,13 L 18,20 M 21,13 L 22,20" stroke="#5E4D3E" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M 4,8 C 8,4 18,4 23,8 L 22,14 L 5,14 Z" fill="#F2E7D6" stroke="#9B8772" stroke-width="0.8"/>
+        <path d="M 22,7 L 28,8.5 L 27,12 L 21,11.5 Z" fill="#6B5644"/>
+        <path d="M 23,7 C 21,4 23,3 25,5" fill="none" stroke="#85715D" stroke-width="1.1"/>
+      </g>
+      <g transform="translate(188, 162)">
+        <ellipse cx="12" cy="18" rx="9.5" ry="1.6" fill="#466F51" opacity="0.4"/>
+        <path d="M 6,11 L 5,17 M 10,11 L 10,17 M 16,11 L 16,17 M 19,11 L 20,17" stroke="#534234" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M 4,7 C 7,4 16,4 20,7 L 19,12 L 5,12 Z" fill="#C7AD91" stroke="#7E6650" stroke-width="0.8"/>
+        <path d="M 19,6 L 24.5,7.5 L 23.5,10.5 L 18.5,10 Z" fill="#5D4837"/>
+      </g>
+      <!-- Livestock Sailboat Heading South -->
+      <path d="M 244,174 Q 264,184 287,173 L 281,179 L 251,179 Z" fill="#7D512D"/>
+      <line x1="266" y1="175" x2="266" y2="157" stroke="#5B3A1E" stroke-width="1.4"/>
+      <path d="M 266,158 L 282,163.5 L 266,170 Z" fill="#FAF0DA" stroke="#B6996E" stroke-width="0.8"/>
+      <text class="mini-lbl" x="262" y="146" text-anchor="middle">South →</text>
+    </g>
+    <rect x="36" y="131" width="260" height="58" rx="6" fill="none" stroke="#BDD9CA" stroke-width="1"/>
+
+    <!-- Grounded Text & Data Block -->
+    <text class="body-main" x="166" y="206" text-anchor="middle">Young male cattle (1–2 yrs), sheep &amp; goats</text>
+    <text class="body-sub" x="166" y="222" text-anchor="middle">Locals ate pigs &amp; older stock; prime meat went south</text>
+    <rect x="36" y="232" width="260" height="44" rx="6" fill="#E4F2EB" stroke="#B6DAC8" stroke-width="1"/>
+    <text class="metric-bold-delta" x="166" y="249.5" text-anchor="middle">~11 cattle + 30–37 sheep/goats per day</text>
+    <text class="metric-sub-delta" x="166" y="266.5" text-anchor="middle">~4,000 lb/day (10,000 workers) · &gt;175,000 bones</text>
+  </g>
+
+  <!-- CARD 2: PAPYRUS LEDGER & RIVER BARGES (Diary of Merer) [x=338..622, w=284, h=194] -->
+  <g filter="url(#f023-shadow-card)">
+    <rect x="338" y="92" width="284" height="194" rx="10" fill="url(#f023-card-river)" stroke="#2D7DA3" stroke-width="1.6"/>
+    <path d="M 338,102 Q 338,92 348,92 L 612,92 Q 622,92 622,102 L 622,124 L 338,124 Z" fill="url(#f023-hdr-river)"/>
+    <!-- Icon Medallion: Rolled Papyrus & Reed Pen -->
+    <circle cx="358" cy="108" r="11.5" fill="#E3F3FA" stroke="#184C66" stroke-width="1"/>
+    <rect x="351.5" y="102" width="12" height="12" rx="1.5" fill="#EED49B" stroke="#855D24" stroke-width="0.9"/>
+    <rect x="349.5" y="101.2" width="2.8" height="13.6" rx="1.2" fill="#9E6E30"/>
+    <rect x="362.5" y="101.2" width="2.8" height="13.6" rx="1.2" fill="#9E6E30"/>
+    <line x1="354" y1="105.2" x2="361" y2="105.2" stroke="#A63D2F" stroke-width="1.1"/>
+    <line x1="354" y1="108.2" x2="361" y2="108.2" stroke="#3D3026" stroke-width="0.9"/>
+    <line x1="354" y1="111.2" x2="359.5" y2="111.2" stroke="#3D3026" stroke-width="0.9"/>
+    <text class="hdr-title" x="376" y="112.5">Papyrus Ledger · Diary of Merer</text>
+
+    <!-- Bespoke Mini-Illustration: Unrolled Papyrus Table + White Tura Limestone Barge (Clipped flush!) -->
+    <g clip-path="url(#f023-clip-nile)">
+      <rect x="350" y="131" width="260" height="58" fill="url(#f023-nile-sky)"/>
+      <!-- Distant Giza desert plateau & subtle silhouette of Akhet-Khufu on far right horizon -->
+      <path d="M 442,171 L 611,171 L 611,164 L 588,164 L 575,149 L 561,164 L 442,167 Z" fill="#E6D8BD"/>
+      <polygon points="575,149 588,164 575,164" fill="#D5C2A0"/>
+      <!-- Nile canal water flush to bottom-right rounded corner -->
+      <path d="M 444,170 L 611,170 L 611,190 L 444,190 Z" fill="url(#f023-nile-water)"/>
+      <path d="M 454,177 Q 478,174 502,177 Q 526,180 550,177 Q 574,174 602,177" fill="none" stroke="#9ED3E8" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M 466,183 Q 492,181 518,183 Q 544,185 574,183" fill="none" stroke="#7CC0DC" stroke-width="0.9" stroke-linecap="round"/>
+
+      <!-- Left: Tabular Papyrus Scroll (Papyrus Jarf A & B, c. 2560 BCE) -->
+      <g transform="translate(358, 136)">
+        <rect x="3" y="2" width="76" height="44" rx="2" fill="url(#f023-papyrus-sheet)" stroke="#B0894C" stroke-width="1"/>
+        <line x1="6" y1="13" x2="76" y2="13" stroke="#D5B57B" stroke-width="0.5" opacity="0.6"/>
+        <line x1="6" y1="26" x2="76" y2="26" stroke="#D5B57B" stroke-width="0.5" opacity="0.6"/>
+        <line x1="6" y1="39" x2="76" y2="39" stroke="#D5B57B" stroke-width="0.5" opacity="0.6"/>
+        <rect x="0" y="0" width="5.5" height="48" rx="2.2" fill="#9C6E34" stroke="#6E4A1E" stroke-width="0.8"/>
+        <rect x="76.5" y="0" width="5.5" height="48" rx="2.2" fill="#9C6E34" stroke="#6E4A1E" stroke-width="0.8"/>
+        <line x1="7" y1="10" x2="75" y2="10" stroke="#A63D2F" stroke-width="1.4"/>
+        <line x1="24" y1="4" x2="24" y2="44" stroke="#C5A36A" stroke-width="0.8"/>
+        <line x1="42" y1="4" x2="42" y2="44" stroke="#C5A36A" stroke-width="0.8"/>
+        <line x1="60" y1="4" x2="60" y2="44" stroke="#C5A36A" stroke-width="0.8"/>
+        <line x1="9" y1="16" x2="21" y2="16" stroke="#3A2D22" stroke-width="1.2" stroke-linecap="round"/>
+        <line x1="27" y1="16" x2="39" y2="16" stroke="#3A2D22" stroke-width="1.2" stroke-linecap="round"/>
+        <line x1="45" y1="16" x2="57" y2="16" stroke="#A63D2F" stroke-width="1.2" stroke-linecap="round"/>
+        <line x1="9" y1="23" x2="20" y2="23" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="27" y1="23" x2="38" y2="23" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="45" y1="23" x2="55" y2="23" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="63" y1="23" x2="73" y2="23" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="9" y1="30" x2="22" y2="30" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="27" y1="30" x2="37" y2="30" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="45" y1="30" x2="57" y2="30" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="9" y1="37" x2="19" y2="37" stroke="#A63D2F" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="27" y1="37" x2="40" y2="37" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="45" y1="37" x2="54" y2="37" stroke="#3A2D22" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+
+      <!-- Right: Curved Egyptian Limestone Cargo Barge -->
+      <g transform="translate(446, 136)">
+        <path d="M 10,24 Q 24,38 50,39 L 116,39 Q 138,38 148,22 Q 134,31 116,31 L 46,31 Q 28,31 10,24 Z" fill="#8B5A2E" stroke="#5A3718" stroke-width="1"/>
+        <path d="M 28,31 L 128,31 L 122,35 L 34,35 Z" fill="#A97443"/>
+        <rect x="44" y="19" width="22" height="12" rx="1" fill="#FBF8F0" stroke="#B4A792" stroke-width="0.9"/>
+        <line x1="45" y1="20.5" x2="65" y2="20.5" stroke="#FFFFFF" stroke-width="0.9"/>
+        <rect x="68" y="19" width="22" height="12" rx="1" fill="#F5EFE3" stroke="#B4A792" stroke-width="0.9"/>
+        <line x1="69" y1="20.5" x2="89" y2="20.5" stroke="#FFFFFF" stroke-width="0.9"/>
+        <rect x="92" y="19" width="22" height="12" rx="1" fill="#FBF8F0" stroke="#B4A792" stroke-width="0.9"/>
+        <line x1="93" y1="20.5" x2="113" y2="20.5" stroke="#FFFFFF" stroke-width="0.9"/>
+        <rect x="56" y="8" width="22" height="11" rx="1" fill="#FFFDF8" stroke="#B4A792" stroke-width="0.9"/>
+        <rect x="80" y="8" width="22" height="11" rx="1" fill="#F8F3E8" stroke="#B4A792" stroke-width="0.9"/>
+        <circle cx="28" cy="21.5" r="2.1" fill="#5A3718"/>
+        <path d="M 26,24 L 30,24 L 31,30 L 25,30 Z" fill="#8C5932"/>
+        <circle cx="127" cy="21.5" r="2.1" fill="#5A3718"/>
+        <path d="M 125,24 L 129,24 L 130,30 L 124,30 Z" fill="#8C5932"/>
+        <line x1="25" y1="24" x2="7" y2="42" stroke="#5E3A1C" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="48" y1="33" x2="40" y2="44" stroke="#6B4423" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="68" y1="33" x2="60" y2="44" stroke="#6B4423" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="88" y1="33" x2="80" y2="44" stroke="#6B4423" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="108" y1="33" x2="100" y2="44" stroke="#6B4423" stroke-width="1.3" stroke-linecap="round"/>
+      </g>
+    </g>
+    <rect x="350" y="131" width="260" height="58" rx="6" fill="none" stroke="#B7D6E6" stroke-width="1"/>
+
+    <!-- Grounded Text & Data Block -->
+    <text class="body-main" x="480" y="206" text-anchor="middle">Merer's ~40 boatmen · 10-day week (c. 2560 BCE)</text>
+    <text class="body-sub" x="480" y="222" text-anchor="middle">Tura (6–9 mi SE) to Akhet-Khufu · under Ankhhaf</text>
+    <rect x="350" y="232" width="260" height="44" rx="6" fill="#E4F2F8" stroke="#B4D5E6" stroke-width="1"/>
+    <text class="metric-bold-river" x="480" y="249.5" text-anchor="middle">2–3 trips / 10 days · ~30 blocks (2–3 t each)</text>
+    <text class="metric-sub-river" x="480" y="266.5" text-anchor="middle">~200 blocks/mo + Heliopolis grain &amp; bread runs</text>
+  </g>
+
+  <!-- CARD 3: RED SEA COPPER LINE (Sinai -> Wadi al-Jarf -> Giza) [x=652..936, w=284, h=194] -->
+  <g filter="url(#f023-shadow-card)">
+    <rect x="652" y="92" width="284" height="194" rx="10" fill="url(#f023-card-copper)" stroke="#B85D3B" stroke-width="1.6"/>
+    <path d="M 652,102 Q 652,92 662,92 L 926,92 Q 936,92 936,102 L 936,124 L 652,124 Z" fill="url(#f023-hdr-copper)"/>
+    <!-- Icon Medallion: Copper Chisel & Furnace Spark -->
+    <circle cx="672" cy="108" r="11.5" fill="#FBECE4" stroke="#7A341B" stroke-width="1"/>
+    <polygon points="665,114 676,101 679.5,104.5 668.5,117.5" fill="url(#f023-copper-blade)" stroke="#6D2D16" stroke-width="0.8"/>
+    <polygon points="665,114 668.5,117.5 664.2,118.2" fill="#F2B892"/>
+    <path d="M 674.5,114 C 674.5,110 678,108 677.5,112 C 680,111 680.5,114.5 678,116 C 676,117 674.5,116 674.5,114 Z" fill="#F08A24"/>
+    <text class="hdr-title" x="690" y="112.5">Red Sea Copper · Sinai Line</text>
+
+    <!-- Bespoke Mini-Illustration: Sinai Copper Ridges -> Red Sea Ship -> Wadi al-Jarf Caves -> Giza Furnace (Clipped flush!) -->
+    <g clip-path="url(#f023-clip-sinai)">
+      <rect x="664" y="131" width="260" height="58" fill="url(#f023-sinai-sky)"/>
+      <!-- Continuous sandy ground band beneath port caves & Giza workshop -->
+      <rect x="778" y="182" width="147" height="8" fill="#E3CCA8"/>
+      <!-- Left: Shaded-Relief Sinai Desert Peaks with green-turquoise copper ore veins -->
+      <path d="M 663,190 L 663,159 Q 674,144 683,142 Q 691,144 698,154 Q 706,144 714,146 Q 722,153 729,169 L 729,190 Z" fill="#CFA07C"/>
+      <path d="M 663,190 L 683,142 Q 687,156 694,166 L 714,146 Q 718,160 729,172 L 729,190 Z" fill="#A96944" opacity="0.82"/>
+      <circle cx="678" cy="155" r="2.1" fill="#2A9379"/>
+      <circle cx="685" cy="161" r="1.8" fill="#3AB092"/>
+      <circle cx="707" cy="156" r="2" fill="#2A9379"/>
+      <!-- Red Sea Channel + Egyptian Sailing Ship -->
+      <rect x="722" y="173" width="59" height="17" fill="#287699"/>
+      <path d="M 727,181 Q 741,179 755,181 Q 767,183 777,181" fill="none" stroke="#9DD2E6" stroke-width="1"/>
+      <path d="M 731,167 Q 739,175 751,175 Q 763,175 770,166 L 764,172 L 737,172 Z" fill="#7D4C26"/>
+      <line x1="751" y1="171" x2="751" y2="143" stroke="#57351B" stroke-width="1.5"/>
+      <path d="M 739,146 Q 751,143 764,146 Q 766,156 763,164 Q 751,162 740,164 Q 737,155 739,146 Z" fill="#FFF8EB" stroke="#B6986E" stroke-width="0.9"/>
+      <!-- Wadi al-Jarf Limestone Cliff & Rock-Cut Boat Caves -->
+      <path d="M 779,185 L 779,153 Q 801,149 824,154 L 836,158 L 836,185 Z" fill="#DFC9A4" stroke="#B69D76" stroke-width="0.9"/>
+      <path d="M 785,185 L 785,167 Q 791,160 797,167 L 797,185 Z" fill="#463529"/>
+      <path d="M 801,185 L 801,166 Q 807,159 813,166 L 813,185 Z" fill="#463529"/>
+      <path d="M 817,185 L 817,168 Q 822.5,162 828,168 L 828,185 Z" fill="#463529"/>
+      <text class="mini-lbl" x="807" y="145.5" text-anchor="middle">Port caves</text>
+      <!-- Giza Mudbrick Copper Furnace & Recast Chisel grounded on workshop floor -->
+      <g transform="translate(844, 140)">
+        <path d="M 4,45 L 8,19 Q 20,11 32,19 L 36,45 Z" fill="#A65E3D" stroke="#6E3A22" stroke-width="1"/>
+        <line x1="7" y1="26" x2="33" y2="26" stroke="#7E452A" stroke-width="0.7" opacity="0.7"/>
+        <line x1="6" y1="34" x2="34" y2="34" stroke="#7E452A" stroke-width="0.7" opacity="0.7"/>
+        <path d="M 12,45 L 12,30 Q 20,23 28,30 L 28,45 Z" fill="url(#f023-furnace-glow)"/>
+        <path d="M 17,13 Q 15,7 20,3 Q 23,8 24,13" fill="none" stroke="#DF7B38" stroke-width="1.3" stroke-linecap="round"/>
+        <!-- Copper ingot bar + Recast Chisel -->
+        <polygon points="44,44 65,44 63,39.5 46,39.5" fill="#C96D36" stroke="#7D3B18" stroke-width="0.7"/>
+        <rect x="42" y="31.5" width="22" height="5.5" rx="1" fill="url(#f023-copper-blade)" stroke="#6E2E16" stroke-width="0.8"/>
+        <polygon points="64,31.5 70,34.25 64,37" fill="#F2B185" stroke="#6E2E16" stroke-width="0.7"/>
+        <line x1="45" y1="33.1" x2="61" y2="33.1" stroke="#F7C7A5" stroke-width="0.8" opacity="0.8"/>
+        <text class="mini-lbl" x="55" y="26" text-anchor="middle">Chisel</text>
+      </g>
+    </g>
+    <rect x="664" y="131" width="260" height="58" rx="6" fill="none" stroke="#E3C3B1" stroke-width="1"/>
+
+    <!-- Grounded Text & Data Block -->
+    <text class="body-main" x="794" y="206" text-anchor="middle">Sinai ore via Wadi al-Jarf (74 mi S of Suez)</text>
+    <text class="body-sub" x="794" y="222" text-anchor="middle">Merer's same royal crews stored Nile logs in caves</text>
+    <rect x="664" y="232" width="260" height="44" rx="6" fill="#F9EAE3" stroke="#E2BBAE" stroke-width="1"/>
+    <text class="metric-bold-copper" x="794" y="249.5" text-anchor="middle">Soft copper chisels blunted fast on limestone</text>
+    <text class="metric-sub-copper" x="794" y="266.5" text-anchor="middle">On-site furnaces recast tools (no local tin or iron)</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- FLOW CORRIDOR PILL LABELS (y=300..333, crisp clearance)   -->
+  <!-- ========================================================= -->
+
+  <!-- Pill 1: Delta -> Workers' Town (center x=166) -->
+  <g filter="url(#f023-shadow-pill)">
+    <rect x="58" y="300" width="216" height="33" rx="6" fill="#F1F9F4" stroke="#8FC2AA" stroke-width="1.15"/>
+    <text class="pill-delta" x="166" y="314" text-anchor="middle">Cattle, sheep &amp; goats</text>
+    <text class="pill-delta" x="166" y="327" text-anchor="middle">shipped south to Giza</text>
+  </g>
+
+  <!-- Pill 2a: Diary of Merer -> Workers' Town (center x=384) -->
+  <g filter="url(#f023-shadow-pill)">
+    <rect x="296" y="300" width="176" height="33" rx="6" fill="#EFF7FB" stroke="#8FBED6" stroke-width="1.15"/>
+    <text class="pill-river" x="384" y="314" text-anchor="middle">Heliopolis grain sacks</text>
+    <text class="pill-river" x="384" y="327" text-anchor="middle">&amp; bread supply runs</text>
+  </g>
+
+  <!-- Pill 2b: Diary of Merer -> Organized Teams (center x=576) -->
+  <g filter="url(#f023-shadow-pill)">
+    <rect x="488" y="300" width="176" height="33" rx="6" fill="#EFF7FB" stroke="#8FBED6" stroke-width="1.15"/>
+    <text class="pill-river" x="576" y="314" text-anchor="middle">~200 Tura blocks/mo</text>
+    <text class="pill-river" x="576" y="327" text-anchor="middle">via Giza harbor canals</text>
+  </g>
+
+  <!-- Pill 3: Copper Line -> Organized Teams (center x=794) -->
+  <g filter="url(#f023-shadow-pill)">
+    <rect x="686" y="300" width="216" height="33" rx="6" fill="#FCF3EF" stroke="#D9A38E" stroke-width="1.15"/>
+    <text class="pill-copper" x="794" y="314" text-anchor="middle">Sinai copper ore recast</text>
+    <text class="pill-copper" x="794" y="327" text-anchor="middle">into fresh stone chisels</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ROW 2: GIZA ON-SITE ENGINE HUBS (y=352..556, h=204)       -->
+  <!-- ========================================================= -->
+
+  <!-- CARD 4 (FOCAL HUB LEFT): WORKERS' TOWN — Heit el-Ghurab [x=24..432, w=408, h=204] -->
+  <g filter="url(#f023-shadow-hub)">
+    <rect x="24" y="352" width="408" height="204" rx="10" fill="url(#f023-card-town)" stroke="#9D6A1F" stroke-width="2.1"/>
+    <path d="M 24,362 Q 24,352 34,352 L 422,352 Q 432,352 432,362 L 432,386 L 24,386 Z" fill="url(#f023-hdr-town)"/>
+    <line x1="25" y1="386.5" x2="431" y2="386.5" stroke="#E6BF72" stroke-width="1.3"/>
+    <!-- Icon Medallion: Bedja Bread Mold & Beer Jar -->
+    <circle cx="45" cy="369" r="12" fill="#FDF0CE" stroke="#7A4C10" stroke-width="1.1"/>
+    <path d="M 38.5,375.5 L 40.5,363.5 L 45.5,363.5 L 47.5,375.5 Z" fill="#C46B40" stroke="#76381A" stroke-width="0.9"/>
+    <path d="M 40.3,363.5 Q 43,359.8 45.7,363.5 Z" fill="#E3B363"/>
+    <path d="M 49,365.5 L 52.5,365.5 L 53.5,375.5 L 48.2,375.5 Z" fill="#9E6238" stroke="#5E351A" stroke-width="0.8"/>
+    <text class="hub-title" x="64" y="373.5">Workers' Town · Heit el-Ghurab (&gt;7 ha)</text>
+
+    <!-- DK Eyewitness Architectural Mini-Plan Cutaway (x=36..420, y=394..484, w=384, h=90) -->
+    <rect x="36" y="394" width="384" height="90" rx="6" fill="#FBF4E4" stroke="#DCC8A2" stroke-width="1.1"/>
+
+    <!-- Zone 1: 4 Blocks of Long Pillared Sleeping Halls (7:1 Modular Galleries Cutaway) -->
+    <g transform="translate(43, 401)">
+      <rect x="0" y="0" width="118" height="60" rx="4" fill="#F2E4C8" stroke="#C5AE86" stroke-width="0.9"/>
+      <!-- 4 crisp parallel long gallery halls with street-facing doorways & interior colonnades -->
+      <g>
+        <rect x="6" y="5" width="106" height="10.5" rx="1" fill="#D4B07D" stroke="#7E5B35" stroke-width="0.9"/>
+        <rect x="8.5" y="7" width="101" height="6.5" fill="#EAD5B3"/>
+        <rect x="109.5" y="8.2" width="3" height="4" fill="#5C3E1E"/>
+        <g fill="#694825"><circle cx="18" cy="10.2" r="1.2"/><circle cx="32" cy="10.2" r="1.2"/><circle cx="46" cy="10.2" r="1.2"/><circle cx="60" cy="10.2" r="1.2"/><circle cx="74" cy="10.2" r="1.2"/><circle cx="88" cy="10.2" r="1.2"/><circle cx="101" cy="10.2" r="1.2"/></g>
+
+        <rect x="6" y="18.5" width="106" height="10.5" rx="1" fill="#D4B07D" stroke="#7E5B35" stroke-width="0.9"/>
+        <rect x="8.5" y="20.5" width="101" height="6.5" fill="#EAD5B3"/>
+        <rect x="109.5" y="21.7" width="3" height="4" fill="#5C3E1E"/>
+        <g fill="#694825"><circle cx="18" cy="23.7" r="1.2"/><circle cx="32" cy="23.7" r="1.2"/><circle cx="46" cy="23.7" r="1.2"/><circle cx="60" cy="23.7" r="1.2"/><circle cx="74" cy="23.7" r="1.2"/><circle cx="88" cy="23.7" r="1.2"/><circle cx="101" cy="23.7" r="1.2"/></g>
+
+        <rect x="6" y="32" width="106" height="10.5" rx="1" fill="#D4B07D" stroke="#7E5B35" stroke-width="0.9"/>
+        <rect x="8.5" y="34" width="101" height="6.5" fill="#EAD5B3"/>
+        <rect x="109.5" y="35.2" width="3" height="4" fill="#5C3E1E"/>
+        <g fill="#694825"><circle cx="18" cy="37.2" r="1.2"/><circle cx="32" cy="37.2" r="1.2"/><circle cx="46" cy="37.2" r="1.2"/><circle cx="60" cy="37.2" r="1.2"/><circle cx="74" cy="37.2" r="1.2"/><circle cx="88" cy="37.2" r="1.2"/><circle cx="101" cy="37.2" r="1.2"/></g>
+
+        <rect x="6" y="45.5" width="106" height="10.5" rx="1" fill="#D4B07D" stroke="#7E5B35" stroke-width="0.9"/>
+        <rect x="8.5" y="47.5" width="101" height="6.5" fill="#EAD5B3"/>
+        <rect x="109.5" y="48.7" width="3" height="4" fill="#5C3E1E"/>
+        <g fill="#694825"><circle cx="18" cy="50.7" r="1.2"/><circle cx="32" cy="50.7" r="1.2"/><circle cx="46" cy="50.7" r="1.2"/><circle cx="60" cy="50.7" r="1.2"/><circle cx="74" cy="50.7" r="1.2"/><circle cx="88" cy="50.7" r="1.2"/><circle cx="101" cy="50.7" r="1.2"/></g>
+      </g>
+      <text class="mini-lbl" x="59" y="75" text-anchor="middle">4 pillared barracks</text>
+    </g>
+
+    <!-- Paved 17-ft (5.2 m) Street Dividing Town -->
+    <g transform="translate(167, 401)">
+      <rect x="0" y="0" width="21" height="60" rx="2" fill="#E3D9C8" stroke="#A69781" stroke-width="0.9"/>
+      <line x1="0" y1="12" x2="21" y2="12" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="0" y1="24" x2="21" y2="24" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="0" y1="36" x2="21" y2="36" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="0" y1="48" x2="21" y2="48" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="10.5" y1="0" x2="10.5" y2="12" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="6.5" y1="12" x2="6.5" y2="24" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="13.5" y1="24" x2="13.5" y2="36" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="8.5" y1="36" x2="8.5" y2="48" stroke="#B7A892" stroke-width="0.8"/>
+      <line x1="2" y1="30" x2="19" y2="30" stroke="#5E4A36" stroke-width="1.1"/>
+      <polygon points="2,30 5.5,27.8 5.5,32.2" fill="#5E4A36"/>
+      <polygon points="19,30 15.5,27.8 15.5,32.2" fill="#5E4A36"/>
+      <text class="mini-lbl" x="10.5" y="75" text-anchor="middle">17 ft</text>
+    </g>
+
+    <!-- Zone 2: Royal Headquarters & 5 Sunken Grain Silos -->
+    <g transform="translate(198, 401)">
+      <rect x="0" y="0" width="106" height="60" rx="4" fill="#EFE0C2" stroke="#B5986B" stroke-width="1"/>
+      <path d="M 4,4 L 102,4 L 102,56 L 61,56 M 45,56 L 4,56 L 4,4" fill="none" stroke="#947448" stroke-width="1.3"/>
+      <!-- 5 Sunken Circular Grain Silos with 3D recessed rims, inner shadow & golden grain stippling -->
+      <g>
+        <circle cx="23" cy="19" r="10.5" fill="url(#f023-silo-rim)" stroke="#6B4B23" stroke-width="0.9"/>
+        <circle cx="23" cy="19" r="7.5" fill="url(#f023-silo-grain)"/>
+        <path d="M 16.5,18 A 7,7 0 0,1 26,12.5" fill="none" stroke="#7A5218" stroke-width="1.2" opacity="0.5"/>
+        <circle cx="21" cy="18" r="0.8" fill="#A6741E"/><circle cx="25" cy="21" r="0.8" fill="#A6741E"/>
+
+        <circle cx="53" cy="19" r="10.5" fill="url(#f023-silo-rim)" stroke="#6B4B23" stroke-width="0.9"/>
+        <circle cx="53" cy="19" r="7.5" fill="url(#f023-silo-grain)"/>
+        <path d="M 46.5,18 A 7,7 0 0,1 56,12.5" fill="none" stroke="#7A5218" stroke-width="1.2" opacity="0.5"/>
+        <circle cx="51" cy="18" r="0.8" fill="#A6741E"/><circle cx="55" cy="21" r="0.8" fill="#A6741E"/>
+
+        <circle cx="83" cy="19" r="10.5" fill="url(#f023-silo-rim)" stroke="#6B4B23" stroke-width="0.9"/>
+        <circle cx="83" cy="19" r="7.5" fill="url(#f023-silo-grain)"/>
+        <path d="M 76.5,18 A 7,7 0 0,1 86,12.5" fill="none" stroke="#7A5218" stroke-width="1.2" opacity="0.5"/>
+        <circle cx="81" cy="18" r="0.8" fill="#A6741E"/><circle cx="85" cy="21" r="0.8" fill="#A6741E"/>
+
+        <circle cx="38" cy="42" r="10.5" fill="url(#f023-silo-rim)" stroke="#6B4B23" stroke-width="0.9"/>
+        <circle cx="38" cy="42" r="7.5" fill="url(#f023-silo-grain)"/>
+        <path d="M 31.5,41 A 7,7 0 0,1 41,35.5" fill="none" stroke="#7A5218" stroke-width="1.2" opacity="0.5"/>
+        <circle cx="36" cy="41" r="0.8" fill="#A6741E"/><circle cx="40" cy="44" r="0.8" fill="#A6741E"/>
+
+        <circle cx="68" cy="42" r="10.5" fill="url(#f023-silo-rim)" stroke="#6B4B23" stroke-width="0.9"/>
+        <circle cx="68" cy="42" r="7.5" fill="url(#f023-silo-grain)"/>
+        <path d="M 61.5,41 A 7,7 0 0,1 71,35.5" fill="none" stroke="#7A5218" stroke-width="1.2" opacity="0.5"/>
+        <circle cx="66" cy="41" r="0.8" fill="#A6741E"/><circle cx="70" cy="44" r="0.8" fill="#A6741E"/>
+      </g>
+      <text class="mini-lbl" x="53" y="75" text-anchor="middle">HQ · 5 sunken silos</text>
+    </g>
+
+    <!-- Zone 3: Mudbrick Bakeries (Bedja Bread Molds) & Beer Breweries -->
+    <g transform="translate(312, 401)">
+      <rect x="0" y="0" width="101" height="60" rx="4" fill="#F5E5D6" stroke="#CAA88D" stroke-width="1"/>
+      <rect x="7" y="44" width="54" height="10" rx="2" fill="#82624E"/>
+      <ellipse cx="22" cy="47" rx="8.5" ry="3" fill="#E07228"/>
+      <ellipse cx="44" cy="47" rx="9" ry="3" fill="#EC9035"/>
+      <path d="M 18,10 Q 17,6 19,4 M 36,10 Q 35,6 37,4" fill="none" stroke="#C98A5B" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
+      <path d="M 11,45 L 14,18 L 23,18 L 26,45 Z" fill="#C46B41" stroke="#7A3C1E" stroke-width="0.9"/>
+      <path d="M 14,18 Q 18.5,11.5 23,18 Z" fill="#E8BA6B" stroke="#A6742C" stroke-width="0.7"/>
+      <path d="M 29,45 L 32,18 L 41,18 L 44,45 Z" fill="#B85D3B" stroke="#7A3C1E" stroke-width="0.9"/>
+      <path d="M 32,18 Q 36.5,11.5 41,18 Z" fill="#E8BA6B" stroke="#A6742C" stroke-width="0.7"/>
+      <path d="M 47,45 L 49.5,22 L 56.5,22 L 59,45 Z" fill="#C87247" stroke="#7A3C1E" stroke-width="0.9"/>
+      <path d="M 49.5,22 Q 53,16.5 56.5,22 Z" fill="#E8BA6B" stroke="#A6742C" stroke-width="0.7"/>
+      <path d="M 68.5,25 Q 73,23 77.5,25 L 79.5,47 Q 73,51.5 66.5,47 Z" fill="#9E623B" stroke="#5E361E" stroke-width="0.9"/>
+      <rect x="70.5" y="20.5" width="5" height="4.2" rx="0.8" fill="#844E2C"/>
+      <path d="M 84,29 Q 88,27 92,29 L 93.7,47 Q 88,50.5 82.3,47 Z" fill="#B0734A" stroke="#5E361E" stroke-width="0.9"/>
+      <rect x="86" y="25" width="4" height="3.8" rx="0.8" fill="#8C5633"/>
+      <text class="mini-lbl" x="50.5" y="75" text-anchor="middle">Bedja &amp; beer</text>
+    </g>
+
+    <!-- Grounded Summary Block -->
+    <text class="body-main" x="228" y="503" text-anchor="middle">17-ft (5.2 m) paved streets · guarded gates (c. 2558–2472 BCE)</text>
+    <text class="body-sub" x="228" y="519" text-anchor="middle">Standardized emmer loaves, beer, beef, mutton &amp; Nile fish</text>
+    <rect x="36" y="528" width="384" height="20" rx="5" fill="#F1DCA9" stroke="#D1AB61" stroke-width="1"/>
+    <text class="metric-bold-town" x="228" y="541.5" text-anchor="middle">Honored tombs &amp; healed fractures — paid labor tax, not slaves</text>
+  </g>
+
+  <!-- HORIZONTAL BRIDGE PILL: Workers' Town -> Organized Teams (x=437..523) -->
+  <g filter="url(#f023-shadow-pill)">
+    <rect x="437" y="405" width="86" height="47" rx="6" fill="#FFF9EC" stroke="#CFA55B" stroke-width="1.2"/>
+    <text class="pill-town" x="480" y="419.5" text-anchor="middle">Daily rations,</text>
+    <text class="pill-town" x="480" y="432.5" text-anchor="middle">barracks &amp;</text>
+    <text class="pill-town" x="480" y="445.5" text-anchor="middle">bone care</text>
+  </g>
+  <g filter="url(#f023-shadow-pill)">
+    <rect x="441" y="472" width="78" height="22" rx="5" fill="#F6E9CB" stroke="#D1AB61" stroke-width="1"/>
+    <text class="pill-town" x="480" y="486.5" text-anchor="middle">Coinless pay</text>
+  </g>
+
+  <!-- CARD 5 (FOCAL HUB RIGHT): ORGANIZED TEAMS — Division of Labor [x=528..936, w=408, h=204] -->
+  <g filter="url(#f023-shadow-hub)">
+    <rect x="528" y="352" width="408" height="204" rx="10" fill="url(#f023-card-teams)" stroke="#6E4C34" stroke-width="2.1"/>
+    <path d="M 528,362 Q 528,352 538,352 L 926,352 Q 936,352 936,362 L 936,386 L 528,386 Z" fill="url(#f023-hdr-teams)"/>
+    <line x1="529" y1="386.5" x2="935" y2="386.5" stroke="#CEAF90" stroke-width="1.3"/>
+    <!-- Icon Medallion: Stepped Team Pyramid -->
+    <circle cx="549" cy="369" r="12" fill="#F5EAE0" stroke="#4D3321" stroke-width="1.1"/>
+    <polygon points="549,359.5 554.5,365.5 543.5,365.5" fill="#D9A34A"/>
+    <polygon points="543,366.5 555,366.5 557.5,371.5 540.5,371.5" fill="#B85D3B"/>
+    <polygon points="540,372.5 558,372.5 560,377 538,377" fill="#6E4C34"/>
+    <text class="hub-title" x="568" y="373.5">Organized Teams · Division of Labor</text>
+
+    <!-- Left Sub-Panel: Spacious 3-Tier Nested Crew Pyramid (x=540..746, w=206, h=86) -->
+    <g transform="translate(540, 394)">
+      <rect x="0" y="0" width="206" height="86" rx="6" fill="#FBF7F1" stroke="#DACBB9" stroke-width="1"/>
+      <!-- 3-Tier Nested Pyramid with truncated top cap & crisp downward split chevrons -->
+      <polygon points="75,7 131,7 146,27 60,27" fill="#C99235" stroke="#8C6018" stroke-width="0.9"/>
+      <text class="tier-txt" x="103" y="21" text-anchor="middle">~2,000 crew</text>
+      <polygon points="99,28.5 107,28.5 103,32.5" fill="#8C6018"/>
+      <polygon points="53,33.5 153,33.5 167,53.5 39,53.5" fill="#B85D3B" stroke="#7E3B22" stroke-width="0.9"/>
+      <text class="tier-txt" x="103" y="47.5" text-anchor="middle">~200 units</text>
+      <polygon points="99,55 107,55 103,59" fill="#7E3B22"/>
+      <polygon points="32,60 174,60 189,80 17,80" fill="#6F4C34" stroke="#4A301F" stroke-width="0.9"/>
+      <text class="tier-txt" x="103" y="74" text-anchor="middle">~20–40 squads</text>
+    </g>
+
+    <!-- Right Sub-Panel: Rotating Shifts + Complete Full-Time Specialists (x=754..924, w=170, h=86) -->
+    <g transform="translate(754, 394)">
+      <rect x="0" y="0" width="170" height="36" rx="6" fill="#EAF4F9" stroke="#B2D2E3" stroke-width="1"/>
+      <text class="metric-bold-river" x="85" y="14.5" text-anchor="middle">Rotating Labor Tax</text>
+      <text class="mini-sub" x="85" y="29" text-anchor="middle">~3-mo Akhet flood shifts</text>
+
+      <rect x="0" y="40" width="170" height="46" rx="6" fill="#FBF1DC" stroke="#DFC492" stroke-width="1"/>
+      <text class="metric-bold-town" x="85" y="54" text-anchor="middle">Full-Time Specialists</text>
+      <text class="mini-sub" x="85" y="67.5" text-anchor="middle">Surveyors, masons, smiths,</text>
+      <text class="mini-sub" x="85" y="80" text-anchor="middle">bakers, boatmen &amp; scribes</text>
+    </g>
+
+    <!-- Full-Width Red-Ochre Quarry Graffiti Limestone Frieze (Subtle Dressed Stone Joints!) -->
+    <rect x="540" y="486" width="384" height="20" rx="4" fill="url(#f023-limestone-frieze)" stroke="#D4C5AE" stroke-width="0.9"/>
+    <line x1="654" y1="486.5" x2="654" y2="505.5" stroke="#E2D5C0" stroke-width="0.8"/>
+    <line x1="784" y1="486.5" x2="784" y2="505.5" stroke="#E2D5C0" stroke-width="0.8"/>
+    <text x="732" y="499.5" text-anchor="middle">
+      <tspan class="graffiti-lead">Painted crew graffiti:  </tspan>
+      <tspan class="graffiti-txt">"Friends of Khufu"</tspan>
+      <tspan class="graffiti-lead">  ·  </tspan>
+      <tspan class="graffiti-txt">"Drunkards of Menkaure"</tspan>
+    </text>
+
+    <!-- Grounded Summary Block -->
+    <text class="body-main" x="732" y="520.5" text-anchor="middle">Peak site: ~20,000–25,000 (Khufu) · ~10,000 (Menkaure)</text>
+    <rect x="540" y="528" width="384" height="20" rx="5" fill="#EFE4D6" stroke="#CEB89F" stroke-width="1"/>
+    <text class="metric-bold-teams" x="732" y="541.5" text-anchor="middle">Far below Herodotus's 100,000 rumor · every team had one job</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- EDITORIAL FOOTER CALLOUT STRIP (y=566..608, h=42)         -->
+  <!-- ========================================================= -->
+  <rect x="24" y="566" width="912" height="42" rx="7" fill="#FBF3E4" stroke="#DECBB0" stroke-width="1.1"/>
+  <path d="M 31,566 L 29.5,566 Q 24,566 24,571.5 L 24,602.5 Q 24,608 29.5,608 L 31,608 Z" fill="#9D6A1F"/>
+  <text x="42" y="583.5">
+    <tspan class="footer-lead">State-Building Feedback (c. 2560 BCE): </tspan>
+    <tspan class="footer-txt">Pulling young workers, cattle, grain, copper, and stone from every district into Giza's coinless ration</tspan>
+  </text>
+  <text class="footer-txt" x="42" y="599.5">network knitted scattered Nile towns into one working kingdom. (Workers' town remains at Heit el-Ghurab mostly date to c. 2558–2472 BCE.)</text>
+</svg>

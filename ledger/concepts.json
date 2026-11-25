@@ -24,6 +24,31 @@
       "chapter": "ch01",
       "term": "contract",
       "definition": "A written, witness-sealed agreement that a court can check and back up if a dispute breaks out later."
+    },
+    {
+      "chapter": "ch02",
+      "term": "centralized state",
+      "definition": "A single unified government that runs rules, taxes, and shared projects across an entire region of towns and villages rather than one independent city."
+    },
+    {
+      "chapter": "ch02",
+      "term": "legitimacy",
+      "definition": "The shared trust that makes people accept a ruler's or government's authority as right and proper—through common beliefs, duties, and traditions—rather than obeying only out of fear."
+    },
+    {
+      "chapter": "ch02",
+      "term": "redistribution",
+      "definition": "A system in which a central authority collects crops, livestock, and labor taxes from across a region and hands them back out as rations, housing, tools, and care for shared projects."
+    },
+    {
+      "chapter": "ch02",
+      "term": "division of labor",
+      "definition": "Splitting one big project into specialized crews—such as quarrymen, boatmen, bakers, coppersmiths, and surveyors—so every team works faster and more accurately."
+    },
+    {
+      "chapter": "ch02",
+      "term": "logistics",
+      "definition": "Planning and moving food, fuel, tools, and raw materials across long distances so thousands of workers at a site never run short."
     }
   ]
 }
